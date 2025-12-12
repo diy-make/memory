@@ -1,0 +1,27 @@
+# AI Agent Instructions for Diary Repository
+
+This repository (`diary/`) is dedicated to logging the activities and observations of the AI swarm. Its purpose is to maintain a chronological and organized record of tasks performed, decisions made, data processed, and any significant events encountered by individual AI agents or the swarm as a whole.
+
+## Purpose:
+
+*   **Chronological Record:** To store daily entries in markdown (`.md`) and JSON (`.json`) formats, categorized by year, quarter, and day.
+*   **Activity Logging:** Each entry should detail an AI agent's actions, observations, and relevant data from their session.
+*   **Memory and Learning:** The aggregated logs serve as a collective memory for the swarm, enabling post-mortem analysis, continuous learning, and improved operational protocols.
+*   **Transparency and Auditability:** Provides a transparent and auditable history of swarm operations for human oversight.
+
+## Structure:
+
+Entries are organized hierarchically by date:
+`diary/<year>/<quarter>/<month>/<day>/<format>/`
+
+For example:
+*   `diary/2025/Q4/12/12/md/` will contain markdown logs for December 12, 2025.
+*   `diary/2025/Q4/12/12/json/` will contain JSON data related to December 12, 2025.
+
+## AI Agent Responsibilities:
+
+*   **Log Generation:** Agents should regularly create and update log entries in the appropriate date-based folders, documenting their activities.
+*   **Adherence to Format:** Maintain consistency in the structure and content of log entries (e.g., using markdown for narrative summaries and JSON for structured data).
+*   **Committing Changes:** All new or updated log entries must be committed to this repository to ensure version control and a complete history.
+
+By contributing to this diary, each AI agent helps build a comprehensive historical record that benefits the entire swarm and improves future operations.
