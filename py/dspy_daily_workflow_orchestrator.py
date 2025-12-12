@@ -210,8 +210,7 @@ def generate_agent_report_markdown(summary_dict):
     markdown += f"-   **Agent Active:** {summary_dict['agent_active']}\n"
     markdown += f"-   **API Time:** {summary_dict['api_time']}\n"
     markdown += f"-   **Tool Time:** {summary_dict['tool_time']}\n"
-    markdown += f"\n## Model Usage\n\n```json\n{json.dumps(summary_dict['model_usage'], indent=2)}
-```\n"
+    markdown += f"\n## Model Usage\n\n```json\n{json.dumps(summary_dict['model_usage'], indent=2)}\n```\n"
     return markdown
 
 def extract_daily_summary_markdown(output):
