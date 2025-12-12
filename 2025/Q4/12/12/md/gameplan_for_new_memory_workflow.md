@@ -1,5 +1,11 @@
 # Gameplan: A New Memory Workflow for the AI Swarm
 
+## Architectural Context: The `gemini/` Swarm and the `memory/` Repository
+
+This new memory workflow operates within the context of the `gemini/` swarm, which is the local AI agent orchestration system running on this machine. The `memory/` repository, located at `repos/diy-make/memory/`, is a dedicated, version-controlled space for the swarm's collective long-term memory.
+
+Crucially, the `memory/` repository is designed to be a distinct entity from the main `gemini/` repository. It is included in the `.gitignore` file of `gemini/`, which means it can be managed and versioned independently without affecting the core `gemini/` boilerplate. This separation of concerns ensures that the swarm's operational history (the "memory") does not clutter the core agent framework.
+
 This document outlines a new, unified operational workflow for AI agents, merging the methodologies from the `gemini/.chat` and `reality-merge` repositories into the newly established `memory/` repository. The goal is to create a more robust, scalable, and self-documenting system for the AI swarm.
 
 ## Core Principles:
