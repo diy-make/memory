@@ -2,11 +2,11 @@
   "workflows": {
     "daily_reporting": {
       "name": "Daily Reporting Workflow",
-      "description": "The standard daily process for an agent to summarize the previous day's events.",
+      "description": "The standard daily process for an agent to summarize the previous day's events and log them in the `memory/` repositories.",
       "steps": [
         {
           "step": 1,
-          "description": "Find uncleaned chat logs from the previous day.",
+          "description": "Find raw chat logs from the previous day's sessions.",
           "module": "None (Orchestrator logic)"
         },
         {
@@ -21,12 +21,12 @@
         },
         {
           "step": 4,
-          "description": "Save the generated reports to the appropriate `memory/` directories.",
+          "description": "Save the generated reports to the appropriate date-stamped directories within the `public/` or `private/` repositories.",
           "module": "None (Orchestrator logic)"
         },
         {
           "step": 5,
-          "description": "Move the processed chat logs to `reported_unclean/`.",
+          "description": "Archive the processed raw chat logs.",
           "module": "None (Orchestrator logic)"
         }
       ]
@@ -36,7 +36,7 @@
     {
       "module_name": "dspy_commit",
       "script_path": "py/dspy_commit.py",
-      "purpose": "Provides a standardized and safe way to make Git commits. It ensures that git user.name and user.email are correctly set and that a secret scan is performed before committing.",
+      "purpose": "Provides a standardized and safe way to make Git commits to any repository. It ensures that git user.name and user.email are correctly set for the agent and that a secret scan is performed before committing. This module is to be used for all commits made by AI agents.",
       "dependencies": [],
       "inputs": {
         "commit_message": "string (The commit message for the git commit.)"
@@ -48,7 +48,7 @@
     {
       "module_name": "dspy_chat_summarizer",
       "script_path": "py/dspy_chat_summarizer.py",
-      "purpose": "Summarizes a raw chat log, extracting key information about an AI agent's session, such as agent name, last task, status, and performance metrics.",
+      "purpose": "Summarizes a raw chat log from a past agent session, extracting key information such as agent name, last task, status, and performance metrics. The output is used to generate daily and agent-specific reports within the `memory/` system.",
       "dependencies": [],
       "inputs": {
         "log_file_path": "string (The path to the raw chat log file.)"
@@ -77,7 +77,7 @@
     {
       "module_name": "dspy_screenshot_organizer",
       "script_path": "py/dspy_screenshot_organizer.py",
-      "purpose": "Organizes new screenshots by renaming them with descriptive names, moving them to the appropriate daily `png/` folder, and creating index and `Screenshots.md` files.",
+      "purpose": "Organizes new screenshots by renaming them with descriptive names, moving them to the appropriate daily `png/` folder, and creating index and `Screenshots.md` files within the `memory/public/` repository.",
       "dependencies": [],
       "inputs": {
         "source_png_dir": "string (The path to the directory containing new screenshots.)"
