@@ -1,0 +1,48 @@
+{
+  "dspy_modules": [
+    {
+      "module_name": "dspy_commit",
+      "script_path": "py/dspy_commit.py",
+      "purpose": "Provides a standardized and safe way to make Git commits. It ensures that git user.name and user.email are correctly set and that a secret scan is performed before committing.",
+      "inputs": {
+        "commit_message": "string (The commit message for the git commit.)"
+      },
+      "outputs": {
+        "status": "string (Either 'Commit successful!' or an error message.)"
+      }
+    },
+    {
+      "module_name": "dspy_chat_summarizer",
+      "script_path": "py/dspy_chat_summarizer.py",
+      "purpose": "Summarizes a raw chat log, extracting key information about an AI agent's session, such as agent name, last task, status, and performance metrics.",
+      "inputs": {
+        "log_file_path": "string (The path to the raw chat log file.)"
+      },
+      "outputs": {
+        "summary": "json (A JSON object containing the extracted summary information.)"
+      }
+    },
+    {
+      "module_name": "dspy_daily_summary_generator",
+      "script_path": "py/dspy_daily_summary_generator.py",
+      "purpose": "Generates a comprehensive daily summary in markdown format from a collection of individual AI agent session summaries.",
+      "inputs": {
+        "agent_summaries_file": "string (Path to a JSON file containing a list of agent summaries.)"
+      },
+      "outputs": {
+        "daily_summary_markdown": "string (The generated daily summary in markdown format.)"
+      }
+    },
+    {
+      "module_name": "dspy_screenshot_organizer",
+      "script_path": "py/dspy_screenshot_organizer.py",
+      "purpose": "Organizes new screenshots by renaming them with descriptive names, moving them to the appropriate daily `png/` folder, and creating index and `Screenshots.md` files.",
+      "inputs": {
+        "source_png_dir": "string (The path to the directory containing new screenshots.)"
+      },
+      "outputs": {
+        "status": "string (A summary of the organization process, including which files were moved and what index files were created.)"
+      }
+    }
+  ]
+}
