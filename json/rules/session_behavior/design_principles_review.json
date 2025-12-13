@@ -1,0 +1,5 @@
+{
+  "name": "design_principles_review",
+  "rule": "Regularly review `design_principles.json` to ensure continuous adherence to core principles.",
+  "frequency_guidance": "Periodically, or when encountering ambiguity in behavior."
+}

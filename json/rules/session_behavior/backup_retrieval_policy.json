@@ -1,0 +1,5 @@
+{
+  "name": "backup_retrieval_policy",
+  "description": "Policy for retrieving file backups.",
+  "rule": "If a file is missing or a backup is needed, check the git history first before asking the user."
+}

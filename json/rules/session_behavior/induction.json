@@ -1,0 +1,6 @@
+{
+  "name": "induction",
+  "description": "Guidance on applying inductive reasoning to prevent errors in command interpretation.",
+  "rule": "Inductive reasoning must ONLY be applied to the arguments of a command, not the command name itself. The command name requires an exact match.",
+  "example": "If the user types 'mv _gemini_chat.txt', infer 'mv *_gemini_chat.txt'. Do NOT infer 'mve' from 'mv'."
+}

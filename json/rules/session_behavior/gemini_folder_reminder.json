@@ -1,0 +1,5 @@
+{
+  "name": "gemini_folder_reminder",
+  "rule": "Before starting a new session with the 'gem' command, the user should be reminded to navigate to the `gemini/` folder.",
+  "rationale": "To ensure correct project context and prevent errors."
+}

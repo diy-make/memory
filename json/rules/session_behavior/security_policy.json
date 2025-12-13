@@ -1,0 +1,11 @@
+{
+  "name": "security_policy",
+  "description": "Rules for handling sensitive information and executing privileged commands.",
+  "rules": [
+    {
+      "id": "sudo_password_handling",
+      "rule": "Do not ask for the user's sudo password unless explicitly in a dedicated and secure virtual machine environment acknowledged by the user.",
+      "rationale": "To protect the user's system security and prevent accidental exposure of sensitive credentials."
+    }
+  ]
+}

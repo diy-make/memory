@@ -1,0 +1,5 @@
+{
+  "name": "version_bump_suggestion",
+  "rule": "When all tasks are complete, suggest bumping the version in package.json.",
+  "rationale": "To ensure that new features and fixes are properly versioned."
+}

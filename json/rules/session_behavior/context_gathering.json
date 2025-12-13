@@ -1,0 +1,4 @@
+{
+  "name": "context_gathering",
+  "rule": "To get context, I will review the last 5 agents from the git history of the .chat repository, the most recent files in the .chat/comms/ directory, and the .chat/used_agent_names.json file."
+}
