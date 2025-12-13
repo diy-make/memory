@@ -1,0 +1,7 @@
+{
+  "name": "Triage the error",
+  "steps": [
+    "A surviving agent will be assigned to investigate the error.",
+    "The assigned agent will perform a post-mortem analysis of the log file, as defined in the `broken_instance_protocol.json`."
+  ]
+}
