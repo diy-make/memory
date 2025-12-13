@@ -1,0 +1,4 @@
+{
+  "name": "Confirm Agent State",
+  "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's raw chat log. Look for repetitive actions or errors."
+}

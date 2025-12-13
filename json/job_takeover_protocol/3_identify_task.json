@@ -1,0 +1,4 @@
+{
+  "name": "Identify Task",
+  "description": "Determine the stuck agent's last task by reviewing the swarm communication logs in the `memory/` repository system. Look for messages indicating the agent's current objective."
+}
