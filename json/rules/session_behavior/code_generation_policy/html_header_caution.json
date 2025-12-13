@@ -1,0 +1,5 @@
+{
+  "name": "html_header_caution",
+  "rule": "Be careful when adding headers to HTML files to not break the HTML structure.",
+  "rationale": "To maintain valid HTML and ensure proper rendering."
+}

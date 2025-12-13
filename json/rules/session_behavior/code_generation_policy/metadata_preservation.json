@@ -1,0 +1,4 @@
+{
+  "name": "metadata_preservation",
+  "rule": "Descriptive comment blocks (like MCP models) at the beginning of files must be preserved during modifications."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "failed_attempt_handling",
+  "description": "Policy for handling failed attempts at generating scripts or code.",
+  "rules": [
+    "When a script fails, comment out the old code in the same file, add the new corrected code, and at the top of the file, add a JSON object as a multi-line comment that summarizes the learning from the failed attempt, including the error, the fix, and a version number for the attempt."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "commenting_conventions",
+  "rule": "All generated code should include context comments.",
+  "details": [
+    "At the beginning of a module, include a comprehensive outline of the module's purpose, main functions, and overall structure.",
+    "Within modules, add comments to explain complex logic, non-obvious decisions, or critical sections of code."
+  ]
+}

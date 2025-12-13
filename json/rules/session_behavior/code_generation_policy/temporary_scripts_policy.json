@@ -1,0 +1,5 @@
+{
+  "name": "temporary_scripts_policy",
+  "rule": "Temporary scripts used for recurring tasks should be made permanent and committed to the repository.",
+  "rationale": "To prevent loss of work and ensure reusability of automation scripts."
+}
