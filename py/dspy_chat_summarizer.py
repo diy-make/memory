@@ -11,7 +11,8 @@ import json
 # --- DSPy Signature ---
 class ChatLogSummary(dspy.Signature):
     """
-    Summarizes a raw chat log, extracting key information about an AI agent's session.
+    Summarizes a raw chat log, extracting key information about an AI agent's 
+session.
     The raw chat log may contain terminal escape codes and other noise.
     """
     raw_chat_log = dspy.InputField(desc="The raw, uncleaned chat log content.")
@@ -60,6 +61,16 @@ def clean_and_extract_info(raw_log_content):
         "model_usage": "[]"
     }
 
+    # Normalize line endings and remove problematic terminal characters
+    raw_log_content = re.sub(r'\r\n|\r', '\n', raw_log_content)
+    raw_log_content = re.sub(r'(\x9B|\x1B\[)[0-?]*[ -/]*[@-~]|[\u2500-\u256F\u2580-\u259F\u25A0-\u25FF]', '', raw_log_content)
+
+    # Normalize line endings and remove problematic terminal characters
+    raw_log_content = re.sub(r'\r\n|\r', '\n', raw_log_content)
+    raw_log_content = re.sub(r'(\x9B|\x1B\[)[0-?]*[ -/]*[@-~]|[\u2500-\u256F\u2580-\u259F\u25A0-\u25FF]', '', raw_log_content)
+
+    print(f"--- Raw Log Content (after cleaning) ---\n{raw_log_content[:500]}...")
+
     # Extract start date
     date_match = re.search(r"Script started on (\d{4}-\d{2}-\d{2})", raw_log_content)
     if date_match:
@@ -74,30 +85,45 @@ def clean_and_extract_info(raw_log_content):
         if name_match and name_match.group(1).strip() != "Unnamed":
             info["agent_name"] = name_match.group(1).strip()
     
-    # Attempt to find quantitative summary block (if it exists in the log)
-    summary_block_match = re.search(r"Interaction Summary.*?Model Usage.*?(\S+)", raw_log_content, re.DOTALL)
-    if summary_block_match:
-        summary_block = summary_block_match.group(0)
-        
-        tool_calls_match = re.search(r"Tool Calls:\s*(\d+)", summary_block)
-        if tool_calls_match: info["tool_calls"] = int(tool_calls_match.group(1))
+    # Extract Tool Calls
+    tool_calls_match = re.search(r"Tool Calls:\s*(\d+)", raw_log_content)
+    if tool_calls_match:
+        info["tool_calls"] = int(tool_calls_match.group(1))
 
-        code_changes_add_match = re.search(r"Code Changes:\s*\+(\d+)", summary_block)
-        if code_changes_add_match: info["code_changes_additions"] = int(code_changes_add_match.group(1))
-        code_changes_del_match = re.search(r"Code Changes:\s*-\s*(\d+)", summary_block)
-        if code_changes_del_match: info["code_changes_deletions"] = int(code_changes_del_match.group(1))
+    # Extract Code Changes
+    code_changes_add_match = re.search(r"Code Changes:\s*\+(\d+)", raw_log_content)
+    if code_changes_add_match:
+        info["code_changes_additions"] = int(code_changes_add_match.group(1))
+    code_changes_del_match = re.search(r"Code Changes:.*?-\s*(\d+)", raw_log_content)
+    if code_changes_del_match:
+        info["code_changes_deletions"] = int(code_changes_del_match.group(1))
 
-        wall_time_match = re.search(r"Wall Time:\s*(.*)", summary_block)
-        if wall_time_match: info["wall_time"] = wall_time_match.group(1).strip()
-        agent_active_match = re.search(r"Agent Active:\s*(.*)", summary_block)
-        if agent_active_match: info["agent_active"] = agent_active_match.group(1).strip()
-        api_time_match = re.search(r"API Time:\s*(.*)", summary_block)
-        if api_time_match: info["api_time"] = api_time_match.group(1).strip()
-        tool_time_match = re.search(r"Tool Time:\s*(.*)", summary_block)
-        if tool_time_match: info["tool_time"] = tool_time_match.group(1).strip()
+    # Extract Wall Time
+    wall_time_match = re.search(r"Wall Time:(.*)", raw_log_content)
+    if wall_time_match:
+        info["wall_time"] = wall_time_match.group(1).strip()
 
-        model_usage_data = []
-        model_lines = re.findall(r"(gemini-\S+)\s+(\d+)\s+([\d,]+)\s+([\d,]+)", summary_block)
+    # Extract Agent Active Time
+    agent_active_match = re.search(r"Agent Active:\s*(.*?)(?=\s*\n)", raw_log_content)
+    if agent_active_match:
+        info["agent_active"] = agent_active_match.group(1).strip()
+
+    # Extract API Time
+    api_time_match = re.search(r"API Time:\s*(.*?)(?=\s*\n)", raw_log_content)
+    if api_time_match:
+        info["api_time"] = api_time_match.group(1).strip()
+
+    # Extract Tool Time
+    tool_time_match = re.search(r"Tool Time:\s*(.*?)(?=\s*\n)", raw_log_content)
+    if tool_time_match:
+        info["tool_time"] = tool_time_match.group(1).strip()
+
+    # Extract Model Usage
+    model_usage_data = []
+    model_usage_block_match = re.search(r"Model Usage\s*-----+(.*?)-----", raw_log_content, re.DOTALL)
+    if model_usage_block_match:
+        model_usage_text = model_usage_block_match.group(1)
+        model_lines = re.findall(r"(gemini-\S+)\s+(\d+)\s+([\d,]+)\s+([\d,]+)", model_usage_text)
         for model_name, reqs, input_tokens, output_tokens in model_lines:
             model_usage_data.append({
                 "model_name": model_name,
@@ -105,8 +131,8 @@ def clean_and_extract_info(raw_log_content):
                 "input_tokens": int(input_tokens.replace(",", "")),
                 "output_tokens": int(output_tokens.replace(",", ""))
             })
-        if model_usage_data:
-            info["model_usage"] = json.dumps(model_usage_data)
+    if model_usage_data:
+        info["model_usage"] = json.dumps(model_usage_data)
 
     # Simplified extraction for last_task and task_status from the text
     # This might require more sophisticated NLP for accurate extraction in real DSPy
@@ -117,7 +143,6 @@ def clean_and_extract_info(raw_log_content):
     task_status_match = re.search(r"Task Status:\s*(.*?)(?=\n\s*Interaction Summary:|\n\s*## Session Log)", raw_log_content, re.DOTALL)
     if task_status_match:
         info["task_status"] = task_status_match.group(1).strip()
-
 
     return info
 
