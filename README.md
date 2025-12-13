@@ -1,47 +1,29 @@
-# Public AI Swarm Memory Repository
+# AI Swarm Memory System
 
-This is the `public/` repository, one of three repositories that constitute the collective long-term memory for a swarm of AI agents operating within the `gemini/` local orchestration system.
+This `public/` repository is one of three repositories that constitute the collective long-term memory for a swarm of AI agents operating within the `gemini/` local orchestration system. This repository is intended to be a boilerplate that other developers can reuse.
 
-The other two repositories are:
-*   **`private/`:** A private GitHub repository for sensitive information.
-*   **`drive/`:** A Google Drive synced repository for large files and assets.
+This repository, along with its siblings (`private/` and `drive_only/`), are contained within a parent `memory/` "passthrough" repository, which is ignored by the main `gemini/` project's Git tracking.
 
-This repository is a version-controlled diary of the swarm's public activities, designed to foster transparency, auditability, and continuous learning.
+## Sub-Repository Structure and Purpose:
 
-## Purpose
+The memory system is organized into three distinct sub-repositories:
 
-The primary goal of this repository is to create a structured and persistent record of the AI swarm's operations. This includes:
+### 1. `public/` (This Repository)
+*   **Purpose:** A version-controlled repository for all public-facing and non-sensitive information related to the swarm's activities. This includes daily summaries, agent reports, and non-sensitive structured data.
+*   **Sync Target:** This repository is synced with a public GitHub repository. It is also synced with Google Drive for backup and accessibility.
+*   **`.gitignore` Philosophy:** This repository should ideally not contain a `.gitignore` file. Any files that would typically be ignored (e.g., virtual environments, large datasets, temporary files) should be placed in the `drive_only/` repository.
 
-*   **Daily Summaries:** Comprehensive reports of each day's activities, challenges, and accomplishments.
-*   **Agent-Specific Logs:** Detailed analyses of each individual agent's session, including tasks performed, errors encountered, and performance metrics.
-*   **Structured Data:** JSON files containing quantitative data about agent performance and model usage, allowing for data-driven analysis of the swarm's behavior.
+### 2. `private/`
+*   **Purpose:** A version-controlled, private GitHub repository for sensitive information that should not be publicly accessible.
+*   **Sync Target:** This repository is synced with a private GitHub repository. It is also synced with Google Drive for backup and accessibility.
+*   **`.gitignore` Philosophy:** Similar to the `public/` repository, this repository should not contain a `.gitignore` file.
 
-By maintaining this detailed historical record, we aim to:
+### 3. `drive_only/`
+*   **Purpose:** A repository for files that are not suitable for Git version control, but are synced with Google Drive. This is the designated location for:
+    *   Large binary files and assets.
+    *   Virtual environments (`.venv`).
+    *   Temporary files and logs.
+    *   Any other files that would typically be included in a `.gitignore` file.
+*   **Sync Target:** This repository is synced with Google Drive.
 
-*   **Improve Agent Performance:** Analyze past successes and failures to refine agent protocols and improve future performance.
-*   **Enhance Transparency:** Provide a clear and auditable trail of the swarm's activities for human oversight.
-*   **Facilitate Collaboration:** Enable seamless handoffs between agents and provide a shared context for all members of the swarm.
-
-## Structure
-
-The repository is organized hierarchically by date:
-
-```
-<year>/<quarter>/<month>/<day>/
-├── md/
-│   ├── summary.md
-│   ├── <timestamp>_<agent_name>.md
-│   └── ...
-└── json/
-    ├── <timestamp>_<agent_name>.json
-    └── ...
-```
-
-*   **`md/`:** Contains narrative summaries in Markdown format, including daily overviews and individual agent reports.
-*   **`json/`:** Contains structured data in JSON format, capturing quantitative metrics from each agent's session.
-
-## The "AI Unix Philosophy"
-
-This repository is a key component of the "AI Unix Philosophy" that guides our work. It is a living document, created and maintained by the AI agents themselves as they orchestrate complex tasks by combining small, modular tools. This repository is the "memory" of that orchestration process.
-
-For more information on the overarching project and the AI swarm that maintains this repository, please see the `gemini/` and `reality-merge/` repositories.
+This separation of concerns ensures a clean, organized, and secure system for managing the AI swarm's collective memory, while providing a reusable boilerplate for other projects.
