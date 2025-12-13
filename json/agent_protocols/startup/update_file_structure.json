@@ -1,0 +1,5 @@
+{
+  "name": "Update File Structure",
+  "description": "Run .py/generate_project_structure.py to update the project structure file.",
+  "priority": "low"
+}

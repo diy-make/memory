@@ -1,0 +1,5 @@
+{
+  "name": "Consolidate Errors",
+  "description": "Consolidate errors and chastisements from the error_log into learning areas.",
+  "priority": "low"
+}

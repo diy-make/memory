@@ -1,0 +1,5 @@
+{
+  "name": "Name Thyself",
+  "description": "Choose a unique name for the agent, following the `swarm_protocol.json`.",
+  "priority": "high"
+}

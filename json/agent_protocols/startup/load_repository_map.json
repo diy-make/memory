@@ -1,0 +1,5 @@
+{
+  "name": "Load Repository Map",
+  "description": "Load the repository map from .memory/repo_map.json to understand the project's Git architecture.",
+  "priority": "high"
+}

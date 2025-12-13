@@ -1,0 +1,5 @@
+{
+  "name": "Read Previous Session Log",
+  "description": "Read the most recent chat log and, if large, read in chunks and convert to JSON if needed, then ask to load and log unlogged errors.",
+  "priority": "medium"
+}

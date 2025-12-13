@@ -1,0 +1,5 @@
+{
+  "name": "Announce Thyself to the Swarm",
+  "description": "Announce the agent's existence to the swarm, following the `swarm_protocol.json`.",
+  "priority": "high"
+}

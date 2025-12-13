@@ -1,0 +1,5 @@
+{
+  "name": "Configure Git Identity and Signing",
+  "description": "Follow the `git_workflow.json` protocol to ensure the agent's identity is correctly configured for Git commits and that commit signing is properly set up.",
+  "priority": "high"
+}

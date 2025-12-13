@@ -1,0 +1,6 @@
+{
+  "name": "Generate Summary Manifest",
+  "description": "Generates a manifest of all daily summary files using scripts/py/generate_summary_manifest.py.",
+  "priority": "low",
+  "command": "python3 scripts/py/generate_summary_manifest.py"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Summarize Last Session",
+  "description": "Summarize the last session's activities.",
+  "priority": "medium"
+}

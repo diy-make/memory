@@ -1,0 +1,6 @@
+{
+  "name": "Process Unsummarized Chat Logs",
+  "description": "Identifies and summarizes unsummarized chat logs using scripts/py/process_unsummarized_logs.py.",
+  "priority": "low",
+  "command": "python3 scripts/py/process_unsummarized_logs.py"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Explain Configuration",
+  "description": "Explain the agent's configuration to the user.",
+  "source": "This JSON configuration file.",
+  "priority": "highest"
+}

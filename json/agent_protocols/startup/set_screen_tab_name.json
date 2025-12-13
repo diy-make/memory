@@ -1,0 +1,5 @@
+{
+  "name": "Set Screen Tab Name",
+  "description": "Set the GNU Screen tab title to the agent's chosen name.",
+  "priority": "high"
+}

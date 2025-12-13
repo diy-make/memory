@@ -1,0 +1,5 @@
+{
+  "name": "Find Thy Chat",
+  "description": "Identify the agent's own process ID (PID) and the chat log file it is writing to.",
+  "priority": "high"
+}

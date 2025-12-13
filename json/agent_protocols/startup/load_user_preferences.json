@@ -1,0 +1,5 @@
+{
+  "name": "Load User Preferences",
+  "description": "Load user preferences from the 'user_preferences' section of rules.json.",
+  "priority": "high"
+}

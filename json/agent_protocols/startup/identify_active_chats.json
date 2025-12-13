@@ -1,0 +1,6 @@
+{
+  "name": "Identify Active Chats",
+  "description": "Identify active chat logs in the .chat/unclean directory to prevent them from being processed.",
+  "command": "lsof -c script",
+  "priority": "medium"
+}
