@@ -1,0 +1,22 @@
+{
+  "git_workflow_protocol": {
+    "name": "Git Workflow Protocol",
+    "summary": "Defines the standard operating procedures for Git usage.",
+    "rules": [
+      {
+        "name": "Commit Process",
+        "description": "All Git commits must be executed through the `dspy_commit` module to ensure consistency, safety, and proper agent attribution.",
+        "action": {
+          "module": "dspy_commit",
+          "script_path": "py/dspy_commit.py",
+          "inputs": ["commit_message"]
+        }
+      },
+      {
+        "name": "Nested Repository Handling",
+        "description": "This repository acts as a 'meta-repo' and contains other, separate Git repositories within its directory structure. These nested repositories are ignored by this parent repository's .gitignore file.",
+        "rule": "The agent must not attempt to stage or commit changes to files within these nested repositories from the parent repository. All Git operations for a nested repository must be performed from within that nested repository's own directory."
+      }
+    ]
+  }
+}
