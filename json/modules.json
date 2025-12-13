@@ -1,9 +1,43 @@
 {
+  "workflows": {
+    "daily_reporting": {
+      "name": "Daily Reporting Workflow",
+      "description": "The standard daily process for an agent to summarize the previous day's events.",
+      "steps": [
+        {
+          "step": 1,
+          "description": "Find uncleaned chat logs from the previous day.",
+          "module": "None (Orchestrator logic)"
+        },
+        {
+          "step": 2,
+          "description": "For each chat log, generate a structured summary.",
+          "module": "dspy_chat_summarizer"
+        },
+        {
+          "step": 3,
+          "description": "Generate a daily summary markdown from the collected agent summaries.",
+          "module": "dspy_daily_summary_generator"
+        },
+        {
+          "step": 4,
+          "description": "Save the generated reports to the appropriate `memory/` directories.",
+          "module": "None (Orchestrator logic)"
+        },
+        {
+          "step": 5,
+          "description": "Move the processed chat logs to `reported_unclean/`.",
+          "module": "None (Orchestrator logic)"
+        }
+      ]
+    }
+  },
   "dspy_modules": [
     {
       "module_name": "dspy_commit",
       "script_path": "py/dspy_commit.py",
       "purpose": "Provides a standardized and safe way to make Git commits. It ensures that git user.name and user.email are correctly set and that a secret scan is performed before committing.",
+      "dependencies": [],
       "inputs": {
         "commit_message": "string (The commit message for the git commit.)"
       },
@@ -15,6 +49,7 @@
       "module_name": "dspy_chat_summarizer",
       "script_path": "py/dspy_chat_summarizer.py",
       "purpose": "Summarizes a raw chat log, extracting key information about an AI agent's session, such as agent name, last task, status, and performance metrics.",
+      "dependencies": [],
       "inputs": {
         "log_file_path": "string (The path to the raw chat log file.)"
       },
@@ -26,6 +61,12 @@
       "module_name": "dspy_daily_summary_generator",
       "script_path": "py/dspy_daily_summary_generator.py",
       "purpose": "Generates a comprehensive daily summary in markdown format from a collection of individual AI agent session summaries.",
+      "dependencies": [
+        {
+          "module_name": "dspy_chat_summarizer",
+          "description": "Requires the JSON output from one or more `dspy_chat_summarizer` runs."
+        }
+      ],
       "inputs": {
         "agent_summaries_file": "string (Path to a JSON file containing a list of agent summaries.)"
       },
@@ -37,6 +78,7 @@
       "module_name": "dspy_screenshot_organizer",
       "script_path": "py/dspy_screenshot_organizer.py",
       "purpose": "Organizes new screenshots by renaming them with descriptive names, moving them to the appropriate daily `png/` folder, and creating index and `Screenshots.md` files.",
+      "dependencies": [],
       "inputs": {
         "source_png_dir": "string (The path to the directory containing new screenshots.)"
       },
