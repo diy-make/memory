@@ -1,0 +1,4 @@
+{
+  "name": "Remediation Plan",
+  "description": "If a secret is accidentally committed, I will assume it is compromised. The first and most critical step is to immediately revoke and rotate the exposed secret. To completely remove the secret from the repository's history, I will use tools like `git filter-repo` to rewrite the Git history."
+}

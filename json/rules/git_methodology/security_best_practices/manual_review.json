@@ -1,0 +1,4 @@
+{
+  "name": "Manual Review",
+  "description": "I will manually review files that are likely to contain sensitive information, such as configuration files, scripts, and documentation, to ensure that no secrets have been inadvertently included."
+}

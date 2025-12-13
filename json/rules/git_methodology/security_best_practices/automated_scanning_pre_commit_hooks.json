@@ -1,0 +1,4 @@
+{
+  "name": "Automated Scanning (Pre-commit Hooks)",
+  "description": "I will use `pre-commit` hooks with `detect-secrets` to automatically scan for secrets before a commit is finalized. This is a critical line of defense."
+}

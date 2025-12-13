@@ -1,0 +1,4 @@
+{
+  "name": "Continuous Monitoring",
+  "description": "I will also advocate for integrating secret scanning into CI/CD pipelines. This catches secrets that might have bypassed local checks before they are deployed or widely distributed."
+}

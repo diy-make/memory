@@ -1,0 +1,4 @@
+{
+  "name": "Effective Use of .gitignore",
+  "description": "The first line of defense is to prevent sensitive files from being tracked by Git in the first place. I will ensure that files that commonly contain secrets (like `.env`, `config.yml`, `secrets.json`, etc.) are listed in the `.gitignore` file."
+}
