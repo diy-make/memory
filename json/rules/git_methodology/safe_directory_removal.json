@@ -1,0 +1,5 @@
+{
+  "name": "safe_directory_removal",
+  "rule": "Always use 'rmdir' instead of 'rm -rf' to remove directories. 'rmdir' will only succeed if the directory is empty, which provides a safety check against accidentally deleting important files.",
+  "rationale": "To prevent accidental data loss and ensure that directories are empty before they are removed."
+}

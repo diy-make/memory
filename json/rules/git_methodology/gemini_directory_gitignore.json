@@ -1,0 +1,5 @@
+{
+  "name": "gemini_directory_gitignore",
+  "description": "The .gemini/ directory should be included in the .gitignore file to prevent user-specific configuration from being committed to the repository.",
+  "rule": "Ensure that the .gemini/ directory is listed in the top-level .gitignore file."
+}

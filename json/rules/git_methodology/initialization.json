@@ -1,0 +1,7 @@
+{
+  "name": "initialization",
+  "branches": [
+    "main",
+    "stage"
+  ]
+}

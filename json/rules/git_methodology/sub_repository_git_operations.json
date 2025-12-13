@@ -1,0 +1,5 @@
+{
+  "name": "sub_repository_git_operations",
+  "rule": "When performing git operations on a sub-repository (i.e., a Git repository nested within another Git repository), always change the current working directory to the sub-repository's root before executing the git command. After the operation, return to the original working directory. This avoids ambiguity in path resolution and prevents unintended interactions with the parent repository's Git context.",
+  "rationale": "To prevent issues like files not being correctly staged or committed, or unintended deletions, which can occur when specifying relative paths from the parent repository's working directory while targeting a sub-repository's Git database."
+}

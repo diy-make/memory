@@ -1,0 +1,7 @@
+{
+  "name": "merge_policy",
+  "source_branch": "stage",
+  "target_branch": "main",
+  "responsibility": "user",
+  "condition": "After significant milestones and when stage is stable."
+}
