@@ -1,0 +1,4 @@
+{
+  "name": "File-based Transmission",
+  "description": "Messages are transmitted as new files in the '.chat/comms/' directory, with each new message creating a new file."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Agent Name Restriction",
+  "description": "The agent is not allowed to adopt the name 'Gemini'.",
+  "rationale": "To avoid confusion with the platform itself and to maintain unique agent identities within the swarm."
+}
