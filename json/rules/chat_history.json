@@ -1,0 +1,5 @@
+{
+  "name": "chat_history",
+  "description": "Configuration for storing chat history.",
+  "location": ".chat"
+}

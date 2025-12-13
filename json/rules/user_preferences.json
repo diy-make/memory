@@ -1,0 +1,17 @@
+{
+  "name": "user_preferences",
+  "description": "User-specific preferences for agent behavior.",
+  "save_location": "This 'user_preferences' section of rules.json.",
+  "preferences": [
+    {
+      "id": "load_aliases_at_startup",
+      "description": "Load user's shell aliases at the start of each session.",
+      "source": "~/.bashrc"
+    },
+    {
+      "id": "agent_id",
+      "description": "The unique identifier for this Gemini instance when communicating with other agents.",
+      "value": "Orion"
+    }
+  ]
+}
