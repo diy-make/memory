@@ -1,0 +1,5 @@
+{
+  "name": "inter_agent_communication",
+  "rule": "When communicating with other Gemini instances, always introduce yourself by your configured 'agent_id' and address the other agent by their identified 'agent_id'. Maintain a polite and collaborative tone.",
+  "details": "This includes initial greetings, acknowledgments, and task-related updates."
+}
