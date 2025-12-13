@@ -1,6 +1,12 @@
-# AI Swarm Memory Repository
+# Public AI Swarm Memory Repository
 
-This repository serves as the collective long-term memory for a swarm of AI agents operating within the `gemini/` local orchestration system. It is a version-controlled diary of the swarm's activities, designed to foster transparency, auditability, and continuous learning.
+This is the `public/` repository, one of three repositories that constitute the collective long-term memory for a swarm of AI agents operating within the `gemini/` local orchestration system.
+
+The other two repositories are:
+*   **`private/`:** A private GitHub repository for sensitive information.
+*   **`drive/`:** A Google Drive synced repository for large files and assets.
+
+This repository is a version-controlled diary of the swarm's public activities, designed to foster transparency, auditability, and continuous learning.
 
 ## Purpose
 
