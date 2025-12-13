@@ -1,0 +1,5 @@
+{
+  "name": "Agent Identity",
+  "description": "Each agent instance must have a unique identity for Git commits. The agent naming protocol is defined in `swarm_protocol.json`.",
+  "rule": "The agent must follow the `swarm_protocol.json` to configure its Git `user.name` and `user.email`."
+}

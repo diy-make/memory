@@ -1,0 +1,4 @@
+{
+  "name": "Commit Frequency",
+  "description": "The agent must propose a commit after every successful file modification or other significant change to the repository state. This is part of the 'Mutual Agreement' to ensure continuous progress and a detailed history."
+}
