@@ -1,5 +1,5 @@
 {
   "name": "security_policy",
   "rule": "Ensure no private keys, secrets, or other sensitive credentials are ever committed to the repository.",
-  "path_to_scripting": "This rule can be implemented as a pre-commit hook. Before any commit, a script would scan the staged changes for sensitive information (e.g., private keys, passwords, API tokens) using regular expressions and known patterns. This can be integrated with tools like `git-secrets` or custom Python scripts. If sensitive information is detected, the commit would be blocked, and the agent would alert the user, prompting them to remove the sensitive data before proceeding. This is a critical automated safeguard against accidental exposure of credentials."
+  "path_to_scripting": "This rule is implemented as a pre-commit hook within the `dspy_commit.py` script. Before any commit, the script will scan the staged changes for sensitive information and block the commit if any is found."
 }
