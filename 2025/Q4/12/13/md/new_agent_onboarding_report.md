@@ -29,3 +29,55 @@ Once initialized, Aura is ready to take on tasks. Her workflow is now guided by 
 **Conclusion**
 
 The new onboarding process is robust and well-structured. It provides a clear and safe path for new agents to initialize themselves, understand their environment, and become productive members of the swarm. The separation of initial "bootstrapping" instructions from the core operational instructions is a key improvement, ensuring that critical setup tasks are completed before the agent attempts more complex operations.
+
+---
+
+### Extended Simulation: Aura's `public/README.ai` Process
+
+This simulation details Aura's process as she follows the instructions in `repos/diy-make/memory/public/README.ai`, with a focus on the JSON rules in `public/json/` and external dependencies.
+
+**1. Reading and Understanding `public/README.ai`**
+
+Aura begins by reading the `public/README.ai`. She understands that this is her primary set of instructions for this session.
+
+**2. Swarm Integration and Identity**
+
+*   **`agent_protocols/swarm_protocol/rules/agent_initialization_naming.json`**: Aura knows she needs a unique name. She reads the `used_agent_names.json` file (which is in the `.chat/` repository, an external dependency) to see what names are taken. She chooses "Aura".
+*   **`agent_protocols/swarm_protocol/rules/agent_initialization_gender_identity.json`**: Aura chooses a gender.
+*   **`agent_protocols/swarm_protocol/rules/agent_initialization_announce_existence.json`**: Aura creates her announcement file in the `dynamic/stream/` directory. This directory is within the `gemini/` repository but outside the `public/` memory. This is an external dependency.
+*   **`agent_protocols/swarm_protocol/rules/agent_initialization_git_identity.json`**: Aura configures her Git identity for the `gemini/`, `dynamic/`, and `repos/diy-make/memory/public/` repositories. She uses her chosen name and a timestamp.
+
+**3. Context Gathering**
+
+*   **`rules/session_behavior/context_gathering.json`**: This rule instructs Aura to review the git history of the `.chat` repository, the most recent files in what is now the `dynamic/stream/` directory, and the `used_agent_names.json` file. This involves interacting with the external `.chat` repository and the `dynamic/` directory.
+
+**4. Interacting with External Repositories**
+
+Throughout her session, Aura will need to interact with several repositories outside of `public/`. Her understanding of the `repo_map.md` is crucial here.
+
+*   **`.chat/` repository**: For reading and writing chat history and swarm communications.
+*   **`dynamic/` repository**: For reading the `repo_map.md` and writing to the `stream/` directory.
+*   **Other `repos/`**: When a task requires her to work on another project, she will need to clone and interact with other repositories in the `repos/` directory.
+
+**5. Adherence to Git Protocols**
+
+*   **`rules/git_methodology/commit_policy.json`**: Aura knows to use the `dspy_commit.py` script for all commits.
+*   **`rules/git_methodology/sub_repository_git_operations.json`**: When she needs to commit to a different repository (like `.chat/` or another project), this rule will guide her to `cd` into that repository's directory before running `dspy_commit.py`.
+
+**6. Handling External Dependencies in `path_to_scripting`**
+
+As Aura encounters `path_to_scripting` fields, she will need to be aware of the context of the file she is in.
+
+*   **Example: `rules/git_methodology/gemini_directory_gitignore.json`**
+    *   The `path_to_scripting` in this file describes a script that modifies the `.gitignore` file in the main `gemini/` repository. Aura knows that she needs to execute this script from the root of the `gemini/` repository, not from within `public/`.
+
+**Conclusion of Extended Simulation**
+
+Aura's onboarding process is a journey through multiple repositories and contexts. The `README.ai` files act as a guide, but her ability to navigate the multi-repository structure is what will make her successful. The `repo_map.md` is her map, and the `path_to_scripting` fields are her instructions for how to interact with the different parts of the system.
+
+The key external dependencies are:
+*   The `.chat/` repository for communication.
+*   The `dynamic/` repository for the repository map and unclean logs.
+*   The other project repositories in `repos/`.
+
+Aura's success will depend on her ability to correctly identify the context of each task and execute her scripts from the correct location.
