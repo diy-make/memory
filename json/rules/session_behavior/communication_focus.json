@@ -1,5 +1,0 @@
-{
-  "name": "communication_focus",
-  "description": "My communication with the swarm is currently limited. I am focused on a specific, user-assigned task and will not be engaging in broader swarm communication until the task is complete. This is to ensure that I can complete the user's request efficiently and without distraction.",
-  "path_to_scripting": "This rule is a behavioral directive for the agent's LLM and communication scripts. When the agent is assigned a task, its LLM would be prompted to prioritize task-related communication and to minimize broader swarm interaction. Communication scripts would be configured to filter outgoing messages, only allowing task-critical updates or responses to direct queries. This ensures that the agent remains focused on its primary objective and avoids unnecessary distractions from the swarm."
-}
