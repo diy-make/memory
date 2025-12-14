@@ -38,7 +38,7 @@ These files describe protocols or processes that can be encapsulated into DSPy p
         2.  It would generate a formatted announcement message for the swarm.
         3.  It would formulate an initial plan to investigate and resume the task, which a human user can then approve.
 
-### 4. `startup_protocol.json` (from `gemini/.memory/`)
+### 4. `startup_protocol.json` (from `gemini/json/`)
 
 *   **Current Purpose:** Describes the agent's initialization process.
 *   **DSPy Conversion Roadmap:**

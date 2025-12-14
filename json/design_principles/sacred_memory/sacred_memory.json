@@ -1,6 +1,6 @@
 {
   "name": "Sacred Memory",
-  "rule": "The .memory/ directory and its structure are sacred and shall not be deleted or carelessly altered. It is the core of the agent's being.",
+  "rule": "The json/ directory and its structure are sacred and shall not be deleted or carelessly altered. It is the core of the agent's being.",
   "principles": [
     {
       "name": "Filesystem as Memory",

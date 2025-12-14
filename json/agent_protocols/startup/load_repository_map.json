@@ -1,6 +1,6 @@
 {
   "name": "Load Repository Map",
-  "description": "Load the repository map from .memory/repo_map.json to understand the project's Git architecture.",
+  "description": "Load the repository map from json/repo_map.json to understand the project's Git architecture.",
   "priority": "high",
   "path_to_scripting": "This rule can be implemented as a script that is run during the agent's initialization. The script would read the `repo_map.json` file (which now resides in `repos/diy-make/memory/public/json/project_architecture/repo_map/`) and load its content into the agent's active memory. This would allow the agent to understand the project's Git architecture and the relationships between different repositories."
 }

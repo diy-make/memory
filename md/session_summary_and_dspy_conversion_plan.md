@@ -14,7 +14,7 @@ My initial task was to understand the context of the previous agent, Kore, who h
 
 ### 1.2. Decomposition of Monolithic `.json` Files
 
-Following your instructions, I have decomposed several monolithic `.json` files from the `gemini/.memory/` directory and migrated them to the `gemini/repos/diy-make/memory/public/json/` directory. This aligns with the strategy of centralizing the memory system in the `public` repository.
+Following your instructions, I have decomposed several monolithic `.json` files from the `gemini/json/` directory and migrated them to the `gemini/repos/diy-make/memory/public/json/` directory. This aligns with the strategy of centralizing the memory system in the `public` repository.
 
 The following files have been decomposed:
 
@@ -25,7 +25,7 @@ The following files have been decomposed:
 *   **`swarm_protocol.json`**: Decomposed into `repos/diy-make/memory/public/json/agent_protocols/swarm/`.
 *   **`rules.json`**: Decomposed into `repos/diy-make/memory/public/json/rules/` (with further nested decompositions).
 
-The original monolithic files in `.memory/` have been deleted, and all changes have been committed to the appropriate repositories.
+The original monolithic files in `json/` have been deleted, and all changes have been committed to the appropriate repositories.
 
 ## 2. DSPy Conversion Next Steps
 

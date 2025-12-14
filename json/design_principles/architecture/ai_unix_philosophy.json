@@ -4,7 +4,7 @@
   "sub_principles": [
     {
       "name": "Fractal Memory",
-      "rule": "Each sub-project or repository can have its own local `.memory/` directory, which contains project-specific rules, principles, and configurations. This allows for a fractal-like organization of knowledge and context, where each part of the system is self-contained and self-describing, while still inheriting from the parent `.memory/` concepts."
+      "rule": "Each sub-project or repository can have its own local `json/` directory, which contains project-specific rules, principles, and configurations. This allows for a fractal-like organization of knowledge and context, where each part of the system is self-contained and self-describing, while still inheriting from the parent `json/` concepts."
     }
   ],
   "path_to_scripting": "This is a core architectural principle that is not implemented as a single script, but as a design pattern for the entire agent system. The agent's command execution engine is designed to call small, modular Python scripts. The agent's main control loop is designed to be interactive, with the agent stopping to await user input after each turn. The 'Fractal Memory' sub-principle is implemented by having a hierarchical memory system, where the agent can load memory files from the current repository and its parent repositories."

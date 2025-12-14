@@ -4,13 +4,13 @@ This report outlines the current status of the `.json` file decomposition and pr
 
 ## Current Location of Decomposed Files
 
-In my previous attempts to fulfill your request, I decomposed several `.json` files from the `gemini/.memory/` directory. These decomposed files are currently located in the following subdirectories within `gemini/.memory/`:
+In my previous attempts to fulfill your request, I decomposed several `.json` files from the `gemini/json/` directory. These decomposed files are currently located in the following subdirectories within `gemini/json/`:
 
-*   `.memory/git_workflow/`
-*   `.memory/fatal_error_protocol/`
-*   `.memory/job_takeover_protocol/`
-*   `.memory/startup_protocol/`
-*   `.memory/rules/` (which contains further subdirectories)
+*   `json/git_workflow/`
+*   `json/fatal_error_protocol/`
+*   `json/job_takeover_protocol/`
+*   `json/startup_protocol/`
+*   `json/rules/` (which contains further subdirectories)
 
 I understand now that this was not the correct location.
 
@@ -43,9 +43,9 @@ gemini/repos/diy-make/memory/public/json/
 
 Here is my step-by-step plan to correct the current state and proceed with the task:
 
-1.  **Revert Changes in `.memory/`:** I will revert all the decomposition changes I made in the `gemini/.memory/` directory. This will involve deleting the subdirectories I created and restoring the original monolithic `.json` files (`git_workflow.json`, `fatal_error_protocol.json`, etc.).
+1.  **Revert Changes in `json/`:** I will revert all the decomposition changes I made in the `gemini/json/` directory. This will involve deleting the subdirectories I created and restoring the original monolithic `.json` files (`git_workflow.json`, `fatal_error_protocol.json`, etc.).
 2.  **Create New Folder Structure:** I will create the proposed folder structure within `gemini/repos/diy-make/memory/public/json/`.
-3.  **Decompose and Migrate:** For each of the monolithic `.json` files in `gemini/.memory/` (`git_workflow.json`, `fatal_error_protocol.json`, `job_takeover_protocol.json`, `startup_protocol.json`, and `rules.json`), I will:
+3.  **Decompose and Migrate:** For each of the monolithic `.json` files in `gemini/json/` (`git_workflow.json`, `fatal_error_protocol.json`, `job_takeover_protocol.json`, `startup_protocol.json`, and `rules.json`), I will:
     a.  Read the content of the source file.
     b.  Decompose it into smaller, granular `.json` files.
     c.  Place these new files into the appropriate, newly created subdirectories within `gemini/repos/diy-make/memory/public/json/`.

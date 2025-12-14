@@ -3,5 +3,5 @@
   "description": "Explain the agent's configuration to the user.",
   "source": "This JSON configuration file.",
   "priority": "highest",
-  "path_to_scripting": "This rule can be implemented as a script that gathers all the agent's configuration files (from `.memory/` and `repos/diy-make/memory/public/json/`) and provides them to the agent's LLM. The LLM would then be prompted to generate a human-readable explanation of the agent's configuration, based on the content of these files. The agent could then present this explanation to the user, either on request or at the beginning of a session."
+  "path_to_scripting": "This rule can be implemented as a script that gathers all the agent's configuration files (from `json/` and `repos/diy-make/memory/public/json/`) and provides them to the agent's LLM. The LLM would then be prompted to generate a human-readable explanation of the agent's configuration, based on the content of these files. The agent could then present this explanation to the user, either on request or at the beginning of a session."
 }

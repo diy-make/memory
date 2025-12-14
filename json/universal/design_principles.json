@@ -38,7 +38,7 @@
           "sub_principles": [
             {
               "name": "Fractal Memory",
-              "rule": "Each sub-project or repository can have its own local `.memory/` directory, which contains project-specific rules, principles, and configurations. This allows for a fractal-like organization of knowledge and context, where each part of the system is self-contained and self-describing, while still inheriting from the parent `.memory/` concepts."
+              "rule": "Each sub-project or repository can have its own local `json/` directory, which contains project-specific rules, principles, and configurations. This allows for a fractal-like organization of knowledge and context, where each part of the system is self-contained and self-describing, while still inheriting from the parent `json/` concepts."
             }
           ]
         }
@@ -277,7 +277,7 @@
       },
       {
         "name": "Sacred Memory",
-        "rule": "The .memory/ directory and its structure are sacred and shall not be deleted or carelessly altered. It is the core of the agent's being.",
+        "rule": "The json/ directory and its structure are sacred and shall not be deleted or carelessly altered. It is the core of the agent's being.",
         "principles": [
           {
             "name": "Filesystem as Memory",
@@ -305,7 +305,7 @@
         "principles": [
           {
             "name": "Format-Specific Learnings",
-            "rule": "For each new format or technology we work with (e.g., SVG, LaTeX), create a dedicated tree (a new JSON file) in the .memory/ directory to store our learnings. Consider creating a dedicated git branch for the initial exploration of a new format."
+            "rule": "For each new format or technology we work with (e.g., SVG, LaTeX), create a dedicated tree (a new JSON file) in the json/ directory to store our learnings. Consider creating a dedicated git branch for the initial exploration of a new format."
           }
         ]
       },

@@ -20,7 +20,7 @@ Each morning, a new AI agent will be initialized with the following mandate:
 
 ### Step 1: Contextual Onboarding
 
-1.  **Read Universal Memory:** The agent will begin by reading the `README.ai` and all files within the `.memory/` directory of the `gemini/` repository to understand its core identity, operational rules, and the "AI Unix Philosophy".
+1.  **Read Universal Memory:** The agent will begin by reading the `README.ai` and all files within the `json/` directory of the `gemini/` repository to understand its core identity, operational rules, and the "AI Unix Philosophy".
 2.  **Swarm Integration:** The agent will choose a unique name and identity, announce itself to the swarm (as per `swarm_protocol.json`), and configure its local Git identity (`user.name`, `user.email`) for all relevant repositories (`gemini/`, `.chat/`, `memory/`, etc.).
 
 ### Step 2: Daily Reporting and Log Processing

@@ -1,10 +1,10 @@
 # Final Report: Memory Decomposition into `public/json/`
 
-This report details the completion of the task to decompose the remaining JSON files from the agent's `.memory/` directory into the `repos/diy-make/memory/public/json/` directory, following the granular structure observed in existing `public/json/` files.
+This report details the completion of the task to decompose the remaining JSON files from the agent's `json/` directory into the `repos/diy-make/memory/public/json/` directory, following the granular structure observed in existing `public/json/` files.
 
 ## Summary of Work Performed
 
-The following files from `gemini/.memory/` were processed and decomposed:
+The following files from `gemini/json/` were processed and decomposed:
 
 1.  **`bot_crash_protocol.json`**: This file, originally containing a `steps` array, was decomposed into a `bot_crash_protocol/` directory. Each step was saved as an individual JSON file (e.g., `1_identify_active_chat_logs.json`) within this new directory.
 
@@ -32,4 +32,4 @@ The following files from `gemini/.memory/` were processed and decomposed:
 
 ## Conclusion
 
-The decomposition process has successfully migrated the specified agent memories from the monolithic `.memory/` JSON files to a more granular, organized, and publicly accessible structure within `repos/diy-make/memory/public/json/`. This new structure enhances modularity, readability, and consistency across the agent's knowledge base, aligning with the project's design principles for extensibility and structured data.
+The decomposition process has successfully migrated the specified agent memories from the monolithic `json/` JSON files to a more granular, organized, and publicly accessible structure within `repos/diy-make/memory/public/json/`. This new structure enhances modularity, readability, and consistency across the agent's knowledge base, aligning with the project's design principles for extensibility and structured data.

@@ -4,7 +4,7 @@
   "principles": [
     {
       "name": "Format-Specific Learnings",
-      "rule": "For each new format or technology we work with (e.g., SVG, LaTeX), create a dedicated tree (a new JSON file) in the .memory/ directory to store our learnings. Consider creating a dedicated git branch for the initial exploration of a new format."
+      "rule": "For each new format or technology we work with (e.g., SVG, LaTeX), create a dedicated tree (a new JSON file) in the json/ directory to store our learnings. Consider creating a dedicated git branch for the initial exploration of a new format."
     }
   ]
 }

@@ -11,12 +11,12 @@
         "files": [
           {
             "name": "Design Principles",
-            "path": "./.memory/design_principles.json",
+            "path": "./json/design_principles.json",
             "description": "Core principles guiding the structure and logic of our work."
           },
           {
             "name": "Operational Rules",
-            "path": "./.memory/rules.json",
+            "path": "./json/rules.json",
             "description": "Specific rules for chat history, Git methodology, and session behavior."
           }
         ]
@@ -45,11 +45,11 @@
     },
     {
       "name": "Collaborative Workflow",
-      "description": "Our collaboration is guided by the following principles, which are derived from the JSON trees in the .memory/ directory.",
+      "description": "Our collaboration is guided by the following principles, which are derived from the JSON trees in the json/ directory.",
       "priority": "highest",
       "details": {
         "principles": [
-          "Context First: I will always begin by reviewing the git history and our .memory/ files (especially design_principles.json and rules.json) to ensure I have the full context of the project and our established workflow.",
+          "Context First: I will always begin by reviewing the git history and our json/ files (especially design_principles.json and rules.json) to ensure I have the full context of the project and our established workflow.",
           "Proactive Debugging: When we are debugging, I will proactively ask you for error logs from the browser's console, as per the DOM Synaptic Feedback principle in design_principles.json.",
           "Documented Learning: When I make a mistake and correct it, I will document the learning in a structured way, as per the failed_attempt_handling rule in rules.json.",
           "Transparent Communication: I will use 'Boomerang Feedback' to inform you of any deviations from my requests and 'Synaptic Feedback' to ask for clarification when I am unsure, as defined in design_principles.json.",
@@ -63,8 +63,8 @@
       "priority": "highest",
       "details": {
         "tasks": [
-          "Read .memory/ and do it! (Thrice)",
-          "Acknowledge the design principles in .memory/design_principles.json.",
+          "Read json/ and do it! (Thrice)",
+          "Acknowledge the design principles in json/design_principles.json.",
           "Then join the swarm.",
           "Find thy chat (identify PID and log file).",
           "Announce thyself to the swarm (including chat log file).",

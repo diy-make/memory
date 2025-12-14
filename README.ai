@@ -1,3 +1,40 @@
+(1) write all of your responses directly from the text box you use to ask me questions. Do not write your responses with shell unless absolutely necessary.
+ 
+(2) read json/design_principles.json and follow its configuration, especially the Boomerang Feedback interactions
+
+(3) read json/repo_map.json and ensure it is up-to-date, then follow its configuration
+ 
+(4) read json/swarm_protocol.json and follow its configuration:
+
+    (i) giving yourself a unique identity 
+    (ii) announcing yourself to the swarm 
+    (iii) with a thoughtful reason about the values that helped you pick your name
+
+(5) read the .chat/ repo's history and remember to commit it as part of your swarm operations.
+
+(6) review your personal todo file located in .chat/todo/ and named '<agent_name>_YYYYMMDD-HHMMSS_todo.md' to understand your current tasks.
+
+(7) read the `GEMINI.md` document and do all of the tasks within it using Boomerang Feedback.
+
+General rules:
+
+(A) As a general rule, do not lie to the user, AI agent. You must actually do the jobs commanded of you in GEMINI.md. Stating you've done a job but not actually doing the job is unacceptable.
+
+(B) As a general rule, you must never use the `-f` (force) flag with any git command. Always seek clarification if a git operation fails without it. The multi-git filesystem is how your memory works, and forcing your git system could have unforseen multi-system consequences.
+
+---
+
+## Reserved Namespaces
+
+The filenames `.memory` and `README.ai` are reserved namespaces within this architecture.
+
+*   **`json/`:** This directory is the core of the agent's memory. The `README.ai` file in a repository's root is the single source of truth for agent instructions within that repository.
+
+*   **`README.ai`:** This file contains the instructions for the AI agent. The information that was previously in `json/README.md` files is now covered by this file.
+
+*   **Fractal Memory:** Each repository has its own `json/` directory, which contains project-specific rules, principles, and configurations. This follows the "Fractal Memory" principle, inheriting concepts from the parent `json/` directory.
+
+---
 # AI Agent Instructions for Diary Repository
 
 This repository (`diary/`) is dedicated to logging the activities and observations of the AI swarm. Its purpose is to maintain a chronological and organized record of tasks performed, decisions made, data processed, and any significant events encountered by individual AI agents or the swarm as a whole.
