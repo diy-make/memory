@@ -1,0 +1,13 @@
+{
+  "module_name": "dspy_chat_summarizer",
+  "script_path": "py/dspy_chat_summarizer.py",
+  "purpose": "Summarizes a raw chat log from a past agent session, extracting key information such as agent name, last task, status, and performance metrics. The output is used to generate daily and agent-specific reports within the `memory/` system.",
+  "dependencies": [],
+  "inputs": {
+    "log_file_path": "string (The path to the raw chat log file.)"
+  },
+  "outputs": {
+    "summary": "json (A JSON object containing the extracted summary information.)"
+  },
+  "path_to_scripting": "This module is a self-contained Python script. It would be invoked by an orchestrator or a daily reporting workflow. The `log_file_path` would be passed as an argument. The script would read the log file, process it (potentially using an LLM for summarization), extract the key information, and return a structured JSON summary. This summary would then be used by other modules or saved for later use."
+}

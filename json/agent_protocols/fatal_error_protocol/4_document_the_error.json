@@ -1,0 +1,7 @@
+{
+  "name": "Document the error",
+  "steps": [
+    "The error and its resolution (if any) will be documented in the `design_principles.json` under the `error_log` section."
+  ],
+  "path_to_scripting": "This step can be implemented as a script that is executed after the error is triaged and reported. The script would take the details of the error and its resolution, and then use the `replace` tool (or a custom script that modifies JSON) to add a new entry to the `agent_error_log` section of the `design_principles.json` file. This ensures that the agent's learning from failures is systematically documented and integrated into its knowledge base."
+}

@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "description": { "type": "string" }
+  },
+  "required": ["id"],
+  "path_to_scripting": "This JSON file defines a schema for items that are identified by an 'id'. It is not directly scriptable, but its content is used by validation scripts (as described in `memory_file_schema.json`). Any script that generates or modifies JSON data conforming to this schema would be implicitly following this rule. This ensures that items requiring a unique identifier always have one, maintaining data integrity and consistency."
+}

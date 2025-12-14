@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-10-12 10:12:05",
+  "description": "Misinterpreted the scope of inductive reasoning, applying it to the command itself rather than just arguments.",
+  "chastisement": "User corrected: 'It's the text after the command. for instance if I write `mv _gemini_chat.txt`, I expect you to write the `*` to catch all.'",
+  "resolution": "Updated rules.json to clarify inductive reasoning applies only to command arguments."
+}

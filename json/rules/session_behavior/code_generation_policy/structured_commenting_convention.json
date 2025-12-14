@@ -5,5 +5,6 @@
     "title": "[Title] : Heading",
     "section": "[Section] : Section Name",
     "subsection": "[Subsection] : Subsection Name"
-  }
+  },
+  "path_to_scripting": "This rule can be implemented by integrating LLM-driven comment generation into the agent's code documentation process. When documenting code, the agent's LLM would be prompted to generate comments that adhere to the specified structured comment format. The LLM would be provided with the code context and the desired comment structure, ensuring that the generated comments are consistent, informative, and parsable by other tools. This ensures that all generated code is well-documented and easy to understand."
 }

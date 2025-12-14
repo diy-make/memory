@@ -4,5 +4,6 @@
   "details": [
     "At the beginning of a module, include a comprehensive outline of the module's purpose, main functions, and overall structure.",
     "Within modules, add comments to explain complex logic, non-obvious decisions, or critical sections of code."
-  ]
+  ],
+  "path_to_scripting": "This rule can be implemented by integrating LLM-driven comment generation into the agent's code generation process. After generating a block of code, the agent's LLM would be prompted to generate comments that adhere to the specified conventions. For module-level comments, the LLM would summarize the module's purpose and structure. For in-line comments, the LLM would explain complex logic or non-obvious decisions. This ensures that all generated code is well-documented and easy to understand."
 }

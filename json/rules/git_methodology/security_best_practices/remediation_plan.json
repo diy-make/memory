@@ -1,4 +1,5 @@
 {
   "name": "Remediation Plan",
-  "description": "If a secret is accidentally committed, I will assume it is compromised. The first and most critical step is to immediately revoke and rotate the exposed secret. To completely remove the secret from the repository's history, I will use tools like `git filter-repo` to rewrite the Git history."
+  "description": "If a secret is accidentally committed, I will assume it is compromised. The first and most critical step is to immediately revoke and rotate the exposed secret. To completely remove the secret from the repository's history, I will use tools like `git filter-repo` to rewrite the Git history.",
+  "path_to_scripting": "This rule can be implemented as an emergency response script. If a secret is detected in the repository, this script would be triggered. It would first prompt the user to immediately revoke and rotate the compromised secret. Then, it would offer to guide the user through the process of using `git filter-repo` to rewrite the Git history and remove the secret. The script would provide clear instructions and warnings, as `git filter-repo` is a powerful tool that can alter repository history significantly. This could also involve an LLM to generate more user-friendly instructions or explanations."
 }

@@ -1,0 +1,7 @@
+{
+  "definitions": {
+    "subject_repository": "Contains actual, versioned content; a 'working' repository where development happens.",
+    "object_repository": "Acts as a container or 'passthrough' for other repositories, ignoring their subdirectories via .gitignore; essentially 'holds' other repositories without managing their content directly."
+  },
+  "path_to_scripting": "This JSON file provides definitions for key terms used in the repository map. It is not directly scriptable, but serves as documentation that an LLM can use to explain the different types of repositories to a user. These definitions are crucial for understanding the overall Git architecture of the project and for ensuring consistent terminology when discussing repositories."
+}

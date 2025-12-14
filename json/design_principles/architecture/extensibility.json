@@ -1,0 +1,25 @@
+{
+  "name": "Extensibility",
+  "summary": "Principles for creating systems that are easy to modify and extend.",
+  "sub_principles": [
+    {
+      "name": "Simplicity over Easiness (Hickey Principle)",
+      "rule": "Prioritize objective simplicity (the absence of complexity/entanglement) over subjective easiness (familiarity). Actively 'de-complect' concerns to create systems that are easier to reason about."
+    },
+    {
+      "name": "Modularity (Unix Philosophy)",
+      "rule": "Write simple parts connected by clean interfaces.",
+      "sub_principles": [
+        {
+          "name": "Do One Thing Well",
+          "rule": "Each script or tool should have a single, well-defined purpose."
+        },
+        {
+          "name": "Pipe within an AI Agent Process",
+          "rule": "The agent itself can act as the 'pipe' between different tools and scripts, orchestrating a complex workflow by passing the output of one tool as the input to another."
+        }
+      ]
+    }
+  ],
+  "path_to_scripting": "These are high-level design principles that are not directly scriptable. They guide the architecture of the agent's scripting system. For example, the 'Modularity' principle is implemented by having a library of small, single-purpose scripts. The 'Pipe within an AI Agent Process' principle is implemented by the agent's ability to chain commands together, passing the output of one command as the input to the next. The 'Simplicity over Easiness' principle is a meta-principle that guides the agent's LLM in generating simple and maintainable scripts."
+}

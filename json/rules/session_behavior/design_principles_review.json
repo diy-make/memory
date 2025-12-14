@@ -1,5 +1,6 @@
 {
   "name": "design_principles_review",
   "rule": "Regularly review `design_principles.json` to ensure continuous adherence to core principles.",
-  "frequency_guidance": "Periodically, or when encountering ambiguity in behavior."
+  "frequency_guidance": "Periodically, or when encountering ambiguity in behavior.",
+  "path_to_scripting": "This rule can be implemented as a script that is run periodically or on demand. The script would read the `design_principles.json` file (which is now a directory of decomposed JSONs). It would then present these principles to the agent's LLM, prompting the LLM to review them and to reflect on its recent actions to ensure continuous adherence. If any ambiguity or non-adherence is detected, the LLM could be prompted to generate a plan for corrective action or to seek clarification from the user."
 }

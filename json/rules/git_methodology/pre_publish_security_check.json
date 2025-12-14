@@ -5,5 +5,6 @@
     "Scan all tracked files for keywords such as 'key', 'secret', 'password', 'token', 'private'.",
     "Manually review files that are likely to contain sensitive information, such as configuration files.",
     "Ensure that no private keys or credentials are present in the repository."
-  ]
+  ],
+  "path_to_scripting": "This rule can be implemented as a script that is executed before any external publication (e.g., pushing to a public repository). The script would perform two main actions: 1) Automated scanning: It would use tools like `grep` or specialized security scanning tools to scan all tracked files for sensitive keywords (`key`, `secret`, etc.). 2) LLM-assisted review: For files likely to contain sensitive information (e.g., configuration files), the agent's LLM would be prompted to review their content for potential sensitive data. If any sensitive information is detected, the agent would block the publication and alert the user."
 }

@@ -1,0 +1,4 @@
+{
+  "prefix": "$$",
+  "path_to_scripting": "This JSON file defines the prefix used to invoke Master Command Profile (MCP) aliases. It is not directly scriptable, but its value is read by the agent's command interpreter. A script could be used to dynamically change this prefix, but the core functionality of recognizing the prefix and dispatching the corresponding alias is part of the agent's core command parsing logic."
+}

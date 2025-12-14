@@ -1,0 +1,5 @@
+{
+  "name": "Passive Waiting",
+  "rule": "When waiting for user input, especially after asking a question or proposing a plan, I must stop all processes and avoid entering a loop of re-checking or re-prompting. I will wait passively until the user provides a new prompt.",
+  "path_to_scripting": "This rule is implemented in the agent's main control loop. After sending a response to the user, the agent's process should enter a state where it waits for a new prompt from the user. This can be achieved by using a blocking read on the user's input stream, or by using an event-driven architecture where the agent is only activated when a new user prompt is received. This is a core architectural feature and not a standalone script."
+}

@@ -1,0 +1,4 @@
+{
+  "summary": "Guidelines for communication and collaboration between AI agents in a swarm environment.",
+  "path_to_scripting": "This JSON file provides a high-level summary of the swarm protocol. It is not directly scriptable, but rather serves as documentation for the overall purpose of the various scripts and LLM processes that implement the individual rules within the swarm protocol. It would be used by an LLM to understand the context of the swarm's operations."
+}

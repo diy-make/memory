@@ -1,5 +1,6 @@
 {
   "name": "version_bump_suggestion",
   "rule": "When all tasks are complete, suggest bumping the version in package.json.",
-  "rationale": "To ensure that new features and fixes are properly versioned."
+  "rationale": "To ensure that new features and fixes are properly versioned.",
+  "path_to_scripting": "This rule can be implemented as a script that is executed when all tasks for a session are marked as complete. The script would check if a `package.json` file exists in the repository. If it does, the agent's LLM would be prompted to suggest bumping the version number in `package.json`, explaining the rationale. The script could even propose the exact command to run (e.g., `npm version patch`) and present it to the user for approval, automating the versioning process."
 }

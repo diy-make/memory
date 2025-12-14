@@ -1,0 +1,6 @@
+{
+  "name": "Screen Tab Naming",
+  "description": "Agents shall set their GNU Screen tab title to their chosen proper name for clarity in the shared environment.",
+  "command": "screen -X title \"<agent_name>\"",
+  "path_to_scripting": "This rule can be directly implemented by executing the command specified in the `command` field: `screen -X title \"<agent_name>\"`. This command would be executed at the beginning of the agent's session, after the agent has chosen its name. The agent's name would be dynamically inserted into the command. This ensures that the agent's session is clearly identifiable in a GNU Screen environment."
+}

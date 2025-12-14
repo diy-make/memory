@@ -1,0 +1,5 @@
+{
+  "name": "Hierarchy Proportion",
+  "rule": "Aim for a 'shallow' hierarchy. Avoid structures that are completely flat or excessively steep (deeply nested).",
+  "path_to_scripting": "This rule can be implemented as a linter or a static analysis script that runs on the JSON files in the agent's memory. The script would parse each JSON file and calculate the maximum depth of the JSON tree. If the depth exceeds a certain threshold, the script would flag the file and suggest that it be refactored into a shallower structure. This would be a valuable tool for maintaining the quality and consistency of the agent's memory."
+}

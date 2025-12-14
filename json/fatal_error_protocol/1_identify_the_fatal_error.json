@@ -1,7 +1,0 @@
-{
-  "name": "Identify the fatal error",
-  "steps": [
-    "The user will notify the swarm of the fatal error.",
-    "The user will provide the log file of the terminated agent."
-  ]
-}

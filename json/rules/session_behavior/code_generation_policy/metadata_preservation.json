@@ -1,4 +1,5 @@
 {
   "name": "metadata_preservation",
-  "rule": "Descriptive comment blocks (like MCP models) at the beginning of files must be preserved during modifications."
+  "rule": "Descriptive comment blocks (like MCP models) at the beginning of files must be preserved during modifications.",
+  "path_to_scripting": "This rule can be implemented as part of the agent's file modification scripts. Before modifying a file, the script would parse the file to identify any descriptive comment blocks (like MCP headers) at the beginning. During the modification process, the script would ensure that these blocks are either left untouched or are intelligently updated (e.g., if the modification changes the file's purpose). This prevents the accidental deletion or corruption of important metadata, ensuring that files remain self-documenting throughout their lifecycle."
 }

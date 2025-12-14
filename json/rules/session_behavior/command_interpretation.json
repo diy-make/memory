@@ -11,5 +11,6 @@
     "If the alias 'action' is 'create_json_punchcard', generate a summary of the current session's activities and the user's contributions. Use this summary to populate the 'title' and 'achieved' fields of a new rich JSON punchcard file in the 'target_directory'. Other fields will be initialized with default or placeholder values.",
     "      - If the alias 'action' is 'execute_prompt', execute the 'prompt' value as a shell command.",
     "If none of the above conditions are met, treat the entire prompt as a natural language request."
-  ]
+  ],
+  "path_to_scripting": "This rule outlines the agent's command interpretation strategy, implemented within the agent's main input processing loop. It involves a sequence of conditional checks: 1) A script detects the `$$` or `$` prefix and lists aliases/commands accordingly (by reading `configuration/mcp/aliases/` and system paths). 2) If a command is detected (prefixed with `$` or backticks), a script first attempts direct shell execution. 3) If shell execution fails, the script looks up aliases in `configuration/mcp/aliases/`. 4) If an alias matches, the script dispatches to the corresponding action (e.g., calling `create_json_punchcard` as a dedicated function/script, or executing a shell command from the alias's `prompt`). 5) If no command or alias matches, the input is passed to an LLM for natural language processing."
 }

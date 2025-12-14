@@ -1,0 +1,36 @@
+{
+  "name": "Daily Reporting Workflow",
+  "description": "The standard daily process for an agent to summarize the previous day's events and log them in the `memory/` repositories.",
+  "steps": [
+    {
+      "step": 1,
+      "description": "Find raw chat logs from the previous day's sessions.",
+      "module": "None (Orchestrator logic)",
+      "path_to_scripting": "This step would involve a script that identifies and retrieves the raw chat logs from the previous day's sessions. This could involve listing files in the `.chat/unclean/` directory and filtering them by date. The orchestrator logic would then pass these log file paths to subsequent modules for processing."
+    },
+    {
+      "step": 2,
+      "description": "For each chat log, generate a structured summary.",
+      "module": "dspy_chat_summarizer",
+      "path_to_scripting": "This step would involve iterating through the identified raw chat logs and, for each log, calling the `dspy_chat_summarizer` module (which is a script located at `py/dspy_chat_summarizer.py`). The input to this module would be the log file path, and the output would be a structured JSON summary of the chat."
+    },
+    {
+      "step": 3,
+      "description": "Generate a daily summary markdown from the collected agent summaries.",
+      "module": "dspy_daily_summary_generator",
+      "path_to_scripting": "This step would involve calling the `dspy_daily_summary_generator` module (a script located at `py/dspy_daily_summary_generator.py`). The input to this module would be a collection of the structured JSON summaries generated in Step 2. The output would be a comprehensive daily summary in markdown format."
+    },
+    {
+      "step": 4,
+      "description": "Save the generated reports to the appropriate date-stamped directories within the `public/` or `private/` repositories.",
+      "module": "None (Orchestrator logic)",
+      "path_to_scripting": "This step would involve orchestrator logic. It would take the daily summary markdown generated in Step 3 and save it to the correct date-stamped directory within the `memory/public/` or `memory/private/` repositories. This would involve creating directories if they don't exist and writing the content to a new markdown file."
+    },
+    {
+      "step": 5,
+      "description": "Archive the processed raw chat logs.",
+      "module": "None (Orchestrator logic)",
+      "path_to_scripting": "This step would involve orchestrator logic to move the raw chat logs that have been successfully summarized and processed to an archive directory (e.g., `.chat/processed/`). This ensures that processed logs are not re-processed and that the `.chat/unclean/` directory remains clean for new sessions."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 {
   "name": "Manual Review",
-  "description": "I will manually review files that are likely to contain sensitive information, suchs as configuration files, scripts, and documentation, to ensure that no secrets have been inadvertently included."
+  "description": "I will manually review files that are likely to contain sensitive information, suchs as configuration files, scripts, and documentation, to ensure that no secrets have been inadvertently included.",
+  "path_to_scripting": "This rule, while inherently a manual process, can be significantly facilitated by agent scripting. A script could identify files that are likely to contain sensitive information (e.g., based on filename patterns, content analysis, or user configuration). It would then present these files to the user for manual review, highlighting sections that are more likely to contain secrets. The agent's LLM could also assist by summarizing the content of these files, making the manual review process more efficient."
 }

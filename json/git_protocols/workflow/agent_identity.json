@@ -1,5 +1,6 @@
 {
   "name": "Agent Identity",
   "description": "Each agent instance must have a unique identity for Git commits. The agent naming protocol is defined in `swarm_protocol.json`.",
-  "rule": "The agent must follow the `swarm_protocol.json` to configure its Git `user.name` and `user.email`."
+  "rule": "The agent must follow the `swarm_protocol.json` to configure its Git `user.name` and `user.email`.",
+  "path_to_scripting": "This rule is implemented by calling the `configure_git_identity` script (located in `agent_protocols/startup/configure_git_identity.json`) during the agent's initialization. This script will ensure that the agent's Git `user.name` and `user.email` are set according to the `swarm_protocol.json` guidelines, guaranteeing a unique and properly formatted identity for Git commits. This is a crucial step for accurate attribution of changes."
 }

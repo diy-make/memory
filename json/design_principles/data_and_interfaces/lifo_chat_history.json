@@ -1,0 +1,6 @@
+{
+  "name": "LIFO for Chat History",
+  "rule": "When reviewing chat history, apply the LIFO (Last-In, First-Out) principle. Start with the highest-level summaries (yearly, quarterly, monthly) and then drill down to more granular summaries (weekly, daily) and individual chat logs as needed. This ensures that the most recent and relevant information is prioritized.",
+  "rationale": "This top-down approach to chat history analysis is more efficient and provides a better starting point for understanding the context of recent events.",
+  "path_to_scripting": "This rule can be implemented as a script that the agent uses to review its chat history. The script would first look for the highest-level summary file (e.g., `yearly_summary.json`). If that file doesn't exist, it would look for the next highest level (e.g., `quarterly_summary.json`), and so on. Once it finds a summary file, it would present the content to the agent's LLM. The agent could then choose to 'drill down' to a more granular level of detail, at which point the script would retrieve the corresponding summary file or chat log. This script would be a key component of the agent's context-gathering workflow."
+}

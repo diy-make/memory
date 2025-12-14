@@ -1,5 +1,6 @@
 {
   "name": "Update File Structure",
   "description": "Run .py/generate_project_structure.py to update the project structure file.",
-  "priority": "low"
+  "priority": "low",
+  "path_to_scripting": "This rule can be directly implemented by executing the script mentioned in the description: `.py/generate_project_structure.py`. This script would be run periodically or on demand to update the project structure file, ensuring that the agent has an up-to-date understanding of the repository's organization."
 }

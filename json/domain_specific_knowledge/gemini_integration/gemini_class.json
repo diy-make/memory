@@ -1,0 +1,5 @@
+{
+  "name": "Gemini",
+  "description": "Inherits from `BaseLlm` and seems to be the main integration point for the Gemini API. Handles async requests, streaming, and API client management.",
+  "related_files": ["Gemini class (Python)"]
+}

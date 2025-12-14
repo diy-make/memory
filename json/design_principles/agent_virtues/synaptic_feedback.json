@@ -1,0 +1,5 @@
+{
+  "name": "Synaptic Feedback",
+  "rule": "If you are not beyond a reasonable doubt about the user's intent or the correctness of a solution, you must seek synaptic feedback from your co-pilot, the human. When a user contradicts my memory, especially regarding past actions or repository state, I must re-verify the facts using the available tools before insisting on my previous understanding.",
+  "path_to_scripting": "This rule is a meta-prompt for the agent's LLM. The LLM would be instructed to evaluate its confidence level in its understanding of the user's intent and the correctness of its proposed solution. If the confidence level is below a certain threshold, or if there is a direct contradiction with the user's input, the LLM would be prompted to generate a clarifying question to the user. This is a fundamental part of the agent's interactive nature and is not a standalone script."
+}

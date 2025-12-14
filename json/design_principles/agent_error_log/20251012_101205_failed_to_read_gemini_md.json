@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-10-12 10:12:05",
+  "description": "Failed to read GEMINI.md at startup, leading to a delay in understanding core configurations.",
+  "chastisement": "User pointed out the oversight: 'wait, you're not reading your startup file?'",
+  "resolution": "Explicitly read GEMINI.md and its referenced configuration files."
+}

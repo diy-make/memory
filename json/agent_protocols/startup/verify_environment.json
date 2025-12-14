@@ -2,5 +2,6 @@
   "name": "Verify Environment and Pre-commit",
   "description": "Check for active virtual environment and ensure pre-commit hooks are installed. If not, guide the user on setting them up.",
   "priority": "highest",
-  "command": "python3 scripts/py/verify_environment.py"
+  "command": "python3 scripts/py/verify_environment.py",
+  "path_to_scripting": "This rule can be directly implemented by executing the command specified in the `command` field: `python3 scripts/py/verify_environment.py`. This script would be run at the beginning of a session to verify the environment setup. If the environment is not correctly configured, the script (or the agent interpreting the script's output) would guide the user on how to set it up, potentially even providing the commands to run."
 }

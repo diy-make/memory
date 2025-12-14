@@ -1,0 +1,5 @@
+{
+  "name": "Context Window Management",
+  "description": "If an agent's context window remaining drops below 40%, the agent should proactively inform the user and suggest creating a new agent instance to join the swarm and offload context. This is to prevent context window exhaustion and ensure session continuity.",
+  "path_to_scripting": "This rule can be implemented as a continuous monitoring script within the agent's main loop. The script would periodically query the LLM API to determine the remaining context window size. If it drops below 40%, the agent's LLM would be prompted to generate a message to the user, explaining the situation and suggesting the creation of a new agent instance. This could also involve a script that automatically spawns a new agent with the relevant context, minimizing user intervention."
+}

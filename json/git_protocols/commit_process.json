@@ -1,0 +1,10 @@
+{
+  "name": "Commit Process",
+  "description": "All Git commits must be executed through the `dspy_commit` module to ensure consistency, safety, and proper agent attribution.",
+  "action": {
+    "module": "dspy_commit",
+    "script_path": "py/dspy_commit.py",
+    "inputs": ["commit_message"]
+  },
+  "path_to_scripting": "This rule is implemented by always routing Git commit requests through the `dspy_commit` module (located in `configuration/modules/dspy_modules/dspy_commit.json`). When the agent needs to perform a commit, it would invoke this module, passing the commit message as an input. The `dspy_commit` module would then handle the actual Git commit operation, ensuring that all the necessary checks (e.g., identity verification, secret scanning) are performed before the commit is finalized."
+}

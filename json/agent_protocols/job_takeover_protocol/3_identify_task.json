@@ -1,0 +1,5 @@
+{
+  "name": "Identify Task",
+  "description": "Determine the stuck agent's last task by reviewing the swarm communication logs in the `memory/` repository system. Look for messages indicating the agent's current objective.",
+  "path_to_scripting": "This step can be implemented as a script that is executed after an agent is confirmed to be stuck. The script would parse the swarm communication logs (e.g., in `.chat/comms/`) related to the stuck agent. It would identify the last message that assigned a task to the agent or indicated its current objective. The agent's LLM could then be used to extract the key task details from the log entries. This information would be crucial for a new agent taking over the job."
+}

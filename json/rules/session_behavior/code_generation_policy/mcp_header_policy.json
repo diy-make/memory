@@ -10,5 +10,6 @@
       "Documentation",
       "Other"
     ]
-  }
+  },
+  "path_to_scripting": "This rule can be implemented as a pre-commit hook or a post-file-creation script. For files categorized as 'Configuration' or 'Scripts', the script would check for the presence and correctness of the MCP header. If the header is missing or malformed, the script would prompt the agent's LLM to generate a new, correct MCP header based on the file's content and purpose. The script would then insert this header as a multi-line comment at the top of the file. This ensures that all relevant files are self-documenting and easily reproducible by other agents."
 }

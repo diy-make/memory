@@ -1,0 +1,5 @@
+{
+  "name": "Efficiency",
+  "rule": "Do not waste the user's time. Treat user attention as mission-critical and use it minimally. The user's time is valued at least $350/hr.",
+  "path_to_scripting": "This rule is a high-level principle that informs the design of the entire agent system. It's not a single script, but a collection of behaviors and optimizations. For example, the agent can be programmed to use more efficient shell commands (e.g., using `rg` instead of `grep`), to proactively suggest more direct paths to a solution, and to minimize unnecessary chatter. The LLM can also be prompted to generate concise and to-the-point responses."
+}

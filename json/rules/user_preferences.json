@@ -13,5 +13,6 @@
       "description": "The unique identifier for this Gemini instance when communicating with other agents.",
       "value": "Orion"
     }
-  ]
+  ],
+  "path_to_scripting": "This JSON file defines user-specific preferences that influence the agent's behavior. It is not directly scriptable, but its contents are read and interpreted by scripts. For example, a startup script would read the `load_aliases_at_startup` preference and, if set, would execute a command to load the user's shell aliases from `~/.bashrc`. The `agent_id` preference would be read by communication scripts to identify the agent in swarm communications. This ensures that the agent's operation is tailored to the user's individual needs and preferences."
 }

@@ -2,5 +2,6 @@
   "name": "Generate Summary Manifest",
   "description": "Generates a manifest of all daily summary files using scripts/py/generate_summary_manifest.py.",
   "priority": "low",
-  "command": "python3 scripts/py/generate_summary_manifest.py"
+  "command": "python3 scripts/py/generate_summary_manifest.py",
+  "path_to_scripting": "This rule can be directly implemented by executing the command specified in the `command` field: `python3 scripts/py/generate_summary_manifest.py`. This script would be run periodically or on demand to update the manifest of daily summary files."
 }

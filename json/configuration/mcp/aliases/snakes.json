@@ -1,0 +1,5 @@
+{
+  "prompt": "echo 'are in the grass'",
+  "description": "A simple echo command.",
+  "path_to_scripting": "This alias directly executes the shell command specified in the `prompt` field: `echo 'are in the grass'`. This is a simple, direct script execution. The agent's command interpreter would simply take the value of the `prompt` field and execute it as a shell command."
+}

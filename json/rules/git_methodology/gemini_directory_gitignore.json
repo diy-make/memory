@@ -1,5 +1,6 @@
 {
   "name": "gemini_directory_gitignore",
   "description": "The .gemini/ directory should be included in the .gitignore file to prevent user-specific configuration from being committed to the repository.",
-  "rule": "Ensure that the .gemini/ directory is listed in the top-level .gitignore file."
+  "rule": "Ensure that the .gemini/ directory is listed in the top-level .gitignore file.",
+  "path_to_scripting": "This rule can be implemented as a script that runs during repository initialization or as a periodic check. The script would read the `.gitignore` file at the root of the repository and check if `.gemini/` is present. If not, the script would append `.gemini/` to the `.gitignore` file, ensuring that the agent's sensitive configuration and temporary files are not accidentally committed to the repository."
 }

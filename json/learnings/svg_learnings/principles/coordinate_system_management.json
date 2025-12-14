@@ -1,0 +1,4 @@
+{
+  "name": "Coordinate System Management",
+  "rule": "The SVG coordinate system originates at the top-left (0,0). Geometric constructions based on a central origin must be translated to this system before final rendering. The best practice is to generate all elements with centered coordinates in memory, calculate the top-left offset of the entire drawing's bounding box, and then apply this offset to all coordinates in a final post-processing step."
+}

@@ -1,0 +1,5 @@
+{
+  "context": "Game AI / Search",
+  "meaning": "The starting move or position in a search tree.",
+  "related_files": ["RootMove (C++)"]
+}

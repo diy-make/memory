@@ -1,5 +1,6 @@
 {
   "name": "gemini_folder_reminder",
   "rule": "Before starting a new session with the 'gem' command, the user should be reminded to navigate to the `gemini/` folder.",
-  "rationale": "To ensure correct project context and prevent errors."
+  "rationale": "To ensure correct project context and prevent errors.",
+  "path_to_scripting": "This rule can be implemented as a script that is executed when the `gem` command is invoked. Before initiating a new session, the script would check the current working directory. If it's not the `gemini/` folder, the script would output a reminder message to the user, suggesting they navigate to the correct directory. This script would ensure that the agent always starts in the proper project context, preventing potential errors due to incorrect file paths."
 }

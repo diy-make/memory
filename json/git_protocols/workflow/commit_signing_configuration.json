@@ -8,5 +8,6 @@
     "The Git GPG format is set to 'ssh' (`git config --global gpg.format ssh`).",
     "An `allowed_signers` file at `.gemini/.ssh/allowed_signers` is used to verify the key, linking the user's email to the public key."
   ],
-  "outcome": "All commits made by the agent within this repository will be automatically signed with the designated SSH key. The user's commits outside of this session or in other repositories remain unaffected."
+  "outcome": "All commits made by the agent within this repository will be automatically signed with the designated SSH key. The user's commits outside of this session or in other repositories remain unaffected.",
+  "path_to_scripting": "This rule can be implemented as a script that is executed during the agent's initialization (or whenever Git configuration needs to be verified/set up). The script would execute a series of `git config` commands to disable global signing, enable local signing for the current repository, set the GPG format to 'ssh', and verify the presence of the dedicated SSH key and `allowed_signers` file. This script ensures that the agent's commits are properly signed without interfering with the user's global Git settings."
 }

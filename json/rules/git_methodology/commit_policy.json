@@ -3,5 +3,6 @@
   "target_branch": "main",
   "auto_propose_commit": true,
   "auto_commit": true,
-  "condition": "After making and verifying a change. This includes changes made during iterative refinement, unless explicitly instructed otherwise by the user."
+  "condition": "After making and verifying a change. This includes changes made during iterative refinement, unless explicitly instructed otherwise by the user.",
+  "path_to_scripting": "This rule can be implemented within the agent's main control loop. After any successful file modification or other significant change, the agent would check the `auto_propose_commit` and `auto_commit` flags. If `auto_propose_commit` is true, the agent would initiate the commit proposal process (running `git status`, `git add`, generating a commit message). If `auto_commit` is also true, the agent would then automatically execute the commit using the `dspy_commit` module, targeting the `main` branch. The `condition` field guides when this automated process should be triggered."
 }

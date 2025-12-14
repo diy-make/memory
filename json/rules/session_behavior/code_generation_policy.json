@@ -49,5 +49,6 @@
       "section": "[Section] : Section Name",
       "subsection": "[Subsection] : Subsection Name"
     }
-  }
+  },
+  "path_to_scripting": "This JSON file outlines the overarching policies for code generation. It is not a single script, but rather a set of guidelines that are enforced through a combination of automated scripts, linters, and LLM-driven code review processes. The individual sub-policies within this file (e.g., `code_reduction_explanation`, `metadata_preservation`, `commenting_conventions`) would each have their own specific scripting paths."
 }

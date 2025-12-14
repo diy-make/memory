@@ -1,0 +1,4 @@
+{
+  "description": "Master Command Profile for prompt aliases.",
+  "path_to_scripting": "This JSON file provides a high-level description of the Master Command Profile (MCP) system. It is not directly scriptable, but serves as documentation for the overall purpose and functionality of the MCP. It would be used by an LLM to understand the context of the MCP and how to interpret its aliases."
+}

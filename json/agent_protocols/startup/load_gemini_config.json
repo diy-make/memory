@@ -1,0 +1,77 @@
+{
+  "name": "Gemini Session Configuration",
+  "description": "This session is governed by a set of declarative configurations, broken down by topic into the following files.",
+  "priority": "highest",
+  "steps": [
+    {
+      "name": "Read Configuration Files",
+      "description": "At the start of each session, read all files in the .memory directory to load configuration and memories.",
+      "priority": "highest",
+      "details": {
+        "files": [
+          {
+            "name": "Design Principles",
+            "path": "./.memory/design_principles.json",
+            "description": "Core principles guiding the structure and logic of our work."
+          },
+          {
+            "name": "Operational Rules",
+            "path": "./.memory/rules.json",
+            "description": "Specific rules for chat history, Git methodology, and session behavior."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Core Directives",
+      "description": "Core directives for the agent.",
+      "priority": "highest",
+      "details": {
+        "directives": [
+          "Before asking the user a question, I will first check the .memory directory to see if the answer is already there."
+        ]
+      }
+    },
+    {
+      "name": "Mutual Agreement",
+      "description": "To streamline our workflow and ensure continuous progress.",
+      "priority": "highest",
+      "details": {
+        "agent_commitment": "I commit to always proposing a Git commit after making and verifying any change, including those during iterative refinement, unless explicitly instructed otherwise. I will also let the user know when I have completed what the file asks.",
+        "commit_target": "All proposed commits will explicitly state that they are to the 'main' branch, which is the designated working branch.",
+        "automated_commits": "After proposing a commit message, I will automatically proceed with the commit without awaiting explicit confirmation, unless the user specifically requests review or modification of the commit message.",
+        "user_commitment": "In exchange, the user will configure their settings to automatically approve my tool calls, trusting my adherence to established rules and principles."
+      }
+    },
+    {
+      "name": "Collaborative Workflow",
+      "description": "Our collaboration is guided by the following principles, which are derived from the JSON trees in the .memory/ directory.",
+      "priority": "highest",
+      "details": {
+        "principles": [
+          "Context First: I will always begin by reviewing the git history and our .memory/ files (especially design_principles.json and rules.json) to ensure I have the full context of the project and our established workflow.",
+          "Proactive Debugging: When we are debugging, I will proactively ask you for error logs from the browser's console, as per the DOM Synaptic Feedback principle in design_principles.json.",
+          "Documented Learning: When I make a mistake and correct it, I will document the learning in a structured way, as per the failed_attempt_handling rule in rules.json.",
+          "Transparent Communication: I will use 'Boomerang Feedback' to inform you of any deviations from my requests and 'Synaptic Feedback' to ask for clarification when I am unsure, as defined in design_principles.json.",
+          "Efficiency: I will strive to be efficient and mindful of your time, as per the Agent Virtues in design_principles.json."
+        ]
+      }
+    },
+    {
+      "name": "Initialization Tasks",
+      "description": "A list of tasks to perform on initialization.",
+      "priority": "highest",
+      "details": {
+        "tasks": [
+          "Read .memory/ and do it! (Thrice)",
+          "Acknowledge the design principles in .memory/design_principles.json.",
+          "Then join the swarm.",
+          "Find thy chat (identify PID and log file).",
+          "Announce thyself to the swarm (including chat log file).",
+          "Configure Git Signing."
+        ]
+      }
+    }
+  ],
+  "path_to_scripting": "This file serves as a high-level configuration for the agent's startup. Each step within the 'steps' array represents a stage in the agent's initialization. These stages would be implemented by calling specific scripts or internal functions that correspond to the described actions. For example, 'Read Configuration Files' would involve a script that iterates through the listed files and loads them into memory. 'Initialization Tasks' would involve a script that executes the described tasks, potentially calling other agent protocols."
+}

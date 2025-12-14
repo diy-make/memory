@@ -1,0 +1,5 @@
+{
+  "context": "File System",
+  "meaning": "The root directory of the project or application.",
+  "related_files": ["root_path (Python)"]
+}

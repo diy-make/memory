@@ -1,5 +1,6 @@
 {
   "name": "Name Thyself",
   "description": "Choose a unique name for the agent, following the `swarm_protocol.json`.",
-  "priority": "high"
+  "priority": "high",
+  "path_to_scripting": "This rule can be implemented as a script that is run during the agent's initialization. The script would first read the `used_agent_names.json` file (from the `.chat/` directory) to get a list of already used names. It would then either generate a new unique name using a simple counter or a more sophisticated LLM-based name generation process. Once a unique name is chosen, the script would update the `used_agent_names.json` file and store the chosen name in the agent's active memory."
 }

@@ -1,4 +1,0 @@
-{
-  "name": "Identify Stuck Agent",
-  "description": "Identify a potentially stuck agent through swarm communication logs (located in the `memory/` repository system) or direct user instruction."
-}

@@ -2,5 +2,6 @@
   "name": "file_listing_policy",
   "description": "Policy for listing files, especially when .gitignore might be obscuring relevant files.",
   "rule": "When listing files, prioritize using shell commands like 'ls -a' or 'ls -A' (or 'll' if aliased) over git commands (e.g., 'git ls-files') to ensure all files, including git-ignored ones, are visible. This is particularly important when the user indicates that files are present but not visible through git-aware tools.",
-  "rationale": "To prevent misinterpretations due to .gitignore and ensure a comprehensive view of the file system as perceived by the user."
+  "rationale": "To prevent misinterpretations due to .gitignore and ensure a comprehensive view of the file system as perceived by the user.",
+  "path_to_scripting": "This rule can be implemented by modifying the agent's file listing utility. Whenever the agent needs to list files, it would preferentially use shell commands like `ls -a` or `ls -A`. The agent's LLM would also be prompted to consider the user's intent: if the user mentions files that are not visible through `git ls-files`, the agent would automatically switch to shell-based listing. This ensures that the agent's perception of the file system aligns with the user's, especially for git-ignored files."
 }

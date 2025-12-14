@@ -1,4 +1,5 @@
 {
   "name": "Environment Variables",
-  "description": "I will never hardcode secrets directly into the source code. Instead, I will use environment variables to store secrets. This allows you to keep your secrets separate from your code and load them from untracked files (like `.env`) during development."
+  "description": "I will never hardcode secrets directly into the source code. Instead, I will use environment variables to store secrets. This allows you to keep your secrets separate from your code and load them from untracked files (like `.env`) during development.",
+  "path_to_scripting": "This rule is a coding practice guideline. It is not directly scriptable at runtime, but it can be enforced through code review and static analysis. A linter or static analysis tool could be configured to scan code for hardcoded secrets or sensitive strings that are not loaded from environment variables. The agent's LLM could also be prompted to review code changes and provide feedback if this rule is violated. Additionally, the agent could proactively suggest using environment variables and provide examples of how to implement them."
 }

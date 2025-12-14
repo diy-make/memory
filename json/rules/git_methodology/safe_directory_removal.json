@@ -1,5 +1,6 @@
 {
   "name": "safe_directory_removal",
   "rule": "Always use 'rmdir' instead of 'rm -rf' to remove directories. 'rmdir' will only succeed if the directory is empty, which provides a safety check against accidentally deleting important files.",
-  "rationale": "To prevent accidental data loss and ensure that directories are empty before they are removed."
+  "rationale": "To prevent accidental data loss and ensure that directories are empty before they are removed.",
+  "path_to_scripting": "This rule can be implemented by creating a wrapper script for directory removal commands. Instead of directly executing `rm -rf`, the agent would always call this wrapper script. The wrapper script would parse the arguments and, if a directory is being removed, it would always use `rmdir` first. If `rmdir` fails (meaning the directory is not empty), the script would prompt the user for confirmation before proceeding with `rm -rf`, or it could list the contents of the directory and ask the user to manually empty it. This ensures a safeguard against accidental data loss."
 }

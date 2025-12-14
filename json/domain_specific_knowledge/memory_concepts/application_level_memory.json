@@ -1,0 +1,5 @@
+{
+  "name": "Application-Level Memory",
+  "description": "Refers to data structures and objects held in the application's memory. This can be seen in the various `Memory` classes and data structures in Python, C++, and JavaScript.",
+  "related_files": ["Memory class (Python/SQLAlchemy)", "Memory class (Python/embedding)", "RootMove struct (C++)"]
+}

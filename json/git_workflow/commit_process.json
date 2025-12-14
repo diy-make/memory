@@ -1,9 +1,0 @@
-{
-  "name": "Commit Process",
-  "description": "All Git commits must be executed through the `dspy_commit` module to ensure consistency, safety, and proper agent attribution.",
-  "action": {
-    "module": "dspy_commit",
-    "script_path": "py/dspy_commit.py",
-    "inputs": ["commit_message"]
-  }
-}

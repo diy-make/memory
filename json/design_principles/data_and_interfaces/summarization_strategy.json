@@ -1,0 +1,6 @@
+{
+  "name": "Summarization from Refined Data",
+  "rule": "When summarizing information, always start with the most refined and structured data available (e.g., JSON summaries). Work backwards to less structured data (e.g., cleaned chunks, raw logs) only when necessary for additional detail. Avoid processing raw logs if summaries are available.",
+  "rationale": "This approach is more efficient and less prone to context window overruns. It leverages the structured data that has already been processed and summarized.",
+  "path_to_scripting": "This rule can be implemented as a script that the agent uses to summarize information. The script would first search for a JSON summary file. If one is found, it would be used as the basis for the summary. If not, the script would search for cleaned text chunks. If those are not available, it would fall back to processing the raw logs. This script would be a key component of the agent's summarization capabilities, and would be used in tasks such as generating daily reports or summarizing chat sessions."
+}

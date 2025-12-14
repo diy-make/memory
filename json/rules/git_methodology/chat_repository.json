@@ -2,5 +2,6 @@
   "name": "chat_repository",
   "description": "The .chat/ directory is a separate Git repository for storing chat logs and related data.",
   "rule": "The agent must handle the .chat/ repository independently from the main repository. This includes making commits to the .chat/ repository to track changes to chat logs.",
-  "unclean_log_modification": "The unclean chat logs in the .chat/unclean directory are expected to be modified during a session as the chat progresses. These modifications should be staged and committed as part of the session's activity."
+  "unclean_log_modification": "The unclean chat logs in the .chat/unclean directory are expected to be modified during a session as the chat progresses. These modifications should be staged and committed as part of the session's activity.",
+  "path_to_scripting": "This rule is a behavioral directive for the agent's Git operations. It would be implemented in the agent's Git management logic. Before performing a commit, the agent would check the path of the files being committed. If the files are within the `.chat/` directory, the agent would switch its working directory to `.chat/` and perform the commit there. If the files are outside `.chat/`, the agent would perform the commit in the main repository. This ensures proper separation of concerns for version control. The `unclean_log_modification` aspect implies that the agent's Git workflow should routinely include staging and committing changes within `.chat/unclean`."
 }

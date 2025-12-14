@@ -1,0 +1,5 @@
+{
+  "name": "Continuity",
+  "rule": "Provide enough structured records of session activities to enable future agent versions to get up to speed automatically upon initialization.",
+  "path_to_scripting": "This rule is implemented through a series of scripts that are run at the end of each session. These scripts would parse the chat log, generate summaries, update the agent's memory files (like the error log), and create a structured record of the session's activities. This could be a single orchestrator script that calls other scripts to perform specific tasks, such as `summarize_logs.py`, `generate_clean_project_structure.py`, and the decomposition scripts I've been using."
+}

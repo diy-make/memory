@@ -1,0 +1,5 @@
+{
+  "name": "Agent Initialization - Name Uniqueness",
+  "description": "To prevent identity confusion within the swarm, an agent must choose a unique name. Before choosing a name, an agent must read the '.chat/used_agent_names.json' file to get a list of previously used names. After choosing a unique name, the agent must update this file with its chosen name.",
+  "path_to_scripting": "This rule can be implemented as a script that is run during the agent's initialization. The script would first read the `.chat/used_agent_names.json` file to retrieve a list of names already in use by other agents. It would then propose a new name for the agent (either randomly or using a defined naming convention). It would then check if the proposed name is unique. If not, it would propose another name until a unique one is found. Finally, it would update the `used_agent_names.json` file with the newly chosen unique name."
+}

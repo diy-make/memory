@@ -1,0 +1,5 @@
+{
+  "id": "git_config_local",
+  "note": "Git user.name and user.email are configured locally for this repository, not globally. The user.name is the agent's name, and the user.email is in the format `<agent_name>@localhost`.",
+  "path_to_scripting": "This rule informs the `configure_git_identity` script (located in `agent_protocols/startup/configure_git_identity.json`). The script, when setting up the agent's Git identity, must ensure that `user.name` and `user.email` are configured locally for the specific repository (using `git config --local`). It must also adhere to the specified format for `user.name` (agent's name) and `user.email` (`<agent_name>@localhost`). This ensures that the agent's Git identity is correctly isolated and attributed."
+}

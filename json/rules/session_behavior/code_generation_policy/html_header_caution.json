@@ -1,5 +1,6 @@
 {
   "name": "html_header_caution",
   "rule": "Be careful when adding headers to HTML files to not break the HTML structure.",
-  "rationale": "To maintain valid HTML and ensure proper rendering."
+  "rationale": "To maintain valid HTML and ensure proper rendering.",
+  "path_to_scripting": "This rule can be implemented as a linter or a validation script that runs after the agent modifies an HTML file. The script would parse the HTML file and check for structural integrity, particularly around header elements. If the HTML structure is broken, the script would flag the issue and alert the agent (or user), preventing invalid HTML from being committed. This ensures proper rendering and maintainability of HTML files."
 }

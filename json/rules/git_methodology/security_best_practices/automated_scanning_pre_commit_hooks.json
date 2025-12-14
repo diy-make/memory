@@ -1,4 +1,5 @@
 {
   "name": "Automated Scanning (Pre-commit Hooks)",
-  "description": "I will use `pre-commit` hooks with `detect-secrets` to automatically scan for secrets before a commit is finalized. This is a critical line of defense."
+  "description": "I will use `pre-commit` hooks with `detect-secrets` to automatically scan for secrets before a commit is finalized. This is a critical line of defense.",
+  "path_to_scripting": "This rule can be implemented by configuring Git `pre-commit` hooks. A script would be set up as a pre-commit hook that executes `detect-secrets` (or a similar tool) on the staged changes. If `detect-secrets` finds any secrets, the commit would be automatically blocked, and the agent would alert the user, prompting them to remove the sensitive data. This provides an automated, immediate feedback loop for preventing secrets from being committed."
 }

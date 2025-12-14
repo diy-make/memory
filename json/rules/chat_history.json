@@ -1,5 +1,6 @@
 {
   "name": "chat_history",
   "description": "Configuration for storing chat history.",
-  "location": ".chat"
+  "location": ".chat",
+  "path_to_scripting": "This JSON file defines the location where chat history is stored. It is not directly scriptable, but its value (`.chat`) is used by various scripts that interact with chat logs. For example, scripts that read, summarize, or archive chat logs would consult this configuration to locate the correct directory. This ensures a centralized and consistent approach to managing chat history across the agent's operations."
 }

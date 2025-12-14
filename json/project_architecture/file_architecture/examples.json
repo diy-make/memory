@@ -1,0 +1,9 @@
+{
+  "examples": [
+    "Python scripts (.py) go into the 'py/' directory.",
+    "Markdown files (.md) go into the 'md/' directory.",
+    "SVG files (.svg) go into the 'svg/' directory.",
+    "Shell scripts (.sh) go into the 'sh/' directory."
+  ],
+  "path_to_scripting": "This JSON file provides concrete examples for applying the file architecture principles. It is not directly scriptable, but serves as documentation that an LLM or a linter script could use. An LLM could reference these examples when generating file organization suggestions, or a linter could use them to check for adherence to the prescribed file placement. This helps to ensure consistency in file organization across the project."
+}

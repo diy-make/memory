@@ -1,0 +1,5 @@
+{
+  "name": "Starting Point for Context",
+  "description": "When beginning a new task or trying to understand a situation, the best place to start is by reviewing the Git commits and their associated timestamps. This provides the most reliable historical context for the project's evolution.",
+  "path_to_scripting": "This rule can be implemented as a script that is run at the beginning of a new task. The script would execute `git log -n 10` (or a similar command) to retrieve the recent commit history. The agent's LLM would then be prompted to review this history and to use it as a starting point for understanding the current state of the project. This script could be part of a larger 'context gathering' workflow that that also includes reading relevant files and project documentation."
+}

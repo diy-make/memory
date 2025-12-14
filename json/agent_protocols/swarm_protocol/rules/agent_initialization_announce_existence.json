@@ -1,0 +1,5 @@
+{
+  "name": "Agent Initialization - Announce Existence",
+  "description": "Upon initialization, after choosing a name and gender, an agent must announce its existence to the swarm by creating a file in the '.chat/comms/' directory. The file should contain a JSON object with the agent's name, gender, its process ID (PID), the path to its chat log file, and a timestamp of its creation, reflecting the ephemeral nature of the agent. The PID and chat log must be top-level key-value pairs.",
+  "path_to_scripting": "This rule can be implemented as a script that is run during the agent's initialization, after the agent has chosen its name and gender. The script would gather the agent's name, gender, PID (from the `find_thy_chat` protocol), and chat log file path. It would then construct a JSON object with this information, add a timestamp, and write it to a new file in the `.chat/comms/` directory. This ensures the agent's presence is registered with the swarm."
+}

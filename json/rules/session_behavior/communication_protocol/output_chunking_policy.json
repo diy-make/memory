@@ -10,5 +10,6 @@
     "batch_size_guidance": "A small number of files that can be summarized within the 50% context threshold.",
     "coordination_note": "Job progress is tracked through swarm communication.",
     "continuous_processing_mode": false
-  }
+  },
+  "path_to_scripting": "This rule can be implemented by a set of scripts and LLM processes that manage the agent's output and context window usage. For `single_file_processing`, a script would read large files from the bottom up, monitoring the remaining context window. When the threshold is met, the script would feed the read content to an LLM for summarization and then prompt the user for instructions. For `multi_file_processing`, a script would, instead of processing all files, create a task message for another agent in the swarm (using the inter-agent communication protocol) containing the list of files to be processed. This promotes distributed processing and prevents context overruns."
 }

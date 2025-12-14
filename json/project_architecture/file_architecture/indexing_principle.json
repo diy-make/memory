@@ -1,0 +1,5 @@
+{
+  "name": "Sequential Indexing within File Type",
+  "rule": "Files are indexed based on the sequence in which they're processed within their particular file_type. The index is not reset for subdirectories. For example, an index for `md/` is not reset for `md/day_2/`.",
+  "path_to_scripting": "This rule can be implemented as part of a file processing or indexing script. When the agent processes files of a particular type, this script would assign a sequential index to them. The script would ensure that the index is continuous across subdirectories of the same file type, as specified by the rule. This is crucial for maintaining a consistent and predictable order of files for processing or display, especially in systems where the order matters (e.g., chronological logs or structured documentation)."
+}

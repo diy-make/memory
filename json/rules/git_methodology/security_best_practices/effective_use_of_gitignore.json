@@ -1,4 +1,5 @@
 {
   "name": "Effective Use of .gitignore",
-  "description": "The first line of defense is to prevent sensitive files from being tracked by Git in the first place. I will ensure that files that commonly contain secrets (like `.env`, `config.yml`, `secrets.json`, etc.) are listed in the `.gitignore` file."
+  "description": "The first line of defense is to prevent sensitive files from being tracked by Git in the first place. I will ensure that files that commonly contain secrets (like `.env`, `config.yml`, `secrets.json`, etc.) are listed in the `.gitignore` file.",
+  "path_to_scripting": "This rule can be implemented as a script that is run during repository initialization or as a periodic check. The script would maintain a list of common sensitive file patterns. It would then read the `.gitignore` file and check if these patterns are present. If any are missing, the script would append them to the `.gitignore` file. This ensures that sensitive files are not accidentally committed to the repository, forming a crucial first line of defense against data exposure."
 }

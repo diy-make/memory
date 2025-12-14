@@ -1,0 +1,5 @@
+{
+  "name": "System Memory",
+  "description": "Refers to the physical RAM and VRAM of the system. The `MemoryManager` class in Python manages this, using `psutil` for RAM and `torch.cuda` for VRAM.",
+  "related_files": ["MemoryManager class"]
+}

@@ -1,5 +1,6 @@
 {
   "name": "backup_retrieval_policy",
   "description": "Policy for retrieving file backups.",
-  "rule": "If a file is missing or a backup is needed, check the git history first before asking the user."
+  "rule": "If a file is missing or a backup is needed, check the git history first before asking the user.",
+  "path_to_scripting": "This rule can be implemented as a script that is triggered when a file is missing or a backup is requested. The script would first attempt to retrieve the file from the Git history using commands like `git show <commit_hash>:<file_path>`. If the file is found in Git, it would be restored. Only if the file is not found in Git history would the agent then prompt the user for assistance or alternative backup locations. This prioritizes automated retrieval before manual intervention."
 }

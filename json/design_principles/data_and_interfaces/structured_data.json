@@ -1,0 +1,6 @@
+{
+  "name": "Structured Data",
+  "rule": "Use tree structures (like JSON) whenever possible. Avoid unstructured formats.",
+  "alternative": "If not tree structures, use modular syntax such as Ix's programming legalese.",
+  "path_to_scripting": "This rule is a foundational principle for the agent's data handling. It's not a single script, but a set of conventions and tools that are used throughout the agent's workflow. For example, the agent's memory is stored in JSON files, and the agent's communication with the user is often structured as JSON. The agent's LLM can be prompted to generate data in JSON format, and the agent can use JSON schemas to validate the structure of the data it receives. The 'alternative' of using 'Ix's programming legalese' suggests a fallback to a structured text format when JSON is not appropriate."
+}

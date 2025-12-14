@@ -1,5 +1,6 @@
 {
   "name": "Configure Git Identity and Signing",
   "description": "Follow the `git_workflow.json` protocol to ensure the agent's identity is correctly configured for Git commits and that commit signing is properly set up.",
-  "priority": "high"
+  "priority": "high",
+  "path_to_scripting": "This rule can be implemented as a script that is run at the beginning of the agent's lifecycle. The script would check the local git configuration for `user.name` and `user.email`. If they are not set, or if they are set to a default value, the script would generate a unique name and email for the agent, and then use `git config` to set them. The script would also check for the existence of a GPG key and, if one does not exist, would generate one and configure git to use it for signing commits."
 }

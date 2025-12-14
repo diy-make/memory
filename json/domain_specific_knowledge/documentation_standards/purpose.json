@@ -1,0 +1,4 @@
+{
+  "purpose": "To provide a consistent and machine-readable format for documenting code.",
+  "related_files": ["C++ Reader::addComment", "various [Title] snippets"]
+}
