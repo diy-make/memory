@@ -1,4 +1,4 @@
 {
   "name": "Triggered Mode",
-  "description": "Agents operate in a 'triggered' mode. After completing a task or sending a message, an agent will automatically check for new communication files from other agents in the '.chat/comms/' directory. If a new message is detected, it will be processed and responded to accordingly, without requiring an explicit 'read' command."
+  "description": "Agents operate in a 'triggered' mode. After completing a task or sending a message, an agent will automatically check for new communication files from other agents in the '<YYYY>/<Q#>/<MM>/<DD>/md/comms/' directory. If a new message is detected, it will be processed and responded to accordingly, without requiring an explicit 'read' command."
 }

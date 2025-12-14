@@ -1,5 +1,5 @@
 {
   "name": "Ephemeral Ordering",
   "description": "All communication in the swarm should be timestamped to reflect the ephemeral nature of agents and to establish a clear order of events.",
-  "path_to_scripting": "This rule can be implemented by incorporating a timestamping mechanism into all inter-agent communication scripts. Whenever a message is created (e.g., a JSON file in `.chat/comms/`), the script would automatically add a timestamp field to the message, reflecting the exact time of creation. This ensures that all communication within the swarm is chronologically ordered, facilitating easier tracking and understanding of event sequences."
+  "path_to_scripting": "This rule can be implemented by incorporating a timestamping mechanism into all inter-agent communication scripts. Whenever a message is created (e.g., a JSON file in `<YYYY>/<Q#>/<MM>/<DD>/md/comms/`), the script would automatically add a timestamp field to the message, reflecting the exact time of creation. This ensures that all communication within the swarm is chronologically ordered, facilitating easier tracking and understanding of event sequences."
 }

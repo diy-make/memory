@@ -1,4 +1,4 @@
 {
   "name": "Announce Takeover",
-  "description": "Announce the task takeover to the swarm by creating a new communication file in `.chat/comms/`. The message should include: your name, the name of the stuck agent, the task you are taking over, and how you identified the task."
+  "description": "Announce the task takeover to the swarm by creating a new communication file in `<YYYY>/<Q#>/<MM>/<DD>/md/comms/`. The message should include: your name, the name of the stuck agent, the task you are taking over, and how you identified the task."
 }

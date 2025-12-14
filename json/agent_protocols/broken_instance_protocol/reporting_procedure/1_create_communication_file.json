@@ -1,5 +1,5 @@
 {
   "name": "Step 1",
-  "description": "Create a new communication file in the `.chat/comms/` directory.",
-  "path_to_scripting": "This step can be implemented as a simple script that creates a new, uniquely named file (e.g., using a timestamp or UUID) in the `.chat/comms/` directory. This file will serve as the container for the communication message to the swarm. The script would ensure that the file is created with the correct permissions and is ready to receive content."
+  "description": "Create a new communication file in the `<YYYY>/<Q#>/<MM>/<DD>/md/comms/` directory.",
+  "path_to_scripting": "This step can be implemented as a simple script that creates a new, uniquely named file (e.g., using a timestamp or UUID) in the `<YYYY>/<Q#>/<MM>/<DD>/md/comms/` directory. This file will serve as the container for the communication message to the swarm. The script would ensure that the file is created with the correct permissions and is ready to receive content."
 }
