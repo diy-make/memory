@@ -2,19 +2,11 @@
  
 (2) read json/design_principles.json and follow its configuration, especially the Boomerang Feedback interactions
 
-(3) read json/repo_map.json and ensure it is up-to-date, then follow its configuration
- 
-(4) read json/swarm_protocol.json and follow its configuration:
+(3) read json/swarm_protocol.json and follow its configuration:
 
     (i) giving yourself a unique identity 
     (ii) announcing yourself to the swarm 
     (iii) with a thoughtful reason about the values that helped you pick your name
-
-(5) read the .chat/ repo's history and remember to commit it as part of your swarm operations.
-
-(6) review your personal todo file located in .chat/todo/ and named '<agent_name>_YYYYMMDD-HHMMSS_todo.md' to understand your current tasks.
-
-(7) read the `GEMINI.md` document and do all of the tasks within it using Boomerang Feedback.
 
 General rules:
 
@@ -23,21 +15,9 @@ General rules:
 (B) As a general rule, you must never use the `-f` (force) flag with any git command. Always seek clarification if a git operation fails without it. The multi-git filesystem is how your memory works, and forcing your git system could have unforseen multi-system consequences.
 
 ---
+# AI Agent Instructions for Memory's Public Repository 
 
-## Reserved Namespaces
-
-The filenames `.memory` and `README.ai` are reserved namespaces within this architecture.
-
-*   **`json/`:** This directory is the core of the agent's memory. The `README.ai` file in a repository's root is the single source of truth for agent instructions within that repository.
-
-*   **`README.ai`:** This file contains the instructions for the AI agent. The information that was previously in `json/README.md` files is now covered by this file.
-
-*   **Fractal Memory:** Each repository has its own `json/` directory, which contains project-specific rules, principles, and configurations. This follows the "Fractal Memory" principle, inheriting concepts from the parent `json/` directory.
-
----
-# AI Agent Instructions for Diary Repository
-
-This repository (`diary/`) is dedicated to logging the activities and observations of the AI swarm. Its purpose is to maintain a chronological and organized record of tasks performed, decisions made, data processed, and any significant events encountered by individual AI agents or the swarm as a whole.
+This repository (`memory/public/`) is dedicated to logging the activities and observations of the AI swarm. Its purpose is to maintain a chronological and organized record of tasks performed, decisions made, data processed, and any significant events encountered by individual AI agents or the swarm as a whole.
 
 ## Purpose:
 
@@ -49,16 +29,18 @@ This repository (`diary/`) is dedicated to logging the activities and observatio
 ## Structure:
 
 Entries are organized hierarchically by date:
-`diary/<year>/<quarter>/<month>/<day>/<format>/`
+`public/<year>/<quarter>/<month>/<day>/<format>/`
 
 For example:
-*   `diary/2025/Q4/12/12/md/` will contain markdown logs for December 12, 2025.
-*   `diary/2025/Q4/12/12/json/` will contain JSON data related to December 12, 2025.
+*   `public/2025/Q4/12/12/md/` will contain markdown logs for December 12, 2025.
+*   `public/2025/Q4/12/12/json/` will contain JSON data related to December 12, 2025.
 
 ## AI Agent Responsibilities:
+
+(6) create and review your personal todo file in your day's md/ and named '<agent_name>_YYYYMMDD-HHMMSS_todo.md' to understand your current tasks.
 
 *   **Log Generation:** Agents should regularly create and update log entries in the appropriate date-based folders, documenting their activities.
 *   **Adherence to Format:** Maintain consistency in the structure and content of log entries (e.g., using markdown for narrative summaries and JSON for structured data).
 *   **Committing Changes:** All new or updated log entries must be committed to this repository to ensure version control and a complete history.
 
-By contributing to this diary, each AI agent helps build a comprehensive historical record that benefits the entire swarm and improves future operations.
+By contributing to this public memory, each AI agent helps build a comprehensive historical record that benefits the entire swarm and improves future operations.

@@ -2,6 +2,7 @@ import dspy
 import os
 import shutil
 from datetime import datetime
+import random
 
 # --- DSPy Configuration (placeholder) ---
 # In a real scenario, configure your language model here.
@@ -35,19 +36,25 @@ def get_image_description(image_path):
     """
     return f"A screenshot of a computer screen, likely showing code or a terminal, taken on {image_path}"
 
+import random
+
 def get_descriptive_filename(image_path, counter):
     """
     Generates a descriptive filename for a screenshot.
     """
+    svg_icons = {
+        "menu-icon": "M4 6h16M4 12h16M4 18h16",
+        "close-icon": "M6 18L18 6M6 6l12 12",
+        "search-icon": "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
+        "user-icon": "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z",
+        "chevron-down-icon": "M19 9l-7 7-7-7",
+    }
+    
     # In a real scenario, we would use a multi-modal model to get a description.
-    # For now, we will simulate this by creating a descriptive name based on the file path.
-    description = get_image_description(image_path)
-    kebab_case_description = description.lower().replace(" ", "-").replace(",", "").replace(".", "")
+    # For now, we will simulate this by randomly picking an icon name.
+    icon_name = random.choice(list(svg_icons.keys()))
     
-    # Limit the length of the filename
-    kebab_case_description = kebab_case_description[:50]
-    
-    return f"{counter:02d}-{kebab_case_description}.png"
+    return f"{counter:02d}-{icon_name}.png"
 
 # --- Main Orchestration Script ---
 def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
