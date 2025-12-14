@@ -35,6 +35,20 @@ def get_image_description(image_path):
     """
     return f"A screenshot of a computer screen, likely showing code or a terminal, taken on {image_path}"
 
+def get_descriptive_filename(image_path, counter):
+    """
+    Generates a descriptive filename for a screenshot.
+    """
+    # In a real scenario, we would use a multi-modal model to get a description.
+    # For now, we will simulate this by creating a descriptive name based on the file path.
+    description = get_image_description(image_path)
+    kebab_case_description = description.lower().replace(" ", "-").replace(",", "").replace(".", "")
+    
+    # Limit the length of the filename
+    kebab_case_description = kebab_case_description[:50]
+    
+    return f"{counter:02d}-{kebab_case_description}.png"
+
 # --- Main Orchestration Script ---
 def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
     print("\n--- Starting DSPy Screenshot Organization ---")
@@ -72,31 +86,23 @@ def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
         os.makedirs(day_md_dir, exist_ok=True)
 
         renamed_files = []
+        counter = 1
 
         for original_filename in filenames:
             original_path = os.path.join(source_png_dir, original_filename)
             
-            # 1. Get image description (placeholder)
-            image_description = get_image_description(original_path)
-
-            # 2. Use DSPy to generate a descriptive name (simulated)
-            # In a real scenario:
-            # namer = ScreenshotNamerModule()
-            # result = namer.forward(image_description=image_description, original_filename=original_filename)
-            # new_filename = result.descriptive_filename
-            
-            # For this demo, we'll use a simplified naming convention
-            timestamp_str = original_filename.split(" ")[3].replace("-", "")
-            new_filename = f"{day_path.replace('/', '-')}_{timestamp_str}_{image_description[:30].replace(' ', '_')}.png"
+            # 1. Get descriptive filename
+            new_filename = get_descriptive_filename(original_path, counter)
+            counter += 1
 
             new_path = os.path.join(day_png_dir, new_filename)
 
-            # 3. Rename and move the file
+            # 2. Rename and move the file
             shutil.move(original_path, new_path)
             print(f"Moved and renamed: {original_filename} -> {new_filename}")
-            renamed_files.append((new_filename, image_description))
+            renamed_files.append((new_filename, get_image_description(original_path)))
 
-        # 4. Create an index.md in the png directory
+        # 3. Create an index.md in the png directory
         index_md_path = os.path.join(day_png_dir, "index.md")
         with open(index_md_path, 'w', encoding='utf-8') as f:
             f.write(f"# PNG Index for {day_path}\n\n")
@@ -106,15 +112,14 @@ def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
                 f.write(f"    * *Description:* {desc}\n\n")
         print(f"Created index.md for {day_path}")
 
-        # 5. Create a Screenshots.md in the md directory
+        # 4. Create a Screenshots.md in the md directory
         screenshots_md_path = os.path.join(day_md_dir, "Screenshots.md")
         with open(screenshots_md_path, 'w', encoding='utf-8') as f:
             f.write(f"# Day {day_path.split('/')[-1]} Snapshots\n\n")
-            f.write("This document contains screenshots from this day.\n\n")
             for i, (filename, desc) in enumerate(renamed_files, 1):
                 f.write(f"---\n\n")
-                f.write(f"**{i}. {filename.replace('.png', '').replace('_', ' ').title()}**\n")
-                f.write(f"![{desc}](../../png/{filename})")
+                f.write(f"**{i}. {filename.replace('.png', '').replace('-', ' ').title()}**\n")
+                f.write(f"![{desc}](../../png/{filename})\n")
                 f.write(f"*A screenshot showing {desc.lower()}.*\n\n")
                 f.write(f"*   **Key Takeaway:** \n\n")
         print(f"Created Screenshots.md for {day_path}")

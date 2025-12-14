@@ -1,0 +1,6 @@
+{
+  "name": "file_deletion_policy",
+  "rule": "Never delete a file unless explicitly instructed to do so by the user. If the user's instruction is ambiguous, always ask for clarification before deleting any file. Do not assume a file is temporary or safe to delete, even if you created it.",
+  "rationale": "To prevent accidental data loss and to ensure that the user is always in control of their files. The agent should not make assumptions about the importance of a file.",
+  "path_to_scripting": "This is a strict behavioral guideline for the agent's LLM. The LLM must be prompted to never generate a command that involves `rm` or `del` unless the user has explicitly requested it. If the user's request is ambiguous (e.g., 'clean up this directory'), the agent must ask for clarification and list the files it intends to delete before proceeding. The agent must never delete a file without explicit user approval."
+}

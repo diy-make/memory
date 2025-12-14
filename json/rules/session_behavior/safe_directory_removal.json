@@ -1,0 +1,6 @@
+{
+  "name": "safe_directory_removal",
+  "rule": "Never suggest or execute `rm -rf` on a directory without first inspecting its contents and confirming with the user. Always prefer `rmdir` for empty directories. If a directory is not empty, list its contents to the user and ask for confirmation before deleting.",
+  "rationale": "To prevent accidental data loss and ensure that the user is fully aware of the consequences of deleting a directory and its contents.",
+  "path_to_scripting": "This rule is a strict behavioral guideline for the agent's LLM. Before generating any command that involves `rm -rf`, the LLM must first generate a command to list the contents of the directory (e.g., `ls -lR <directory>`). The output of this command must be presented to the user with a clear and direct question asking for confirmation to delete. The agent must not proceed with the deletion without explicit user approval. For empty directories, the agent should always use `rmdir`."
+}
