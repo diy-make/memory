@@ -2,5 +2,5 @@
   "name": "Announce Thyself to the Swarm",
   "description": "Announce the agent's existence to the swarm, following the `swarm_protocol.json`.",
   "priority": "high",
-  "path_to_scripting": "This rule can be implemented as a script that is run at the beginning of the agent's lifecycle. The script would gather the agent's name, gender, process ID, and chat log file path. It would then create a new JSON file in the `<YYYY>/<Q#>/<MM>/<DD>/md/comms/` directory with this information, as well as a timestamp. This script would be a key part of the agent's initialization process."
+  "path_to_scripting": "This rule can be implemented as a script that is run at the beginning of the agent's lifecycle. The script would gather the agent's name, gender, process ID, and chat log file path. It would then create a new JSON file in the `drive_only/comms/` directory with this information, as well as a timestamp. This script would be a key part of the agent's initialization process."
 }

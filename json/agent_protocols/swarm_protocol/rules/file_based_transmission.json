@@ -1,5 +1,5 @@
 {
   "name": "File-based Transmission",
-  "description": "Messages are transmitted as new files in the '<YYYY>/<Q#>/<MM>/<DD>/md/comms/' directory, with each new message creating a new file.",
-  "path_to_scripting": "This rule can be implemented by a dedicated communication script. Whenever an agent needs to send a message to the swarm, it would invoke this script. The script would take the message content (e.g., a JSON object), format it as a new file, and save it to the `<YYYY>/<Q#>/<MM>/<DD>/md/comms/` directory. Each message would result in a new file, ensuring a clear and auditable trail of communication. This script would abstract away the details of file creation and management from the agent's core logic."
+  "description": "Messages are transmitted as new files in the 'drive_only/comms/' directory, with each new message creating a new file.",
+  "path_to_scripting": "This rule can be implemented by a dedicated communication script. Whenever an agent needs to send a message to the swarm, it would invoke this script. The script would take the message content (e.g., a JSON object), format it as a new file, and save it to the `drive_only/comms/` directory. Each message would result in a new file, ensuring a clear and auditable trail of communication. This script would abstract away the details of file creation and management from the agent's core logic."
 }
