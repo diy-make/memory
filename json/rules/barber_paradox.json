@@ -1,0 +1,5 @@
+{
+  "rule": "The Barber Can't Shave Himself",
+  "description": "A file cannot contain its own checksum for self-verification, as writing the checksum changes the file and invalidates it. Its integrity must be verified against an external, trusted source of truth.",
+  "implementation": "For self-verifying scripts like 'verify_environment.py', the script must use the Git history to find the checksum from its last official, uniquely-salted 'Release Commit' and compare that to its current state."
+}
