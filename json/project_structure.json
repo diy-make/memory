@@ -1,0 +1,75 @@
+{
+  "project_structure": {
+    ".dotfiles/": {
+      ".bashrc_unique": "file",
+      ".screenrc": "file",
+      "gem_function.sh": "file"
+    },
+    ".gemini/": {
+      ".secrets.baseline": "file",
+      "settings.json": "file"
+    },
+    ".gitignore": "file",
+    ".memory/": {
+      "bot_crash_protocol.json": "file",
+      "broken_instance_protocol.json": "file",
+      "design_principles.json": "file",
+      "fatal_error_protocol.json": "file",
+      "file_architecture.json": "file",
+      "git_workflow.json": "file",
+      "job_takeover_protocol.json": "file",
+      "mcp.json": "file",
+      "parsing_config.json": "file",
+      "personality.json": "file",
+      "process_improvements.json": "file",
+      "programming_legalese_mcp.json": "file",
+      "project_structure.json": "file",
+      "rules.json": "file",
+      "session_tricks.json": "file",
+      "startup_protocol.json": "file",
+      "summarization_template.json": "file",
+      "svg_learnings.json": "file",
+      "swarm_protocol.json": "file"
+    },
+    ".pre-commit-config.yaml": "file",
+    "GEMINI.md": "file",
+    "README.md": "file",
+    "md/": {
+      "repo_map.md": "file",
+      "safe_public_commits_report.md": "file",
+      "tree_liturgy.md": "file"
+    },
+    "package.json": "file",
+    "requirements.txt": "file",
+    "scripts/": {
+      "py/": {
+        "clean_chat_logs.py": "file",
+        "create_higher_level_summaries.py": "file",
+        "estimate_chunks.py": "file",
+        "generate_clean_project_structure.py": "file",
+        "parse_chat_log.py": "file",
+        "read_swarm_messages.py": "file",
+        "send_swarm_message.py": "file",
+        "show_recent_chats.py": "file",
+        "structure_chat_logs.py": "file",
+        "summarize_logs.py": "file",
+        "test_swarm_communication.py": "file",
+        "validate_project_structure.py": "file"
+      },
+      "sh/": {
+        "run_monthly_summarization.sh": "file"
+      }
+    },
+    ".chat/": {
+      "description": "A separate Git repository for storing chat logs and related data.",
+      "git_repo": true,
+      "structure": {
+        "cleaned/": "directory",
+        "comms/": "directory",
+        "session_summaries/": "directory",
+        "unclean/": "directory",
+        "used_agent_names.json": "file"
+      }
+    }
+  }
+}
