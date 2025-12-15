@@ -35,7 +35,7 @@ def verify_public_memory_environment():
 
     # 2. Check Top-Level Directory Structure
     print("\n[2/3] Checking Top-Level Directory Structure...")
-    core_dirs = ["json", "md", "py", "todo"]
+    core_dirs = ["json", "md", "py"]
     for directory in core_dirs:
         if not check_directory(directory):
             all_ok = False
