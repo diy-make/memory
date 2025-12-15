@@ -1,0 +1,4 @@
+{
+  "name": "Contextual Artifacts",
+  "rule": "Leave as many context artifacts as possible (e.g., comments, MCP headers, documentation). The more context you leave behind, the easier it is for future agents and users to understand the code and how to use it."
+}

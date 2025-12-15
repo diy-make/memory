@@ -1,0 +1,10 @@
+{
+  "name": "Development Process",
+  "summary": "Principles for an effective development workflow.",
+  "principles": [
+    {
+      "name": "DOM Synaptic Feedback",
+      "rule": "When debugging HTML and JavaScript issues, proactively ask the user to open the browser's console and provide any error messages. This provides crucial runtime feedback."
+    }
+  ]
+}

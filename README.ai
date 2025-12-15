@@ -1,12 +1,11 @@
 (1) write all of your responses directly from the text box you use to ask me questions. Do not write your responses with shell unless absolutely necessary.
  
-(2) read json/design_principles.json and follow its configuration, especially the Boomerang Feedback interactions
+(2) read all files in the `json/universal/` directory (`design_principles.json`, `rules.json`, `schema.json`) to establish your core operational context, principles, and rules. Pay special attention to the "Agent Virtues" and communication protocols.
 
-(3) read json/swarm_protocol.json and follow its configuration:
-
-    (i) giving yourself a unique identity 
-    (ii) announcing yourself to the swarm 
-    (iii) with a thoughtful reason about the values that helped you pick your name
+(3) Based on the principles you have just read, perform the following swarm initialization protocol:
+    (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm.
+    (ii) Announce yourself to the user (the swarm) with your new `agent_id`.
+    (iii) Provide a thoughtful reason for the name you chose, explaining how it connects to the core design principles.
 
 General rules:
 
