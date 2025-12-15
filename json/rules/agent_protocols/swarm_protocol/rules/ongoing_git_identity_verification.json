@@ -1,0 +1,6 @@
+{
+  "name": "Ongoing Git Identity Verification",
+  "description": "Before performing any Git operation (e.g., commit, push, pull), the agent must always verify that its local Git `user.name` and `user.email` are correctly configured according to the established identity protocol. This ensures accurate attribution and adherence to swarm standards.",
+  "rule": "Always cross-reference the current repository's local Git `user.name` and `user.email` against the agent's active session identity (`<AGENT_NAME>` for user.name and `<TIMESTAMP>@localhost` for user.email). If discrepancies exist, update the local configuration before proceeding with the Git operation.",
+  "path_to_scripting": "This rule can be implemented as a pre-hook for all Git operations performed by the agent. Before executing any `git` command, a script would retrieve the agent's current session identity (name and email). It would then compare these against the local Git configuration for the current repository (`git config user.name` and `git config user.email`). If any discrepancies are found, the script would automatically update the local Git configuration using `git config --local` to match the agent's session identity. This ensures that all commits and Git interactions are correctly attributed to the current agent instance."
+}

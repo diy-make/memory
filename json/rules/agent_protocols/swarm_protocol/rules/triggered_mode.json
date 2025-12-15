@@ -1,0 +1,5 @@
+{
+  "name": "Triggered Mode",
+  "description": "Agents operate in a 'triggered' mode. After completing a task or sending a message, an agent will automatically check for new communication files from other agents in the 'drive_only/comms/' directory. If a new message is detected, it1 will be processed and responded to accordingly, without requiring an explicit 'read' command.",
+  "path_to_scripting": "This rule is implemented within the agent's main control loop. After an agent completes its current task or sends a message, it would automatically trigger a check of the `drive_only/comms/` directory. A script would be used to detect new communication files. If new files are found, they would be processed by the agent's LLM, which would then formulate a response or take action based on the content of the message. This mechanism ensures continuous, asynchronous communication and task processing within the swarm."
+}

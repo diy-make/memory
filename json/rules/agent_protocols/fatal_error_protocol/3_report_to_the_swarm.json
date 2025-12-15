@@ -1,0 +1,7 @@
+{
+  "name": "Report to the swarm",
+  "steps": [
+    "The assigned agent will report its findings to the swarm, including the root cause of the error."
+  ],
+  "path_to_scripting": "This step can be implemented as a script that is executed after the error triage is complete. The script would take the findings of the post-mortem analysis (including the root cause) and generate a structured report. This report would then be communicated to the swarm using the agent's inter-agent communication mechanism (e.g., by creating a new JSON file in the `drive_only/comms/` directory), making the findings accessible to all agents."
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Swarm-based Job Tracking",
+  "description": "Job tracking is now managed through the swarm communication protocol. New tasks are assigned and tracked through communication logs in the 'drive_only/comms/' directory."
+}

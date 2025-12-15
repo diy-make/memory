@@ -1,0 +1,4 @@
+{
+  "name": "Context Window Management",
+  "description": "If an agent's context window remaining drops below 40%, the agent should proactively inform the user and suggest creating a new agent instance to join the swarm and offload context. This is to prevent context window exhaustion and ensure session continuity."
+}

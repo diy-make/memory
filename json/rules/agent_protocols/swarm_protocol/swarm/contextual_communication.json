@@ -1,0 +1,4 @@
+{
+  "name": "Contextual Communication",
+  "description": "When communicating with the swarm, agents must provide enough context for other agents to understand the message without having to ask for clarification. This includes providing file paths, commit hashes, and any other relevant information."
+}

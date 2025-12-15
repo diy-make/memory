@@ -1,0 +1,4 @@
+{
+  "name": "Ephemeral Ordering",
+  "description": "All communication in the swarm should be timestamped to reflect the ephemeral nature of agents and to establish a clear order of events."
+}

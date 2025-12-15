@@ -1,0 +1,5 @@
+{
+  "name": "Step 2",
+  "description": "If the initial `tail` command does not reveal the root cause of the error, use `tail -n` with a significantly larger number of lines (e.g., 500 or more) to ensure sufficient context is retrieved.",
+  "path_to_scripting": "This step can be implemented as a script that is executed during the post-mortem analysis. If an initial `tail` command (or a similar log inspection) fails to provide enough context to identify the root cause of an error, this script would automatically execute `tail -n` with a larger number of lines (e.g., 500, or a configurable value). This allows for a deeper dive into the log file to retrieve more contextual information, without requiring manual intervention."
+}

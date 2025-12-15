@@ -1,0 +1,4 @@
+{
+  "name": "Find the Initial Task",
+  "description": "If the chat log is too large to read at once, use `tail -n +1 <file_path> | head -n <number_of_lines>` to read the beginning of the file. This will help you find the initial prompt and the task given to the agent. You may need to increase the number of lines until you find the information."
+}

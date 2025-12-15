@@ -1,0 +1,7 @@
+{
+  "name": "Identify Active Chats",
+  "description": "Identify active chat logs in the .chat/unclean directory to prevent them from being processed.",
+  "command": "lsof -c script",
+  "priority": "medium",
+  "path_to_scripting": "This rule can be directly implemented by executing the command specified in the `command` field: `lsof -c script`. The output of this command would then be parsed by a script to identify the active chat log files. These identified files would then be excluded from any processing that is intended for inactive or archived logs, ensuring that only completed sessions are summarized or moved."
+}

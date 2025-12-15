@@ -1,0 +1,18 @@
+{
+  "name": "Process and Log Inspection",
+  "steps": [
+    {
+      "name": "Step 1",
+      "description": "Use `ps aux | grep script` to find all active `script` processes that are logging Gemini sessions."
+    },
+    {
+      "name": "Step 2",
+      "description": "Extract the file paths of the `gemini_chat.txt` files from the process list."
+    },
+    {
+      "name": "Step 3",
+      "description": "Use `tail` to inspect the end of each log file for API errors or other signs of malfunction."
+    }
+  ],
+  "path_to_scripting": "This rule can be implemented as a script that is executed to identify active Gemini sessions and check their health. The script would execute `ps aux | grep script` to get a list of active `script` processes. It would then parse the output to extract the chat log file paths. For each chat log, it would use `tail` to inspect the end of the file for error messages or signs of malfunction. The script could then present a report to the agent's LLM, flagging any potentially broken instances."
+}

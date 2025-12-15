@@ -1,0 +1,5 @@
+{
+  "name": "Step 3",
+  "description": "After the user confirms they have terminated the process, list the active `script` processes again.",
+  "path_to_scripting": "This step can be implemented as a simple script that executes `ps aux | grep script` again, after the user confirms that a process has been terminated. The output of this command would then be parsed to extract an updated list of active `script` processes and their associated PIDs. This updated list would then be used in the next step to confirm the termination of the malfunctioning process."
+}

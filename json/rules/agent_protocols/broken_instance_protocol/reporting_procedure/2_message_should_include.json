@@ -1,0 +1,5 @@
+{
+  "name": "Step 2",
+  "description": "The message should include:",
+  "path_to_scripting": "This step can be implemented by prompting the agent's LLM to generate the content of the communication message. The LLM would be instructed to include specific information, such as the details of the broken instance, its root cause, and any identified last job. The LLM would format this information in a structured way (e.g., JSON) before it is written to the communication file."
+}

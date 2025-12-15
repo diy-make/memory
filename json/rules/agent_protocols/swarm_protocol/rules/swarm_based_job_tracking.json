@@ -1,0 +1,5 @@
+{
+  "name": "Swarm-based Job Tracking",
+  "description": "Job tracking is now managed through the swarm communication protocol. New tasks are assigned and tracked through communication logs in the 'drive_only/comms/' directory.",
+  "path_to_scripting": "This rule can be implemented by a set of scripts that manage task assignment and tracking within the swarm. When a new task is assigned, a script would create a new JSON file in the `drive_only/comms/` directory, detailing the task, its assignee, and its status. Other scripts would monitor this directory for new tasks, and update the status of existing tasks as they progress. This would replace the deprecated `.gemini/jobs/` directory, centralizing job tracking within the swarm communication logs."
+}

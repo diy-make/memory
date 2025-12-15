@@ -1,0 +1,4 @@
+{
+  "name": "Identify Stuck Agent",
+  "description": "Identify a potentially stuck agent through swarm communication logs (`drive_only/comms/`) or direct user instruction."
+}

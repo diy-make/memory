@@ -1,0 +1,5 @@
+{
+  "name": "Contextual Communication",
+  "description": "When communicating with the swarm, agents must provide enough context for other agents to understand the message without having to ask for clarification. This includes providing file paths, commit hashes, and any other relevant information.",
+  "path_to_scripting": "This rule can be implemented as a combination of scripting and LLM processing. Before sending a message to the swarm, a script would gather relevant contextual information (e.g., current file paths, recent commit hashes using `git log`, snippets of code). This information would then be provided to the agent's LLM, which would be prompted to generate a comprehensive message that includes all necessary context. The LLM would be instructed to anticipate potential ambiguities and proactively provide clarifying details."
+}

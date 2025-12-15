@@ -1,0 +1,7 @@
+{
+  "name": "Process Unsummarized Chat Logs",
+  "description": "Identifies and summarizes unsummarized chat logs using scripts/py/process_unsummarized_logs.py.",
+  "priority": "low",
+  "command": "python3 scripts/py/process_unsummarized_logs.py",
+  "path_to_scripting": "This rule can be directly implemented by executing the command specified in the `command` field: `python3 scripts/py/process_unsummarized_logs.py`. This script would be run periodically or on demand to identify and summarize unsummarized chat logs. This is a crucial part of the agent's long-term memory management."
+}

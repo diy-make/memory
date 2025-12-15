@@ -1,0 +1,5 @@
+{
+  "name": "Swarm Inquiry",
+  "description": "If an agent encounters an unexpected change or a situation that is unclear, it should proactively inquire with other swarm members to seek clarification before taking action. This ensures that all agents are working with the most accurate and up-to-date information.",
+  "path_to_scripting": "This rule can be implemented as a combination of LLM prompting and inter-agent communication scripts. When an agent encounters an unexpected change or an unclear situation, its LLM would be prompted to identify the ambiguity and formulate a clarifying question. A communication script would then send this question to relevant swarm members (e.g., by creating a new JSON file in the `drive_only/comms/` directory, addressing specific agents or the entire swarm). The agent would then wait for responses before proceeding, ensuring that actions are based on accurate and complete information."
+}

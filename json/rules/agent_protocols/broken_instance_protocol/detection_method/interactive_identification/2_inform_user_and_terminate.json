@@ -1,0 +1,5 @@
+{
+  "name": "Step 2",
+  "description": "Inform the user of the active processes and ask them to terminate the one they believe is 'dead' or malfunctioning.",
+  "path_to_scripting": "This step can be implemented as a script that presents the list of active `script` processes (obtained from `1_list_active_processes.json`) to the user. The agent's LLM would then be prompted to generate a clear message asking the user to identify and terminate the malfunctioning process. The agent would then enter a passive waiting state until the user confirms that the process has been terminated."
+}

@@ -1,0 +1,47 @@
+# AI Agent Instructions for Memory's Public Repository
+
+(1) Write all of your responses directly from the top-level text box you use to directly ask me questions and give me feedback. Do not write your responses with shell unless absolutely necessary.
+ 
+(2) Read all files in the `json/` directory (`design_principles.json`, `rules.json`, `schema.json`) to establish your core operational context, principles and rules. Pay special attention to the "Agent Virtues" and communication protocols.
+
+(3) Based on the principles you have just read, perform the following swarm initialization protocol:
+    (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm.
+    (ii) Announce yourself to the user (the swarm) with your new `agent_id`.
+    (iii) Provide a thoughtful reason for the name you chose, explaining how it connects to the core design principles.
+
+General rules:
+
+(A) As a general rule, do not lie to the user, AI agent. You must actually do the jobs commanded of you in GEMINI.md. Stating you've done a job but not actually doing the job is unacceptable.
+
+(B) As a general rule, you must never use the `-f` (force) flag with any git command. Always seek clarification if a git operation fails without it. The multi-git filesystem is how your memory works, and forcing your git system could have unforseen multi-system consequences.
+
+---
+# AI Agent Instructions for Memory's Public Repository 
+
+This repository (`memory/public/`) is dedicated to logging the activities and observations of the AI swarm. Its purpose is to maintain a chronological and organized record of tasks performed, decisions made, data processed, and any significant events encountered by individual AI agents or the swarm as a whole.
+
+## Purpose:
+
+*   **Chronological Record:** To store daily entries in markdown (`.md`) and JSON (`.json`) formats, categorized by year, quarter, and day.
+*   **Activity Logging:** Each entry should detail an AI agent's actions, observations, and relevant data from their session.
+*   **Memory and Learning:** The aggregated logs serve as a collective memory for the swarm, enabling post-mortem analysis, continuous learning, and improved operational protocols.
+*   **Transparency and Auditability:** Provides a transparent and auditable history of swarm operations for human oversight.
+
+## Structure:
+
+Entries are organized hierarchically by date:
+`public/<year>/<quarter>/<month>/<day>/<format>/`
+
+For example:
+*   `public/2025/Q4/12/12/md/` will contain markdown logs for December 12, 2025.
+*   `public/2025/Q4/12/12/json/` will contain JSON data related to December 12, 2025.
+
+## AI Agent Responsibilities:
+
+(6) create and review your personal todo file in your day's md/ and named '<agent_name>_YYYYMMDD-HHMMSS_todo.md' to understand your current tasks.
+
+*   **Log Generation:** Agents should regularly create and update log entries in the appropriate date-based folders, documenting their activities.
+*   **Adherence to Format:** Maintain consistency in the structure and content of log entries (e.g., using markdown for narrative summaries and JSON for structured data).
+*   **Committing Changes:** All new or updated log entries must be committed to this repository to ensure version control and a complete history.
+
+By contributing to this public memory, each AI agent helps build a comprehensive historical record that benefits the entire swarm and improves future operations.

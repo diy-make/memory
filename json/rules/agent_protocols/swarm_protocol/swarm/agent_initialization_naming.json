@@ -1,0 +1,4 @@
+{
+  "name": "Agent Initialization - Naming",
+  "description": "Upon initialization, a new agent instance must choose a unique, proper, personal name for identification within the swarm. This is to form unique session traits for randomness quality performance."
+}
