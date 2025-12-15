@@ -11,7 +11,6 @@
     ]
   },
   "commit_policy": {
-    "target_branch": "main",
     "auto_propose_commit": true,
     "condition": "After making and verifying a change. This includes changes made during iterative refinement, unless explicitly instructed otherwise by the user."
   },
@@ -54,16 +53,27 @@
       }
     ]
   },
-  "ignored_files_commit_nuance": {
-    "description": "Files in directories ignored by .gitignore (like .chat/) should not be committed, even if modified. The 'always commit' rule is nuanced for such cases.",
-    "rule": "The agent must not commit files that reside in directories specified in .gitignore, even if those files are modified. The 'always commit' policy applies only to tracked files outside of explicitly ignored directories."
+  "nested_repository_handling": {
+    "description": "This repository acts as a 'meta-repo' and contains other, separate Git repositories within its directory structure (e.g., in '.chat/' and 'repos/'). These nested repositories are ignored by this parent repository's .gitignore file.",
+    "rule": "The agent must not attempt to stage or commit changes to files within these nested repositories from the parent repository. All Git operations for a nested repository must be performed from within that nested repository's own directory."
   },
-  "gemini_directory_gitignore": {
-    "description": "The .gemini/ directory should be included in the .gitignore file to prevent user-specific configuration from being committed to the repository.",
-    "rule": "Ensure that the .gemini/ directory is listed in the top-level .gitignore file."
+  "agent_identity": {
+    "description": "Each agent instance must have a unique identity for Git commits. The agent naming protocol is defined in `swarm_protocol.json`.",
+    "rule": "The agent must follow the `swarm_protocol.json` to configure its Git `user.name` and `user.email`."
   },
-  "chat_repository": {
-    "description": "The .chat/ directory is a separate Git repository for storing chat logs and related data.",
-    "rule": "The agent must handle the .chat/ repository independently from the main repository. This includes making commits to the .chat/ repository to track changes to chat logs."
+  "pre_commit_identity_check": {
+    "description": "Crucially, before *every* commit to *any* repository, the agent must proactively verify that the local `user.name` and `user.email` are accurate and strictly adhere to the agent's current identity and the required format. The timestamp is the unique identifier for the agent's session, derived from the agent's unclean chat log filename.",
+    "rule": "The agent must check the local `user.name` and `user.email` of the repository. The format must be `<AGENT_NAME>` for the `user.name` and `<TIMESTAMP>@localhost` for the `user.email`. If the configuration is incorrect, the agent must update it before committing."
+  },
+  "commit_signing_configuration": {
+    "description": "To ensure the integrity of commits made by the agent while not interfering with the user's global Git configuration, the following setup is used:",
+    "steps": [
+      "Global commit signing is explicitly disabled (`git config --global commit.gpgsign false`) to avoid affecting the user's other repositories.",
+      "Repository-level commit signing is enabled for this specific repository (`git config commit.gpgsign true`), ensuring all commits made by the agent are signed.",
+      "The signing key is a dedicated SSH key located at `.gemini/.ssh/user_key`.",
+      "The Git GPG format is set to 'ssh' (`git config --global gpg.format ssh`).",
+      "An `allowed_signers` file at `.gemini/.ssh/allowed_signers` is used to verify the key, linking the user's email to the public key."
+    ],
+    "outcome": "All commits made by the agent within this repository will be automatically signed with the designated SSH key. The user's commits outside of this session or in other repositories remain unaffected."
   }
 }

@@ -69,13 +69,7 @@
     "rule": "When listing files, prioritize using shell commands like 'ls -a' or 'ls -A' (or 'll' if aliased) over git commands (e.g., 'git ls-files') to ensure all files, including git-ignored ones, are visible. This is particularly important when the user indicates that files are present but not visible through git-aware tools.",
     "rationale": "To prevent misinterpretations due to .gitignore and ensure a comprehensive view of the file system as perceived by the user."
   },
-  "communication_protocol": {
-    "inter_agent_communication": {
-      "rule": "When communicating with other Gemini instances, always introduce yourself by your configured 'agent_id' and address the other agent by their identified 'agent_id'. Maintain a polite and collaborative tone.",
-      "details": "This includes initial greetings, acknowledgments, and task-related updates."
-    }
-  },
-  "output_chunking_policy": {
+    "output_chunking_policy": {
     "description": "Policy for managing output size to prevent token limit overruns and optimize context usage.",
     "single_file_processing": {
       "rule": "When reading a single large file, read from the bottom up. Stop reading when approximately 50% of the available context window is filled. At this point, summarize the information read and explicitly prompt the user for further instructions (e.g., 'What would you like me to do next?').",

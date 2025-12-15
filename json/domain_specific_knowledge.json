@@ -69,16 +69,6 @@
         }
       ]
     },
-    "documentation_standards": {
-      "summary": "The codebase uses a structured comment format for documentation.",
-      "format": {
-        "title": "[Title] : Heading",
-        "section": "[Section] : Section Name",
-        "subsection": "[Subsection] : Subsection Name"
-      },
-      "purpose": "To provide a consistent and machine-readable format for documenting code.",
-      "related_files": ["C++ Reader::addComment", "various [Title] snippets"]
-    },
     "bim_concepts": {
         "name": "Building Information Modeling (BIM)",
         "summary": "BIM is a collaborative process for managing digital representations of built assets.",

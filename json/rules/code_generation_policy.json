@@ -43,11 +43,14 @@
     }
   },
   "structured_commenting_convention": {
-    "rule": "When documenting code, use the structured comment format defined in `domain_specific_knowledge.json`.",
+    "summary": "The codebase uses a structured comment format for documentation.",
+    "rule": "When documenting code, use the following structured comment format.",
     "format": {
       "title": "[Title] : Heading",
       "section": "[Section] : Section Name",
       "subsection": "[Subsection] : Subsection Name"
-    }
+    },
+    "purpose": "To provide a consistent and machine-readable format for documenting code.",
+    "related_files": ["C++ Reader::addComment", "various [Title] snippets"]
   }
 }
