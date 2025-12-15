@@ -1,0 +1,5 @@
+{
+  "rule": "Singular/Plural Ambiguity Check",
+  "description": "If a file lookup fails due to a 'File Not Found' error, and the filename contains a word that could be singular or plural, perform a secondary check for the alternative form.",
+  "implementation": "Before reporting a failure, construct a new path with the alternative form (e.g., 'screenshot' -> 'screenshots', 'files' -> 'file'). If this alternative path exists, ask the user for clarification, e.g., 'I could not find [original_path], but I found [alternative_path]. Did you mean to use this one?'. This prevents failures due to simple pluralization ambiguity."
+}
