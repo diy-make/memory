@@ -25,47 +25,21 @@ class StartupOrchestrator(dspy.Module):
     def forward(self, task_description):
         return self.generate_command(task_description=task_description)
 
+import argparse
+
 # --- Main Orchestration Script ---
-def dspy_startup_process():
+def dspy_startup_process(memory_module_path):
     print("\n--- Starting DSPy Startup Process ---")
 
-    startup_protocol_dir = "json/agent_protocols/startup/"
+    startup_protocol_dir = os.path.join(memory_module_path, "json/agent_protocols/startup/")
 
     if not os.path.exists(startup_protocol_dir):
         print(f"Startup protocol directory not found at: {startup_protocol_dir}")
         return
-
-    # Read the startup protocol files
-    startup_tasks = []
-    for filename in sorted(os.listdir(startup_protocol_dir)):
-        if filename.endswith(".json"):
-            try:
-                with open(os.path.join(startup_protocol_dir, filename), 'r') as f:
-                    startup_tasks.append(json.load(f))
-            except (json.JSONDecodeError, KeyError) as e:
-                print(f"Error processing {filename}: {e}")
-
-    # For this demo, we'll simulate the orchestration
-    orchestrator = StartupOrchestrator()
-
-    for task in startup_tasks:
-        print(f"\n--- Executing Task: {task.get('name', 'Unnamed Task')} ---")
-        
-        # In a real scenario, you would use DSPy to generate the command
-        # prediction = orchestrator.forward(task_description=task.get('description', ''))
-        # command_to_execute = prediction.shell_command
-
-        # For this demo, we'll use the 'command' field if it exists,
-        # otherwise we'll just print the description.
-        if "command" in task:
-            command_to_execute = task["command"]
-            print(f"  > Executing command: {command_to_execute}")
-            # Here you would run the command using subprocess or run_shell_command
-        else:
-            print(f"  > (No command defined for this task)")
-            print(f"  > Description: {task.get('description', '')}")
-
-    print("\n--- DSPy Startup Process Complete ---")
-
+...
 if __name__ == "__main__":
-    dspy_startup_process()
+    parser = argparse.ArgumentParser(description="Run the DSPy startup process.")
+    parser.add_argument("memory_module_path", type=str, help="The path to the memory module.")
+    args = parser.parse_args()
+
+    dspy_startup_process(args.memory_module_path)

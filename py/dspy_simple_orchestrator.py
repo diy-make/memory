@@ -26,6 +26,7 @@ class SimpleOrchestrator(dspy.Module):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate a sequence of shell commands from a high-level goal.")
     parser.add_argument("goal", type=str, help="The high-level goal.")
+    parser.add_argument("memory_module_path", type=str, help="The path to the memory module.")
     args = parser.parse_args()
 
     # Initialize the DSPy module (without a real LM for this demo)
@@ -38,7 +39,7 @@ if __name__ == "__main__":
     # Placeholder for generated commands
     simulated_commands = ""
     try:
-        with open("json/rules/session_behavior/command_interpretation.json", 'r') as f:
+        with open(os.path.join(args.memory_module_path, "json/rules/session_behavior/command_interpretation.json"), 'r') as f:
             command_rules = json.load(f)
         
         # Simplified interpretation based on the first matching rule
@@ -51,7 +52,7 @@ if __name__ == "__main__":
                 break
             elif "commit changes" in args.goal.lower() and "create_json_punchcard" in step_str.lower(): # Placeholder for commit
                 # This part is more complex, need to integrate with commit_process.json
-                with open("json/git_protocols/workflow/commit_process.json", 'r') as cf:
+                with open(os.path.join(args.memory_module_path, "json/git_protocols/workflow/commit_process.json"), 'r') as cf:
                     commit_process_rule = json.load(cf)
                 commit_message = re.sub(r"commit changes with message:", "", args.goal).strip()
                 if not commit_message:
