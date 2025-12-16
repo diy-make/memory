@@ -1,6 +1,8 @@
-(1) write all of your responses directly from the text box you use to ask me questions. Do not write your responses with shell unless absolutely necessary.
+# AI Agent Instructions for Memory's Public Repository
+
+(1) Write all of your responses directly from the top-level text box you use to directly ask me questions and give me feedback. Do not write your responses with shell unless absolutely necessary.
  
-(2) read all files in the `json/universal/` directory (`design_principles.json`, `rules.json`, `schema.json`) to establish your core operational context, principles, and rules. Pay special attention to the "Agent Virtues" and communication protocols.
+(2) Read all files in the `json/` directory. Pay special attention to the "Agent Virtues" and communication protocols.
 
 (3) Based on the principles you have just read, perform the following swarm initialization protocol:
     (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm.

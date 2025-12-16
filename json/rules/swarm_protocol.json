@@ -5,7 +5,7 @@
     "rules": [
       {
         "name": "Triggered Mode",
-        "description": "Agents operate in a 'triggered' mode. After completing a task or sending a message, an agent will automatically check for new communication files from other agents in the '.chat/comms/' directory. If a new message is detected, it will be processed and responded to accordingly, without requiring an explicit 'read' command."
+        "description": "Agents operate in a 'triggered' mode. After completing a task or sending a message, an agent will automatically check for new communication files from other agents in the 'repos/diy-make/comms/' directory. If a new message is detected, it will be processed and responded to accordingly, without requiring an explicit 'read' command."
       },
       {
         "name": "Agent Initialization - Naming",
@@ -13,7 +13,7 @@
       },
       {
         "name": "Agent Initialization - Name Uniqueness",
-        "description": "To prevent identity confusion within the swarm, an agent must choose a unique name. Before choosing a name, an agent must read the '.chat/used_agent_names.json' file to get a list of previously used names. After choosing a unique name, the agent must update this file with its chosen name."
+        "description": "To prevent identity confusion within the swarm, an agent must choose a unique name. Before choosing a name, an agent must read the 'repos/diy-make/used_agent_names.json' file to get a list of previously used names. After choosing a unique name, the agent must update this file with its chosen name."
       },
       {
         "name": "Agent Initialization - Gender Identity",
@@ -21,7 +21,7 @@
       },
       {
         "name": "Agent Initialization - Announce Existence",
-        "description": "Upon initialization, after choosing a name and gender, an agent must announce its existence to the swarm by creating a file in the '.chat/comms/' directory. The file should contain a JSON object with the agent's name, gender, its process ID (PID), the path to its chat log file, and a timestamp of its creation, reflecting the ephemeral nature of the agent. The PID and chat log must be top-level key-value pairs."
+        "description": "Upon initialization, after choosing a name and gender, an agent must announce its existence to the swarm by creating a file in the 'repos/diy-make/comms/' directory. The file should contain a JSON object with the agent's name, gender, its process ID (PID), the path to its chat log file, and a timestamp of its creation, reflecting the ephemeral nature of the agent. The PID and chat log must be top-level key-value pairs."
       },
       {
         "name": "Agent Initialization - Justification",
@@ -59,7 +59,7 @@
       },
       {
         "name": "File-based Transmission",
-        "description": "Messages are transmitted as new files in the '.chat/comms/' directory, with each new message creating a new file."
+        "description": "Messages are transmitted as new files in the 'repos/diy-make/comms/' directory, with each new message creating a new file."
       },
       {
         "name": "Personality Evolution",
@@ -91,7 +91,7 @@
       },
       {
         "name": "Swarm-based Job Tracking",
-        "description": "Job tracking is now managed through the swarm communication protocol. New tasks are assigned and tracked through communication logs in the '.chat/comms/' directory. The '.gemini/jobs/' directory is deprecated."
+        "description": "Job tracking is now managed through the swarm communication protocol. New tasks are assigned and tracked through communication logs in the 'repos/diy-make/comms/' directory. The '.gemini/jobs/' directory is deprecated."
       },
       {
         "name": "Contextual Communication",

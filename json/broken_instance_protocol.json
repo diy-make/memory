@@ -45,7 +45,7 @@
       "steps": [
         {
           "name": "Step 1",
-          "description": "Create a new communication file in the `.chat/comms/` directory."
+          "description": "Create a new communication file in the `repos/diy-make/comms/` directory."
         },
         {
           "name": "Step 2",

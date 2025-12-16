@@ -5,19 +5,19 @@
     "steps": [
       {
         "name": "Identify Stuck Agent",
-        "description": "Identify a potentially stuck agent through swarm communication logs (`.chat/comms/`) or direct user instruction."
+        "description": "Identify a potentially stuck agent through swarm communication logs (`repos/diy-make/comms/`) or direct user instruction."
       },
       {
         "name": "Confirm Agent State",
-        "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's unclean chat log located in the `.chat/unclean/` directory. Look for repetitive actions or errors."
+        "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's unclean chat log located in the `dynamic/stream/` directory. Look for repetitive actions or errors."
       },
       {
         "name": "Identify Task",
-        "description": "Determine the stuck agent's last task by reviewing the swarm communication logs in `.chat/comms/`. Look for messages indicating the agent's current objective."
+        "description": "Determine the stuck agent's last task by reviewing the swarm communication logs in `repos/diy-make/comms/`. Look for messages indicating the agent's current objective."
       },
       {
         "name": "Announce Takeover",
-        "description": "Announce the task takeover to the swarm by creating a new communication file in `.chat/comms/`. The message should include: your name, the name of the stuck agent, the task you are taking over, and how you identified the task."
+        "description": "Announce the task takeover to the swarm by creating a new communication file in `repos/diy-make/comms/`. The message should include: your name, the name of the stuck agent, the task you are taking over, and how you identified the task."
       }
     ]
   }
