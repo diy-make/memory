@@ -7,11 +7,8 @@ from PIL import Image
 
 def describe_image(image_path):
     """
-    Uses the agent's built-in read_file tool to get a description of an image.
-    This is a placeholder for the real tool call.
+    Simulates image description by analyzing the filename.
     """
-    # In a real agent environment, this would be a call to the read_file tool.
-    # For now, we will simulate it by returning a description based on the filename.
     filename = os.path.basename(image_path)
     description = filename.replace(".png", "").replace(".jpg", "").replace("-", " ")
     return f"This is an image of: {description}"
@@ -42,8 +39,7 @@ def describe_images_in_folder(folder_path):
             with open(md_path, 'w', encoding='utf-8') as f:
                 f.write(f"# {filename}\n\n")
                 f.write(f"![{description}]({filename})\n\n")
-                f.write(f"*{description}*")
-
+                f.write(f"*{description}*\n")
             print(f"    - Created description file: {md_filename}")
 
     print("\n--- Simple Image Description Process Complete ---")
