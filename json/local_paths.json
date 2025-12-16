@@ -1,8 +1,8 @@
 {
   "local_paths": {
     "chat_history": "dynamic/stream/",
-    "swarm_comms": "repos/diy-make/comms/",
-    "used_agent_names": "repos/diy-make/used_agent_names.json",
+    "swarm_comms": "repos/diy-make/memory/comms/",
+    "used_agent_names": "repos/diy-make/memory/used_agent_names.json",
     "memory_json": "repos/diy-make/memory/public/json/"
   }
 }
