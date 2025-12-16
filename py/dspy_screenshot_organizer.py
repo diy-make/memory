@@ -10,13 +10,15 @@ import json
 # This dictionary maps known screenshot filenames to their analysis.
 SIMULATED_ANALYSIS = {
     "Screenshot from 2025-12-14 10-00-08.png": {
-        "descriptive_title": "Agent-Acknowledges-V1-Plan",
-        "detailed_description": "A screenshot showing the agent Zion acknowledging the V1 cleanup plan.",
+        "descriptive_title": "Agent Acknowledges V1 Plan",
+        "alt_text": "A screenshot showing the agent Zion acknowledging the V1 cleanup plan.",
+        "description": "This screenshot shows the agent Zion acknowledging the V1 cleanup plan.",
         "key_takeaway": "The agent confirms its understanding before executing a complex, multi-step task."
     },
     "Screenshot from 2025-12-14 10-44-05.png": {
-        "descriptive_title": "Agent-Revises-README-for-AL",
-        "detailed_description": "A screenshot showing the agent rewriting the main README.md to include the 'Artificial Life' concept.",
+        "descriptive_title": "Agent Revises README for AL",
+        "alt_text": "A screenshot showing the agent rewriting the main README.md to include the 'Artificial Life' concept.",
+        "description": "A screenshot showing the agent rewriting the main README.md to include the 'Artificial Life' concept.",
         "key_takeaway": "The project's core documentation is updated to reflect its ultimate goal of creating Artificial Life."
     }
     # Add other known screenshots here...
@@ -31,7 +33,8 @@ class GenerateImageTitle(dspy.Signature):
 class AnalyzeImageContext(dspy.Signature):
     """Given a title, generate a detailed description and a key takeaway for the screenshot."""
     image_title = dspy.InputField(desc="The descriptive title of the screenshot.")
-    detailed_description = dspy.OutputField(desc="A one-sentence description of the image's content for alt-text.")
+    alt_text = dspy.OutputField(desc="A one-sentence description of the image's content for alt-text.")
+    description = dspy.OutputField(desc="A one-sentence description of the image's content for the body of the markdown file.")
     key_takeaway = dspy.OutputField(desc="A single, concise insight or conclusion drawn from the screenshot.")
 
 
@@ -43,7 +46,9 @@ class ScreenshotAnalysisModule(dspy.Module):
         # self.analyze_context = dspy.Predict(AnalyzeImageContext)
 
     def forward(self, original_filename):
-        # Simulate the multi-modal analysis based on the filename
+        # This is a simulated multi-modal analysis.
+        # In a real scenario, this would involve a multi-modal model to analyze the image.
+        # For now, we use a dictionary to simulate the analysis based on the filename.
         if original_filename in SIMULATED_ANALYSIS:
             return dspy.Example(**SIMULATED_ANALYSIS[original_filename])
         
@@ -52,7 +57,8 @@ class ScreenshotAnalysisModule(dspy.Module):
         fallback_title = os.path.splitext(original_filename)[0].replace(" ", "-").replace(":", "-")
         return dspy.Example(
             descriptive_title=fallback_title,
-            detailed_description=f"A screenshot taken from the session on {original_filename.split(' ')[2]}.",
+            alt_text=f"A screenshot from the session on {original_filename.split(' ')[2]}.",
+            description="This screenshot has not been analyzed. A human should add a description.",
             key_takeaway="This screenshot's content has not been analyzed."
         )
 
@@ -62,7 +68,7 @@ def slugify(text):
     return re.sub(r'[^a-zA-Z0-9-]', '', text)
 
 def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
-    print("\n--- Starting Screenshot Organization (V2) ---")
+    print("\n--- Starting Screenshot Organization (V3) ---")
 
     if not os.path.exists(source_png_dir) or not os.listdir(source_png_dir):
         print("No screenshots found in the source directory to process.")
@@ -96,12 +102,12 @@ def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
         os.makedirs(day_md_dir, exist_ok=True)
 
         # Path for the final markdown report for this day
-        report_filename = f"{day_str}_Screenshot_Analysis.md"
+        report_filename = "Screenshots.md"
         report_path = os.path.join(day_md_dir, report_filename)
 
         # Write header to the new report file
         with open(report_path, 'w', encoding='utf-8') as f:
-            f.write(f"# Snapshots for {day_str}\n\n")
+            f.write(f"# Day {date_obj.day} Snapshots\n\n")
 
         processed_files = []
         for i, original_filename in enumerate(sorted(filenames), 1):
@@ -115,15 +121,19 @@ def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
             new_path = os.path.join(day_png_dir, new_filename)
 
             # 3. Move and rename the file
-            shutil.move(original_path, new_path)
-            print(f"  - Moved and renamed: {original_filename} -> {new_filename}")
-            
+            if os.path.exists(original_path):
+                shutil.move(original_path, new_path)
+                print(f"  - Moved and renamed: {original_filename} -> {new_filename}")
+            else:
+                print(f"  - Source file not found, assuming already moved: {original_filename}")
+
+
             # 4. Append to the markdown report
             with open(report_path, 'a', encoding='utf-8') as f:
                 f.write("---\n\n")
-                f.write(f"**{i}. {analysis.descriptive_title.replace('-', ' ').title()}**\n")
-                f.write(f"![{analysis.detailed_description}]({os.path.join('../../png', new_filename)})")
-                f.write(f"*{analysis.detailed_description}*\n\n")
+                f.write(f"**{i}. {analysis.descriptive_title}**\n")
+                f.write(f"![{analysis.alt_text}]({os.path.join('../../png', new_filename)})")
+                f.write(f"*{analysis.description}*\n\n")
                 f.write(f"*   **Key Takeaway:** {analysis.key_takeaway}\n\n")
             
             processed_files.append(new_filename)
@@ -133,16 +143,16 @@ def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
         with open(index_md_path, 'w', encoding='utf-8') as f:
             f.write(f"# PNG Index for {day_str}\n\n")
             for filename in processed_files:
-                f.write(f"- [{filename}]({os.path.join('../png', filename)})")
+                f.write(f"- [{filename}]({os.path.join('../png', filename)})\n")
         print(f"Created index file at {index_md_path}")
         print(f"Appended {len(processed_files)} entries to {report_path}")
 
     print("\n--- Screenshot Organization Complete ---")
 
 if __name__ == "__main__":
-    # This script is designed to be run from the root of the 'gemini/' repository.
-    # It operates on the 'repos/diy-make/memory/public/' repository.
-    public_memory_root = "repos/diy-make/memory/public"
-    source_dir = os.path.join(public_memory_root, "png")
-    
-    orchestrate_screenshot_organization(public_memory_root, source_dir)
+    parser = argparse.ArgumentParser(description="Organize screenshots into a date-based hierarchy.")
+    parser.add_argument("source_dir", type=str, help="The source directory containing the screenshots.")
+    parser.add_argument("--memory_repo_root", type=str, default="repos/diy-make/memory/public", help="The root of the memory repository.")
+    args = parser.parse_args()
+
+    orchestrate_screenshot_organization(args.memory_repo_root, args.source_dir)
