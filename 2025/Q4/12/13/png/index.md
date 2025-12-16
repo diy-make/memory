@@ -1,7 +1,3 @@
-# PNG Index for 2025/Q4/12/13
+# PNG Index for 2025-12-13
 
-This file indexes all PNG images for this day.
-
-1. **[01-search-icon.png](./01-search-icon.png)**
-    * *Description:* A screenshot of a computer screen, likely showing code or a terminal, taken on /home/bestape/gemini/repos/diy-make/memory/public/png/Screenshot from 2025-12-13 14-00-00.png
-
+- [01-screenshot-from-2025-12-13-19-16-42.png](../png/01-screenshot-from-2025-12-13-19-16-42.png)- [02-screenshot-from-2025-12-13-19-24-17.png](../png/02-screenshot-from-2025-12-13-19-24-17.png)

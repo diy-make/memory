@@ -108,7 +108,7 @@ def orchestrate_screenshot_organization(memory_repo_root, source_png_dir):
             original_path = os.path.join(source_png_dir, original_filename)
             
             # 1. Analyze image to get metadata
-            analysis = analyzer.forward(original_filename=original_filename)
+            analysis = analyzer(original_filename=original_filename)
             
             # 2. Generate new filename
             new_filename = f"{i:02d}-{slugify(analysis.descriptive_title)}.png"
