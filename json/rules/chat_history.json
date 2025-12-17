@@ -3,9 +3,11 @@
   "description": "Configuration for identifying and storing chat history.",
   "location": "dynamic/stream/",
   "identification_protocol": {
-    "step_1": "Consult `local_paths.json` to find the `chat_history` directory (default: `dynamic/stream/`).",
-    "step_2": "The active chat log is the file within this directory that corresponds to the current session's timestamp or process ID.",
-    "step_3": "To verify, checking the `lsof` of files in this directory can confirm which one is actively held open by the agent's process."
+    "step_1": "Determine the Process ID (PID) of the current shell or agent process (e.g., using `echo $$` or `ps -o ppid= -p $$`).",
+    "step_2": "Use `ps aux | grep gemini` (or a similar process list command) to find the full command line of the active `script` process associated with that PID hierarchy.",
+    "step_3": "Extract the specific chat log filename from the `script` command's arguments (e.g., `script -q -c gemini dynamic/stream/timestamp_gemini_chat.txt`).",
+    "step_4": "Verify that the identified file path exists in the filesystem using `ls` or `test -f`. Do NOT rely solely on timestamps.",
+    "step_5": "If multiple matches occur, verify which file descriptor is actually open by the process using `lsof -p <PID>`."
   },
-  "path_to_scripting": "This JSON file defines the location where active chat history is stored. Scripts should use the `local_paths.json` configuration to locate the `dynamic/stream/` directory. The active log can be identified by finding the most recent file or the file currently locked by the agent's process."
+  "path_to_scripting": "Scripts must dynamically determine the active log file by tracing the process tree rather than guessing based on time. Use `ps` to find the `script` invocation that launched the current session and parse its arguments to find the exact `.txt` file path. Always verify file existence before proceeding."
 }

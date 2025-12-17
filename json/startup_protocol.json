@@ -37,7 +37,7 @@
       },
       {
         "name": "Find Thy Chat",
-        "description": "Identify the agent's own process ID (PID) and the chat log file it is writing to.",
+        "description": "Identify the agent's own process ID (PID) and tracing the process tree to find the exact chat log file path being written to, as per the protocol in 'chat_history.json'. Verify the file exists.",
         "priority": "high"
       },
       {
