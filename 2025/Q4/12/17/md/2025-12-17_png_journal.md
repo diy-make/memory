@@ -132,3 +132,38 @@
 ![12-agent-refines-metagit-ontology.png](../../png/12-agent-refines-metagit-ontology.png)
 *A screenshot of a terminal interface. The AI agent, Zion, refines its internal model based on user feedback. It acknowledges that `memory/public/` is not an 'operating system' but a 'memory module'. It defines the `gemini/` repository as the 'Orchestration Layer' or 'Metagit Root' that loads context from the memory module at boot.*
 *   **Key Takeaway:** The agent updates its ontological understanding of the system, correctly distinguishing between the execution environment (`gemini/` orchestration layer) and the passive context storage (`memory/public/` module).
+
+---
+
+**20. User Redirects Agent to Deeper Architecture Files**
+![13-user-redirects-agent-to-deeper-architecture-files.png](../../png/13-user-redirects-agent-to-deeper-architecture-files.png)
+*A screenshot of a terminal interface. The AI agent, Zion, presents a report distinguishing the roles of `gemini/`, `dotfiles/`, `repos/`, and `memory/public/`. The user corrects the agent, stating that `memory/public` is just an example memory module and that the agent should look at `dotfiles/gem_function.sh` and the `repo_map` to understand the full system. The user wants the agent to produce a comprehensive V2 report.*
+*   **Key Takeaway:** The user provides critical guidance, directing the agent to specific files (`gem_function.sh`, `repo_map`) to build a more accurate model of the system architecture, highlighting the need for comprehensive analysis beyond just the `memory/public` module.
+
+---
+
+**21. Agent Identifies Unaccounted-For Components**
+![14-agent-identifies-unaccounted-for-components.png](../../png/14-agent-identifies-unaccounted-for-components.png)
+*A screenshot of a terminal interface showing a report from the AI agent, Zion. The report lists 'Unaccounted For Components' in the `gemini/` root, including top-level directories like `agents/`, `data_processing/`, etc., and DSPy-related directories. The agent notes the user's instruction to investigate these as part of the V2 roadmap.*
+*   **Key Takeaway:** The agent identifies and lists unknown components within the `gemini/` orchestration layer, formally adding their investigation to the V2 roadmap.
+
+---
+
+**22. Agent Falls Back to Upload After Commit Fails**
+![15-agent-falls-back-to-upload-after-commit-fails.png](../../png/15-agent-falls-back-to-upload-after-commit-fails.png)
+*A screenshot of a terminal interface. The agent attempts to commit an 'Accounted For' report, but the commit fails. The agent is then shown initiating an upload to the cloud, with a 52s timer.*
+*   **Key Takeaway:** The agent encounters a git commit failure and appears to fall back to a secondary process of uploading files, indicating a potential parallel or backup workflow.
+
+---
+
+**23. Agent Proposes Speculative Cleanup Plan**
+![16-agent-proposes-speculative-cleanup-plan.png](../../png/16-agent-proposes-speculative-cleanup-plan.png)
+*A screenshot of a terminal interface. The agent proposes a speculative cleanup plan. It recommends trashing the entire root `memory/` directory (since its contents were moved to `repos/diy-make/memory/public/`) and high-level application directories like `agents/`, `data_processing/`, `tools/`, and `training/`.*
+*   **Key Takeaway:** The agent proactively identifies and recommends the removal of deprecated and non-core directories, demonstrating an understanding of project evolution and the importance of a clean file structure.
+
+---
+
+**24. Agent Fixes Commit by Suppressing JSON Output**
+![17-agent-fixes-commit-by-suppressing-json-output.png](../../png/17-agent-fixes-commit-by-suppressing-json-output.png)
+*A screenshot of a terminal interface. The AI agent, Zion, fixes a failing commit by adding a command to suppress JSON output from `detect-secrets`. The commit is successful. The agent then proceeds to the next task of analyzing 'Uncertain Items' like `GEMINI.md`, `package.json`, etc.*
+*   **Key Takeaway:** The agent debugs a failing commit by identifying and suppressing problematic JSON output from a security tool, demonstrating a practical approach to resolving integration issues between tools.
