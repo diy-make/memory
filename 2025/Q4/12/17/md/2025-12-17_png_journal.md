@@ -167,3 +167,38 @@
 ![17-agent-fixes-commit-by-suppressing-json-output.png](../../png/17-agent-fixes-commit-by-suppressing-json-output.png)
 *A screenshot of a terminal interface. The AI agent, Zion, fixes a failing commit by adding a command to suppress JSON output from `detect-secrets`. The commit is successful. The agent then proceeds to the next task of analyzing 'Uncertain Items' like `GEMINI.md`, `package.json`, etc.*
 *   **Key Takeaway:** The agent debugs a failing commit by identifying and suppressing problematic JSON output from a security tool, demonstrating a practical approach to resolving integration issues between tools.
+
+---
+
+**25. Agent Resolves Unstaged File Commit Error**
+![18-agent-resolves-unstaged-file-commit-error.png](../../png/18-agent-resolves-unstaged-file-commit-error.png)
+*A screenshot of a terminal interface. The AI agent, Zion, diagnoses a commit failure where a file was unstaged. The agent decides to use `git add .` to stage all changes in the `repos/diy-make/memory/public/` directory before retrying the commit, which then succeeds.*
+*   **Key Takeaway:** The agent demonstrates problem-solving in a git context by correctly identifying and resolving an unstaged file error to complete a commit.
+
+---
+
+**26. Agent Commits Design Report and Resumes Analysis**
+![19-agent-commits-design-report-and-resumes-analysis.png](../../png/19-agent-commits-design-report-and-resumes-analysis.png)
+*A screenshot of a terminal interface. The agent, Zion, successfully commits a 'design decision report' for `dspy_commit`. The agent then pivots back to analyzing the 'Uncertain' files in the `gemini/` repository, planning to list, read, and speculate on the purpose of the remaining Python scripts.*
+*   **Key Takeaway:** The agent demonstrates structured task switching, completing a documentation commit and immediately resuming a prior, more complex analysis task.
+
+---
+
+**27. Agent Uses `git add -A` to Commit Refactor**
+![20-agent-uses-git-add-A-to-commit-refactor.png](../../png/20-agent-uses-git-add-A-to-commit-refactor.png)
+*A screenshot of a terminal interface. The AI agent, Zion, resolves a commit failure by using `git add -A` to stage deleted and new files simultaneously. This allows the successful commit of a refactor that moves an obsolete script (`create_higher_level_summaries.py`) to the trash.*
+*   **Key Takeaway:** The agent demonstrates effective use of git arguments (`-A`) to handle complex staging scenarios involving both additions and deletions, enabling a successful refactor.
+
+---
+
+**28. Aetheria Plans Documentation Finalization**
+![21-aetheria-plans-documentation-finalization.png](../../png/21-aetheria-plans-documentation-finalization.png)
+*A screenshot of a terminal interface. The AI agent, Aetheria, outlines a comprehensive plan to finalize hackathon documentation. The plan includes updating an overview, creating a summary for Day 7, enhancing a Day 6 summary, and finalizing image organization by executing a previously proposed renaming scheme and ensuring all images are indexed.*
+*   **Key Takeaway:** The agent demonstrates strategic, multi-step planning by creating a detailed TODO list to tackle a complex documentation and organization task.
+
+---
+
+**29. Aetheria Renames Screenshots Systematically**
+![22-aetheria-renames-screenshots-systematically.png](../../png/22-aetheria-renames-screenshots-systematically.png)
+*A screenshot of a terminal showing a list of `mv` commands for renaming generic screenshot files to descriptive names. The commands are grouped by day, and the agent states its intention to create or amend `Screenshots.md` files for each day after renaming.*
+*   **Key Takeaway:** The agent demonstrates a systematic approach to data cleanup, batch-renaming files with descriptive names and planning to update corresponding documentation.
