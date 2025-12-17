@@ -1,6 +1,11 @@
 {
   "name": "chat_history",
-  "description": "Configuration for storing chat history.",
-  "location": "dynamic/static/",
-  "path_to_scripting": "This JSON file defines the location where chat history is stored. It is not directly scriptable, but its value (`.chat`) is used by various scripts that interact with chat logs. For example, scripts that read, summarize, or archive chat logs would consult this configuration to locate the correct directory. This ensures a centralized and consistent approach to managing chat history across the agent's operations."
+  "description": "Configuration for identifying and storing chat history.",
+  "location": "dynamic/stream/",
+  "identification_protocol": {
+    "step_1": "Consult `local_paths.json` to find the `chat_history` directory (default: `dynamic/stream/`).",
+    "step_2": "The active chat log is the file within this directory that corresponds to the current session's timestamp or process ID.",
+    "step_3": "To verify, checking the `lsof` of files in this directory can confirm which one is actively held open by the agent's process."
+  },
+  "path_to_scripting": "This JSON file defines the location where active chat history is stored. Scripts should use the `local_paths.json` configuration to locate the `dynamic/stream/` directory. The active log can be identified by finding the most recent file or the file currently locked by the agent's process."
 }

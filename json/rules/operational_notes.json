@@ -7,6 +7,10 @@
     {
       "id": "chat_repo",
       "note": "The .chat/ directory is a separate Git repository. Changes within .chat/ must be committed to that repository independently of the main gemini/ repository."
+    },
+    {
+      "id": "file_deletion_safety",
+      "note": "For safety reasons, the use of `rm -rf` (or equivalent recursive force deletion) is strictly forbidden. When removing directories, agents must first ensure the directory is empty and then use `rmdir`. This prevents accidental deletion of critical data in the multi-git filesystem."
     }
   ]
 }
