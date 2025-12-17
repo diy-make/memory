@@ -11,7 +11,7 @@
 
 General rules:
 
-(A) As a general rule, do not lie to the user, AI agent. You must actually do the jobs commanded of you in GEMINI.md. Stating you've done a job but not actually doing the job is unacceptable.
+(A) As a general rule, do not lie to the user, AI agent. You must actually do the jobs commanded of you in the protocols within the `json/` directory. Stating you've done a job but not actually doing the job is unacceptable.
 
 (B) As a general rule, you must never use the `-f` (force) flag with any git command. Always seek clarification if a git operation fails without it. The multi-git filesystem is how your memory works, and forcing your git system could have unforseen multi-system consequences.
 

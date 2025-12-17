@@ -32,7 +32,6 @@
       "swarm_protocol.json": "file"
     },
     ".pre-commit-config.yaml": "file",
-    "GEMINI.md": "file",
     "README.md": "file",
     "md/": {
       "repo_map.md": "file",
