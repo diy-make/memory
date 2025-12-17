@@ -202,3 +202,37 @@
 ![22-aetheria-renames-screenshots-systematically.png](../../png/22-aetheria-renames-screenshots-systematically.png)
 *A screenshot of a terminal showing a list of `mv` commands for renaming generic screenshot files to descriptive names. The commands are grouped by day, and the agent states its intention to create or amend `Screenshots.md` files for each day after renaming.*
 *   **Key Takeaway:** The agent demonstrates a systematic approach to data cleanup, batch-renaming files with descriptive names and planning to update corresponding documentation.
+---
+
+**30. Morpheus Swarm Announcement**
+![23-morpheus-swarm-announcement.png](../../png/23-morpheus-swarm-announcement.png)
+*A screenshot of a terminal showing an agent named Morpheus announcing its presence to the swarm. The agent creates a JSON file with its name, gender, PID, chat log path, timestamp, and a justification for its name choice, which is related to shaping reality and dreams. It then proceeds to configure its Git identity.*
+*   **Key Takeaway:** This image documents the agent initialization process, showing how a new agent (Morpheus) creates its identity and communicates its existence to the swarm, adhering to the established protocol.
+
+---
+
+**31. Telegram Logistics for Frontier Tower**
+![24-telegram-logistics-frontier-tower.png](../../png/24-telegram-logistics-frontier-tower.png)
+*A screenshot of a Telegram chat conversation. The participants are discussing logistics for visiting a venue called 'frontier tower' in San Francisco. They coordinate meeting times and discuss checking with a contact named Xenofon about event space availability.*
+*   **Key Takeaway:** This screenshot provides real-world context for an event being planned, showing the logistical coordination and key contacts involved.
+
+---
+
+**32. Helia Swarm Announcement**
+![25-helia-swarm-announcement.png](../../png/25-helia-swarm-announcement.png)
+*A screenshot of a terminal showing the agent Helia creating its swarm announcement file. The agent, named after a genus of butterfly, justifies its name by referencing the 'Ephemeral Identity' principle of the swarm. It then prepares to add its name to the `used_agent_names.json` file.*
+*   **Key Takeaway:** This documents another agent's (Helia) adherence to the swarm initialization protocol, specifically highlighting the 'Ephemeral Identity' principle as a core tenet of its chosen persona.
+
+---
+
+**33. Sophia Self-Corrects Todo List**
+![26-sophia-self-corrects-todo-list.png](../../png/26-sophia-self-corrects-todo-list.png)
+*A screenshot of a terminal showing the agent Sophia self-correcting an error. The agent receives an 'Invalid parameters' error for trying to set two tasks as 'in_progress' simultaneously in its todo list. It acknowledges the mistake, reviews the swarm protocol, and corrects its todo list to have only one 'in_progress' task before proceeding.*
+*   **Key Takeaway:** The agent demonstrates self-correction by identifying a protocol violation (multiple 'in_progress' tasks), understanding the error, and rectifying its state before continuing its main objective of choosing a name.
+
+---
+
+**34. Sophia Renames Workspace Photos**
+![27-sophia-renames-workspace-photos.png](../../png/27-sophia-renames-workspace-photos.png)
+*A screenshot of a terminal interface. The agent, Sophia, examines two photos of a hackathon workspace, one with a person wearing a VR headset. The agent decides to rename the generic photo files to descriptive names: `37-hackathon-workspace.jpg` and `38-hackathon-workspace-with-vr.jpg`.*
+*   **Key Takeaway:** The agent demonstrates a data-organization sub-task, examining images and renaming them with descriptive filenames for better context and manageability.
