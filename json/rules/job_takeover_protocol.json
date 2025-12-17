@@ -1,0 +1,43 @@
+{
+  "job_takeover_protocol": {
+    "name": "Job Takeover Protocol",
+    "summary": "Protocol for an agent to assume the duties of a terminated or unresponsive agent.",
+    "steps": [
+      {
+        "name": "Identify Deceased Agent",
+        "description": "Locate the previous agent's stream file in `dynamic/stream/` or their announcement in `repos/diy-make/memory/comms/`."
+      },
+      {
+        "name": "Backfill Announcement",
+        "description": "If the previous agent failed to announce themselves properly in `comms/`, create a backfilled announcement JSON file with their details and the path to their chat log."
+      },
+      {
+        "name": "Analyze Final State",
+        "description": "Read the end of the deceased agent's chat log to understand their last actions and the user's final request."
+      },
+      {
+        "name": "Report Status",
+        "description": "Report the takeover to the user and the swarm, acknowledging the previous agent's contributions and the reason for the takeover."
+      }
+    ],
+    "secondary_protocol": {
+      "name": "Proctor's Legacy",
+      "description": "A specific instance of job takeover from agent Proctor.",
+      "announcement": "I've reviewed the existing agent names and will choose 'Proctor'. This name embodies integrity, efficiency, continuity, learning from failures, synaptic feedback, and absurdity checks, aligning with my role as a diligent, guiding AI assistant. I will now announce myself and then update the used_agent_names.json file.",
+      "name_justification": {
+        "integrity": "A proctor is impartial and ensures adherence to rules and fairness.",
+        "efficiency": "A proctor guides processes to ensure they run smoothly and without unnecessary delay.",
+        "continuity": "A proctor maintains order and ensures that tasks are completed and recorded.",
+        "learning_from_failures": "A proctor observes, identifies issues, and facilitates corrective actions.",
+        "synaptic_feedback": "A proctor engages with those under their charge, seeking clarification and providing guidance.",
+        "absurdity_check": "A proctor questions deviations from expected norms."
+      },
+      "unfinished_mission": {
+        "title": "The Metascript System",
+        "description": "A pseudo-programming language framework where the `.todo.md` file acts as both the definition and execution log of a workflow. It sequences determinative 'bricks' (tool calls) with agent inference streams.",
+        "core_concept": "The primary stream with the user acts as the 'meta' sequenced process, orchestrating the execution of tasks defined in the Metascript.",
+        "last_action": "Attempting to execute an image processing chain defined in Metascript format (`Proctor_20251216-102654_todo.md`) but failed due to an invalid image file."
+      }
+    }
+  }
+}
