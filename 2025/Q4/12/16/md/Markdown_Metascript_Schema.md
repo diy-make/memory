@@ -21,13 +21,13 @@ The core logic is a standard Markdown task list. I use **Action Tags** (uppercas
 #### Syntax Guide:
 
 *   **Standard Tool Call:**
-    `- [ ] [ID-XX] EXECUTE [Tool Name] inputs={...} output=[var_name]`
+    `- [ ] [ID-XX] EXECUTE [Tool Name] inputs={...} output=[var_name] agent=[model_name] reason="[rationale]"`
 *   **Async Operation:**
-    `- [ ] [ID-XX] ASYNC [Tool Name] inputs={...} output=[var_name]`
+    `- [ ] [ID-XX] ASYNC [Tool Name] inputs={...} output=[var_name] agent=[model_name] reason="[rationale]"`
 *   **Wait Command:**
     `- [ ] [ID-XX] AWAIT [var_name_1], [var_name_2]`
 *   **Human Interaction:**
-    `- [ ] [ID-XX] PROMPT "[Question for user?]" output=[response_var]`
+    `- [ ] [ID-XX] PROMPT "[Question for user?]" output=[response_var] agent=[model_name] reason="[rationale]"` (Defaults to the most advanced model for high-quality interaction).
 *   **Loop:**
     `- [ ] [ID-XX] LOOP [collection_var] as [item_var]:`
         *   (Indented tasks follow standard syntax)
