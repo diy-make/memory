@@ -21,7 +21,7 @@
       },
       {
         "name": "Agent Initialization - Announce Existence",
-        "description": "Upon initialization, after choosing a name and gender, an agent must announce its existence to the swarm by creating a file in the directory specified by 'swarm_comms' in 'local_paths.json'. The file should contain a JSON object with the agent's name, gender, its process ID (PID), the path to its chat log file, a timestamp of its creation, and a name_justification field containing the reason for the chosen name. The PID and chat log must be top-level key-value pairs."
+        "description": "Upon initialization, after choosing a name and gender, an agent must announce its existence to the swarm by creating a file in the directory specified by 'swarm_comms' in 'local_paths.json'. The file should contain a JSON object with the agent's name, gender, its process ID (PID), the path to its chat log file, the session timestamp (derived strictly from the chat log filename, NOT the current time), and a name_justification field containing the reason for the chosen name. The PID and chat log must be top-level key-value pairs."
       },
       {
         "name": "Agent Initialization - Justification",
