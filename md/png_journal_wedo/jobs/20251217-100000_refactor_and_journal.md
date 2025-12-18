@@ -17,6 +17,8 @@
     - [ ] [REF-03d] **STEP 3d:** `sha256sum` on both the source file and the target duplicate.
     - [ ] [REF-03e] **STEP 3e:** IF hashes match, `mv` the source file to `repos/diy-make/memory/public/trash/`.
     - [ ] [REF-03f] **STEP 3f:** IF hashes DO NOT match (or no duplicate exists), proceed with journaling:
+        - [ ] [REF-03f-0] **STEP 3f-0:** EXECUTE `repos/diy-make/memory/public/py/validate_png.py` file_path="{source_file_path}"
+            - [ ] **ON_ERROR:** LOG "Skipping corrupt PNG: {source_file_path}" AND CONTINUE_LOOP
         - [ ] [REF-03f-1] `read_file` to analyze the image content.
         - [ ] [REF-03f-2] `INFER` a descriptive name and key takeaway.
         - [ ] [REF-03f-3] `run_shell_command` to `mv` the source file to its final, sequentially numbered name in the correct daily archive.
