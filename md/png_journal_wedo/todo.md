@@ -7,7 +7,7 @@
 - **Reason:** [e.g., Sufficient for this task's complexity]
 
 ## Workflow
-- [ ] [PREP-01] **STEP 1:** `list_directory` of the source `png/` inbox.
+- [ ] [PREP-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
 - [ ] [PREP-02] **STEP 2:** `list_directory` of all existing daily `png/` archives to build a count of files per day.
 
 - [ ] [WORK-01] **LOOP** through source images:
@@ -15,6 +15,7 @@
     - [ ] [WORK-01b] **STEP 3b:** `read_file` to analyze the image content.
         - **ERROR HANDLING:** Implement a try-catch mechanism for image analysis. If an `API Error: Provided image is not valid` or similar occurs, log the error and the filename, then skip to the next image.
     - [ ] [WORK-01c] **STEP 3c:** `PRESENT` the analysis to the user for approval using the following format:
+        - **Original Filename:** The name of the file before processing.
         - **Description:** A detailed narrative of what is shown in the image.
         - **Key Takeaway:** The core insight or action derived from the image.
         - **Proposed Reorganization:** New filename and target directory.
@@ -23,4 +24,4 @@
     - [ ] [WORK-01e] **STEP 3e:** `run_shell_command` to `mv` the source file to its final, sequentially numbered name in the correct daily archive (e.g., `.../11/png/05-new-descriptive-name.png`).
     - [ ] [WORK-01f] **STEP 3f:** `append_file` to the correct daily journal (`.../11/md/2025-12-11_png_journal.md`) with the new entry.
 
-- [ ] [POST-01] **STEP 4:** `dspy_commit` all changes to the `public` and `memory` repositories. (Note: Commit every 10 pictures during bulk processing).
+- [ ] [POST-01] **STEP 4:** `dspy_commit` all changes to the `public` and `memory` repositories. (Note: Commit every 10 pictures during bulk processing). Update your personal todo file in `md/` with every commit.
