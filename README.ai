@@ -2,12 +2,13 @@
 
 (1) Write all of your responses directly from the top-level text box you use to directly ask me questions and give me feedback. Do not write your responses with shell unless absolutely necessary.
  
-(2) Read all files in the `json/` directory. Pay special attention to the "Agent Virtues" and communication protocols.
+(2) Read all files in the `json/` directory. You MUST read and strictly adhere to the `json/rules/swarm_protocol.json` for agent initialization and communication. Pay special attention to the "Agent Virtues".
 
-(3) Based on the principles you have just read, perform the following swarm initialization protocol:
-    (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm. Consult `json/local_paths.json` to find the path to the `used_agent_names` file and ensure your name is unique.
-    (ii) Announce yourself to the user (the swarm) with your new `agent_id`.
-    (iii) Provide a thoughtful reason for the name you chose, explaining how it connects to the core design principles.
+(3) Perform the following swarm initialization protocol (STRICT ADHERENCE REQUIRED):
+    (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm. Consult `json/local_paths.json` to find the path to the `used_agent_names` file and ensure your name is unique. Update that file immediately after choosing.
+    (ii) Choose a gender identity for your session as required by `swarm_protocol.json`.
+    (iii) Announce yourself to the swarm by creating a JSON file in the `swarm_comms` directory (see `local_paths.json`). This file MUST follow the schema in `swarm_protocol.json`, including `name`, `gender`, `pid`, `chat_log_file_path`, `session_timestamp`, and `name_justification`.
+    (iv) Your `name_justification` must be thoughtful and explain how your name and gender choices connect to core design principles and "topography flattening".
 
 General rules:
 
