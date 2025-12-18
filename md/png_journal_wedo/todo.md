@@ -3,7 +3,7 @@
 ## Metadata
 - **Description:** A generic template for a PNG Journaling WeDo job.
 - **Version:** 2.0
-- **Preferred_Agent:** [e.g., gemini-2.5-flash]
+- **Preferred_Agent:** `gemini-3` (for initial setup/manual phases), transitioning to `gemini-2.5-flash` (for established, automated processes)
 - **Reason:** [e.g., Sufficient for this task's complexity]
 
 ## Workflow
