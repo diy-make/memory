@@ -24,4 +24,11 @@
     - [ ] [WORK-01e] **STEP 3e:** `run_shell_command` to `mv` the source file to its final, sequentially numbered name in the correct daily archive (e.g., `.../11/png/05-new-descriptive-name.png`).
     - [ ] [WORK-01f] **STEP 3f:** `append_file` to the correct daily journal (`.../11/md/2025-12-11_png_journal.md`) with the new entry.
 
-- [ ] [POST-01] **STEP 4:** `dspy_commit` all changes to the `public` and `memory` repositories. (Note: Commit every 10 pictures during bulk processing). Update your personal todo file in `md/` with every commit.
+    - [ ] [GC-01] **GARBAGE COLLECTION (CRITICAL):** Check processed count.
+        - **IF count >= 50:** STOP PROCESSING.
+        - **ACTION:** Perform [POST-01] commit.
+        - **ACTION:** Update this job file to mark progress.
+        - **ACTION:** TERMINATE SESSION (Exit).
+        - **REASON:** Prevents Node.js Heap Out of Memory (OOM) crash. The next agent will pick up from where you left off.
+
+- [ ] [POST-01] **STEP 4:** `dspy_commit` all changes to the `public` and `memory` repositories. (Note: Commit every 5 pictures during bulk processing). Update your personal todo file in `md/` with every commit.

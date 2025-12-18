@@ -2,9 +2,9 @@
 
 ## Metadata
 - **Description:** Processing and journaling 223 new PNG screenshots from the public/png/ inbox.
-- **Version:** 1.0
-- **Preferred_Agent:** Arete
-- **Reason:** Continuing the work of Lumina with updated protocol requirements.
+- **Version:** 1.1 (Takeover by Pragma)
+- **Preferred_Agent:** Pragma
+- **Reason:** Continuing the work of Lumina/Arete. Implementing Session Sharding to prevent OOM.
 
 ## Workflow
 - [x] [PREP-01] **STEP 1:** `list_directory` of the source `public/png/` inbox. (223 files found).
@@ -20,4 +20,11 @@
     - [ ] [WORK-01e] **STEP 3e:** `run_shell_command` to `mv` the source file.
     - [ ] [WORK-01f] **STEP 3f:** `append_file` to the correct daily journal.
 
-- [ ] [POST-01] **STEP 4:** `dspy_commit` every 10 pictures. Update personal todo file with every commit.
+    - [ ] [GC-01] **GARBAGE COLLECTION (CRITICAL):** Check processed count in current session.
+        - **IF count >= 50:** STOP PROCESSING.
+        - **ACTION:** Perform [POST-01] commit.
+        - **ACTION:** Update this job file to mark progress.
+        - **ACTION:** TERMINATE SESSION (Exit).
+        - **REASON:** Prevents Node.js Heap Out of Memory (OOM) crash.
+
+- [ ] [POST-01] **STEP 4:** `dspy_commit` every 5 pictures. Update personal todo file with every commit.
