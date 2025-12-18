@@ -1,6 +1,0 @@
-{
-  "path": "./repos/legal-engineering-standards-association/discussions/.git",
-  "type": "subject",
-  "description": "Sub-project repository within legal-engineering-standards-association for discussions.",
-  "path_to_scripting": "This JSON file provides metadata about a specific Git repository (). It is not directly scriptable, but its information is crucial for various scripts that interact with Git repositories. For example, a script that performs Git operations (like ) would consult this file to determine the repository's type ('subject' or 'object') and its description. This metadata helps the agent to correctly interact with and manage the different repositories in the workspace, ensuring that operations are performed in the correct context."
-}

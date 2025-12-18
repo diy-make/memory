@@ -1,4 +1,0 @@
-{
-  "summary": "Mapping of Git repositories in the workspace, classified by Subject and Object.",
-  "path_to_scripting": "This JSON file provides a high-level summary of the repository map. It is not directly scriptable, but serves as documentation that an LLM can use to explain the overall Git architecture of the workspace to a user. This summary helps in quickly grasping the organization and classification of various repositories within the project."
-}

@@ -1,4 +1,4 @@
 {
   "name": "Confirm Agent State",
-  "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's unclean chat log located in the `.chat/unclean/` directory. Look for repetitive actions or errors."
+  "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's unclean chat log located in the `dynamic/stream/` directory. Look for repetitive actions or errors."
 }
