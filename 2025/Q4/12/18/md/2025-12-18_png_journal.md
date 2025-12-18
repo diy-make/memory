@@ -125,3 +125,17 @@
 - **Key Takeaway:** Demonstrates the successful finalization of a new agent's initialization and public announcement through a committed record in the shared memory.
 - **Creation Date:** 2025-12-18
 - **Original Filename:** `Screenshot from 2025-12-18 01-23-10.png`
+
+### 21. `21-agent-clarity-commits-post-mortem-report-for-clarity.png`
+![21-agent-clarity-commits-post-mortem-report-for-clarity.png](../png/21-agent-clarity-commits-post-mortem-report-for-clarity.png)
+- **Description:** An agent (Lumina) is shown committing a post-mortem report for agent Clarity to the `repos/diy-make/memory` repository. The commit message "Add post-mortem report for Clarity" indicates the formal documentation of Clarity's session or termination. The agent also notes that it has updated the screen tab name to "Lumina" and replaced deprecated references in the public memory rules.
+- **Key Takeaway:** Formalization of agent session conclusion and knowledge transfer through post-mortem reports, ensuring continuous learning and system improvement.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 01-39-01.png`
+
+### 22. `22-agent-clarity-sets-screen-tab-name-to-lumina.png`
+![22-agent-clarity-sets-screen-tab-name-to-lumina.png](../png/22-agent-clarity-sets-screen-tab-name-to-lumina.png)
+- **Description:** An agent (Lumina) is shown reading a `set_screen_tab_name.json` file to understand the correct protocol for setting the screen tab name. Following the protocol, it then updates the GNU screen tab title to "Lumina" using the `screen -X title "Lumina"` command.
+- **Key Takeaway:** Demonstrates adherence to agent operational protocols for managing its environment and maintaining clear identity within the shared workspace.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 01-40-46.png`
