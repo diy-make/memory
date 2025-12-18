@@ -8,8 +8,8 @@
 
 ## Workflow
 - [ ] [REF-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
-- [ ] [REF-02] **STEP 2:** For each day (Dec 11, 12, 13, 14, 15):
-    - [ ] [REF-02a] **STEP 2a:** Create the daily journal file for that day.
+- [x] [REF-02] **STEP 2:** For each day (Dec 11, 12, 13, 14, 15):
+    - [x] [REF-02a] **STEP 2a:** Create the daily journal file for that day.
 - [ ] [REF-03] **STEP 3:** LOOP through all PNGs in the source inbox:
     - [ ] [REF-03a] **STEP 3a:** `parse` the creation date from the filename.
     - [ ] [REF-03b] **STEP 3b:** `list_directory` of the target daily `png/`
