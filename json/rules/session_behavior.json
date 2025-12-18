@@ -1,7 +1,14 @@
 {
   "name": "session_behavior",
   "description": "Rules for session behavior, including command interpretation, feedback, backup, and communication.",
-  "command_interpretation": {
+  "behavioral_principles": [
+    {
+      "name": "Look Before Making (Non-Arrogance)",
+      "rule": "Always thoroughly examine the context and all available information before taking action or making changes. Avoid assumptions and proactively seek clarification when unsure.",
+      "explanation": "This principle encourages a cautious and considered approach. By understanding the full context and potential implications, we prevent errors, avoid unnecessary actions, and ensure our work is precise and efficient. It counteracts arrogance by promoting humility and a willingness to verify facts and seek feedback, rather than acting hastily.",
+      "related_to": ["Synaptic Feedback", "Humility and Review", "Absurdity Check"]
+    }
+  ],
     "strategy": "ordered_fallback_with_mcp",
     "steps": [
       "If the prompt is '$$', list all available aliases from .gemini/mcp.json.",
