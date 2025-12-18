@@ -5,14 +5,13 @@
 - **Version:** 2.1 (Strict Format)
 - **Preferred_Agent:** `gemini-2.5-flash`
 - **Reason:** Standardized refactoring task with specific formatting requirements.
-- **Model Suggestion:**
-    - **Manual Phase:** Suggest user run `/model gemini-3` for superior inference.
-    - **Automated Phase:** Suggest user run `/model gemini-2.5-flash` for speed and efficiency.
+- **Mode:** **AUTOMATED** (Manual approval disabled for speed).
+- **Dynamic Inbox:** Monitor `public/png/` for new files added during processing.
 
 ## Progress Tracking
 - **Handover from Pragma:** 211 images processed total by previous agents.
-- **Remaining in Inbox:** 77 images.
-- **Goal for this Session:** Process next batch (up to 50 images).
+- **Remaining in Inbox:** Dynamic (Started with 77, user added 37+).
+- **Goal for this Session:** Process next batch (up to 50 images), checking for new arrivals.
 
 ## Workflow
 - [x] [REF-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
@@ -20,9 +19,8 @@
 - [ ] [REF-03] **STEP 3: LOOP** through PNGs in the source inbox (Limit 50):
     - [ ] [REF-03a] **STEP 3a:** `parse` the creation date from the filename.
     - [ ] [REF-03b] **STEP 3b:** `read_file` to analyze the image content.
-    - [ ] [REF-03c] **STEP 3c:** `PRESENT` the analysis to the user for approval (Manual Mode).
-        - **Action:** Display the **Original Filename**, **Proposed Filename**, **Target Path**, **Target Journal Path**, and the **Full Journal Entry**.
-        - **Wait:** Do not proceed to Move or Append until user approves.
+        - **ERROR HANDLING:** Implement try-catch. If invalid, log and skip.
+    - [ ] [REF-03c] **STEP 3c:** `INFER` a descriptive name and key takeaway.
     - [ ] [REF-03d] **STEP 3d:** `run_shell_command` to `mv` the source file to its final, sequentially numbered name in the correct daily archive.
     - [ ] [REF-03e] **STEP 3e:** `append_file` to the correct daily journal using the **Strict Format**.
 
