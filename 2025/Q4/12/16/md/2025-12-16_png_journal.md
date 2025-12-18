@@ -206,3 +206,14 @@
 - **Key Takeaway:** The final, most parsimonious form of the metascript architecture: direct Markdown orchestration.
 - **Proposed Reorganization:** `2025/Q4/12/16/png/36-the-source-code-is-the-todo-list-markdown-metascript.png`
 - **Journal Path:** `2025/Q4/12/16/md/2025-12-16_png_journal.md`
+### 37. `Screenshot from 2025-12-16 19-17-43.png` (2025-12-16)
+- **Description:** Proctor implements the Markdown Metascript system, replacing the intermediate JSON format with a direct, human-readable ToDo-driven model. The agent outlines a plan to document the schema, create chain templates in a new `chains/` directory, and execute these templates by appending them directly to the active todo list, ensuring total execution transparency.
+- **Key Takeaway:** Official implementation of the direct Markdown-based task orchestration system.
+- **Proposed Reorganization:** `2025/Q4/12/16/png/37-proctor-implements-markdown-metascript-system.png`
+- **Journal Path:** `2025/Q4/12/16/md/2025-12-16_png_journal.md`
+
+### 38. `Screenshot from 2025-12-16 19-21-27.png` (2025-12-16)
+- **Description:** A demonstration of the commit script's built-in identity verification. Proctor's attempt to commit is blocked by a config mismatch (still pointing to "Kore"). The agent immediately corrects this by updating the local Git configuration to match its active session identity, ensuring accurate historical records.
+- **Key Takeaway:** The Git identity verification protocol successfully prevents misattribution in the repository.
+- **Proposed Reorganization:** `2025/Q4/12/16/png/38-git-identity-mismatch-and-proctor-self-correction.png`
+- **Journal Path:** `2025/Q4/12/16/md/2025-12-16_png_journal.md`
