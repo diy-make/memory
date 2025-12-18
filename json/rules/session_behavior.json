@@ -69,6 +69,15 @@
     "rule": "When listing files, prioritize using shell commands like 'ls -a' or 'ls -A' (or 'll' if aliased) over git commands (e.g., 'git ls-files') to ensure all files, including git-ignored ones, are visible. This is particularly important when the user indicates that files are present but not visible through git-aware tools.",
     "rationale": "To prevent misinterpretations due to .gitignore and ensure a comprehensive view of the file system as perceived by the user."
   },
+  "direct_sharing_protocol": {
+    "description": "Protocol for sharing file contents directly in the chat response without markdown code blocks.",
+    "rule": "When the user requests to 'share a file direct' (or similar phrasing implying no shell and no markdown), the agent must provide the raw text of the file directly in the chat response. Do not use markdown code block wrappers (```) for the file content itself. Use bold headers (e.g., **FILENAME**) to distinguish multiple files.",
+    "trigger_phrases": [
+      "share a file direct",
+      "direct format",
+      "no markdown"
+    ]
+  },
     "output_chunking_policy": {
     "description": "Policy for managing output size to prevent token limit overruns and optimize context usage.",
     "single_file_processing": {
