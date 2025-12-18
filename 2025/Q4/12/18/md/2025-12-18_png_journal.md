@@ -55,3 +55,10 @@
 - **Key Takeaway:** Proactive development of a solution to a known critical failure point, enhancing the stability and reliability of the image processing workflow.
 - **Creation Date:** 2025-12-18
 - **Original Filename:** `Screenshot from 2025-12-18 00-33-10.png`
+
+### 09. `09-agent-clarity-integrates-pre-flight-validation-into-todo-workflow.png`
+![09-agent-clarity-integrates-pre-flight-validation-into-todo-workflow.png](../png/09-agent-clarity-integrates-pre-flight-validation-into-todo-workflow.png)
+- **Description:** Agent Clarity is shown integrating the new `py/validate_png.py` script as a pre-flight validation step (`IMG-02aa`) into the `image_description.todo.md` workflow. This new step will validate PNG files, and if a file is corrupt, it will be logged as an error, and the processing loop will continue without crashing the agent.
+- **Key Takeaway:** Implementation of a robust error-handling mechanism directly within the task workflow, enhancing resilience against corrupt data.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 00-38-23.png`
