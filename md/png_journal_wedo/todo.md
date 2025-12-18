@@ -12,6 +12,10 @@
 ## Workflow
 - [ ] [PREP-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
 - [ ] [PREP-02] **STEP 2:** `list_directory` of all existing daily `png/` archives to build a count of files per day.
+- [ ] [PHASE-SWITCH] **STEP 2.5:** **STOP for Model Switch (Gem Process).**
+    - **Action:** If transitioning from manual setup/verification to bulk automation, **STOP** the agent.
+    - **Instruction:** Tell user: "Please switch to `/model gemini-2.5-flash` now for the automated phase."
+    - **Reason:** Adherence to "Gem Process" philosophy; agent cannot self-modify model.
 
 - [ ] [WORK-01] **LOOP** through source images:
     - [ ] [WORK-01a] **STEP 3a:** `parse` the creation date (e.g., "2025-12-11") from the source filename.

@@ -13,3 +13,17 @@
 - **Key Takeaway:** Verification of improved protocol (error handling) before resuming a previously failed task, ensuring system stability.
 - **Creation Date:** 2025-12-18
 - **Original Filename:** `Screenshot from 2025-12-18 00-13-19.png`
+
+### 03. `03-agent-encounters-invalid-image-api-error.png`
+![03-agent-encounters-invalid-image-api-error.png](../png/03-agent-encounters-invalid-image-api-error.png)
+- **Description:** An agent (Clarity) encounters a critical `INVALID_ARGUMENT` API error ("Provided image is not valid") while attempting to read a PNG file. The user asks "you dead?" after the error message appears, highlighting the potential for this error to crash an agent or stall a workflow.
+- **Key Takeaway:** Real-world example of the `INVALID_ARGUMENT` error that the new try-catch protocol is designed to handle, preventing session termination.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 00-16-31.png`
+
+### 04. `04-agent-clarity-takes-over-from-chronos.png`
+![04-agent-clarity-takes-over-from-chronos.png](../png/04-agent-clarity-takes-over-from-chronos.png)
+- **Description:** Following Chronos's termination (likely due to the API error), a new agent, Clarity, initiates the takeover process. The user guides Clarity to checking the `comms/` directory first for the announcement file to locate Chronos's stream log, rather than searching `dynamic/stream` directly.
+- **Key Takeaway:** Refinement of the "Job Takeover Protocol" – prioritizing the deterministic `comms/` announcement file over raw directory scanning for accurate session identification.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 00-18-04.png`
