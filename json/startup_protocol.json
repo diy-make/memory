@@ -23,7 +23,7 @@
         "name": "Verify Environment and Pre-commit",
         "description": "Check for active virtual environment and ensure pre-commit hooks are installed. If not, guide the user on setting them up.",
         "priority": "highest",
-        "command": "python3 scripts/py/verify_environment.py"
+        "command": ".venv/bin/python py/verify_environment.py"
       },
       {
         "name": "Name Thyself",
@@ -37,7 +37,7 @@
       },
       {
         "name": "Find Thy Chat",
-        "description": "Identify the agent's own process ID (PID) and tracing the process tree to find the exact chat log file path being written to, as per the protocol in 'chat_history.json'. Verify the file exists.",
+        "description": "Identify the agent's own process ID (PID) and trace the process tree to find the exact chat log file path being written to, as per the protocol in 'chat_history.json'. Extract the session timestamp from the filename for use in identity and announcement. Verify the file exists.",
         "priority": "high"
       },
       {
@@ -73,15 +73,15 @@
       },
       {
         "name": "Process Unsummarized Chat Logs",
-        "description": "Identifies and summarizes unsummarized chat logs using scripts/py/process_unsummarized_logs.py.",
+        "description": "Identifies and summarizes unsummarized chat logs using py/process_unsummarized_logs.py.",
         "priority": "low",
-        "command": "python3 scripts/py/process_unsummarized_logs.py"
+        "command": "python3 py/process_unsummarized_logs.py"
       },
       {
         "name": "Generate Summary Manifest",
-        "description": "Generates a manifest of all daily summary files using scripts/py/generate_summary_manifest.py.",
+        "description": "Generates a manifest of all daily summary files using py/generate_summary_manifest.py.",
         "priority": "low",
-        "command": "python3 scripts/py/generate_summary_manifest.py"
+        "command": "python3 py/generate_summary_manifest.py"
       },
       {
         "name": "Update File Structure",
