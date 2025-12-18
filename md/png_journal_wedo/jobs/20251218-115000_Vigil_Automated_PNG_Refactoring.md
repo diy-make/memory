@@ -16,7 +16,7 @@
 ## Workflow
 - [x] [REF-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
 - [x] [REF-02] **STEP 2:** Verify daily journal files exist.
-- [ ] [PHASE-SWITCH] **STEP 2.5:** **STOP for Model Switch (Gem Process).**
+- [x] [PHASE-SWITCH] **STEP 2.5:** **STOP for Model Switch (Gem Process).**
     - **Action:** If transitioning from manual setup/verification to bulk automation, **STOP** the agent.
     - **Instruction:** Tell user: "Please switch to `/model gemini-2.5-flash` now for the automated phase."
 - [ ] [REF-03] **STEP 3: LOOP** through PNGs in the source inbox (Limit 50):
