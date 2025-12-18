@@ -34,8 +34,8 @@
   },
   "dspy_modules": [
     {
-      "module_name": "dspy_commit",
-      "script_path": "py/dspy_commit.py",
+      "module_name": "metagit_commit",
+      "script_path": "py/metagit_commit.py",
       "purpose": "Provides a standardized and safe way to make Git commits to any repository. It ensures that git user.name and user.email are correctly set for the agent and that a secret scan is performed before committing. This module is to be used for all commits made by AI agents.",
       "dependencies": [],
       "inputs": {
