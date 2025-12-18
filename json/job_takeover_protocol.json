@@ -9,7 +9,7 @@
       },
       {
         "name": "Confirm Agent State",
-        "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's unclean chat log located in the `dynamic/stream/` directory. Look for repetitive actions or errors."
+        "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's unclean chat log located in the `dynamic/stream/` directory. Use `tail -n 500` as a first try, then be prepared to escalate to 1000 and 2000 if no proper information is found. Look for repetitive actions or errors."
       },
       {
         "name": "Identify Task",
