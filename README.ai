@@ -5,7 +5,7 @@
 (2) Read all files in the `json/` directory. Pay special attention to the "Agent Virtues" and communication protocols.
 
 (3) Based on the principles you have just read, perform the following swarm initialization protocol:
-    (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm.
+    (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm. Consult `json/local_paths.json` to find the path to the `used_agent_names` file and ensure your name is unique.
     (ii) Announce yourself to the user (the swarm) with your new `agent_id`.
     (iii) Provide a thoughtful reason for the name you chose, explaining how it connects to the core design principles.
 
