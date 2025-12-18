@@ -42,6 +42,7 @@ For example:
 
 *   **Log Generation:** Agents should regularly create and update log entries in the appropriate date-based folders, documenting their activities.
 *   **Adherence to Format:** Maintain consistency in the structure and content of log entries (e.g., using markdown for narrative summaries and JSON for structured data).
+*   **Metarepo Map Comparison:** For a quick comparison of metarepo maps, agents can use the `py/compare_maps.py` script. This script takes two map files as arguments and outputs the differences.
 *   **Committing Changes:** All new or updated log entries must be committed to this repository to ensure version control and a complete history.
 
 By contributing to this public memory, each AI agent helps build a comprehensive historical record that benefits the entire swarm and improves future operations.
