@@ -1,0 +1,495 @@
+# PNG Reference Report for 2025
+
+## Referenced PNGs
+
+- **01-aetheria-plans-documentation-finalization.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/01-aetheria-plans-documentation-finalization.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/2025-12-11_png_journal.md`
+- **01-agent-acknowledges-v1-plan.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/01-agent-acknowledges-v1-plan.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_Screenshot_Analysis.md`
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **01-agent-acknowledges-v1-plan.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/13/png/01-agent-acknowledges-v1-plan.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_Screenshot_Analysis.md`
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **01-agent-plan-to-verify-public-memory-repo.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/15/png/01-agent-plan-to-verify-public-memory-repo.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **01-agent-planning-dspy-screenshot-organizer-update.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/13/png/01-agent-planning-dspy-screenshot-organizer-update.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/13/md/2025-12-13_png_journal.md`
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **01-screenshot-from-2025-12-13-19-16-42.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/13/png/01-screenshot-from-2025-12-13-19-16-42.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/13/md/2025-12-13_Screenshot_Analysis.md`
+- **01-search-icon.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/13/png/01-search-icon.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/13/md/Screenshots.md`
+- **01-sophia-renames-workspace-photos.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/01-sophia-renames-workspace-photos.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **02-aetheria-renames-screenshots-systematically.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/02-aetheria-renames-screenshots-systematically.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/2025-12-11_png_journal.md`
+- **02-agent-creates-file-deletion-policy.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/13/png/02-agent-creates-file-deletion-policy.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/13/md/2025-12-13_png_journal.md`
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **02-agent-handles-detect-secrets-dependency-failure.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/17/png/02-agent-handles-detect-secrets-dependency-failure.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **02-agent-revises-readme-for-al.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/02-agent-revises-readme-for-al.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_Screenshot_Analysis.md`
+- **02-screenshot-from-2025-12-13-19-24-17.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/13/png/02-screenshot-from-2025-12-13-19-24-17.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/13/md/2025-12-13_Screenshot_Analysis.md`
+- **02-sophia-adds-mov-files-to-repo-map.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/02-sophia-adds-mov-files-to-repo-map.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **03-agent-attempts-to-chunk-large-file.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/03-agent-attempts-to-chunk-large-file.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **03-agent-navigates-pep668-pip-error.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/03-agent-navigates-pep668-pip-error.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **03-morpheus-swarm-announcement.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/03-morpheus-swarm-announcement.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/2025-12-11_png_journal.md`
+- **04-agent-installs-missing-dspy-dependency.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/17/png/04-agent-installs-missing-dspy-dependency.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`
+- **04-solara-explores-chat-directories.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/04-solara-explores-chat-directories.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **04-telegram-logistics-frontier-tower.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/04-telegram-logistics-frontier-tower.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/2025-12-11_png_journal.md`
+- **05-helia-swarm-announcement.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/05-helia-swarm-announcement.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/2025-12-11_png_journal.md`
+- **05-solara-explains-log-processing-script.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/05-solara-explains-log-processing-script.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **06-mixed-reality-robot-collaboration-demo.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/06-mixed-reality-robot-collaboration-demo.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **06-sophia-self-corrects-todo-list.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/06-sophia-self-corrects-todo-list.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/2025-12-11_png_journal.md`
+- **100-28-screenshot-from-2025-12-14-15-50-33.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/100-28-screenshot-from-2025-12-14-15-50-33.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **101-45-screenshot-from-2025-12-14-18-13-38.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/101-45-screenshot-from-2025-12-14-18-13-38.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **102-38-screenshot-from-2025-12-14-17-20-46.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/102-38-screenshot-from-2025-12-14-17-20-46.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **103-25-screenshot-from-2025-12-14-15-18-04.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/103-25-screenshot-from-2025-12-14-15-18-04.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **104-47-screenshot-from-2025-12-14-18-20-33.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/104-47-screenshot-from-2025-12-14-18-20-33.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **2025-12-11_09-39-51_Aetheria_plan_to_finalize_documentation.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/2025-12-11_09-39-51_Aetheria_plan_to_finalize_documentation.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/Screenshots.md`
+- **2025-12-11_09-55-18_Aetheria_renaming_screenshots.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/2025-12-11_09-55-18_Aetheria_renaming_screenshots.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/Screenshots.md`
+- **2025-12-11_10-26-39_Morpheus_swarm_announcement.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/2025-12-11_10-26-39_Morpheus_swarm_announcement.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/Screenshots.md`
+- **2025-12-11_11-58-24_Telegram_logistics_for_Frontier_Tower.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/2025-12-11_11-58-24_Telegram_logistics_for_Frontier_Tower.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/Screenshots.md`
+- **2025-12-11_12-38-42_Helia_swarm_announcement.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/2025-12-11_12-38-42_Helia_swarm_announcement.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/Screenshots.md`
+- **2025-12-11_15-47-12_Sophia_self_correction_on_todo_list.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/11/png/2025-12-11_15-47-12_Sophia_self_correction_on_todo_list.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/11/md/Screenshots.md`
+- **2025-Q4-12-12_100000.png_A_screenshot_of_a_computer_scr.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_100000.png_A_screenshot_of_a_computer_scr.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/Screenshots.md`
+- **2025-Q4-12-12_110000.png_A_screenshot_of_a_computer_scr.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_110000.png_A_screenshot_of_a_computer_scr.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/Screenshots.md`
+- **2025-Q4-12-12_173531.png_A_screenshot_of_a_computer_scr.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_173531.png_A_screenshot_of_a_computer_scr.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/Screenshots.md`
+- **2025-Q4-12-12_183520.png_A_screenshot_of_a_computer_scr.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_183520.png_A_screenshot_of_a_computer_scr.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/Screenshots.md`
+- **2025-Q4-12-12_195809.png_A_screenshot_of_a_computer_scr.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_195809.png_A_screenshot_of_a_computer_scr.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/Screenshots.md`
+- **28-2025-12-12-15-37-56-agent-investigating-missing-uncleaned-logs.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/28-2025-12-12-15-37-56-agent-investigating-missing-uncleaned-logs.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **29-2025-12-12-15-01-39-user-instructions-for-memory-repo-and-dspy.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/29-2025-12-12-15-01-39-user-instructions-for-memory-repo-and-dspy.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **30-2025-12-12-15-29-10-agent-commits-gameplan-with-dspy-script.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/30-2025-12-12-15-29-10-agent-commits-gameplan-with-dspy-script.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **31-2025-12-12-15-04-30-gameplan-for-future-dspy-integration.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/31-2025-12-12-15-04-30-gameplan-for-future-dspy-integration.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **32-2025-12-12-15-11-28-agent-creating-dspy-commit-script-setup.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/32-2025-12-12-15-11-28-agent-creating-dspy-commit-script-setup.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **33-2025-12-12-15-15-39-agent-proposed-plan-for-dspy-workflow.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/12/png/33-2025-12-12-15-15-39-agent-proposed-plan-for-dspy-workflow.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/12/md/2025-12-12_png_journal.md`
+- **72-44-screenshot-from-2025-12-14-18-13-07.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/72-44-screenshot-from-2025-12-14-18-13-07.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **73-51-screenshot-from-2025-12-14-18-26-58.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/73-51-screenshot-from-2025-12-14-18-26-58.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **74-41-screenshot-from-2025-12-14-17-58-37.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/74-41-screenshot-from-2025-12-14-17-58-37.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **75-50-screenshot-from-2025-12-14-18-26-24.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/75-50-screenshot-from-2025-12-14-18-26-24.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **76-53-screenshot-from-2025-12-14-19-01-38.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/76-53-screenshot-from-2025-12-14-19-01-38.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **77-24-screenshot-from-2025-12-14-15-16-18.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/77-24-screenshot-from-2025-12-14-15-16-18.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **78-33-screenshot-from-2025-12-14-16-31-54.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/78-33-screenshot-from-2025-12-14-16-31-54.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **79-26-screenshot-from-2025-12-14-15-18-47.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/79-26-screenshot-from-2025-12-14-15-18-47.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **80-37-screenshot-from-2025-12-14-17-19-42.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/80-37-screenshot-from-2025-12-14-17-19-42.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **81-52-screenshot-from-2025-12-14-18-55-44.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/81-52-screenshot-from-2025-12-14-18-55-44.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **82-35-screenshot-from-2025-12-14-16-51-35.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/82-35-screenshot-from-2025-12-14-16-51-35.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **83-27-screenshot-from-2025-12-14-15-24-43.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/83-27-screenshot-from-2025-12-14-15-24-43.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **84-32-screenshot-from-2025-12-14-16-22-18.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/84-32-screenshot-from-2025-12-14-16-22-18.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **85-43-screenshot-from-2025-12-14-18-11-21.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/85-43-screenshot-from-2025-12-14-18-11-21.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **86-23-screenshot-from-2025-12-14-15-15-53.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/86-23-screenshot-from-2025-12-14-15-15-53.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **87-46-screenshot-from-2025-12-14-18-14-23.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/87-46-screenshot-from-2025-12-14-18-14-23.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **88-31-screenshot-from-2025-12-14-16-16-48.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/88-31-screenshot-from-2025-12-14-16-16-48.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **89-21-screenshot-from-2025-12-14-14-44-43.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/89-21-screenshot-from-2025-12-14-14-44-43.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **90-30-screenshot-from-2025-12-14-16-09-59.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/90-30-screenshot-from-2025-12-14-16-09-59.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **91-29-screenshot-from-2025-12-14-16-01-56.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/91-29-screenshot-from-2025-12-14-16-01-56.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **92-39-screenshot-from-2025-12-14-17-22-18.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/92-39-screenshot-from-2025-12-14-17-22-18.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **93-34-screenshot-from-2025-12-14-16-38-24.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/93-34-screenshot-from-2025-12-14-16-38-24.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **94-22-screenshot-from-2025-12-14-15-14-42.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/94-22-screenshot-from-2025-12-14-15-14-42.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **95-36-screenshot-from-2025-12-14-17-12-19.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/95-36-screenshot-from-2025-12-14-17-12-19.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **96-40-screenshot-from-2025-12-14-17-24-56.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/96-40-screenshot-from-2025-12-14-17-24-56.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **97-48-screenshot-from-2025-12-14-18-23-50.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/97-48-screenshot-from-2025-12-14-18-23-50.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **98-49-screenshot-from-2025-12-14-18-24-41.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/98-49-screenshot-from-2025-12-14-18-24-41.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+- **99-42-screenshot-from-2025-12-14-18-10-54.png**
+  - Location: `repos/diy-make/memory/public/2025/Q4/12/14/png/99-42-screenshot-from-2025-12-14-18-10-54.png`
+  - Referenced by:
+    - `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`
+
+## Orphaned PNGs (Not Referenced in Markdown)
+
+- `repos/diy-make/memory/public/2025/Q4/12/13/png/01-a-screenshot-of-a-computer-screen-likely-showing-c.png`
+- `repos/diy-make/memory/public/2025/Q4/12/13/png/01-a-screenshot-of-a-computer-screen-likely-showing-c_e0395f7.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/02-screenshot-from-2025-12-15-07-05-36.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/03-agent-pivots-to-phased-verification-plan.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/04-screenshot-from-2025-12-14-10-44-37.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/04-screenshot-from-2025-12-15-07-07-46.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/05-agent-validates-public-memory-structure.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/05-screenshot-from-2025-12-14-10-45-22.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/06-agent-hardcodes-detect-secrets-path.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/06-screenshot-from-2025-12-15-07-11-46.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/07-agent-validates-multi-repo-architecture.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/07-screenshot-from-2025-12-14-10-47-38.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/08-agent-commits-md-reorganization.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/08-screenshot-from-2025-12-15-07-20-51.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/09-agent-discards-dead-code-artifacts.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/09-screenshot-from-2025-12-14-10-49-11.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/10-agent-patches-commit-script-and-verifies-clean-state.png`
+- `repos/diy-make/memory/public/2025/Q4/12/15/png/10-screenshot-from-2025-12-15-07-23-21.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/11-screenshot-from-2025-12-14-10-51-36.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/12-agent-documents-c-code-analysis.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/13-screenshot-from-2025-12-14-10-53-02.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/14-agent-reports-on-centralized-commit-architecture.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/15-screenshot-from-2025-12-14-10-57-43.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/16-agent-reflects-on-iterative-tool-refinement.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/17-screenshot-from-2025-12-14-10-59-45.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/18-agent-conceptualizes-bootloader-and-write-api.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/19-screenshot-from-2025-12-14-11-12-57.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/20-agent-refines-metagit-ontology.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_08-39-41_Agent_renaming_workspace_photos.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_10-21-01_Agent_adding_mov_files_to_repo_map.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_11-45-22_Agent_handling_large_chat_log.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_12-12-48_Solara_exploring_chat_directories.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_12-13-37_Agent_explaining_process_unsummarized_logs_script.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_14-41-24_Mixed_reality_collaboration_with_robot_model.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_15-01-39_User_instructions_for_memory_repo_and_dspy.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_15-04-30_Gameplan_for_future_DSPy_integration.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_15-11-28_Agent_creating_dspy_commit_script_setup.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_15-15-39_Agent_proposed_plan_for_dspy_workflow.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_15-29-10_Agent_commits_gameplan_with_dspy_script.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-12-12_15-37-56_Agent_investigating_missing_uncleaned_logs.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_155743.png_A_screenshot_of_a_computer_scr.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_160018.png_A_screenshot_of_a_computer_scr.png`
+- `repos/diy-make/memory/public/2025/Q4/12/12/png/2025-Q4-12-12_160543.png_A_screenshot_of_a_computer_scr.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/21-screenshot-from-2025-12-14-11-49-12.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/22-screenshot-from-2025-12-14-11-54-28.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/23-user-redirects-agent-to-deeper-architecture-files.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/24-agent-identifies-unaccounted-for-components.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/25-screenshot-from-2025-12-14-12-11-20.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/26-agent-falls-back-to-upload-after-commit-fails.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/27-screenshot-from-2025-12-14-12-55-16.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/28-agent-proposes-speculative-cleanup-plan.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/29-screenshot-from-2025-12-14-13-08-40.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/30-agent-fixes-commit-by-suppressing-json-output.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/31-screenshot-from-2025-12-14-13-27-03.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/32-agent-resolves-unstaged-file-commit-error.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/33-screenshot-from-2025-12-14-13-31-36.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/34-agent-commits-design-report-and-resumes-analysis.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/35-screenshot-from-2025-12-14-13-37-15.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/36-agent-uses-git-add-A-to-commit-refactor.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/37-screenshot-from-2025-12-14-14-04-29.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/38-screenshot-from-2025-12-14-14-44-43.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/39-screenshot-from-2025-12-14-15-14-42.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/40-screenshot-from-2025-12-14-15-15-53.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/41-screenshot-from-2025-12-14-15-16-18.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/42-screenshot-from-2025-12-14-15-18-04.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/43-screenshot-from-2025-12-14-15-18-47.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/44-screenshot-from-2025-12-14-15-24-43.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/45-screenshot-from-2025-12-14-15-50-33.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/46-screenshot-from-2025-12-14-16-01-56.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/47-screenshot-from-2025-12-14-16-09-59.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/48-screenshot-from-2025-12-14-16-16-48.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/49-screenshot-from-2025-12-14-16-22-18.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/50-screenshot-from-2025-12-14-16-31-54.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/51-screenshot-from-2025-12-14-16-38-24.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/52-screenshot-from-2025-12-14-16-51-35.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/53-screenshot-from-2025-12-14-17-12-19.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/54-screenshot-from-2025-12-14-17-19-42.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/55-screenshot-from-2025-12-14-17-20-46.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/56-screenshot-from-2025-12-14-17-22-18.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/57-screenshot-from-2025-12-14-17-24-56.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/58-screenshot-from-2025-12-14-17-58-37.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/59-screenshot-from-2025-12-14-18-10-54.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/60-screenshot-from-2025-12-14-18-11-21.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/61-screenshot-from-2025-12-14-18-13-07.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/62-screenshot-from-2025-12-14-18-13-38.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/63-screenshot-from-2025-12-14-18-14-23.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/64-screenshot-from-2025-12-14-18-20-33.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/65-screenshot-from-2025-12-14-18-23-50.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/66-screenshot-from-2025-12-14-18-24-41.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/67-screenshot-from-2025-12-14-18-26-24.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/68-screenshot-from-2025-12-14-18-26-58.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/69-screenshot-from-2025-12-14-18-55-44.png`
+- `repos/diy-make/memory/public/2025/Q4/12/14/png/70-screenshot-from-2025-12-14-19-01-38.png`
+
+## Broken Links (PNGs referenced but not found)
+
+- **In `repos/diy-make/memory/public/2025/Q4/12/13/md/2025-12-13_png_journal.md`**:
+  - Missing: `../../png/03-agent-acknowledges-v1-plan.png`
+- **In `repos/diy-make/memory/public/2025/Q4/12/15/md/2025-12-15_Screenshot_Analysis.md`**:
+  - Missing: `../../png/01-screenshot-from-2025-12-15-07-05-36.png`
+  - Missing: `../../png/02-screenshot-from-2025-12-15-07-07-46.png`
+  - Missing: `../../png/03-screenshot-from-2025-12-15-07-11-46.png`
+  - Missing: `../../png/04-screenshot-from-2025-12-15-07-20-51.png`
+  - Missing: `../../png/05-screenshot-from-2025-12-15-07-23-21.png`
+- **In `repos/diy-make/memory/public/2025/Q4/12/17/md/2025-12-17_png_journal.md`**:
+  - Missing: `../../png/02-agent-pivots-to-phased-verification-plan.png`
+  - Missing: `../../png/03-agent-validates-public-memory-structure.png`
+  - Missing: `../../png/04-agent-validates-multi-repo-architecture.png`
+  - Missing: `../../png/05-agent-hardcodes-detect-secrets-path.png`
+  - Missing: `../../png/05-agent-discards-dead-code-artifacts.png`
+  - Missing: `../../png/06-agent-commits-md-reorganization.png`
+  - Missing: `../../png/07-agent-patches-commit-script-and-verifies-clean-state.png`
+  - Missing: `../../png/08-agent-documents-c-code-analysis.png`
+  - Missing: `../../png/09-agent-reports-on-centralized-commit-architecture.png`
+  - Missing: `../../png/10-agent-reflects-on-iterative-tool-refinement.png`
+  - Missing: `../../png/11-agent-conceptualizes-bootloader-and-write-api.png`
+  - Missing: `../../png/12-agent-refines-metagit-ontology.png`
+  - Missing: `../../png/13-user-redirects-agent-to-deeper-architecture-files.png`
+  - Missing: `../../png/14-agent-identifies-unaccounted-for-components.png`
+  - Missing: `../../png/15-agent-falls-back-to-upload-after-commit-fails.png`
+  - Missing: `../../png/16-agent-proposes-speculative-cleanup-plan.png`
+  - Missing: `../../png/17-agent-fixes-commit-by-suppressing-json-output.png`
+  - Missing: `../../png/18-agent-resolves-unstaged-file-commit-error.png`
+  - Missing: `../../png/19-agent-commits-design-report-and-resumes-analysis.png`
+  - Missing: `../../png/20-agent-uses-git-add-A-to-commit-refactor.png`
+  - Missing: `../../png/21-aetheria-plans-documentation-finalization.png`
+  - Missing: `../../png/22-aetheria-renames-screenshots-systematically.png`
+  - Missing: `../../png/23-morpheus-swarm-announcement.png`
+  - Missing: `../../png/24-telegram-logistics-frontier-tower.png`
+  - Missing: `../../png/25-helia-swarm-announcement.png`
+  - Missing: `../../png/26-sophia-self-corrects-todo-list.png`
+  - Missing: `../../png/27-sophia-renames-workspace-photos.png`
+- **In `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_Screenshot_Analysis.md`**:
+  - Missing: `../../png/03-screenshot-from-2025-12-14-10-44-37.png`
+  - Missing: `../../png/04-screenshot-from-2025-12-14-10-45-22.png`
+  - Missing: `../../png/05-screenshot-from-2025-12-14-10-47-38.png`
+  - Missing: `../../png/06-screenshot-from-2025-12-14-10-49-11.png`
+  - Missing: `../../png/07-screenshot-from-2025-12-14-10-51-36.png`
+  - Missing: `../../png/08-screenshot-from-2025-12-14-10-53-02.png`
+  - Missing: `../../png/09-screenshot-from-2025-12-14-10-57-43.png`
+  - Missing: `../../png/10-screenshot-from-2025-12-14-10-59-45.png`
+  - Missing: `../../png/11-screenshot-from-2025-12-14-11-12-57.png`
+  - Missing: `../../png/12-screenshot-from-2025-12-14-11-49-12.png`
+  - Missing: `../../png/13-screenshot-from-2025-12-14-11-54-28.png`
+  - Missing: `../../png/14-screenshot-from-2025-12-14-12-11-20.png`
+  - Missing: `../../png/15-screenshot-from-2025-12-14-12-55-16.png`
+  - Missing: `../../png/16-screenshot-from-2025-12-14-13-08-40.png`
+  - Missing: `../../png/17-screenshot-from-2025-12-14-13-27-03.png`
+  - Missing: `../../png/18-screenshot-from-2025-12-14-13-31-36.png`
+  - Missing: `../../png/19-screenshot-from-2025-12-14-13-37-15.png`
+  - Missing: `../../png/20-screenshot-from-2025-12-14-14-04-29.png`
+  - Missing: `../../png/21-screenshot-from-2025-12-14-14-44-43.png`
+  - Missing: `../../png/22-screenshot-from-2025-12-14-15-14-42.png`
+  - Missing: `../../png/23-screenshot-from-2025-12-14-15-15-53.png`
+  - Missing: `../../png/24-screenshot-from-2025-12-14-15-16-18.png`
+  - Missing: `../../png/25-screenshot-from-2025-12-14-15-18-04.png`
+  - Missing: `../../png/26-screenshot-from-2025-12-14-15-18-47.png`
+  - Missing: `../../png/27-screenshot-from-2025-12-14-15-24-43.png`
+  - Missing: `../../png/28-screenshot-from-2025-12-14-15-50-33.png`
+  - Missing: `../../png/29-screenshot-from-2025-12-14-16-01-56.png`
+  - Missing: `../../png/30-screenshot-from-2025-12-14-16-09-59.png`
+  - Missing: `../../png/31-screenshot-from-2025-12-14-16-16-48.png`
+  - Missing: `../../png/32-screenshot-from-2025-12-14-16-22-18.png`
+  - Missing: `../../png/33-screenshot-from-2025-12-14-16-31-54.png`
+  - Missing: `../../png/34-screenshot-from-2025-12-14-16-38-24.png`
+  - Missing: `../../png/35-screenshot-from-2025-12-14-16-51-35.png`
+  - Missing: `../../png/36-screenshot-from-2025-12-14-17-12-19.png`
+  - Missing: `../../png/37-screenshot-from-2025-12-14-17-19-42.png`
+  - Missing: `../../png/38-screenshot-from-2025-12-14-17-20-46.png`
+  - Missing: `../../png/39-screenshot-from-2025-12-14-17-22-18.png`
+  - Missing: `../../png/40-screenshot-from-2025-12-14-17-24-56.png`
+  - Missing: `../../png/41-screenshot-from-2025-12-14-17-58-37.png`
+  - Missing: `../../png/42-screenshot-from-2025-12-14-18-10-54.png`
+  - Missing: `../../png/43-screenshot-from-2025-12-14-18-11-21.png`
+  - Missing: `../../png/44-screenshot-from-2025-12-14-18-13-07.png`
+  - Missing: `../../png/45-screenshot-from-2025-12-14-18-13-38.png`
+  - Missing: `../../png/46-screenshot-from-2025-12-14-18-14-23.png`
+  - Missing: `../../png/47-screenshot-from-2025-12-14-18-20-33.png`
+  - Missing: `../../png/48-screenshot-from-2025-12-14-18-23-50.png`
+  - Missing: `../../png/49-screenshot-from-2025-12-14-18-24-41.png`
+  - Missing: `../../png/50-screenshot-from-2025-12-14-18-26-24.png`
+  - Missing: `../../png/51-screenshot-from-2025-12-14-18-26-58.png`
+  - Missing: `../../png/52-screenshot-from-2025-12-14-18-55-44.png`
+  - Missing: `../../png/53-screenshot-from-2025-12-14-19-01-38.png`
+- **In `repos/diy-make/memory/public/2025/Q4/12/14/md/2025-12-14_png_journal.md`**:
+  - Missing: `../../png/05-agent-hardcodes-detect-secrets-path.png`
+  - Missing: `../../png/06-agent-commits-md-reorganization.png`
