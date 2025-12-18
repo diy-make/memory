@@ -1,4 +1,4 @@
 {
   "name": "Swarm-based Job Tracking",
-  "description": "Job tracking is now managed through the swarm communication protocol. New tasks are assigned and tracked through communication logs in the 'drive_only/comms/' directory."
+  "description": "Job tracking is now managed through the swarm communication protocol. New tasks are assigned and tracked through communication logs in the 'the directory specified by `swarm_comms` in `json/local_paths.json`' directory."
 }

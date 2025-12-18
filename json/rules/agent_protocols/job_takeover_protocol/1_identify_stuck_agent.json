@@ -1,5 +1,5 @@
 {
   "name": "Identify Stuck Agent",
   "description": "Identify a potentially stuck agent through swarm communication logs (located in the `memory/` repository system) or direct user instruction.",
-  "path_to_scripting": "This step can be implemented as a monitoring script that continuously scans the swarm communication logs (e.g., in `drive_only/comms/`) for signs of a stuck agent (e.g., lack of activity for a prolonged period, or specific error messages). Alternatively, this script can be triggered by direct user instruction. Upon identification, the script would flag the agent as potentially stuck and initiate the next step in the job takeover protocol."
+  "path_to_scripting": "This step can be implemented as a monitoring script that continuously scans the swarm communication logs (e.g., in `the directory specified by `swarm_comms` in `json/local_paths.json``) for signs of a stuck agent (e.g., lack of activity for a prolonged period, or specific error messages). Alternatively, this script can be triggered by direct user instruction. Upon identification, the script would flag the agent as potentially stuck and initiate the next step in the job takeover protocol."
 }

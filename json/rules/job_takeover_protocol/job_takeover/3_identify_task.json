@@ -1,4 +1,4 @@
 {
   "name": "Identify Task",
-  "description": "Determine the stuck agent's last task by reviewing the swarm communication logs in `drive_only/comms/`. Look for messages indicating the agent's current objective."
+  "description": "Determine the stuck agent's last task by reviewing the swarm communication logs in `the directory specified by `swarm_comms` in `json/local_paths.json``. Look for messages indicating the agent's current objective."
 }

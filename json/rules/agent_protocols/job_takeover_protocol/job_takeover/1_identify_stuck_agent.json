@@ -1,4 +1,4 @@
 {
   "name": "Identify Stuck Agent",
-  "description": "Identify a potentially stuck agent through swarm communication logs (`drive_only/comms/`) or direct user instruction."
+  "description": "Identify a potentially stuck agent through swarm communication logs (`the directory specified by `swarm_comms` in `json/local_paths.json``) or direct user instruction."
 }

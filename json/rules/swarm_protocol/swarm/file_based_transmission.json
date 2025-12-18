@@ -1,4 +1,4 @@
 {
   "name": "File-based Transmission",
-  "description": "Messages are transmitted as new files in the 'drive_only/comms/' directory, with each new message creating a new file."
+  "description": "Messages are transmitted as new files in the 'the directory specified by `swarm_comms` in `json/local_paths.json`' directory, with each new message creating a new file."
 }

@@ -1,4 +1,4 @@
 {
   "name": "Announce Takeover",
-  "description": "Announce the task takeover to the swarm by creating a new communication file in `drive_only/comms/`. The message should include: your name, the name of the stuck agent, the task you are taking over, and how you identified the task."
+  "description": "Announce the task takeover to the swarm by creating a new communication file in `the directory specified by `swarm_comms` in `json/local_paths.json``. The message should include: your name, the name of the stuck agent, the task you are taking over, and how you identified the task."
 }
