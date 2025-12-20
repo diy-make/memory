@@ -11,7 +11,7 @@
 > **🔴 THE METAGENESIS (Method Deployed):** [Field Hacking Method @ EthGlobal](https://ethglobal.com/showcase/field-hacking-method-pv50n) - **Buenos Aires, Nov 2025.**
 >
 > **🔴 THE GENESIS (Origin Point):** [Reality Merge @ SensAI](https://devpost.com/software/reality-merge) - **San Francisco, Dec 2025.**
-- [ ] WeDo: link to the GitHub Pages not the devpost. Look to this README.md Git history for the link.
+- [ ] WeDo: link to the GitHub Pages not the devpost. Look to this README.md Git history for the link. Update apemake/gem's README.md too, at localhost:gemini/.
 
 
 **The Public Conscience: Global Design, Local Action**
