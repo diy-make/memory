@@ -1,3 +1,12 @@
-trash/
-.venv2/
+# Environments
 .venv/
+.venv2/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# Ephemeral junk / Inbox
+trash/
+png/*.png
+png/fix/

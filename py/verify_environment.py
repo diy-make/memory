@@ -6,12 +6,12 @@ import argparse
 
 # The version of the Memory Module environment configuration.
 # This will be replaced by the release manager during a release commit.
-__version__ = "V0.9.0_at0iTwU2"
+__version__ = "V0.8.0_mYnjIXKo"
 
 CORE_FILE_CHECKSUMS = {
     "2025/Q4/12/18/json/Arete_20251218_initialization.json": "9dba9597b7c2f0f805980c5ec6f8f8cffc4187bde25df82cf10b98943955bf95",
     "README.ai": "ffb7c31037494484b401819a8bb3a2549b1750d7f0cfcf0f7fe5ea2d1534c335",
-    "README.md": "5bbec21fe7f2829aa8a675526c62e051681279941acd779b349b5d66c43d4ca1",
+    "README.md": "a042024b0c7f078272ea71599ce1a73f36e52d89d0c21df6359b278f5c225d36",
     "VERSION": "30c99e8b103eacbe6f6d6e1b54b06ca6d5f3164b4f50094334a517ae95ca8fba",
     "json/bot_crash_protocol.json": "d11e53c0e45e54d6c8b9f987628f170ac59645be9b130a770c0f89e59d0cf984",
     "json/broken_instance_protocol.json": "6bef99d6167243d6a4b24ba646dc86080efc095f98e6f6a40b44df04b1513bd9",
@@ -417,11 +417,12 @@ CORE_FILE_CHECKSUMS = {
     "json/startup_protocol.json": "6b97c2e2972c2f4a6ca5eceb381d0aa69290eaffbd2faf10c482887d9a181a0c",
     "py/signatures/generate_salt.py": "6a0db515090f2e6b107f186875fadfae0ce15c7d7187e2998359db80f1b09e3c"
 }
+
 def get_file_sha256(file_path):
     sha256 = hashlib.sha256()
     try:
         with open(file_path, "rb") as f:
-            for byte_block in iter(lambda: f.read(4096), b""):
+            for byte_block in iter(lambda: f.read(4096), b""): # Corrected b'\n' to b''
                 sha256.update(byte_block)
         return sha256.hexdigest()
     except FileNotFoundError:
@@ -523,7 +524,6 @@ def check_file_integrity(file_path, expected_checksum):
         return False
     
     if actual_checksum == expected_checksum:
-        # print(f"✔ Core file '{file_path}' has correct checksum.") # Too much noise
         return True
     else:
         print(f"❌ Core file '{file_path}' has been modified or is corrupt.")
