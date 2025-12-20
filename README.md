@@ -58,6 +58,8 @@ Git provides the immutable legislative history for these contracts, allowing any
 
 ## 3. HARD-WON KNOWLEDGE: THE FRAGILITY OF THE SUBSTRATE
 
+- [ ] WeDo: Within the HARD-WON KNOWLEDGE section, have this PNG death story be a subsection and add another subsection to explain how the Reality Merge hack story shows why we need Git & Drive systems that are Agent Orchestrated. Bring back the Gif, the YouTube video and the LTF failure for VR SF & Honduras information here. Look to apemake/gem/README.md history too, at localhost gemini/.
+
 Our evolution is marked by necessary failure. The **"Death by PNG"** incident was a foundational lesson: our agents would crash due to **dulling through garbage collection** issues when the Node.js substrate was overwhelmed by high-resolution visual data. 
 
 We did not merely patch this; we evolved a new philosophy: the **Compression/Decompression Oscillation**.
