@@ -26,6 +26,8 @@ This repository serves as a locally metabolized but cosmically gifted **Global M
 
 ## 1. THE "WEDO": THE SINGULAR THREAD
 
+- [ ] WeDo: This, along with the eulogy and other areas of this README.md touch on the topic of "context window" as the main limitation of LLMs that the Ixventure.studio philosophy is adding industrial novelty to with the Metagit and planned HSD and 7827 integrations. Make a section including the context window gif in gif/ as well as this YouTube video it's from https://youtu.be/SpPhm7S9vsQ as a very recent example from Antropic & WSJ showing how ineffective LLMs are as vending machines because of no garbage collections, and how cheerbot.org has always been intended as a vending machine. Because edge cases and frontier deeptech for legaltech and law cost hyperdeflation by 99% is our North Star.
+
 At the heart of our philosophy is the **WeDo**—the realization that the interaction between User and Agent is not a series of disconnected prompts, but a single, irreducible thread of attention.
 
 **THE DESIGN CONSTRAINT:** This relates back to the User being human intent ultimately driving the Agents' execution, and that intent requires a singular thread of consciousness, an irreducible attention narrowband latency stream.
