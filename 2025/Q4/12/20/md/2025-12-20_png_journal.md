@@ -207,3 +207,38 @@
 - **Key Takeaway:** Demonstrates the internal state of the automated agent as it performs semantic analysis of image content, effectively bridging visual data and structured documentation.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 15-30-12.png`
+
+### 31. `31-gemini-flash-python-logic-for-moving-and-appending.png`
+![31-gemini-flash-python-logic-for-moving-and-appending.png](../png/31-gemini-flash-python-logic-for-moving-and-appending.png)
+- **Description:** A screenshot of the terminal displaying the Python logic used by the automated agent to move processed image files (`os.rename`) and append the structured entries to the journal (`f.write`). The code snippet clearly shows the automation's reliance on standardized variables like `target_path`, `journal_path`, and `journal_entry`.
+- **Key Takeaway:** Provides a technical audit trail of the automation script's operations, confirming the deterministic nature of the file management and documentation process.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-30-22.png`
+
+### 32. `32-gemini-flash-moving-image-04-and-appending-to-journal.png`
+![32-gemini-flash-moving-image-04-and-appending-to-journal.png](../png/32-gemini-flash-moving-image-04-and-appending-to-journal.png)
+- **Description:** A screenshot of the terminal log confirming the completion of processing for Image 04. The log shows the shell command to move the file and the subsequent `WriteFile` operation appending the new entry to the journal. The diff view shows the specific lines being added for Image 04.
+- **Key Takeaway:** Demonstrates the successful execution of the core "Move and Append" workflow for the Cheerbot-related presentation image.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-30-48.png`
+
+### 33. `33-gemini-flash-resolving-heredoc-issues-for-image-08.png`
+![33-gemini-flash-resolving-heredoc-issues-for-image-08.png](../png/33-gemini-flash-resolving-heredoc-issues-for-image-08.png)
+- **Description:** A screenshot of the terminal showing the agent working to resolve "Heredoc Issues" while appending the entry for Image 08 (`08-pneuma-x402-presentation-http402-history.png`). The status bar indicates that the agent has been troubleshooting this for nearly 12 minutes, highlighting the persistence required to overcome environment-specific formatting challenges in the automated stream.
+- **Key Takeaway:** Illustrates the "Resolved Issues" part of the automation story, where the agent actively manages and overcomes technical debt/friction in real-time.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-37-28.png`
+
+### 34. `34-gemini-flash-troubleshooting-heredoc-for-image-09.png`
+![34-gemini-flash-troubleshooting-heredoc-for-image-09.png](../png/34-gemini-flash-troubleshooting-heredoc-for-image-09.png)
+- **Description:** A screenshot of the terminal as the agent continues to grapple with the "Heredoc Issues" while processing Image 09 (`09-pneuma-x402-presentation-webhook-nature1.png`). The troubleshooting time has increased to over 17 minutes, and memory usage has reached 1.05 GB. This image documents the "friction point" in the session where environment-specific bugs began to consume significant time and resources.
+- **Key Takeaway:** Provides a visual record of the operational challenges and resource consumption (memory and time) during the automated phase, justifying the subsequent need for handoffs or model resets.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-42-42.png`
+
+### 35. `35-gemini-flash-high-memory-usage-and-persisting-heredoc-issue.png`
+![35-gemini-flash-high-memory-usage-and-persisting-heredoc-issue.png](../png/35-gemini-flash-high-memory-usage-and-persisting-heredoc-issue.png)
+- **Description:** A screenshot of the terminal interface documenting the peak of the session's technical friction. The agent is still attempting to resolve "Heredoc Issues" while memory usage has climbed to 1.21 GB. The diff view shows the lines being added for Image 09, confirming that despite the environment issues, the agent is successfully persisting the journal data.
+- **Key Takeaway:** Demonstrates the agent's resilience and data integrity under suboptimal conditions (high memory pressure and shell bugs), ensuring the permanent record is maintained even when the immediate environment is unstable.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-43-10.png`
