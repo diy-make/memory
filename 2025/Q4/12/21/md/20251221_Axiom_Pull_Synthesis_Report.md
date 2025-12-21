@@ -36,6 +36,6 @@ The changes were applied to the Root `README.md` and committed under the identit
 
 ### 4. Repository Access
 This report is stored within the Sacred Memory at:
-`repos/diy-make/memory/public/md/wedo/remote_pull/jobs/20251221_Axiom_Pull_Synthesis_Report.md`
+`repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_Axiom_Pull_Synthesis_Report.md`
 
 **GitHub Response Link:** (The user may share the relative path or the commit hash once published to GitHub).
