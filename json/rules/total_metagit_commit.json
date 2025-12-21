@@ -1,0 +1,36 @@
+{
+  "name": "Total MetaGit Commit Protocol",
+  "description": "A recursive commit sequence that synchronizes a multi-git filesystem by committing from the most deeply nested child repository up to the root.",
+  "sequence": [
+    {
+      "step": 1,
+      "repo": "repos/diy-make/memory/public/",
+      "action": "Commit all journal updates, schema changes, and session artifacts."
+    },
+    {
+      "step": 2,
+      "repo": "repos/diy-make/memory/",
+      "action": "Stop tracking 'public/' content (ensure it's ignored or handled as a separate entity) and accept .gitignore updates."
+    },
+    {
+      "step": 3,
+      "repo": "repos/diy-make/",
+      "action": "Synchronize the middle-tier metarepo."
+    },
+    {
+      "step": 4,
+      "repo": "repos/",
+      "action": "Synchronize the repos collection level."
+    },
+    {
+      "step": 5,
+      "repo": "gemini/",
+      "action": "Commit root-level configuration changes (e.g., .gemini/settings.json) and finalize the metagit state."
+    }
+  ],
+  "rules": [
+    "NEVER force commit submodules or virtual environments (.venv).",
+    "Commit from child to parent to ensure pointers/submodules are correctly updated at each level (if applicable).",
+    "Maintain consistent agent identity throughout the sequence."
+  ]
+}
