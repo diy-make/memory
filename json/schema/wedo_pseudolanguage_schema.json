@@ -8,7 +8,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "A unique, sequential, and human-readable identifier for the task step (e.g., 'WEDO-01', 'IMG-02a'). This is the primary key for tracking progress."
+          "description": "A unique, sequential, and human-readable identifier for the task step (e.g., 'WEDO-01', 'IMG-02a'). This MUST include an index or numbering system to allow users to cite and reference specific tasks in chat (e.g., 'Please retry step IMG-03b'). This is the primary key for tracking progress."
         },
         "description": {
           "type": "string",

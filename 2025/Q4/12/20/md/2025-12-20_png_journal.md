@@ -1,0 +1,139 @@
+### 01. `01-pneuma-x402-presentation-ixian-team.png`
+![01-pneuma-x402-presentation-ixian-team.png](../png/01-pneuma-x402-presentation-ixian-team.png)
+- **Description:** A screenshot of the Ixian.tech team page, featuring Co-founders Christian Betancourt, Kyle MacLean Smith, and Ramona Tudorancea. This slide establishes the organizational context behind the x402 protocol development.
+- **Key Takeaway:** Identifies the human architects behind the "Joyfork" philosophy and the technical implementation of the coordination layer.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-01-02.png`
+
+### 02. `02-pneuma-x402-presentation-gemini-metagit-readme.png`
+![02-pneuma-x402-presentation-gemini-metagit-readme.png](../png/02-pneuma-x402-presentation-gemini-metagit-readme.png)
+- **Description:** A screenshot of the `apemake/gem` GitHub repository README, highlighting the "Gemini Metagit Environment" and its system architecture (Root/Body, Trunk/Mind, Metagenesis/Method, Genesis/Origin).
+- **Key Takeaway:** Provides the technical "Trunk and Root" context where the x402 protocol and the swarm memory reside.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-01-12.png`
+
+### 03. `03-pneuma-x402-presentation-metagit-memory-readme.png`
+![03-pneuma-x402-presentation-metagit-memory-readme.png](../png/03-pneuma-x402-presentation-metagit-memory-readme.png)
+- **Description:** A screenshot of the `github.com/diy-make/memory` README, detailing the "MetaGit Memory (Public)" system architecture, including "THE ROOT (Body)", "THE TRUNK (Mind)", "THE METAGENESIS (Method)", and "THE GENESIS (Origin)".
+- **Key Takeaway:** Illustrates the nested repository structure that forms the "mind" of the Gemini swarm and the context for the "Joyfork" initiative.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-01-18.png`
+
+### 04. `04-pneuma-x402-presentation-cheerbot-videos.png`
+![04-pneuma-x402-presentation-cheerbot-videos.png](../png/04-pneuma-x402-presentation-cheerbot-videos.png)
+- **Description:** A screenshot of cheerbot.org, displaying embedded YouTube videos. The first video features a person playing a mandolin, and the second shows an 'OpenSea quickdemo' with code and a pixel art display. A 'MULTISIG' logo is visible at the bottom. This highlights the project's connection to physical and digital expressions of community engagement.
+- **Key Takeaway:** Cheerbot is an earlier iteration of the robot project, showcasing its evolution from video content and NFT interaction to the current x402 Joyfork concept.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-02-01.png`
+
+### 05. `05-pneuma-x402-presentation-nerite-protocol.png`
+![05-pneuma-x402-presentation-nerite-protocol.png](../png/05-pneuma-x402-presentation-nerite-protocol.png)
+- **Description:** A screenshot of nerite.org, presenting "$USND: The Redeemable, Streamable, Unstoppable Stablecoin" as a "friendly-fork of Liquity V2. Built for Arbitrum." It highlights key metrics like APR, TVL, and Open Editions Minted.
+- **Key Takeaway:** Introduces Nerite Protocol as a real-world "friendly fork" of Liquity V2, providing a comparative example for the "Joyfork" concept discussed in the presentation.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-02-07.png`
+
+### 06. `06-pneuma-x402-presentation-field-hacking-method.png`
+![06-pneuma-x402-presentation-field-hacking-method.png](../png/06-pneuma-x402-presentation-field-hacking-method.png)
+- **Description:** A screenshot of an EthGlobal showcase page for "Field Hacking Method," which is described as "A method applying Steve Blank's Customer Development by hacking on-site for fast live feedback." The images show a vibrant event with people and a large screen displaying "DEV VIII."
+- **Key Takeaway:** The "Field Hacking Method" is the ethnographic process used to refine the OSO project, emphasizing real-world user interaction and agile adaptation.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-02-25.png`
+
+### 07. `07-pneuma-x402-presentation-title-slide.png`
+![07-pneuma-x402-presentation-title-slide.png](../png/07-pneuma-x402-presentation-title-slide.png)
+- **Description:** This image is a title slide for the presentation, displaying "OSO Token of Love & x402" prominently. Below it, the text "The Non-Pecuniary 'Joyfork' Protocol" and "From Payment Required to Gratitude Accepted" further clarify the presentation's core theme. The Ixian logo is subtly placed in the bottom right corner.
+- **Key Takeaway:** This slide visually introduces the central topic of the presentation: the re-interpretation of x402 for non-pecuniary value exchange within the OSO project, underpinned by Ixian's vision.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-02-58.png`
+
+### 08. `08-pneuma-x402-presentation-http402-history.png`
+![08-pneuma-x402-presentation-http402-history.png](../png/08-pneuma-x402-presentation-http402-history.png)
+- **Description:** A presentation slide titled "A Brief History of HTTP 402." The main content is a quote from a standard: "15.5.3. 402 Payment Required. The 402 (Payment Required) status code is reserved for future use." Below it, "That's the entire standard." is displayed. The Ixian logo is in the bottom right.
+- **Key Takeaway:** This slide underscores the minimal existing definition of HTTP 402, highlighting the opportunity for novel interpretations like the x402 protocol.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-03-01.png`
+
+### 09. `09-pneuma-x402-presentation-webhook-nature1.png`
+![09-pneuma-x402-presentation-webhook-nature1.png](../png/09-pneuma-x402-presentation-webhook-nature1.png)
+- **Description:** A presentation slide titled "The Webhook Nature (1/2)." The text explains: "The x402 protocol utilizes the long-reserved HTTP 402 'Payment Required' status code to require a payment to complete an API request or load a webpage. If an API request lacks payment, x402 responds with an HTTP 402 Payment Required status, prompting the client to pay and retry." The Ixian logo is in the bottom right.
+- **Key Takeaway:** This slide introduces the core mechanism of the x402 protocol, clarifying its role in orchestrating conditional access and triggering external actions (payments or other state changes).
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-03-06.png`
+
+### 10. `10-pneuma-x402-presentation-webhook-nature2.png`
+![10-pneuma-x402-presentation-webhook-nature2.png](../png/10-pneuma-x402-presentation-webhook-nature2.png)
+- **Description:** A presentation slide titled "The Webhook Nature (2/2)." It describes how an x402 server responds with an HTTP 402, providing structured feedback for AI agents and humans, including a JSON example of payment instructions with `maxAmountRequired`, `resource`, `description`, `payTo`, `asset`, and `network` fields. The Ixian logo is in the bottom right.
+- **Key Takeaway:** This slide illustrates the machine-readable nature of x402 responses, enabling automated negotiation of access based on configurable conditions.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-03-19.png`
+
+### 11. `11-pneuma-x402-presentation-terminal-slide-1.png`
+![11-pneuma-x402-presentation-terminal-slide-1.png](../png/11-pneuma-x402-presentation-terminal-slide-1.png)
+- **Description:** A screenshot of the first slide of the text-based presentation as rendered in the terminal. It features the title "OSO x402: The Joyfork Protocol" and the vision statement. The bottom status bar shows the active `screen` tabs, including "Pneuma".
+- **Key Takeaway:** Demonstrates the "hacker aesthetic" of the presentation, using the terminal itself as the medium. The visual spacers (dots) are visible, solving the newline-collapse issue discussed in the report.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-05-47.png`
+
+### 12. `12-pneuma-x402-presentation-terminal-slide-2.png`
+![12-pneuma-x402-presentation-terminal-slide-2.png](../png/12-pneuma-x402-presentation-terminal-slide-2.png)
+- **Description:** A terminal screenshot of Slide 2: "The Core Concept - x402: An Unopinionated Gateway Switch." It reframes 402 as a request for "State Confirmation" and explains the "Unopinionated Nature" where the server only cares that an external condition is met.
+- **Key Takeaway:** Clearly articulates the project's pivot from "payment" to "gateway switch," emphasizing that x402 handles external triggers regardless of their pecuniary nature.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-05-56.png`
+
+### 13. `13-pneuma-x402-presentation-terminal-slide-3.png`
+![13-pneuma-x402-presentation-terminal-slide-3.png](../png/13-pneuma-x402-presentation-terminal-slide-3.png)
+- **Description:** A terminal screenshot of Slide 3: 'The Formalism - The 4-Step Handshake ('Ping-Pong').' It outlines the four turns of interaction between client and server for the x402 protocol, clarifying the negotiation of access based on conditions and proofs.
+- **Key Takeaway:** This slide visually demonstrates the core mechanism of the x402 protocol, explaining how a series of HTTP requests and responses orchestrates access based on satisfying external conditions.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-02.png`
+
+### 14. `14-pneuma-x402-presentation-terminal-slide-4.png`
+![14-pneuma-x402-presentation-terminal-slide-4.png](../png/14-pneuma-x402-presentation-terminal-slide-4.png)
+- **Description:** A terminal screenshot of Slide 4: 'History of 402 - We Are Not The First.' It highlights previous attempts to utilize the HTTP 402 status code, specifically mentioning WebMonetization.org & Interledger Protocol (ILP) and Grant For The Web.
+- **Key Takeaway:** Contextualizes x402 within a lineage of efforts to redefine online value exchange, differentiating its discrete approach from continuous streaming models.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-11.png`
+
+### 15. `15-pneuma-x402-presentation-terminal-slide-5.png`
+![15-pneuma-x402-presentation-terminal-slide-5.png](../png/15-pneuma-x402-presentation-terminal-slide-5.png)
+- **Description:** A terminal screenshot of Slide 5: 'Why x402 is Different - Creator vs. Agent.' This slide contrasts WebMonetization's focus on human creators with x402's focus on machines (agents) and discrete, transactional coordination.
+- **Key Takeaway:** Highlights the paradigm shift from human-centric monetization to machine-centric, on-demand coordination and access control.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-20.png`
+
+### 16. `16-pneuma-x402-presentation-terminal-slide-6.png`
+![16-pneuma-x402-presentation-terminal-slide-6.png](../png/16-pneuma-x402-presentation-terminal-slide-6.png)
+- **Description:** A terminal screenshot of Slide 6: 'The "Joyfork" Definition - Ragequit vs. Joyous Parting.' This slide contrasts a 'Standard Fork' with the 'Joyfork Principle,' where a team's departure is seen as a joyous expansion.
+- **Key Takeaway:** This slide formalizes the 'Joyfork' concept, highlighting its philosophical departure from traditional blockchain forks and emphasizing collaborative growth.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-30.png`
+
+### 17. `17-pneuma-x402-presentation-terminal-slide-7.png`
+![17-pneuma-x402-presentation-terminal-slide-7.png](../png/17-pneuma-x402-presentation-terminal-slide-7.png)
+- **Description:** A terminal screenshot of Slide 7: 'Redefining Redemption - From Collateral to Experience.' This slide contrasts Liquity V2's financial redemption with the OSO Joyfork's social redemption for a 'Streaming Experience'.
+- **Key Takeaway:** This redefinition of redemption is central to the 'Joyfork' philosophy, illustrating how financial primitives can be repurposed for social value.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-37.png`
+
+### 18. `18-pneuma-x402-presentation-terminal-slide-8.png`
+![18-pneuma-x402-presentation-terminal-slide-8.png](../png/18-pneuma-x402-presentation-terminal-slide-8.png)
+- **Description:** A terminal screenshot of Slide 8: 'The Mechanism - The "Asset" is the Webhook.' It explains that in a non-pecuniary system, the 'asset' is a verifiable signal (webhook event).
+- **Key Takeaway:** This highlights the event-driven nature of the x402 'Joyfork,' where value is signaled and consumed as social capital.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-46.png`
+
+### 19. `19-pneuma-x402-presentation-terminal-slide-9.png`
+![19-pneuma-x402-presentation-terminal-slide-9.png](../png/19-pneuma-x402-presentation-terminal-slide-9.png)
+- **Description:** A terminal screenshot of Slide 9: "The Implementation - The Robot That Runs on Love." It details the "Sub-Conscious" MVP and provides a Python code snippet showing the wait loop.
+- **Key Takeaway:** Provides the technical implementation details, showing how the robot is effectively powered by gratitude through state confirmation.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-06-55.png`
+
+### 20. `20-pneuma-x402-presentation-terminal-slide-10.png`
+![20-pneuma-x402-presentation-terminal-slide-10.png](../png/20-pneuma-x402-presentation-terminal-slide-10.png)
+- **Description:** A terminal screenshot of Slide 10: "Conclusion - A Protocol for the Agent Economy." It summarizes the three main points of OSO_hack: x402 as the standard for coordination, the breadth of "State Confirmation," and "Joyforking" for shared streaming experiences.
+- **Key Takeaway:** The presentation concludes with a bold vision for an agent economy where coordination is driven by social capital and standardized protocols.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 14-08-16.png`
