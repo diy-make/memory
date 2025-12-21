@@ -27,5 +27,5 @@ The changes were applied to the Root `README.md` and committed under the identit
 ---
 
 ### 3. Repository Access
-This report is stored within the Sacred Memory at:
-`repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_Axiom_Pull_Synthesis_GEM.md`
+**Localhost:** `/home/bestape/gemini/repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_Axiom_Pull_Synthesis_GEM.md`  
+**Remotehost:** https://github.com/diy-make/memory/blob/main/2025/Q4/12/21/md/20251221_Axiom_Pull_Synthesis_GEM.md

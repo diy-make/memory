@@ -28,3 +28,4 @@
   - Status: [ ]
   - Description: [Detailed Description]
   - Synthesis Report: Required (See WEDO-SYN-04 template)
+  - Location Protocol: Must include both **localhost** and **remotehost** references.
