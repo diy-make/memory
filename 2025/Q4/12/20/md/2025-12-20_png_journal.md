@@ -138,107 +138,37 @@
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 14-08-16.png`
 
-### 26. `26-pneuma-x402-presentation-creation-06.png`
-![26-pneuma-x402-presentation-creation-06.png](../png/26-pneuma-x402-presentation-creation-06.png)
-- **Description:** Continuing the presentation build. Likely adjusting the layout or adding content.
-- **Key Takeaway:** Progress on the visual structure.
+### 21. `21-pneuma-modifying-job-file-add-finish-step.png`
+![21-pneuma-modifying-job-file-add-finish-step.png](../png/21-pneuma-modifying-job-file-add-finish-step.png)
+- **Description:** A screenshot of the terminal interface showing Agent Pneuma modifying a job file. The diff highlights the addition of "STEP 5: Notify user that the automated phase is complete," instructing the user to switch models. This modification ensures a smooth handoff between automated processing and manual review.
+- **Key Takeaway:** Demonstrates the agent's ability to refine its own operational protocols (meta-programming) to improve user experience.
 - **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-26-40.png`
+- **Original Filename:** `Screenshot from 2025-12-20 15-16-23.png`
 
-### 27. `27-pneuma-x402-presentation-creation-07.png`
-![27-pneuma-x402-presentation-creation-07.png](../png/27-pneuma-x402-presentation-creation-07.png)
-- **Description:** Further refinement of the presentation. Focusing on clarity and impact.
-- **Key Takeaway:** Iterative improvement.
+### 22. `22-pneuma-announcing-model-switch-to-automated-phase.png`
+![22-pneuma-announcing-model-switch-to-automated-phase.png](../png/22-pneuma-announcing-model-switch-to-automated-phase.png)
+- **Description:** A screenshot of Pneuma communicating directly with the user via the terminal interface. Pneuma confirms the completion of the manual phase and initiates the protocol for a model switch to `gemini-2.5-flash` to handle the bulk automation of the remaining presentation images.
+- **Key Takeaway:** Highlights the "Human-in-the-Loop" workflow where the agent orchestrates the use of different underlying models for specific phases (precision vs. speed).
 - **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-26-50.png`
+- **Original Filename:** `Screenshot from 2025-12-20 15-20-29.png`
 
-### 28. `28-pneuma-x402-presentation-creation-08.png`
-![28-pneuma-x402-presentation-creation-08.png](../png/28-pneuma-x402-presentation-creation-08.png)
-- **Description:** Reviewing the generated slides or code.
-- **Key Takeaway:** Quality assurance in the creative process.
+### 23. `23-user-selecting-gemini-2.5-flash-for-automation.png`
+![23-user-selecting-gemini-2.5-flash-for-automation.png](../png/23-user-selecting-gemini-2.5-flash-for-automation.png)
+- **Description:** A screenshot of the model selection menu within the Gemini CLI. The user is manually selecting `gemini-2.5-flash` (option 4) to proceed with the automated phase of the PNG journaling job, following Pneuma's recommendation for higher efficiency during bulk tasks.
+- **Key Takeaway:** Illustrates the manual control the user maintains over the underlying AI resources, switching models to optimize for cost and speed during repetitive tasks.
 - **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-27-05.png`
+- **Original Filename:** `Screenshot from 2025-12-20 15-21-15.png`
 
-### 29. `29-pneuma-x402-presentation-creation-09.png`
-![29-pneuma-x402-presentation-creation-09.png](../png/29-pneuma-x402-presentation-creation-09.png)
-- **Description:** Nearing completion of the initial draft.
-- **Key Takeaway:** The structure is solidifying.
+### 24. `24-pneuma-acknowledging-model-switch-to-flash.png`
+![24-pneuma-acknowledging-model-switch-to-flash.png](../png/24-pneuma-acknowledging-model-switch-to-flash.png)
+- **Description:** A screenshot showing the terminal interaction after the user confirmed the model switch. The system acknowledges the change with "Aligning the stars for optimal response..." and the status bar correctly reflects the new active model: `gemini-2.5-flash` in `Manual` mode.
+- **Key Takeaway:** Confirms successful synchronization between the user's intent and the system's state before beginning the automated bulk processing.
 - **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-29-44.png`
+- **Original Filename:** `Screenshot from 2025-12-20 15-21-53.png`
 
-### 30. `30-pneuma-x402-presentation-creation-10.png`
-![30-pneuma-x402-presentation-creation-10.png](../png/30-pneuma-x402-presentation-creation-10.png)
-- **Description:** Preparing to save or export the presentation.
-- **Key Takeaway:** Transitioning from creation to delivery.
+### 25. `25-gemini-flash-listing-png-inbox-files.png`
+![25-gemini-flash-listing-png-inbox-files.png](../png/25-gemini-flash-listing-png-inbox-files.png)
+- **Description:** A screenshot of the terminal showing the first automated action taken by the `gemini-2.5-flash` model. The agent is executing a shell command (`ls ... | tail ...`) to list the contents of the `repos/diy-make/memory/public/png/` inbox, specifically filtering for files from `2025-12-20`. The output displays a list of unrenamed "Screenshot from..." files, confirming the backlog of images waiting to be processed.
+- **Key Takeaway:** Marks the successful start of the automated bulk processing phase, with the agent immediately identifying the workload.
 - **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-30-12.png`
-
-### 31. `31-pneuma-x402-presentation-creation-11.png`
-![31-pneuma-x402-presentation-creation-11.png](../png/31-pneuma-x402-presentation-creation-11.png)
-- **Description:** Finalizing the terminal slide deck.
-- **Key Takeaway:** The content is ready for review.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-30-22.png`
-
-### 32. `32-pneuma-x402-presentation-creation-12.png`
-![32-pneuma-x402-presentation-creation-12.png](../png/32-pneuma-x402-presentation-creation-12.png)
-- **Description:** Reviewing the output of the presentation script.
-- **Key Takeaway:** Ensuring the 'dot' spacer technique works as intended.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-30-48.png`
-
-### 33. `33-pneuma-x402-presentation-creation-13.png`
-![33-pneuma-x402-presentation-creation-13.png](../png/33-pneuma-x402-presentation-creation-13.png)
-- **Description:** A gap in timestamps suggests a period of focused work or a break. Returning to polish the presentation.
-- **Key Takeaway:** Resuming the fabrication process.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-37-28.png`
-
-### 34. `34-pneuma-x402-presentation-creation-14.png`
-![34-pneuma-x402-presentation-creation-14.png](../png/34-pneuma-x402-presentation-creation-14.png)
-- **Description:**  Checking the PowerPoint side of the presentation.
-- **Key Takeaway:** Ensuring alignment between the terminal and PPTX versions.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-42-42.png`
-
-### 35. `35-pneuma-x402-presentation-creation-15.png`
-![35-pneuma-x402-presentation-creation-15.png](../png/35-pneuma-x402-presentation-creation-15.png)
-- **Description:** Final tweaks to the slide layout.
-- **Key Takeaway:** Getting ready for the final capture.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-43-10.png`
-
-### 36. `36-pneuma-x402-presentation-creation-16.png`
-![36-pneuma-x402-presentation-creation-16.png](../png/36-pneuma-x402-presentation-creation-16.png)
-- **Description:** Reviewing presentation flow.
-- **Key Takeaway:** Ensuring logical progression.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-53-15.png`
-
-### 37. `37-pneuma-x402-presentation-creation-17.png`
-![37-pneuma-x402-presentation-creation-17.png](../png/37-pneuma-x402-presentation-creation-17.png)
-- **Description:** Adjusting slide timing or animations (if applicable).
-- **Key Takeaway:** Fine-tuning delivery.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 15-56-30.png`
-
-### 38. `38-pneuma-x402-presentation-creation-18.png`
-![38-pneuma-x402-presentation-creation-18.png](../png/38-pneuma-x402-presentation-creation-18.png)
-- **Description:** Another review cycle.
-- **Key Takeaway:** Commitment to quality.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 16-01-44.png`
-
-### 39. `39-pneuma-x402-presentation-creation-19.png`
-![39-pneuma-x402-presentation-creation-19.png](../png/39-pneuma-x402-presentation-creation-19.png)
-- **Description:** Final check before conclusion.
-- **Key Takeaway:** Near completion.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 16-04-17.png`
-
-### 40. `40-pneuma-x402-presentation-creation-20.png`
-![40-pneuma-x402-presentation-creation-20.png](../png/40-pneuma-x402-presentation-creation-20.png)
-- **Description:** The presentation is essentially complete.
-- **Key Takeaway:** Ready for saving and sharing.
-- **Creation Date:** 2025-12-20
-- **Original Filename:** `Screenshot from 2025-12-20 16-10-33.png`
+- **Original Filename:** `Screenshot from 2025-12-20 15-23-48.png`
