@@ -579,3 +579,38 @@
 - **Key Takeaway:** Provides the definitive "Truth Source" for the artifact timestamps used to correct the repository locations earlier. It documents the agent's due diligence in verifying temporal data before performing file moves and link updates.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 18-39-57.png`
+
+### 84. `84-pneuma-verifying-presentation-artifacts-and-seeking-edits.png`
+![84-pneuma-verifying-presentation-artifacts-and-seeking-edits.png](../png/84-pneuma-verifying-presentation-artifacts-and-seeking-edits.png)
+- **Description:** A screenshot of the terminal where Pneuma is listing files in the `gemini/` directory, specifically focusing on the PowerPoint artifacts (`x402 Builders Slides.pptx`, `inspect_pptx.py`, `update_slides.py`, and `x402 Builders Slides Updated.pptx`). The user is also asking about specific edits to the journal version.
+- **Key Takeaway:** Documents the verification of presentation-related files and the collaborative editing process between the user and Pneuma, ensuring all artifacts are accounted for before finalizing the report.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 18-41-49.png`
+
+### 85. `85-pneuma-session-summary-and-closing-directive.png`
+![85-pneuma-session-summary-and-closing-directive.png](../png/85-pneuma-session-summary-and-closing-directive.png)
+- **Description:** A screenshot of the terminal showing Pneuma's final mission status update. She reports completing the Joyfork report (with 20 images), updating protocols and schemas for indexing, updating commit frequency policy, and registering her identity.
+- **Key Takeaway:** Captures the summary of Pneuma's session achievements and her "Closing Directive" to the user to switch back to a higher-level model for further analysis.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 18-27-18.png`
+
+### 86. `86-pneuma-updating-wedo-schema-and-todo-policy.png`
+![86-pneuma-updating-wedo-schema-and-todo-policy.png](../png/86-pneuma-updating-wedo-schema-and-todo-policy.png)
+- **Description:** A screenshot of the terminal where Pneuma is making edits to the `wedo_pseudolanguage_schema.json` and `agent_todo_policy.json`. The edits enforce the new indexed todo format (e.g., `[ ] [IMG-03f]`) to improve citation support.
+- **Key Takeaway:** Illustrates the refinement of swarm protocols to enhance accountability and the precision of task tracking through structured indexing.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 18-45-06.png`
+
+### 87. `87-pneuma-detailing-todo-policy-indexing-requirement.png`
+![87-pneuma-detailing-todo-policy-indexing-requirement.png](../png/87-pneuma-detailing-todo-policy-indexing-requirement.png)
+- **Description:** A screenshot showing the specific diff for `agent_todo_policy.json`. The update clarifies that the indexing/numbering system must be "immediately following the status box" to facilitate easier referencing by users in chat.
+- **Key Takeaway:** Provides granular detail on the policy change for agent todo lists, emphasizing the importance of structured indexing for clear and unambiguous user-agent interaction.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 18-45-15.png`
+
+### 88. `88-pneuma-troubleshooting-missing-presentation-files.png`
+![88-pneuma-troubleshooting-missing-presentation-files.png](../png/88-pneuma-troubleshooting-missing-presentation-files.png)
+- **Description:** A screenshot of the terminal where Pneuma is attempting to locate the four presentation-related files in the root directory, but `ls` reports they are missing. The user comments that Pneuma's context window might be overwhelmed.
+- **Key Takeaway:** Documents a moment of friction and context-overrun where the agent lost track of file locations, leading to a troubleshooting phase to find the misplaced artifacts and correct the project state.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 18-45-40.png`

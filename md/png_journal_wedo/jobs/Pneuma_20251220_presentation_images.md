@@ -2,8 +2,8 @@
 
 ## Metadata
 - **Description:** Journaling the 20 presentation images for the x402 Joyfork Protocol (ONLY 2025-12-20 images).
-- **Agent:** Tantor (Automated Processing)
-- **Status:** Automated Processing
+- **Agent:** Sovereign (Taking over from Tantor after OOM crash)
+- **Status:** Resuming Automated Processing
 - **Constraint:** Skip all images with timestamps earlier than 2025-12-20.
 
 ## Workflow
