@@ -18,9 +18,10 @@ This report details the rapid, iterative collaboration between User and Agent (P
 *   **Local Repository Context:**
     *   `repos/diy-make/OSO_hack/README.md`: Provided the core philosophy ("Parsimonious Commands").
     *   `repos/diy-make/OSO_hack/md/`: Provided the initial raw thoughts on non-pecuniary x402.
-*   **Archived Artifacts (Dec 18):**
-    *   **[PowerPoint Source Deck](../../12/18/pptx/)**: Contains the `x402 Builders Slides.pptx` and the updated version.
-    *   **[Automation Scripts](../../12/18/py/)**: Contains `update_slides.py` and `inspect_pptx.py` used for the fabrication phase.
+*   **Archived Artifacts (Dec 19 & 20):**
+    *   **[PowerPoint Source Deck (Dec 19)](../../19/pptx/)**: Contains the `x402 Builders Slides.pptx`.
+    *   **[Updated Presentation (Dec 20)](../pptx/)**: Contains `x402 Builders Slides Updated.pptx`.
+    *   **[Automation Scripts (Dec 19)](../../19/py/)**: Contains `update_slides.py` and `inspect_pptx.py` used for the fabrication phase.
 *   **External Knowledge (Web Search):**
     *   Verified the status of HTTP 402 ("Reserved for future use").
     *   Researched historical precedents (WebMonetization.org, Grant For The Web, Interledger).
