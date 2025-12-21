@@ -1188,3 +1188,38 @@
 - **Key Takeaway:** Documents the refinement of the collaboration dynamic, with the user pushing for higher efficiency in the manual review phase.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 20-46-51.png`
+
+### 171. `171-tantor-manual-proposal-for-image-22.png`
+![171-tantor-manual-proposal-for-image-22.png](../png/171-tantor-manual-proposal-for-image-22.png)
+- **Description:** A terminal screenshot showing the agent's proposal for image 22: "22-pneuma-announcing-model-switch-to-automated-phase.png". It describes Pneuma confirming the manual phase completion and initiating a model switch to `gemini-2.5-flash`.
+- **Key Takeaway:** Documents the collaborative review of session milestones, specifically the handoff between different model capabilities for optimized task execution.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-47-37.png`
+
+### 172. `172-tantor-manual-entry-22-saved-to-journal.png`
+![172-tantor-manual-entry-22-saved-to-journal.png](../png/172-tantor-manual-entry-22-saved-to-journal.png)
+- **Description:** A screenshot of the `2025-12-20_png_journal.md` file in a terminal, confirming that entry #22 has been successfully saved. It documents the model switch announcement by Pneuma.
+- **Key Takeaway:** Verifies the persistence of manual journal entries in the daily record.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-48-10.png`
+
+### 173. `173-tantor-manual-proposal-for-image-23.png`
+![173-tantor-manual-proposal-for-image-23.png](../png/173-tantor-manual-proposal-for-image-23.png)
+- **Description:** A terminal screenshot showing the agent's proposal for image 23: "23-user-selecting-gemini-2.5-flash-for-automation.png". It describes the user manually selecting the flash model for the automated phase.
+- **Key Takeaway:** Documents the user's direct control over system resources during the collaborative journaling process.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-48-39.png`
+
+### 174. `174-tantor-entry-23-saved-and-reading-image-24.png`
+![174-tantor-entry-23-saved-and-reading-image-24.png](../png/174-tantor-entry-23-saved-and-reading-image-24.png)
+- **Description:** A terminal screenshot capturing the successful rename of image 23 and the agent proceeding to read image 24. It shows the agent's high-velocity manual workflow.
+- **Key Takeaway:** Illustrates the efficiency of the manual review process once the pattern and collaborative trust are established.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-49-31.png`
+
+### 175. `175-tantor-manual-proposal-for-image-24.png`
+![175-tantor-manual-proposal-for-image-24.png](../png/175-tantor-manual-proposal-for-image-24.png)
+- **Description:** A terminal screenshot showing the agent's proposal for image 24: "24-pneuma-acknowledging-model-switch-to-flash.png". It describes the system acknowledging the model switch and aligning state before automated bulk processing.
+- **Key Takeaway:** Documents the successful synchronization between user intent and system state in the multi-model workflow.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-49-53.png`
