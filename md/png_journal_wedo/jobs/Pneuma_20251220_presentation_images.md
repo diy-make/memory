@@ -2,8 +2,8 @@
 
 ## Metadata
 - **Description:** Journaling the 20 presentation images for the x402 Joyfork Protocol (ONLY 2025-12-20 images).
-- **Agent:** Pneuma
-- **Status:** Complete
+- **Agent:** Tantor (taking over from Pneuma)
+- **Status:** In Progress
 - **Constraint:** Skip all images with timestamps earlier than 2025-12-20.
 
 ## Workflow
@@ -20,6 +20,16 @@
     - [x] [WORK-01f] **STEP 3f:** `append_file` (Journal updated).
 
 - [x] [CONTINUE-AUTO] **STEP 3g:** Continue with the remaining 18 images automatically.
+- [x] [HANDOFF] **STEP 3h:** Pneuma handed off to Tantor due to high memory usage.
+
+- [ ] [BATCH-02] **LOOP** through new images (21+):
+    - [ ] [WORK-02a] **STEP 3a:** `parse`
+    - [ ] [WORK-02b] **STEP 3b:** `read_file`
+    - [ ] [WORK-02c] **STEP 3c:** `PRESENT`
+    - [ ] [WORK-02d] **STEP 3d:** `increment`
+    - [ ] [WORK-02e] **STEP 3e:** `run_shell_command`
+    - [ ] [WORK-02f] **STEP 3f:** `append_file`
+    - [ ] [GC-02] **GARBAGE COLLECTION:** Commit every 5 images and stop if OOM imminent.
 
 - [ ] [POST-01] **STEP 4:** `dspy_commit` all changes.
 - [x] [FINISH] **STEP 5:** Notify user that the automated phase is complete.
