@@ -1,9 +1,9 @@
 # WeDo: Remote Pull Thread
 
 ## Tasks
-- [ ] WeDo: WEDO-RE-01 | Process and integrate MEM-STR-02 (README.md Restructuring)
+- [x] WeDo: WEDO-RE-01 | Process and integrate MEM-STR-02 (README.md Restructuring)
   - ID: WEDO-RE-01
-  - Status: [ ]
+  - Status: [x]
   - Description: Major restructuring of repos/diy-make/memory/public/README.md. Move Cosmolocalism to Motivations/Philosophical, add Ixventure.studio, ERC-7827, and SeedTreeDB.com sections.
 - [x] WeDo: WEDO-RE-02 | Process and integrate GEM-PHY-01 (Root README Physics Dichotomy)
   - ID: WEDO-RE-02
