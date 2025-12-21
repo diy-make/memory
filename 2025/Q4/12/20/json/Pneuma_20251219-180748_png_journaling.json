@@ -1,0 +1,12 @@
+{
+  "job_id": "Pneuma_20251219-180748_png_journaling",
+  "agent_id": "Pneuma",
+  "status": "in_progress",
+  "tasks": [
+    {
+      "task_id": "move_and_rename_presentation_images",
+      "description": "Move the 20 presentation images from the public/png root to today's date folder and rename them for the journal.",
+      "status": "pending"
+    }
+  ]
+}

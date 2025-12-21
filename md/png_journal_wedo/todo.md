@@ -36,6 +36,10 @@
         - **Creation Date:** {{parsed_creation_date_from_original_filename}}
         - **Original Filename:** `{{original_filename}}`
 
+    - [ ] [COMMIT-01] **STEP 3g:** **CONDITIONAL COMMIT:** If `new_sequential_number` is a multiple of 5 (e.g., 05, 10, 15...):
+        - **Action:** `dspy_commit` all changes to `public` and `memory` repositories.
+        - **Reason:** Ensures data safety during long batch processes.
+
     - [ ] [GC-01] **GARBAGE COLLECTION (CRITICAL):** Check processed count.
         - **IF count >= 50:** STOP PROCESSING.
         - **ACTION:** Perform [POST-01] commit.
