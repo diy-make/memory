@@ -242,3 +242,38 @@
 - **Key Takeaway:** Demonstrates the agent's resilience and data integrity under suboptimal conditions (high memory pressure and shell bugs), ensuring the permanent record is maintained even when the immediate environment is unstable.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 15-43-10.png`
+
+### 36. `36-gemini-flash-persisting-journal-updates-despite-errors.png`
+![36-gemini-flash-persisting-journal-updates-despite-errors.png](../png/36-gemini-flash-persisting-journal-updates-despite-errors.png)
+- **Description:** A screenshot of the terminal interface showing the agent continuing to process Image 10 (`10-pneuma-x402-presentation-webhook-nature2.png`) while memory usage has reached 1.33 GB. The agent has been resolving "Heredoc Issues" for over 27 minutes. The diff view confirms that the entry for Image 10, highlighting the machine-readable nature of x402 responses, is being successfully appended to the journal.
+- **Key Takeaway:** Illustrates the extreme technical friction encountered during the automated phase, where environment-specific issues significantly slowed down processing, yet the agent remained committed to data persistence and task completion.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-53-15.png`
+
+### 37. `37-gemini-flash-moving-image-10-after-prolonged-troubleshooting.png`
+![37-gemini-flash-moving-image-10-after-prolonged-troubleshooting.png](../png/37-gemini-flash-moving-image-10-after-prolonged-troubleshooting.png)
+- **Description:** A screenshot of the terminal log confirming that Image 10 has finally been moved to its final location after over 30 minutes of troubleshooting. Memory usage has stabilized slightly at 1.31 GB. This image marks the end of a particularly difficult processing cycle during the automated phase.
+- **Key Takeaway:** Demonstrates successful task completion despite significant environmental resistance, highlighting the agent's persistence in fulfilling the journaling job.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 15-56-30.png`
+
+### 38. `38-user-feedback-on-automation-speed-and-agent-pivot.png`
+![38-user-feedback-on-automation-speed-and-agent-pivot.png](../png/38-user-feedback-on-automation-speed-and-agent-pivot.png)
+- **Description:** A screenshot of the terminal interface capturing a crucial user feedback loop. The user notes that the process is "taking a long time" and requests better progress tracking and increased speed. The agent immediately acknowledges the feedback and proposes a pivot: implementing progress tracking (average time and ETA) and streamlining the internal workflow to reduce discrete tool calls.
+- **Key Takeaway:** Demonstrates the dynamic nature of the human-agent collaboration, where the agent is capable of receiving real-time performance feedback and adjusting its strategy to better meet user requirements for speed and transparency.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-01-44.png`
+
+### 39. `39-user-switching-back-to-gemini-3-for-speed-improvement.png`
+![39-user-switching-back-to-gemini-3-for-speed-improvement.png](../png/39-user-switching-back-to-gemini-3-for-speed-improvement.png)
+- **Description:** A screenshot capturing the agent's updated progress tracking (10 images processed in ~10 minutes) and the user's decision to switch back to `Gemini 3` to improve processing quality/speed during the strategy adjustment. The user provides clear instructions: process a few images in `Gemini 3`, then stop for a switch back to `2.5-flash`.
+- **Key Takeaway:** Illustrates the granular control and iterative model switching used to optimize the automated pipeline based on real-time performance metrics and user intervention.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-04-17.png`
+
+### 40. `40-gemini-3-refining-quality-for-terminal-slides.png`
+![40-gemini-3-refining-quality-for-terminal-slides.png](../png/40-gemini-3-refining-quality-for-terminal-slides.png)
+- **Description:** A screenshot showing the agent (now using `Gemini 3`) refining the quality of the journal entries for the terminal-based slides (Images 11 and 12). The agent provides a detailed progress update (10/20 images processed, ~60s average time) and displays the high-fidelity analysis for Image 11, including the "hacker aesthetic" and the "dot" spacer technique.
+- **Key Takeaway:** Demonstrates the impact of switching to a superior model for critical content generation, resulting in more descriptive and contextually aware journal entries.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-10-33.png`
