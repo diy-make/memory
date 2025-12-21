@@ -1118,3 +1118,38 @@
 - **Key Takeaway:** Illustrates the agent's preparation for manual journaling by reviewing established patterns and previous content.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 20-33-45.png`
+
+### 161. `161-tantor-reviewing-pneuma-presentation-journal-entries.png`
+![161-tantor-reviewing-pneuma-presentation-journal-entries.png](../png/161-tantor-reviewing-pneuma-presentation-journal-entries.png)
+- **Description:** A terminal screenshot showing the journal entries for the presentation creation phase (images 38-40). It details review cycles and completion of the presentation under different models (Pneuma, Gemini 3).
+- **Key Takeaway:** Documents the historical record of the presentation's finalization, providing context for the current agent's work.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-33-52.png`
+
+### 162. `162-tantor-proposing-manual-journal-entry-for-image-21.png`
+![162-tantor-proposing-manual-journal-entry-for-image-21.png](../png/162-tantor-proposing-manual-journal-entry-for-image-21.png)
+- **Description:** A terminal screenshot where the agent proposes a manual journal entry for image 21. It describes the transition from creation to finalization and asks for user approval to ensure accuracy.
+- **Key Takeaway:** Illustrates the "Manual Mode" workflow where the agent seeks direct user confirmation for semantic descriptions of complex session events.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-37-16.png`
+
+### 163. `163-tantor-manual-workflow-strategy-for-image-21.png`
+![163-tantor-manual-workflow-strategy-for-image-21.png](../png/163-tantor-manual-workflow-strategy-for-image-21.png)
+- **Description:** A terminal screenshot showing the agent's internal strategy for the manual workflow. It notes the "Preferred_Agent: gemini-3" instruction and outlines the 2-step process: read image, then present analysis for approval.
+- **Key Takeaway:** Documents the agent's adaptation to user-defined operational constraints, prioritizing manual oversight for high-value documentation.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-38-13.png`
+
+### 164. `164-tantor-analyzing-pneuma-job-file-modification.png`
+![164-tantor-analyzing-pneuma-job-file-modification.png](../png/164-tantor-analyzing-pneuma-job-file-modification.png)
+- **Description:** A terminal screenshot showing the agent reading a screenshot that displays a diff of a job file modification. The diff highlights the addition of a "FINISH" step and instructions for model switching.
+- **Key Takeaway:** Demonstrates the agent's ability to analyze visual diffs of previous session activities to reconstruct the historical narrative.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-38-51.png`
+
+### 165. `165-tantor-finalizing-proposed-entry-for-image-21.png`
+![165-tantor-finalizing-proposed-entry-for-image-21.png](../png/165-tantor-finalizing-proposed-entry-for-image-21.png)
+- **Description:** A terminal screenshot where the agent presents the finalized proposal for image 21: "21-pneuma-modifying-job-file-add-finish-step.png". It describes Pneuma adding a finish step to the job file and instructs the user to switch models.
+- **Key Takeaway:** Confirms the successful manual analysis of a key session event, ready for inclusion in the permanent journal.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-40-18.png`
