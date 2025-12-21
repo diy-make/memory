@@ -11,6 +11,9 @@ A standard report in the Metagit environment should follow this hierarchical str
 6. **Artifacts:** Visuals (PNGs) or code snippets generated.
 7. **Next Steps:** WeDo task list for the singular thread.
 
+## Presentation Protocol
+**Direct Aesthetic:** Reports must be presented to the User "straightup"—no triple-backtick Markdown wrappers or line numbers. Use plain text formatting with clear headers and bolding that renders cleanly in the terminal for screenshots and manual copying.
+
 ## Tasks
 - [ ] WeDo: SCH-BPR-01 | Create standardized Markdown template for reports
   - ID: SCH-BPR-01
