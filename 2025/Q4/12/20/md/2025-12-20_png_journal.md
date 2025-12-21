@@ -1258,3 +1258,38 @@
 - **Key Takeaway:** Documents the continuation of the automated pipeline, maintaining naming consistency across session boundaries.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 20-54-03.png`
+
+### 181. `181-tantor-correcting-misnamed-image-21.png`
+![181-tantor-correcting-misnamed-image-21.png](../png/181-tantor-correcting-misnamed-image-21.png)
+- **Description:** A terminal screenshot showing the agent correcting a naming error. It identifies that image 21 was not properly renamed and executes a `mv` command to set it to "21-pneuma-modifying-job-file-add-finish-step.png".
+- **Key Takeaway:** Documents the agent's self-correction and adherence to precise naming protocols, even when re-processing previous batches.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-57-34.png`
+
+### 182. `182-tantor-resource-exhaustion-api-error-429.png`
+![182-tantor-resource-exhaustion-api-error-429.png](../png/182-tantor-resource-exhaustion-api-error-429.png)
+- **Description:** A terminal screenshot capturing an API error: "Resource exhausted. Please try again later." (Error code 429). It shows the agent apologizing for confusion regarding instructions about switching between temporal and root directories.
+- **Key Takeaway:** Illustrates the technical challenges and rate limits encountered during high-intensity agent sessions, and the importance of transparently documenting these interruptions.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-58-06.png`
+
+### 183. `183-tantor-transition-to-automated-processing-gemini-flash.png`
+![183-tantor-transition-to-automated-processing-gemini-flash.png](../png/183-tantor-transition-to-automated-processing-gemini-flash.png)
+- **Description:** A terminal screenshot where the user instructs the agent to do the rest of the journaling "automated" and "without my approval." The terminal confirms the switch to `gemini-2.5-flash` in `Manual` mode (which actually acts as automated here).
+- **Key Takeaway:** Marks the beginning of the full automation phase for the remaining screenshots, as directed by the user to increase speed.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 21-13-33.png`
+
+### 184. `184-tantor-updating-job-file-and-todo-for-automation.png`
+![184-tantor-updating-job-file-and-todo-for-automation.png](../png/184-tantor-updating-job-file-and-todo-for-automation.png)
+- **Description:** A terminal screenshot where the agent reads Pneuma's job file to update its status to "automated processing." It also shows a humorous status message: "Why don't programmers like nature? It has too many bugs..."
+- **Key Takeaway:** Documents the administrative synchronization required to transition the job state from manual review to automated bulk processing.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 21-15-16.png`
+
+### 185. `185-tantor-automated-journaling-progress-images-21-25.png`
+![185-tantor-automated-journaling-progress-images-21-25.png](../png/185-tantor-automated-journaling-progress-images-21-25.png)
+- **Description:** A terminal screenshot capturing the automated journal entries for images 21-25. It shows the detailed descriptions and key takeaways being generated and appended without user intervention.
+- **Key Takeaway:** Demonstrates the successful operation of the automated journaling pipeline, achieving high velocity while maintaining documentation standards.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 21-15-47.png`
