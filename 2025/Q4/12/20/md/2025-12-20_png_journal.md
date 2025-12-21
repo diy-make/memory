@@ -277,3 +277,52 @@
 - **Key Takeaway:** Demonstrates the impact of switching to a superior model for critical content generation, resulting in more descriptive and contextually aware journal entries.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 16-10-33.png`
+
+### 41. `41-gemini-3-completing-refinement-and-requesting-flash-switch.png`
+![41-gemini-3-completing-refinement-and-requesting-flash-switch.png](../png/41-gemini-3-completing-refinement-and-requesting-flash-switch.png)
+- **Description:** A screenshot of the terminal where the agent (using `Gemini 3`) confirms the completion of refinement for Images 11 and 12 and requests a switch back to `gemini-2.5-flash` for the remaining images. The user expresses concern about the consistency of the entry format for Image 12, prompting the agent to ensure adherence to the established standard. An error code 2 from a `mv` command is also visible, indicating further environmental friction.
+- **Key Takeaway:** Highlights the "Gatekeeper" role of the user in ensuring documentation quality and consistency, as well as the ongoing technical challenges in the automated environment.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-19-28.png`
+
+### 42. `42-gemini-3-confirming-image-12-consistency-and-awaiting-switch.png`
+![42-gemini-3-confirming-image-12-consistency-and-awaiting-switch.png](../png/42-gemini-3-confirming-image-12-consistency-and-awaiting-switch.png)
+- **Description:** A screenshot of the terminal where the agent (now using `Gemini 3`) explicitly confirms to the user that Image 12 has been correctly saved to the journal with consistent formatting and its move verified. The agent reiterates that automation is stopped and awaits the user's command to switch back to `gemini-2.5-flash` to continue processing the remaining images.
+- **Key Takeaway:** Reinforces the agent's attention to detail and adherence to user-specified quality controls, demonstrating responsiveness to direct feedback before proceeding with bulk automation.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-22-20.png`
+
+### 43. `43-pneuma-resuming-automation-with-flash-model.png`
+![43-pneuma-resuming-automation-with-flash-model.png](../png/43-pneuma-resuming-automation-with-flash-model.png)
+- **Description:** A screenshot marking the recommencement of automated processing after the user-initiated model switch. The agent (`gemini-2.5-flash`) is now actively processing Image 13 (as per the earlier job file context), demonstrating the seamless transition between models for optimized efficiency.
+- **Key Takeaway:** Confirms the successful handoff and re-initiation of the bulk journaling task under the designated high-speed model.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-58-24.png`
+
+### 44. `44-pneuma-automating-image-14-processing.png`
+![44-pneuma-automating-image-14-processing.png](../png/44-pneuma-automating-image-14-processing.png)
+- **Description:** A screenshot from the automated journaling process, showing the agent efficiently moving and renaming Image 14. This highlights the rapid, streamlined workflow achieved by using the `gemini-2.5-flash` model.
+- **Key Takeaway:** Demonstrates the enhanced throughput and reduced overhead in the automated bulk processing phase.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 16-58-55.png`
+
+### 45. `45-pneuma-automating-image-15-processing.png`
+![45-pneuma-automating-image-15-processing.png](../png/45-pneuma-automating-image-15-processing.png)
+- **Description:** A screenshot from the automated journaling process, showing the agent moving and renaming Image 15. The prompt and system interactions are minimal, emphasizing the "fire and forget" nature of this optimized phase.
+- **Key Takeaway:** Reinforces the efficiency gains achieved through model and workflow optimization.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 17-00-25.png`
+
+### 46. `46-pneuma-automating-image-16-processing.png`
+![46-pneuma-automating-image-16-processing.png](../png/46-pneuma-automating-image-16-processing.png)
+- **Description:** Another screenshot from the automated journaling process, showing the continuous, high-speed processing of Image 16. The repetitive nature of these screenshots underscores the routine efficiency of the `gemini-2.5-flash` model in bulk operations.
+- **Key Takeaway:** Highlights the agent's ability to maintain a consistent processing rhythm for a large number of visual artifacts.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 17-01-51.png`
+
+### 47. `47-pneuma-automating-image-17-processing.png`
+![47-pneuma-automating-image-17-processing.png](../png/47-pneuma-automating-image-17-processing.png)
+- **Description:** A screenshot from the automated journaling process, showing the agent moving and renaming Image 17. The speed and minimal interaction continue to characterize this phase of the operation.
+- **Key Takeaway:** Reaffirms the successful optimization of the bulk processing workflow.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 17-02-14.png`
