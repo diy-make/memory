@@ -16,7 +16,11 @@
 - [ ] WeDo: WEDO-SYN-04 | Generate Pull Synthesis Report
   - ID: WEDO-SYN-04
   - Status: [ ]
-  - Description: Create a detailed report of the pull synthesis for the user to share on GitHub.
+  - Description: Create a detailed report of the pull synthesis for the user to share on GitHub. (Note: Split by repository).
+- [ ] WeDo: WEDO-SYN-05 | Execute Boilerplate Report WeDo
+  - ID: WEDO-SYN-05
+  - Status: [ ]
+  - Description: Reference and implement the schema defined in boilerplate_report.todo.md.
 
 ## Boilerplate
 - [ ] WeDo: [ID] | [Description]
