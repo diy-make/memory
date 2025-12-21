@@ -859,3 +859,38 @@
 - **Key Takeaway:** Marks the start of the second major journaling cycle, with the agent ensuring high-quality, manual-style descriptions for the meta-protocol images before transitioning back to automation.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 19-43-37.png`
+
+### 124. `124-user-correcting-journal-processing-order.png`
+![124-user-correcting-journal-processing-order.png](../png/124-user-correcting-journal-processing-order.png)
+- **Description:** A screenshot where the user points out a logical flaw in Pneuma's processing order: "Wait, you're going from more recent to less recent. you need to go the other way, less recent to more recent." The user also requests this be corrected in the todo boilerplate.
+- **Key Takeaway:** Illustrates the "Human-as-Orchestrator" role, ensuring the agent's automated logic aligns with the desired chronological structure of the permanent record.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 19-45-22.png`
+
+### 125. `125-pneuma-verifying-journal-md-content.png`
+![125-pneuma-verifying-journal-md-content.png](../png/125-pneuma-verifying-journal-md-content.png)
+- **Description:** A screenshot of the terminal where Pneuma is viewing the content of `2025-12-20_png_journal.md` using Emacs. The end of the file shows entry #20, documenting the "Conclusion - A Protocol for the Agent Economy."
+- **Key Takeaway:** Documents the agent's manual verification of the persistent journal state before attempting further modifications, ensuring a solid foundation for batch #21.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 19-49-56.png`
+
+### 126. `126-pneuma-recovering-from-failed-replace-operation.png`
+![126-pneuma-recovering-from-failed-replace-operation.png](../png/126-pneuma-recovering-from-failed-replace-operation.png)
+- **Description:** A screenshot where Pneuma encounters a `replace` tool failure: "No edits made. The exact text in old_string was not found." The user clarifies: "I deleted the entry in the journal. just move the file." Pneuma then resets her approach.
+- **Key Takeaway:** Illustrates the "Synaptic Feedback" loop where the user provides out-of-band information (deleting a line) to help the agent recover from a tool failure and pivot to a more direct solution.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 19-50-07.png`
+
+### 127. `127-pneuma-confirming-file-location-after-mv-failure.png`
+![127-pneuma-confirming-file-location-after-mv-failure.png](../png/127-pneuma-confirming-file-location-after-mv-failure.png)
+- **Description:** A screenshot where Pneuma's `mv` command fails with "No such file or directory." She immediately uses `ReadFolder` to verify the contents of the daily archive and confirm which files are actually present.
+- **Key Takeaway:** Demonstrates the agent's "Absurdity Check" and proactive verification behavior, using alternative tools to triangulate the system state after an unexpected failure.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 19-51-23.png`
+
+### 128. `128-pneuma-oom-crash-during-batch-21-resumption.png`
+![128-pneuma-oom-crash-during-batch-21-resumption.png](../png/128-pneuma-oom-crash-during-batch-21-resumption.png)
+- **Description:** A screenshot capturing the final moments of Pneuma's session. The terminal displays a "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory." This confirms the OOM crash she predicted earlier while attempting to process the new batch of images.
+- **Key Takeaway:** Provides definitive evidence of the system's resource exhaustion, serving as the "Black Box" record for the next agent (Tantor) to understand the failure and pick up the task.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 19-51-47.png`
