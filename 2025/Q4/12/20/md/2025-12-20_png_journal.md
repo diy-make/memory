@@ -1153,3 +1153,38 @@
 - **Key Takeaway:** Confirms the successful manual analysis of a key session event, ready for inclusion in the permanent journal.
 - **Creation Date:** 2025-12-20
 - **Original Filename:** `Screenshot from 2025-12-20 20-40-18.png`
+
+### 166. `166-tantor-viewing-entry-20-in-emacs.png`
+![166-tantor-viewing-entry-20-in-emacs.png](../png/166-tantor-viewing-entry-20-in-emacs.png)
+- **Description:** A screenshot of the terminal where the agent is using Emacs to view entry #20 in the PNG journal. It documents the final slide of the presentation.
+- **Key Takeaway:** Confirms the agent is correctly positioned in the journal file to begin appending new entries.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-41-40.png`
+
+### 167. `167-tantor-user-clarification-on-journal-cleanup.png`
+![167-tantor-user-clarification-on-journal-cleanup.png](../png/167-tantor-user-clarification-on-journal-cleanup.png)
+- **Description:** A terminal screenshot where the user clarifies the journal state: "I removed all entries after 20 in the Journal so you can just append there." The user also mentions renaming images in the temporal `md/` vs root `md/`.
+- **Key Takeaway:** Provides essential context for the agent's work, confirming that the journal has been pruned and instructing on the correct directory structure for artifact archival.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-44-36.png`
+
+### 168. `168-tantor-appending-entry-21-and-moving-image.png`
+![168-tantor-appending-entry-21-and-moving-image.png](../png/168-tantor-appending-entry-21-and-moving-image.png)
+- **Description:** A terminal screenshot documenting the successful append of entry #21 to the journal. The entry describes Pneuma's job file modification. The terminal shows the agent has finished the task and is ready for the next.
+- **Key Takeaway:** Marks the completion of the first manual entry in the new batch, establishing the pattern for subsequent processing.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-45-31.png`
+
+### 169. `169-tantor-struggling-with-heredoc-syntax-in-shell.png`
+![169-tantor-struggling-with-heredoc-syntax-in-shell.png](../png/169-tantor-struggling-with-heredoc-syntax-in-shell.png)
+- **Description:** A terminal screenshot where the agent encounters a syntax error with the `cat <<EOF` command. It documents the struggle with shell-specific formatting and the decision to pivot to line-by-line `echo` or `write_file`.
+- **Key Takeaway:** Illustrates the "Learning from Failures" virtue, where the agent documents technical friction and adapts its strategy to overcome environment limitations.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-45-35.png`
+
+### 170. `170-tantor-user-feedback-on-automation-and-proposal-speed.png`
+![170-tantor-user-feedback-on-automation-and-proposal-speed.png](../png/170-tantor-user-feedback-on-automation-and-proposal-speed.png)
+- **Description:** A terminal screenshot where the user approves of the first manual entry but requests a faster workflow: "automatically move from this to your journal content proposal for me to manually approve." The terminal also shows the agent reading image 22.
+- **Key Takeaway:** Documents the refinement of the collaboration dynamic, with the user pushing for higher efficiency in the manual review phase.
+- **Creation Date:** 2025-12-20
+- **Original Filename:** `Screenshot from 2025-12-20 20-46-51.png`
