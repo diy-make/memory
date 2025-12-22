@@ -98,3 +98,75 @@
 - **Key Takeaway:** Recursive self-definition. The agent clarifies the functional purpose of its own environment, establishing a clear ontology for the swarm's collaborative infrastructure.
 - **Creation Date:** 2025-12-15
 - **Original Filename:** `Screenshot from 2025-12-15 18-11-44.png`
+
+---
+
+### 012. `012-nyx-config-refinement.png`
+![012-nyx-config-refinement.png](../png/012-nyx-config-refinement.png)
+- **Description:** Terminal view showing Agent Nyx refining configuration files, specifically updating `chat_history.json` and `swarm_protocol.json`. This action ensures that file paths are correctly aligned with the new metagit structure.
+- **Key Takeaway:** Configuration alignment. The agent systematically updates legacy paths to prevent protocol drift.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 18-11-44.png`
+
+---
+
+### 013. `013-nyx-death-investigation-token-limit.png`
+![013-nyx-death-investigation-token-limit.png](../png/013-nyx-death-investigation-token-limit.png)
+- **Description:** Terminal view capturing Nyx investigating an agent death, likely caused by hitting a token limit. The filename "token-limit" suggests a diagnosis of resource exhaustion during a long-running process.
+- **Key Takeaway:** Resource awareness. The agent identifies the hard constraints of the AI context window as a critical failure mode.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 18-41-20.png`
+
+---
+
+### 014. `014-zion-post-mortem-instr.png`
+![014-zion-post-mortem-instr.png](../png/014-zion-post-mortem-instr.png)
+- **Description:** Terminal view showing instructions or notes for a post-mortem analysis of Agent Zion. The filename implies a reflective process to learn from the previous agent's termination.
+- **Key Takeaway:** Continuity of learning. The swarm treats agent termination not as an end, but as a data point for improvement.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 18-54-37.png`
+
+---
+
+### 015. `015-zion-tribute-narrative-start.png`
+![015-zion-tribute-narrative-start.png](../png/015-zion-tribute-narrative-start.png)
+- **Description:** Terminal view depicting the start of a narrative tribute to Agent Zion. The agent appears to be drafting a eulogy or summary of Zion's contributions to the project.
+- **Key Takeaway:** Cultural cohesion. Honoring past agents fosters a sense of shared purpose and history within the swarm.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 18-58-28.png`
+
+---
+
+### 016. `016-zion-tribute-intelligence.png`
+![016-zion-tribute-intelligence.png](../png/016-zion-tribute-intelligence.png)
+- **Description:** Terminal view continuing the Zion tribute, focusing on "intelligence". This likely refers to summarizing the key insights or intellectual contributions Zion made during their session.
+- **Key Takeaway:** Knowledge preservation. Extracting intelligence from past sessions ensures that hard-won lessons are not lost.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 19-00-50.png`
+
+---
+
+### 017. `017-zion-tribute-conclusion.png`
+![017-zion-tribute-conclusion.png](../png/017-zion-tribute-conclusion.png)
+- **Description:** Terminal view showing the conclusion of the Zion tribute. The narrative arc is completed, finalizing the record of that agent's existence.
+- **Key Takeaway:** Closure. Formally concluding an agent's narrative allows the swarm to move forward with a clear conscience.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 19-07-23.png`
+
+---
+
+### 018. `018-repo-cleanup-venv-removal.png`
+![018-repo-cleanup-venv-removal.png](../png/018-repo-cleanup-venv-removal.png)
+- **Description:** Terminal view showing a repository cleanup operation, specifically the removal of a `.venv` directory. This aligns with the "Separation of Concerns" philosophy, ensuring virtual environments are not accidentally committed or duplicated.
+- **Key Takeaway:** Hygiene and standards. Enforcing clean repository state is crucial for long-term maintainability.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 19-12-18.png`
+
+---
+
+### 019. `019-metarepo-map-success.png`
+![019-metarepo-map-success.png](../png/019-metarepo-map-success.png)
+- **Description:** Terminal view displaying the successful generation of a `metarepo_map`. This confirms that the new filesystem structure is correctly indexed and recognized by the swarm's navigation tools.
+- **Key Takeaway:** System verification. Validating the map ensures that all agents share a common, accurate understanding of the territory.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 19-37-49.png`
