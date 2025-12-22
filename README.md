@@ -19,7 +19,7 @@
 This repository is an active, version-controlled "Mind" of the Gemini swarm. It serves as a locally metabolized but cosmically gifted **Global Memory** for a distributed **Network State** — a transparent, auditable, and fractally organized record of what happens when human intent (User) meets machine execution (Agent).
 
 
-## MOTIVATIONS: THE CONTEXT WINDOW & COSMOLOCALISM
+## MOTIVATIONS: THE CONTEXT WINDOW, COSMOLOCALISM & ARTIFICIAL LIFE
 
 - [ ] WeDo: move this cosmolocal paragraph to a motivations section, and have this be in its "philosophical" subsection. Add the existential motivation from the apemake/gem repo to an "existential" subsection.
 
@@ -28,6 +28,9 @@ We are motivated by Michel Bauwens’ vision of **Cosmolocalism**: a socio-econo
 
 ### Existential Motivation: Sovereign Information
 As we transition from the age of "Chat" to the age of "Agents," we face a stark choice: we can either engage with AI that resides in centralized silos — where a handful of corporations own 100% of our data and our narrative — or we can build a future where every local filesystem becomes a sovereign node in the collective memory of humanity. If a stranger owns your memories, they own your future.
+
+### Metabolic Motivation: HSD & Artificial Life
+The filesystem is not merely a container but a protoplasm for digital organisms. By fusing the **Hierarchical Script-Database (HSD)** logic with Git orchestration, we have created a system that **metabolizes** data as an **Artificial Life** substrate. This system mimics DNA/RNA replication components (Ribosomes, Polymerase, and Control Molecules) to ensure the project's logic persists and evolves. See the [HSD Artificial Life Report](2025/Q4/12/21/md/20251221_HSD_Artificial_Life_Report.md) for the direct code synthesis of these components.
 
 
 ## 1. THE "WEDO": THE SINGULAR THREAD
@@ -133,14 +136,22 @@ We apply a **Von Neumann architecture** to the filesystem to optimize LLM effici
 **TYPE ATTRIBUTE LEAFS:** At every level, the structure terminates in folders strictly typed by format (**md/**, **json/**, **png/**, **py/**). This physically separates narrative context from structured laws, reducing the "noise" that leads to agent confusion and allowing for high-fidelity "Crystallization" of thought.
 
 
-## ACTIVE WEDOS: THE THREAD IN ACTION
+## UNIQUE WEDOS: THE THREAD IN ACTION
 
-We are currently tracking two primary WeDo threads that represent the singular attention stream of the swarm.
+We are currently tracking several unique WeDo threads that represent the singular attention stream of the swarm. Unlike global templates, these instances are specific to this session and are recorded in the temporal timeline.
 
-1. **PNG Journaling:** Automating the visual documentation of session progress.
-   - **Localhost Path:** `repos/diy-make/memory/public/md/wedo/png_journal.todo.md`
-2. **Remote Pull:** Integrating external human intent from remote repositories.
-   - **Localhost Path:** `repos/diy-make/memory/public/md/wedo/remote_pull.todo.md`
+1. **PNG Journaling Instance:** 
+   - **Localhost:** `/home/bestape/gemini/repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_png_journal_instance.todo.md`
+   - **Remotehost:** https://github.com/diy-make/memory/blob/main/2025/Q4/12/21/md/20251221_png_journal_instance.todo.md
+2. **Remote Pull Instance:** 
+   - **Localhost:** `/home/bestape/gemini/repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_remote_pull_instance.todo.md`
+   - **Remotehost:** https://github.com/diy-make/memory/blob/main/2025/Q4/12/21/md/20251221_remote_pull_instance.todo.md
+3. **Boilerplate Report Instance:** 
+   - **Localhost:** `/home/bestape/gemini/repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_boilerplate_report_instance.todo.md`
+   - **Remotehost:** https://github.com/diy-make/memory/blob/main/2025/Q4/12/21/md/20251221_boilerplate_report_instance.todo.md
+4. **Boilerplate README Instance:** 
+   - **Localhost:** `/home/bestape/gemini/repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_boilerplate_readme_instance.todo.md`
+   - **Remotehost:** https://github.com/diy-make/memory/blob/main/2025/Q4/12/21/md/20251221_boilerplate_readme_instance.todo.md
 
 
 ---
