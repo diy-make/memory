@@ -11,9 +11,9 @@
   - Description: Explain this as the object-field dichotomy of physics, referencing this explanation of the measurement system https://youtu.be/O2kemSh_mUg. The Agent is the object. This association will help explain latency as a physical unfolding of events.
 
 ## Tasks (MEM Repository - README)
-- [ ] WeDo: MEM-RED-01 | Update Genesis Links
+- [x] WeDo: MEM-RED-01 | Update Genesis Links
   - ID: MEM-RED-01
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Link to the GitHub Pages not the devpost. Look to this README.md Git history for the link. Update apemake/gem's README.md too, at localhost:gemini/.
 - [ ] WeDo: MEM-RED-02 | Restructure Motivations Section
@@ -21,9 +21,9 @@
   - Status: [ ]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Move this cosmolocal paragraph to a motivations section, and have this be in its "philosophical" subsection. Add the existential motivation from the apemake/gem repo to an "existential" subsection.
-- [ ] WeDo: MEM-RED-03 | Context Window & Vending Machines
+- [x] WeDo: MEM-RED-03 | Context Window & Vending Machines
   - ID: MEM-RED-03
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Add section about context window as the main limitation of LLMs. Include context window gif and YouTube video (https://youtu.be/SpPhm7S9vsQ). Explain how ineffective LLMs are as vending machines due to no garbage collection, and how cheerbot.org is intended as a vending machine.
 - [ ] WeDo: MEM-RED-04 | Ixventure.studio & Coherent Stack
