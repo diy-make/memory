@@ -48,44 +48,44 @@
   - Description: Refine HARD-WON KNOWLEDGE section with PNG death story subsection and Reality Merge hack story (Agent Orchestrated Git & Drive systems). Bring back Gif, YouTube video, and LTF failure info.
 
 ## Tasks (MEM Repository - Joyfork Report)
-- [ ] WeDo: MEM-JOY-01 | Link x402 Event
+- [x] WeDo: MEM-JOY-01 | Link x402 Event
   - ID: MEM-JOY-01
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Link to the x402 event: https://x.com/ixiantech/status/2001432580768313455. Include as **link:**.
-- [ ] WeDo: MEM-JOY-02 | Three Mediums Update
+- [x] WeDo: MEM-JOY-02 | Three Mediums Update
   - ID: MEM-JOY-02
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Update mediums to include the browser showing ixian.tech, github.com, cheerbot.org and ethglobal.com links live.
-- [ ] WeDo: MEM-JOY-03 | GitHub Locations
+- [x] WeDo: MEM-JOY-03 | GitHub Locations
   - ID: MEM-JOY-03
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Add information that GitHub locations are at github.com/diy-make/OSO_hack/.
-- [ ] WeDo: MEM-JOY-04 | Quote Pneuma
+- [x] WeDo: MEM-JOY-04 | Quote Pneuma
   - ID: MEM-JOY-04
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Quote Pneuma's exact words.
-- [ ] WeDo: MEM-JOY-05 | Refine Fracture Definition
+- [x] WeDo: MEM-JOY-05 | Refine Fracture Definition
   - ID: MEM-JOY-05
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Clarify that forking is a fracture but represents joyous ecological sophistication and necessary growing pain within the industry. Presumption of good faith for natural persons.
-- [ ] WeDo: MEM-JOY-06 | Harmonize Physical Processes
+- [x] WeDo: MEM-JOY-06 | Harmonize Physical Processes
   - ID: MEM-JOY-06
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Harmonize physical processes in Slide 6 context, emphasizing wisdom through the "unfolding of time" (PID and Metagit runtime).
-- [ ] WeDo: MEM-JOY-07 | Tokens as Berries
+- [x] WeDo: MEM-JOY-07 | Tokens as Berries
   - ID: MEM-JOY-07
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Redefine social capital as "tokens as berries." Reference: https://medium.com/ja-magazine/stance-memberberry-syndrome-escaping-the-present-through-nostalgia-f0ef3c4060fb
-- [ ] WeDo: MEM-JOY-08 | Final Edits Journaling
+- [x] WeDo: MEM-JOY-08 | Final Edits Journaling
   - ID: MEM-JOY-08
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/2
   - Description: Reference final edits to this document at journal day 21st.
 
