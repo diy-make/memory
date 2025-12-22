@@ -6,19 +6,18 @@ import argparse
 
 # The version of the Memory Module environment configuration.
 # This will be replaced by the release manager during a release commit.
-__version__ = "V0.8.0_Ethos_Finish"
+__version__ = "V0.8.1_IO2YnVJx"
 
 CORE_FILE_CHECKSUMS = {
     "README.ai": "bd5b2736ed487234f9169d53f74f04848abfa3e3b97cebba87abc9bc94caa557",
-    "README.md": "b7c5503505be5126b89eaecec063083a36558c7edbdf26116781292e77654822",
-    "VERSION": "30c99e8b103eacbe6f6d6e1b54b06ca6d5f3164b4f50094334a517ae95ca8fba",
+    "README.md": "18ebc55f206eeff8f2b45aa17da5a7a001539688e8c1177e20e2902b4190c5e7",
     "json/local_paths.json": "3c46f16ea7deffaaaede72c14843d2bf0d5b427e7e5e5917f85bd4ee692234fb",
     "json/rules/swarm_protocol.json": "2611d24ac52ce620ecf0cd6bb5ca911769052619aacd2e30fb0961ce2623c2f8",
     "json/principles/agent_virtues.json": "4fbfd2378a4bb8d778636908ad7ba35ae24a0a499372701d926d4ca951ca7b96",
     "json/configuration/verified_repositories.json": "9dcc60f1261f0dbdfd720dbe4eea551c1072b46aecdf0fcf4cf94c0e6e903b79",
     "json/personality/personality.json": "3f60491bd2a1645091589494da059532188691f6a5076b7752e05ac8c5c7158f",
     "json/philosophy/gem_process.json": "fc210dd5e9b023d2d453568fbf6b13b191d02867d42ec39244da5ddef70d8756",
-    "json/schema/wedo_pseudolanguage_schema.json": "d01415a07be3bfd6a7411dc28bdcc16b113688fafd20b646c9aced50f1c1aa9d",
+    "json/schema/wedo_pseudolanguage_schema.json": "cc8aca93bddf8cf4ef277e61b049d5672d5e60a755e551da34018ac9814d46c1",
     "md/wedo/markdown_generation/png_journal.todo.md": "1500212fbf702e2dc3c915a6e3a5cfecb308b4648d58b3d620c41289dd08192c",
     "md/wedo/markdown_generation/boilerplate_report.todo.md": "2d2658d7124fc6d14d0879ab9513313ba8145b5456a53032ab0d38bb3d1870bb",
     "md/wedo/markdown_generation/boilerplate_readme.todo.md": "f71844e116b4d1b5409880b64da8ae4a5b0b7d59161b4d2e81fe464448a7a2d1",
