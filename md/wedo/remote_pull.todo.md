@@ -21,6 +21,10 @@
   - ID: WEDO-SYN-05
   - Status: [ ]
   - Description: Reference and implement the schema defined in boilerplate_report.todo.md.
+- [ ] WeDo: WEDO-SYN-06 | Execute Boilerplate README WeDo
+  - ID: WEDO-SYN-06
+  - Status: [ ]
+  - Description: Reference and implement the schema defined in boilerplate_readme.todo.md.
 
 ## Boilerplate
 - [ ] WeDo: [ID] | [Description]
