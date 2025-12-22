@@ -1,0 +1,32 @@
+{
+  "repository_verification_status": {
+    "summary": "Classification of repositories based on their proximity to the core Metagit ecosystem and the trust level of their internal tooling.",
+    "status_levels": {
+      "PRE_VERIFIED": "Core Metagit repos (gem, memory) with signed releases and audited scripts.",
+      "EXPERIMENTAL": "Active development repos with trusted authors but non-standardized tooling.",
+      "UNVERIFIED": "Historical, imported, or legacy repos whose internal scripts must be manually assessed before execution."
+    },
+    "registry": [
+      {
+        "repo": "apemake/gem",
+        "status": "PRE_VERIFIED",
+        "notes": "Metagit Root. Contains core orchestration logic."
+      },
+      {
+        "repo": "diy-make/memory",
+        "status": "PRE_VERIFIED",
+        "notes": "Metagit Trunk. Contains swarm legislative DNA."
+      },
+      {
+        "repo": "diy-make/reality-merge",
+        "status": "UNVERIFIED",
+        "notes": "Imported hackathon repository. Internal scripts (scripts/*.sh) must be audited before use."
+      },
+      {
+        "repo": "diy-make/OSO_hack",
+        "status": "UNVERIFIED",
+        "notes": "Imported hackathon repository. High-fidelity documentation but experimental scripts."
+      }
+    ]
+  }
+}
