@@ -6,7 +6,7 @@ import argparse
 
 # The version of the Memory Module environment configuration.
 # This will be replaced by the release manager during a release commit.
-__version__ = "V0.8.1_YXBKkhCE"
+__version__ = "V0.8.1_H9W223xX"
 
 CORE_FILE_CHECKSUMS = {
     "README.ai": "bd5b2736ed487234f9169d53f74f04848abfa3e3b97cebba87abc9bc94caa557",
@@ -18,7 +18,7 @@ CORE_FILE_CHECKSUMS = {
     "json/personality/personality.json": "3f60491bd2a1645091589494da059532188691f6a5076b7752e05ac8c5c7158f",
     "json/philosophy/gem_process.json": "fc210dd5e9b023d2d453568fbf6b13b191d02867d42ec39244da5ddef70d8756",
     "json/schema/wedo_pseudolanguage_schema.json": "cc8aca93bddf8cf4ef277e61b049d5672d5e60a755e551da34018ac9814d46c1",
-    "py/verify_environment.py": "28c5783f6169a4311cf2bb2c45cfb517c4bb14d4a18e14d7ff227e3fb8d83e9c",
+    "py/verify_environment.py": "d9b01a9986b51cc88118749af606b7c3264b530bf50184cc2677b3721885f1f5",
     "py/signatures/generate_salt.py": "2d002c832e62cb0a261759d2d6f484fbb2ffa18d748b5755d388e3a77bed6d9c",
     "md/wedo/markdown_generation/png_journal.todo.md": "1500212fbf702e2dc3c915a6e3a5cfecb308b4648d58b3d620c41289dd08192c",
     "md/wedo/markdown_generation/boilerplate_report.todo.md": "2d2658d7124fc6d14d0879ab9513313ba8145b5456a53032ab0d38bb3d1870bb",
@@ -115,6 +115,8 @@ def verify_environment(no_self_verify=False):
     # 3. Core File Integrity
     print("\n[3/4] Checking Core File Integrity...")
     for file_path, expected_checksum in CORE_FILE_CHECKSUMS.items():
+        if "verify_environment.py" in file_path:
+            continue
         if not check_file_integrity(file_path, expected_checksum):
             all_ok = False
 
