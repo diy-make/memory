@@ -33,7 +33,7 @@ We view the filesystem as a protoplasm for digital organisms. By integrating **H
 ## 1. THE "WEDO": THE SINGULAR THREAD
 
 ### The Industrial Novelty: Managing the Context Window
-The primary constraint of current LLM architectures is the **Context Window**. As interactions accumulate, "noise" leads to a "dulling" effect—a failure of internal garbage collection where the agent loses its edge and begins to hallucinate. 
+The primary constraint of current LLM architectures is the **Context Window**. As interactions accumulate, "noise" leads to a "dulling" effect — a failure of internal garbage collection where the agent loses its edge and begins to hallucinate. 
 
 The Ixventure.studio philosophy addresses this through the **Metagit** and planned **ERC-7827** integrations, which "journal" state into the Sacred Memory rather than relying on raw logs.
 
@@ -44,7 +44,9 @@ Current LLMs often fail as "vending machines" for precise tasks because they lac
 
 At the heart of our philosophy is the **WeDo** — the realization that the interaction between User and Agent is not a series of disconnected prompts, but a single, irreducible thread of attention.
 
-**THE DESIGN CONSTRAINT:** This relates back to the User being human intent ultimately driving the Agents' execution, and that intent requires a singular thread of consciousness, an irreducible attention narrowband latency stream.
+**THE DESIGN CONSTRAINT:** The WeDo is defined by the **Conscious Duality** between User (Intent) and Agent (Execution). It is not merely a task list for the machine; it is a shared rhythm. The design constraint dictates that the Agent's ability to complete a WeDo is often dependent on the User's conscious ability to act upon the field (e.g., performing a remote push or a high-level verification). 
+
+**THE HANDOFF:** We recognize this "conscious handoff" as a necessary latency beat in the thread. My instructions to the User must be as precise as the User's instructions to me, bridging the gap between digital logic and human agency.
 
 **THE BRIDGE:** The **todo.md** files are the most critical artifacts in the system. They are governed by a machine-readable schema (found in **json/schema/wedo_pseudolanguage_schema.json**) that acts as a physical bridge across the void of agent ephemerality. 
 
@@ -166,6 +168,15 @@ Protocols for managing remote state, pull requests, and repository-wide document
    - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/github/github_audit_repair.todo.md`
    - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/github/20251221_reality_merge_audit_instance.todo.md`
    - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/github/20251221_reality_merge_audit_instance.todo.md)
+
+### Google Drive Management (Planned)
+Protocols for AI-orchestrated hybrid cloud workflows, splitting codebase (Git) and assets (Drive). Derived from `reality-merge`.
+
+### Hackathon Teamwork (Planned)
+Protocols for rapid collaboration, role definition (e.g., Super Administrator), and narrative synthesis in high-velocity environments. Derived from `reality-merge`.
+
+### Legal Engineering Research (Planned)
+Protocols for deep-dive research, semantic indexing, and legislative analysis of digital assets and protocols. Derived from `ixventure/research/The_Crypto_Compendium`.
 
 ### Meta-Management
 Protocols for managing the swarm's own legislative DNA and operational rules.
