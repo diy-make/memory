@@ -142,22 +142,30 @@ These protocols govern the creation and refinement of narrative and technical do
    - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/png_journal.todo.md`
    - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_png_journal_instance.todo.md`
    - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_png_journal_instance.todo.md)
-2. **Remote Pull Integration:**
-   - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/remote_pull.todo.md`
-   - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_remote_pull_instance.todo.md`
-   - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_remote_pull_instance.todo.md)
-3. **Standardized Reporting (Boilerplate Report):**
+2. **Standardized Reporting (Boilerplate Report):**
    - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/boilerplate_report.todo.md`
    - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_boilerplate_report_instance.todo.md`
    - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_boilerplate_report_instance.todo.md)
-4. **Standardized READMEs (Boilerplate README):**
+3. **Standardized READMEs (Boilerplate README):**
    - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/boilerplate_readme.todo.md`
    - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_boilerplate_readme_instance.todo.md`
    - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_boilerplate_readme_instance.todo.md)
-5. **Swarm Biography / Autobiography:**
+4. **Swarm Biography / Autobiography:**
    - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/biography.todo.md`
    - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_ethos_autobiography_instance.todo.md`
    - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_ethos_autobiography_instance.todo.md)
+
+### GitHub Management
+Protocols for managing remote state, pull requests, and repository-wide documentation integrity.
+
+1. **Remote Pull Integration:**
+   - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/github/remote_pull.todo.md`
+   - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/github/20251221_remote_pull_instance.todo.md`
+   - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/github/20251221_remote_pull_instance.todo.md)
+2. **GitHub Audit & Repair:**
+   - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/github/github_audit_repair.todo.md`
+   - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/github/20251221_reality_merge_audit_instance.todo.md`
+   - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/github/20251221_reality_merge_audit_instance.todo.md)
 
 ### Meta-Management
 Protocols for managing the swarm's own legislative DNA and operational rules.
