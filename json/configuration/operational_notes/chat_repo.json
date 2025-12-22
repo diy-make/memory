@@ -1,5 +1,0 @@
-{
-  "id": "chat_repo",
-  "note": "The .chat/ directory is a separate Git repository. Changes within .chat/ must be committed to that repository independently of the main gemini/ repository.",
-  "path_to_scripting": "This rule is a behavioral directive for the agent's Git operations. It would be implemented in the agent's Git management logic. Before performing a commit, the agent would check the path of the files being committed. If the files are within the `.chat/` directory, the agent would switch its working directory to `.chat/` and perform the commit there. If the files are outside `.chat/`, the agent would perform the commit in the main repository. This ensures proper separation of concerns for version control."
-}

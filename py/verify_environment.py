@@ -25,7 +25,8 @@ CORE_FILE_CHECKSUMS = {
     "md/wedo/markdown_generation/biography.todo.md": "d5706c14ef214d8d7543c2ae7eec719d8ce704e7f49add03fa6424798d5a25a6",
     "md/wedo/github/remote_pull.todo.md": "885fa25641df64a74e634e98146896714133022d5d9d33c14f66c0f13086259a",
     "md/wedo/github/github_audit_repair.todo.md": "1b47487d4fb1f114143a2a7b2392d4b8bbc35c88ab8a978d81231799556b3e38",
-    "md/wedo/meta_wedo.todo.md": "6aa9350677476b2ff2e91fe786c7e5dc7d21adf6e496b2944d13e5ac74e5155b"
+    "md/wedo/meta_wedo.todo.md": "6aa9350677476b2ff2e91fe786c7e5dc7d21adf6e496b2944d13e5ac74e5155b",
+    "2025/Q4/12/21/md/20251221_Public_Memory_Audit.md": "e3fce5a786a7bbaf05938cc4212917ec7e7d6f5a03aeeb02b094a7268fa8c015"
 }
 
 def get_file_sha256(file_path):
