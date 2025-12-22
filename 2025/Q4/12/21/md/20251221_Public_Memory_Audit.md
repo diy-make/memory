@@ -571,8 +571,10 @@ Agent: Ethos (v1.0.0)
 566. README.md
 567. requirements.txt
 
-## Critical Purge Actions Taken
-1. Deleted VERSION (redundant with signed verify script).
-2. Deleted json/session_info.json (ephemeral session state).
-3. Deleted redundant operational notes (chat_repo.json, git_config_local.json).
-4. Verified all large blobs (.json > 5MB, .pdf) are handled by ignored parent storage.
+## Critical Purge Actions & Retention Decisions
+1. **DELETED:** `VERSION` (redundant with signed verify script).
+2. **DELETED:** `json/session_info.json` (ephemeral session state).
+3. **DELETED:** Redundant operational notes (`chat_repo.json`, `git_config_local.json`).
+4. **DELETED:** `.gitkeep` (root directory is non-empty).
+5. **MOVED:** `2025/Q4/12/20/json/gemini-conversation-1766285770529.json` (7.8MB log moved to ignored parent storage).
+6. **RETAINED:** All `.pptx` files. These are recognized as a vital form of structured text and high-level architectural documentation, essential to the project's historical continuity.
