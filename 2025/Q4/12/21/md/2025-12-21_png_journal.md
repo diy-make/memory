@@ -294,3 +294,73 @@
 - **Key Takeaway:** The project's narrative is explicitly grounded in the struggle for agency and the rejection of centralized data silos.
 - **Creation Date:** 2025-12-21
 - **Original Filename:** `Screenshot from 2025-12-21 16-34-42.png`
+
+### 58. `58-user-corrects-aesthetic-dashes-and-hsd-priority.png`
+![58-user-corrects-aesthetic-dashes-and-hsd-priority.png](../png/58-user-corrects-aesthetic-dashes-and-hsd-priority.png)
+- **Description:** Terminal view showing the user directing agent Axiom to update documentation dash formatting (using spaces) and to integrate the Hierarchical Script-Database (HSD) patent knowledge as a permanent part of the memory repository.
+- **Key Takeaway:** Aesthetic standards and critical intellectual property (HSD) are actively codified into the swarm's knowledge base.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 16-50-14.png`
+
+### 59. `59-user-clarifies-metagit-abstraction-layers.png`
+![59-user-clarifies-metagit-abstraction-layers.png](../png/59-user-clarifies-metagit-abstraction-layers.png)
+- **Description:** Terminal view showing the user correcting Axiom's mental model of the Metagit. The user explains that the Metagit is an abstraction layer involving context window elements and future trustless protocols like ERC-7827, rather than a sharp separation.
+- **Key Takeaway:** The agent's understanding of system architecture is refined through direct user interaction, ensuring conceptual alignment with the project's alchemical vision.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 16-53-13.png`
+
+### 60. `60-axiom-accesses-hsd-patent-documentation.png`
+![60-axiom-accesses-hsd-patent-documentation.png](../png/60-axiom-accesses-hsd-patent-documentation.png)
+- **Description:** Web browser view showing the WIPO patent search interface for WO2020160021, the Hierarchical Script-Database (HSD). Axiom is seen retrieving the application body and priority documents.
+- **Key Takeaway:** The swarm leverages official legal documentation to ground its technical knowledge in verifiable intellectual property.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-07-58.png`
+
+### 61. `61-axiom-updates-domain-specific-knowledge-with-hsd.png`
+![61-axiom-updates-domain-specific-knowledge-with-hsd.png](../png/61-axiom-updates-domain-specific-knowledge-with-hsd.png)
+- **Description:** Terminal view showing Axiom updating `domain_specific_knowledge.json` to include the formal definition of the Hierarchical Script-Database (HSD).
+- **Key Takeaway:** Core system definitions are persisted in structured JSON formats to ensure machine-readable consistency across agent sessions.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-10-49.png`
+
+### 62. `62-axiom-commits-hsd-definitions-to-memory.png`
+![62-axiom-commits-hsd-definitions-to-memory.png](../png/62-axiom-commits-hsd-definitions-to-memory.png)
+- **Description:** Terminal view showing the diff of the update to `domain_specific_knowledge.json`, specifically adding the "hsd_concepts" section with definitions for HSD and the distinction between Metagit and HSD.
+- **Key Takeaway:** The "Mind" (Trunk) expands its ontological understanding by formally versioning complex technical concepts.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-11-00.png`
+
+### 63. `63-user-feedback-on-monotonic-documentation-growth.png`
+![63-user-feedback-on-monotonic-documentation-growth.png](../png/63-user-feedback-on-monotonic-documentation-growth.png)
+- **Description:** Terminal view showing Axiom reporting the completion of the Root README and HSD updates. The user reinforces the "No Deletion" rule, reminding the agent to never remove ideas during documentation restructuring.
+- **Key Takeaway:** The project enforces an evolutionary documentation standard where knowledge is continuously enriched and never lost.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-11-24.png`
+
+### 64. `64-user-directs-hsd-report-generation.png`
+![64-user-directs-hsd-report-generation.png](../png/64-user-directs-hsd-report-generation.png)
+- **Description:** Terminal view where the user directs Axiom to locate the HSD DOM barebones version in `repos/local_only/kernel/` and generate a comprehensive report on what HSD is.
+- **Key Takeaway:** The agent is tasked with synthesizing raw code and legal documents into a high-level technical report.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-11-34.png`
+
+### 65. `65-axiom-initiates-hsd-technical-audit.png`
+![65-axiom-initiates-hsd-technical-audit.png](../png/65-axiom-initiates-hsd-technical-audit.png)
+- **Description:** Terminal view showing Axiom (v1.0.3) beginning the HSD report by defining the "Definition and Origin" section, referencing the WIPO priority document.
+- **Key Takeaway:** Formal reporting begins with a structured analysis of the system's foundational documents and philosophical motivations.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-12-11.png`
+
+### 66. `66-axiom-details-hsd-technical-architecture.png`
+![66-axiom-details-hsd-technical-architecture.png](../png/66-axiom-details-hsd-technical-architecture.png)
+- **Description:** Terminal view showing Axiom detailing the HSD technical architecture, including Nested Execution Contexts, Synchronous Synthesis (Syn), the $rec flag, and Recursive Logic.
+- **Key Takeaway:** The technical report captures the unique functional components that enable HSD's "Non-Halting" software behavior.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-13-37.png`
+
+### 67. `67-axiom-outlines-hsd-core-principles.png`
+![67-axiom-outlines-hsd-core-principles.png](../png/67-axiom-outlines-hsd-core-principles.png)
+- **Description:** Terminal view showing Axiom outlining HSD core principles: Non-Halting syntax, Subject-Centred Object Oriented Programming (SCOOP), and High-Abstraction Abstraction Layers.
+- **Key Takeaway:** HSD represents a radical departure from standard computer science, providing the mathematical justification for the swarm's "WeDo" philosophy.
+- **Creation Date:** 2025-12-21
+- **Original Filename:** `Screenshot from 2025-12-21 17-14-33.png`
