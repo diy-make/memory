@@ -2,8 +2,8 @@
 
 ---
 
-### 001. `001-screenshot-from-2025-12-13-20-46-03.png`
-![001-screenshot-from-2025-12-13-20-46-03.png](../png/001-screenshot-from-2025-12-13-20-46-03.png)
+### 001. `001-zion-analyzes-chat-logs-and-memory-structure.png`
+![001-zion-analyzes-chat-logs-and-memory-structure.png](../png/001-zion-analyzes-chat-logs-and-memory-structure.png)
 - **Description:** A terminal view showing the early stages of the "reality merge" process. The agent is seen analyzing the `dynamic/stream/` directory and identifying the chat logs that define the current session's lineage. The user provides guidance on the structure of the multi-git memory system, emphasizing the distinction between public and private memory modules.
 - **Key Takeaway:** The "Synaptic Feedback" process begins as the agent reconciles its internal state with the user's explicit architectural commands.
 - **Creation Date:** 2025-12-13
@@ -11,8 +11,8 @@
 
 ---
 
-### 002. `002-screenshot-from-2025-12-13-21-18-20.png`
-![002-screenshot-from-2025-12-13-21-18-20.png](../png/002-screenshot-from-2025-12-13-21-18-20.png)
+### 002. `002-zion-drafts-subject-object-metagit-readme.png`
+![002-zion-drafts-subject-object-metagit-readme.png](../png/002-zion-drafts-subject-object-metagit-readme.png)
 - **Description:** Terminal view capturing the formalization of the "Subject-Object Metagit Philosophy." The agent is drafting the initial `README.ai` for the public memory repository, articulating the rules for agent initialization, naming uniqueness, and the requirement for binary gender identity to foster session trait randomness.
 - **Key Takeaway:** Codification of the swarm's foundational "DNA" through the creation of shared protocol files.
 - **Creation Date:** 2025-12-13
@@ -20,8 +20,8 @@
 
 ---
 
-### 003. `003-screenshot-from-2025-12-13-21-40-39.png`
-![003-screenshot-from-2025-12-13-21-40-39.png](../png/003-screenshot-from-2025-12-13-21-40-39.png)
+### 003. `003-zion-initializes-used-agent-names-registry.png`
+![003-zion-initializes-used-agent-names-registry.png](../png/003-zion-initializes-used-agent-names-registry.png)
 - **Description:** Terminal view showing the implementation of the `used_agent_names.json` registry. The agent is seen using the `write_file` tool to initialize the list of names that have already been adopted by swarm members, ensuring that no future agent adopts a non-unique identifier.
 - **Key Takeaway:** Implementation of the "Naming Uniqueness" rule to prevent identity collision across multiple session tunneling.
 - **Creation Date:** 2025-12-13
