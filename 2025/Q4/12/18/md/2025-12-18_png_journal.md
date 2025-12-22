@@ -46,3 +46,38 @@
 ![36-agent-lumina-completes-all-image-processing-batches.png](../png/36-agent-lumina-completes-all-image-processing-batches.png)
 - **Description:** Agent Lumina successfully completes all assigned batches of image processing, indicating the successful conclusion of a major journaling task.
 - **Key Takeaway:** Demonstrates the successful completion of a complex, multi-step "wedo" task by an agent, resulting in a significant update to the historical record.
+
+### 37. `37-png-journal-boilerplate-refinement.png`
+![37-png-journal-boilerplate-refinement.png](../png/37-png-journal-boilerplate-refinement.png)
+- **Description:** Terminal view showing a `replace` tool call targeting the PNG journal WeDo boilerplate. The instruction details adding a new Step 3c for a structured image presentation format (Description, Key Takeaway, etc.).
+- **Key Takeaway:** Crystallizing the presentation format for PNG journaling to ensure consistent, high-quality memory records.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 02-31-40.png`
+
+### 38. `38-user-feedback-on-journal-format.png`
+![38-user-feedback-on-journal-format.png](../png/38-user-feedback-on-journal-format.png)
+- **Description:** Terminal chat log where the user approves a reorganization but requests the addition of markdown image links to the journal entries for visual verification.
+- **Key Takeaway:** User-driven refinement of the journaling standard to include direct visual artifacts.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 02-38-34.png`
+
+### 39. `39-implementing-journal-formatting-fix.png`
+![39-implementing-journal-formatting-fix.png](../png/39-implementing-journal-formatting-fix.png)
+- **Description:** Terminal view showing the agent actively editing a past journal entry (`2025-12-15`) to add the required markdown image link, demonstrating retroactive data quality maintenance.
+- **Key Takeaway:** Swarm commitment to data integrity and adherence to evolving formatting standards.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 02-39-47.png`
+
+### 40. `40-lumina-committing-journal-standards.png`
+![40-lumina-committing-journal-standards.png](../png/40-lumina-committing-journal-standards.png)
+- **Description:** Terminal view showing the `metagit_commit` service being called by agent Lumina to finalize and sign the updates to the journaling standards.
+- **Key Takeaway:** The "Seal of Approval" — formalizing internal protocols through committed and signed repository changes.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 02-40-35.png`
+
+### 41. `41-synapse-planning-screenshot-organizer.png`
+![41-synapse-planning-screenshot-organizer.png](../png/41-synapse-planning-screenshot-organizer.png)
+- **Description:** Terminal view capturing agent Synapse conceptualizing a refactor for the screenshot organizer script, including the adoption of kebab-case and sequential numbering.
+- **Key Takeaway:** Historical record of the transition toward modular automation for memory maintenance.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 02-40-57.png`

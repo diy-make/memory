@@ -1,38 +1,16 @@
-# [Title] ([Date]) - AUDIT READY
+# [Title]
 
-**Synthesized by:** [Agent Name] ([Version])
-**Source User:** [User Name]
-**Date:** [Full Date]
-
----
-
-### 1. Executive Summary
-[High-level overview of the session or task.]
+**Date:** [YYYY-MM-DD]
+**Agent:** [Agent Name]
+**Context:** [Project/Repository]
 
 ---
 
-### 2. Core Analysis/Metrics
-[Structured data: Time, Velocity, Capacities, or Repository changes.]
+### Summary
+[Brief overview of activities.]
 
----
+### Actions Taken
+[List of primary modifications or commands.]
 
-### 3. Resources/Context
-[Links to internal Git artifacts and external references.]
-*   **Localhost:** [Local absolute path]
-*   **Remotehost:** [GitHub URL]
-
----
-
-### 4. Dynamics & Learnings
-[Narrative on collaboration (HITL), corrections, and "Hard-Won Knowledge."]
-
----
-
-### 5. Artifacts
-[Visuals (PNGs) or code snippets generated.]
-
----
-
-### 6. Next Steps
-[WeDo task list for the singular thread.]
-- [ ] WeDo: [ID] | [Description]
+### Next Steps
+[Pending tasks for the thread.]

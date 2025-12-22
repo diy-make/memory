@@ -90,17 +90,17 @@
   - Description: Reference final edits to this document at journal day 21st.
 
 ## Synthesis Tasks
-- [ ] WeDo: WEDO-SYN-04 | Generate Pull Synthesis Reports
+- [x] WeDo: WEDO-SYN-04 | Generate Pull Synthesis Reports
   - ID: WEDO-SYN-04
-  - Status: [ ]
+  - Status: [x]
   - Description: Create detailed reports of the pull synthesis, split by repository, listing all changes and requests directly.
-- [ ] WeDo: WEDO-SYN-05 | Execute Boilerplate Report WeDo
+- [x] WeDo: WEDO-SYN-05 | Execute Boilerplate Report WeDo
   - ID: WEDO-SYN-05
-  - Status: [ ]
+  - Status: [x]
   - Description: Reference and implement the schema defined in boilerplate_report.todo.md.
-- [ ] WeDo: WEDO-SYN-06 | Execute Boilerplate README WeDo
+- [/] WeDo: WEDO-SYN-06 | Execute Boilerplate README WeDo
   - ID: WEDO-SYN-06
-  - Status: [ ]
+  - Status: [/]
   - Description: Reference and implement the schema defined in boilerplate_readme.todo.md.
 
 ## Boilerplate

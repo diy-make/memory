@@ -25,7 +25,8 @@ A standard README in the Metagit environment should follow this hierarchical str
   - ID: SCH-BRD-01
   - Status: [x]
   - Description: Create a reusable template file in schemas/ for READMEs.
-- [ ] WeDo: SCH-BRD-02 | Audit Root and Trunk READMEs against this schema
+- [x] WeDo: SCH-BRD-02 | Audit Root and Trunk READMEs against this schema
   - ID: SCH-BRD-02
-  - Status: [ ]
+  - Status: [x]
   - Description: Perform a gap analysis of existing READMEs to ensure compliance.
+  - Result: Both READMEs found to be super-compliant, exceeding minimal structural requirements.
