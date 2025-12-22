@@ -6,11 +6,11 @@ import argparse
 
 # The version of the Memory Module environment configuration.
 # This will be replaced by the release manager during a release commit.
-__version__ = "V0.8.1_H9W223xX"
+__version__ = "V0.8.2_fEbfclvj"
 
 CORE_FILE_CHECKSUMS = {
     "README.ai": "bd5b2736ed487234f9169d53f74f04848abfa3e3b97cebba87abc9bc94caa557",
-    "README.md": "18ebc55f206eeff8f2b45aa17da5a7a001539688e8c1177e20e2902b4190c5e7",
+    "README.md": "0f10c1ff9bd0144a1fb389c28f727b349ab7823a19a35aeee2aca8ce74775da9",
     "json/local_paths.json": "3c46f16ea7deffaaaede72c14843d2bf0d5b427e7e5e5917f85bd4ee692234fb",
     "json/rules/swarm_protocol.json": "2611d24ac52ce620ecf0cd6bb5ca911769052619aacd2e30fb0961ce2623c2f8",
     "json/principles/agent_virtues.json": "4fbfd2378a4bb8d778636908ad7ba35ae24a0a499372701d926d4ca951ca7b96",
@@ -18,7 +18,7 @@ CORE_FILE_CHECKSUMS = {
     "json/personality/personality.json": "3f60491bd2a1645091589494da059532188691f6a5076b7752e05ac8c5c7158f",
     "json/philosophy/gem_process.json": "fc210dd5e9b023d2d453568fbf6b13b191d02867d42ec39244da5ddef70d8756",
     "json/schema/wedo_pseudolanguage_schema.json": "cc8aca93bddf8cf4ef277e61b049d5672d5e60a755e551da34018ac9814d46c1",
-    "py/verify_environment.py": "d9b01a9986b51cc88118749af606b7c3264b530bf50184cc2677b3721885f1f5",
+    "py/verify_environment.py": "1c33762980bcf8098c8c699366ba7434bf7409e9a7b639744365f567f3aa45f7",
     "py/signatures/generate_salt.py": "2d002c832e62cb0a261759d2d6f484fbb2ffa18d748b5755d388e3a77bed6d9c",
     "md/wedo/markdown_generation/png_journal.todo.md": "1500212fbf702e2dc3c915a6e3a5cfecb308b4648d58b3d620c41289dd08192c",
     "md/wedo/markdown_generation/boilerplate_report.todo.md": "2d2658d7124fc6d14d0879ab9513313ba8145b5456a53032ab0d38bb3d1870bb",
@@ -27,7 +27,9 @@ CORE_FILE_CHECKSUMS = {
     "md/wedo/github/remote_pull.todo.md": "885fa25641df64a74e634e98146896714133022d5d9d33c14f66c0f13086259a",
     "md/wedo/github/github_audit_repair.todo.md": "1b47487d4fb1f114143a2a7b2392d4b8bbc35c88ab8a978d81231799556b3e38",
     "md/wedo/meta_wedo.todo.md": "6aa9350677476b2ff2e91fe786c7e5dc7d21adf6e496b2944d13e5ac74e5155b",
-    "2025/Q4/12/21/md/20251221_Public_Memory_Audit.md": "e3fce5a786a7bbaf05938cc4212917ec7e7d6f5a03aeeb02b094a7268fa8c015"
+    "2025/Q4/12/21/md/20251221_Public_Memory_Audit.md": "e3fce5a786a7bbaf05938cc4212917ec7e7d6f5a03aeeb02b094a7268fa8c015",
+    "2025/Q4/12/md/Monthly_PNG_Journal_Report_V1.md": "57daba7f9965737fcd01b6d4e721c7d149703d09dccf46a40f65fb5ad9cd3003",
+    "2025/Q4/12/md/Monthly_Markdown_Journal_Report_V1.md": "c4c6b22f0f68a600c616041a2217edc3690ceb0f563bafe2b5e8bb656d938092"
 }
 
 def get_file_sha256(file_path):
