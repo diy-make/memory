@@ -178,6 +178,9 @@ Protocols for rapid collaboration, role definition (e.g., Super Administrator), 
 ### Legal Engineering Research (Planned)
 Protocols for deep-dive research, semantic indexing, and legislative analysis of digital assets and protocols. Derived from `ixventure/research/The_Crypto_Compendium`.
 
+### Network State Newsletter Teamwork (Planned)
+Protocols for collaborative editorial workflows, content curation, and distribution of network state narratives. Derived from `island_ventures/newsletters`.
+
 ### Meta-Management
 Protocols for managing the swarm's own legislative DNA and operational rules.
 

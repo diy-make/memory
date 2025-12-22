@@ -16,6 +16,9 @@ CORE_FILE_CHECKSUMS = {
     "json/rules/swarm_protocol.json": "2611d24ac52ce620ecf0cd6bb5ca911769052619aacd2e30fb0961ce2623c2f8",
     "json/principles/agent_virtues.json": "4fbfd2378a4bb8d778636908ad7ba35ae24a0a499372701d926d4ca951ca7b96",
     "json/configuration/verified_repositories.json": "9dcc60f1261f0dbdfd720dbe4eea551c1072b46aecdf0fcf4cf94c0e6e903b79",
+    "json/personality/personality.json": "3f60491bd2a1645091589494da059532188691f6a5076b7752e05ac8c5c7158f",
+    "json/philosophy/gem_process.json": "fc210dd5e9b023d2d453568fbf6b13b191d02867d42ec39244da5ddef70d8756",
+    "json/schema/wedo_pseudolanguage_schema.json": "d01415a07be3bfd6a7411dc28bdcc16b113688fafd20b646c9aced50f1c1aa9d",
     "md/wedo/markdown_generation/png_journal.todo.md": "1500212fbf702e2dc3c915a6e3a5cfecb308b4648d58b3d620c41289dd08192c",
     "md/wedo/markdown_generation/boilerplate_report.todo.md": "2d2658d7124fc6d14d0879ab9513313ba8145b5456a53032ab0d38bb3d1870bb",
     "md/wedo/markdown_generation/boilerplate_readme.todo.md": "f71844e116b4d1b5409880b64da8ae4a5b0b7d59161b4d2e81fe464448a7a2d1",
@@ -70,7 +73,7 @@ def verify_self_integrity():
         commit_hash = result.stdout.strip()
         if not commit_hash:
             print(f"⚠ Could not find a 'Release Commit' for version '{my_version}'. (Expected for unreleased versions)")
-            return True # Soft fail for dev versions
+            return True 
         show_cmd = ['git', 'show', f'{commit_hash}:{my_path}']
         historical_content = subprocess.check_output(show_cmd)
         historical_checksum = hashlib.sha256(historical_content).hexdigest()
@@ -95,7 +98,6 @@ def verify_environment(no_self_verify=False):
 
     # 2. Core Directory Structure
     print("\n[2/4] Checking Core Directory Structure...")
-    # 'schemas' was renamed or is a duplicate, the project uses 'json/schema/'
     core_dirs = ["json", "md", "png", "py"]
     for directory in core_dirs:
         if not os.path.isdir(directory):
@@ -108,8 +110,6 @@ def verify_environment(no_self_verify=False):
     print("\n[3/4] Checking Core File Integrity...")
     for file_path, expected_checksum in CORE_FILE_CHECKSUMS.items():
         if not check_file_integrity(file_path, expected_checksum):
-            # We allow the verify script itself to be updated without failing the whole check here,
-            # as it will be caught by self-integrity later if needed.
             if file_path != "py/verify_environment.py":
                 all_ok = False
 
@@ -142,9 +142,7 @@ def check_file_integrity(file_path, expected_checksum):
         return False
 
 if __name__ == '__main__':
-    # Determine the directory where the script is located
     script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    # Change current working directory to the repo root
     os.chdir(script_dir)
 
     parser = argparse.ArgumentParser(description="Verifies the integrity of the Memory Module environment.")
