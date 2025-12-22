@@ -2,7 +2,11 @@
   "wedo_pseudolanguage_schema": {
     "name": "WeDo Pseudolanguage Schema",
     "version": "1.0.0",
-    "description": "Defines the structure for a task within the 'WeDo' singular thread of user-agent collaboration. This schema formalizes the 'todo.md' as a machine-readable instruction set.",
+    "description": "Defines the structure for a task within the 'WeDo' singular thread of user-agent collaboration. This schema formalizes the 'todo.md' as a machine-readable instruction set. It distinguishes between Global Templates (generic processes in md/wedo/) and Temporal Instances (session-specific tasks in <YEAR>/<Q>/<MONTH>/<DAY>/md/).",
+    "usage_policy": {
+      "global_templates": "Stored in md/wedo/. These files contain generic process protocols and placeholders. They are meant to be inherited by future agents.",
+      "temporal_instances": "Stored in the day's temporal md/ directory. These are copies of global templates populated with session-specific data, source links, and task progress."
+    },
     "task_structure": {
       "type": "object",
       "properties": {
