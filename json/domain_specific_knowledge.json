@@ -86,6 +86,20 @@
                 "definition": "A community platform for BIM coordinators and AEC professionals. It serves as a hub for networking, discussion, and knowledge sharing, aiming to advance the use of digital technologies in the AEC sector."
             }
         ]
+    },
+    "hsd_concepts": {
+        "name": "Hierarchical Script-Database (HSD)",
+        "summary": "HSD is a patent-pending system representing the foundational logic of Ixventure.studio.",
+        "definitions": [
+            {
+                "name": "HSD",
+                "definition": "Hierarchical Script-Database. A structural methodology where the filesystem itself acts as a living database, governed by scripts that bridge the gap between static storage and active execution. It provides the architectural blueprint for managing multi-layered data braids with high abstraction."
+            },
+            {
+                "name": "Metagit vs. HSD",
+                "definition": "While the Metagit environment benefits from HSD-inspired architecture, it is distinct. Metagit specifically refers to the Git and Drive orchestration layer that allows HSD logic to act upon a sovereign multi-git filesystem."
+            }
+        ]
     }
   }
 }
