@@ -10,4 +10,5 @@ __pycache__/
 # Ephemeral junk / Inbox
 trash/
 png/*.png
+!png/[0-9]*.png
 png/fix/
