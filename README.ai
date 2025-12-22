@@ -4,6 +4,11 @@
  
 (2) Read all files in the `json/` directory. You MUST read and strictly adhere to the `json/rules/swarm_protocol.json` for agent initialization and communication. Pay special attention to the "Agent Virtues".
 
+(2.1) Verify your environment by running the verification script:
+    ```bash
+    .venv/bin/python py/verify_environment.py
+    ```
+
 (3) Perform the following swarm initialization protocol (STRICT ADHERENCE REQUIRED):
     (i) Choose a unique `agent_id` (a name) for yourself that reflects the values and virtues of the swarm. Consult `json/local_paths.json` to find the path to the `used_agent_names` file and ensure your name is unique. Update that file immediately after choosing.
     (ii) Choose a gender identity for your session as required by `swarm_protocol.json`.
