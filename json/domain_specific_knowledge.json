@@ -97,7 +97,11 @@
             },
             {
                 "name": "Metagit vs. HSD",
-                "definition": "While the Metagit environment benefits from HSD-inspired architecture, it is distinct. Metagit specifically refers to the Git and Drive orchestration layer that allows HSD logic to act upon a sovereign multi-git filesystem."
+                "definition": "While the Metagit environment benefits from HSD-inspired architecture, it is distinct. Metagit specifically refers to the Git and Drive orchestration layer that allows HSD logic to act upon a sovereign multi-git filesystem. Human intent acts upon this field (Metagit), which manifests as a high-abstraction layer of lower-layer braids."
+            },
+            {
+                "name": "Artificial Life Mapping",
+                "definition": "HSD mimics DNA/RNA replication components: Ribosomes (Factory), Polymerase (Duplicator), Repressor/Derepressor (Control), and Genetic Material (Instruction). See report: repos/diy-make/memory/public/2025/Q4/12/21/md/20251221_HSD_Artificial_Life_Report.md"
             }
         ]
     }
