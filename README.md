@@ -154,6 +154,10 @@ These protocols govern the creation and refinement of narrative and technical do
    - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/boilerplate_readme.todo.md`
    - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_boilerplate_readme_instance.todo.md`
    - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_boilerplate_readme_instance.todo.md)
+5. **Swarm Biography / Autobiography:**
+   - **Protocol:** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/biography.todo.md`
+   - **Artifact (2025-12-21):** `/home/bestape/gemini/repos/diy-make/memory/public/md/wedo/markdown_generation/20251221_ethos_autobiography_instance.todo.md`
+   - **Remote:** [View on GitHub](https://github.com/diy-make/memory/blob/main/md/wedo/markdown_generation/20251221_ethos_autobiography_instance.todo.md)
 
 ### Meta-Management
 Protocols for managing the swarm's own legislative DNA and operational rules.
