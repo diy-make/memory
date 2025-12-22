@@ -27,7 +27,7 @@
 ![04-telegram-logistics-frontier-tower.png](../../png/04-telegram-logistics-frontier-tower.png)
 *A screenshot of a Telegram chat conversation. The participants are discussing logistics for visiting a venue called 'frontier tower' in San Francisco. They coordinate meeting times and discuss checking with a contact named Xenofon about event space availability.*
 *   **Key Takeaway:** This screenshot provides real-world context for an event being planned, showing the logistical coordination and key contacts involved.
-
+- [ ] WeDo: delete. Outside of scope.
 ---
 
 **5. Helia Swarm Announcement**
