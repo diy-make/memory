@@ -8,6 +8,7 @@ A standard report in the Metagit environment should follow this hierarchical str
 3. **Core Analysis/Metrics:** Structured data (Time, Velocity, Capacities, or Repository changes).
 4. **Resources/Context:** Links to internal Git artifacts and external references.
    - **Requirement:** Every location MUST reference both **localhost** (local absolute path) and **remotehost** (GitHub URL).
+   - **Requirement:** For Pull Synthesis, list ALL changes and requests directly from the source pull request.
 5. **Dynamics & Learnings:** Narrative on collaboration (HITL), corrections, and "Hard-Won Knowledge."
 6. **Artifacts:** Visuals (PNGs) or code snippets generated.
 7. **Next Steps:** WeDo task list for the singular thread.
