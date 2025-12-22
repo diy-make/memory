@@ -18,9 +18,9 @@ A standard report in the Metagit environment should follow this hierarchical str
 **Direct Aesthetic:** Reports must be presented to the User "straightup"—no triple-backtick Markdown wrappers or line numbers. Use plain text formatting with clear headers and bolding that renders cleanly in the terminal for screenshots and manual copying.
 
 ## Tasks
-- [ ] WeDo: SCH-BPR-01 | Create standardized Markdown template for reports
+- [x] WeDo: SCH-BPR-01 | Create standardized Markdown template for reports
   - ID: SCH-BPR-01
-  - Status: [ ]
+  - Status: [x]
   - Description: Create a reusable template file in schemas/ for future reports to pull from.
 - [ ] WeDo: SCH-BPR-02 | Integrate schema check into Pull Synthesis Report
   - ID: SCH-BPR-02
