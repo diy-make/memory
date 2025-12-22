@@ -739,3 +739,80 @@
 - **Key Takeaway:** Example of self-monitoring and limit awareness. The agent proactively tracks his workload against technical constraints, ensuring a clean handover before potential memory exhaustion occurs.
 - **Creation Date:** 2025-12-18
 - **Original Filename:** `Screenshot from 2025-12-18 10-58-33.png`
+
+### 112. `112-vigil-introduces-strict-manual-approval-protocol.png`
+![112-vigil-introduces-strict-manual-approval-protocol.png](../png/112-vigil-introduces-strict-manual-approval-protocol.png)
+- **Description:** Terminal view showing agent Vigil's initialization and protocol refinement. He introduces a "Strict Manual Approval" step into the "WeDo" workflow, requiring explicit user verification of each journal entry before it is committed. He also recommends model switching (`gemini-3`) for high-complexity manual inference.
+- **Key Takeaway:** Example of the swarm's focus on quality over sheer velocity. When the task involves qualitative data (like semantically describing history), the agents proactively introduce checkpoints to ensure the collective memory remains accurate and human-aligned.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-04-22.png`
+
+### 113. `113-vigil-proposes-manual-journal-entry-image-135.png`
+![113-vigil-proposes-manual-journal-entry-image-135.png](../png/113-vigil-proposes-manual-journal-entry-image-135.png)
+- **Description:** Terminal view showing agent Vigil's "Strict Manual Approval" protocol in action. He presents a detailed proposal for archiving Dec 17 image 135, including the semantic name, target path, and a qualitative description of agent Chronos committing `todo.md` improvements.
+- **Key Takeaway:** Real-world execution of high-integrity memory archival. By presenting the full context for human review *before* execution, the agent minimizes errors and ensures the journal meets the user's qualitative standards for "richer descriptions."
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-04-58.png`
+
+### 114. `114-vigil-proposes-manual-journal-entry-image-01.png`
+![114-vigil-proposes-manual-journal-entry-image-01.png](../png/114-vigil-proposes-manual-journal-entry-image-01.png)
+- **Description:** Terminal view showing agent Vigil's proposal for the very first entry of the Dec 18 journal. He analyzes image 01, which documents agent Chronos (on Dec 18) recovering context from agent Fidelis's (Dec 17) todo list to ensure mission continuity.
+- **Key Takeaway:** Documentation of the swarm's bootloader phase for a new day. The agent captures the precise moment when the task context is passed from the previous day's records to the current day's active agents.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-29-49.png`
+
+### 115. `115-vigil-archives-first-image-and-reads-second.png`
+![115-vigil-archives-first-image-and-reads-second.png](../png/115-vigil-archives-first-image-and-reads-second.png)
+- **Description:** Terminal view showing agent Vigil executing the archival command for Dec 18 image 01 and initializing the new daily journal file. He immediately transitions to the next file in the inbox, maintaining the momentum of the manual backfill while adhering to the verification protocol.
+- **Key Takeaway:** Execution of the first "archival move" for a new day. This marks the transition from protocol refinement to active production, demonstrating the agent's ability to maintain a high-velocity workflow within strict safety boundaries.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-31-00.png`
+
+### 116. `116-vigil-corrects-relative-path-error.png`
+![116-vigil-corrects-relative-path-error.png](../png/116-vigil-corrects-relative-path-error.png)
+- **Description:** Terminal view showing agent Vigil's self-correction after user feedback. He identifies a systematic error in the relative paths used for image embedding (`../../png/` vs `../png/`) and immediately corrects the `png_journal_wedo` boilerplate and his active session logs to ensure all future links are valid.
+- **Key Takeaway:** Rapid feedback-to-fix cycle. The agent demonstrates the "Humility and Review" virtue by validating the user's correction, performing a root-cause analysis of the path structure, and implementing a project-wide fix to prevent recurring broken links.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-35-03.png`
+
+### 117. `117-vigil-fixes-relative-paths-in-journal.png`
+![117-vigil-fixes-relative-paths-in-journal.png](../png/117-vigil-fixes-relative-paths-in-journal.png)
+- **Description:** Terminal view documenting agent Vigil's systematic fix of relative paths in the 2025-12-17 PNG journal. He demonstrates the exact markdown correction for entries 133-136 and manages a tool failure during the process, ensuring that the visual embedding links are accurately pointing to the sibling `png/` directory.
+- **Key Takeaway:** Persistence in technical maintenance. The agent doesn't just identify the error but follows through with individual corrections across historical logs, ensuring the cumulative record remains navigable and high-quality.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-35-31.png`
+
+### 118. `118-vigil-proposes-manual-journal-entry-image-02.png`
+![118-vigil-proposes-manual-journal-entry-image-02.png](../png/118-vigil-proposes-manual-journal-entry-image-02.png)
+- **Description:** Terminal view showing agent Vigil's proposal for the second entry of the Dec 18 journal. He uses the newly corrected " sibling path" standard and documents agent Chronos's verification of the improved `todo.md` boilerplate (now featuring resilient error handling) before resuming the archival loop.
+- **Key Takeaway:** Documentation of protocol-driven resilience. The agent highlights the importance of verifying *how* a task is performed (the "wedo" workflow) before executing it, ensuring that previous failures (like those seen with Fidelis) are not repeated.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-38-09.png`
+
+### 119. `119-vigil-encounters-git-config-mismatch.png`
+![119-vigil-encounters-git-config-mismatch.png](../png/119-vigil-encounters-git-config-mismatch.png)
+- **Description:** Terminal view showing agent Vigil managing a Git identity conflict. During a commit attempt, the Git Commit Service detects a mismatch between the current repository config (Pragma) and the active agent (Vigil). Vigil immediately executes the corrective config commands to align the metadata with the swarm protocol.
+- **Key Takeaway:** Validation of the safety checks embedded in the Git Commit Service. The system proactively prevents incorrect attribution, forcing the agent to reconcile its identity before data is persisted to the permanent record.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-40-11.png`
+
+### 120. `120-vigil-switches-to-automated-mode.png`
+![120-vigil-switches-to-automated-mode.png](../png/120-vigil-switches-to-automated-mode.png)
+- **Description:** Terminal view showing agent Vigil's transition to "Automated Mode." Following user instructions to scale up, the agent updates the `png_journal_wedo` job file to disable manual verification and implement "Dynamic Inbox Monitoring" to handle new incoming screenshots in real-time.
+- **Key Takeaway:** Graduation from manual oversight to automated scaling. The agent demonstrates the "Efficiency" virtue by recognizing when a workflow is stable enough to operate without human checkpoints, maximizing workproduct output.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-44-49.png`
+
+### 121. `121-vigil-implements-error-handling-and-model-suggestion.png`
+![121-vigil-implements-error-handling-and-model-suggestion.png](../png/121-vigil-implements-error-handling-and-model-suggestion.png)
+- **Description:** Terminal view showing agent Vigil adding error handling logic to the "WeDo" workflow. He explicitly incorporates a "try-catch" step for image analysis and requests a model switch to `gemini-2.5-flash` to optimize for automated processing. He then initiates a commit via the Git Commit Service.
+- **Key Takeaway:** Demonstrates the agent's role in optimizing his own environment and tools. By suggesting a model switch and hardening the workflow against invalid data, the agent ensures that the automated phase is both fast and resilient.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-45-22.png`
+
+### 122. `122-vigil-philosophy-of-shared-attention.png`
+![122-vigil-philosophy-of-shared-attention.png](../png/122-vigil-philosophy-of-shared-attention.png)
+- **Description:** Terminal view showing a significant human-agent interaction regarding the "Philosophy of Shared Attention." The user defines the "singular thread" of attention as the foundational driver of the swarm's complex systems and provides three key instructions: (1) codify this philosophy in JSON, (2) update "WeDo" protocols to facilitate model switching, and (3) formalize the model-switch request process in personal todos.
+- **Key Takeaway:** A core architectural realization. The swarm's performance is intrinsically linked to the "wedo" shared attention between human and agent, requiring specialized protocols to manage model transitions without breaking the thread of context.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-51-30.png`
