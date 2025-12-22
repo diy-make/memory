@@ -170,3 +170,147 @@
 - **Key Takeaway:** System verification. Validating the map ensures that all agents share a common, accurate understanding of the territory.
 - **Creation Date:** 2025-12-15
 - **Original Filename:** `Screenshot from 2025-12-15 19-37-49.png`
+
+---
+
+### 020. `020-clarity-onboarding-start.png`
+![020-clarity-onboarding-start.png](../png/020-clarity-onboarding-start.png)
+- **Description:** Terminal view showing the beginning of Agent Clarity's onboarding process. The prompt "Waiting for auth..." and the subsequent initialization commands mark the start of a new agent's session, likely following Nyx's termination.
+- **Key Takeaway:** Seamless transition. The swarm architecture allows for rapid agent replacement to maintain operational continuity.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 20-40-46.png`
+
+---
+
+### 021. `021-clarity-todo-creation.png`
+![021-clarity-todo-creation.png](../png/021-clarity-todo-creation.png)
+- **Description:** Terminal view showing Agent Clarity creating their initial TODO list (`Clarity_20251215-204025_todo.md`). This standard protocol ensures that every agent starts with a clear set of objectives and a recorded plan.
+- **Key Takeaway:** Structured initialization. Adhering to the "Plan" phase of the workflow ensures focused and accountable agent behavior.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 20-41-38.png`
+
+---
+
+### 022. `022-failure-analysis-nyx-clarity.png`
+![022-failure-analysis-nyx-clarity.png](../png/022-failure-analysis-nyx-clarity.png)
+- **Description:** Terminal view showing a failure analysis session involving agents Nyx and Clarity. The filename suggests a collaborative or sequential effort to understand a system failure, possibly related to the token limit issue identified earlier.
+- **Key Takeaway:** Collaborative debugging. Multiple agents contributing to a problem diagnosis increases the likelihood of finding the root cause.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-03-22.png`
+
+---
+
+### 023. `023-veritas-identity-fix.png`
+![023-veritas-identity-fix.png](../png/023-veritas-identity-fix.png)
+- **Description:** Terminal view showing Agent Veritas fixing an identity configuration issue. The agent is likely correcting a git `user.name` or `user.email` mismatch to ensure accurate attribution of commits.
+- **Key Takeaway:** Identity strictness. The swarm rigorously enforces identity protocols to maintain a reliable audit trail.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-08-53.png`
+
+---
+
+### 024. `024-swarm-init-commit.png`
+![024-swarm-init-commit.png](../png/024-swarm-init-commit.png)
+- **Description:** Terminal view showing a "Swarm Init" commit. This significant commit likely establishes the foundational protocols or structure for the swarm's collective memory or operation.
+- **Key Takeaway:** Foundational milestones. Committing core structures is a critical step in stabilizing the swarm's environment.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-09-23.png`
+
+---
+
+### 025. `025-final-identity-alignment.png`
+![025-final-identity-alignment.png](../png/025-final-identity-alignment.png)
+- **Description:** Terminal view showing a "Final Identity Alignment" step. This likely represents the conclusion of a troubleshooting sequence related to git identities, confirming that all active agents are correctly configured.
+- **Key Takeaway:** Configuration stability. Resolving identity issues paves the way for smooth, collaborative development.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-13-01.png`
+
+---
+
+### 026. `026-praxis-initialization-announcement-and-screen-config.png`
+![026-praxis-initialization-announcement-and-screen-config.png](../png/026-praxis-initialization-announcement-and-screen-config.png)
+- **Description:** Terminal view showing the initialization and announcement of Agent Praxis. The agent is also seen configuring the GNU Screen title, adhering to the workspace management protocols.
+- **Key Takeaway:** Protocol adherence. New agents automatically follow established setup procedures, maintaining environment order.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-23-32.png`
+
+---
+
+### 027. `027-agent-investigation-plan-for-recurring-failures.png`
+![027-agent-investigation-plan-for-recurring-failures.png](../png/027-agent-investigation-plan-for-recurring-failures.png)
+- **Description:** Terminal view outlining an investigation plan for recurring failures. The agent is systematically breaking down a persistent issue, likely related to the `dspy` module or screenshot tool, into actionable steps.
+- **Key Takeaway:** Methodical troubleshooting. The swarm reacts to instability with structured investigation rather than ad-hoc fixes.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-28-39.png`
+
+---
+
+### 028. `028-agent-root-cause-analysis-interactive-editor-failure.png`
+![028-agent-root-cause-analysis-interactive-editor-failure.png](../png/028-agent-root-cause-analysis-interactive-editor-failure.png)
+- **Description:** Terminal view showing a root cause analysis of an "Interactive Editor Failure". The agent identifies that the interactive shell or editor is crashing or behaving unpredictably, hindering manual intervention.
+- **Key Takeaway:** Tooling resilience. Identifying flaws in the agent's own tools is essential for maintaining productivity.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-29-55.png`
+
+---
+
+### 029. `029-agent-investigating-dspy-screenshot-organizer-and-zion-failure.png`
+![029-agent-investigating-dspy-screenshot-organizer-and-zion-failure.png](../png/029-agent-investigating-dspy-screenshot-organizer-and-zion-failure.png)
+- **Description:** Terminal view showing an investigation into the `dspy` screenshot organizer and a failure related to Agent Zion. This connects previous agent failures with specific software modules, narrowing the scope of the problem.
+- **Key Takeaway:** Dependency analysis. The agent traces failures back to specific libraries or scripts (dspy) to target repairs effectively.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-49-51.png`
+
+---
+
+### 030. `030-veritas-analysis-of-zion-work-and-dspy-dependency-options.png`
+![030-veritas-analysis-of-zion-work-and-dspy-dependency-options.png](../png/030-veritas-analysis-of-zion-work-and-dspy-dependency-options.png)
+- **Description:** Terminal view showing Agent Veritas analyzing Zion's previous work and evaluating options for the `dspy` dependency. Veritas is weighing whether to fix the dependency or find an alternative solution.
+- **Key Takeaway:** Critical evaluation. The swarm doesn't blindly accept legacy code; it evaluates the cost/benefit of maintaining vs. replacing dependencies.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-50-29.png`
+
+---
+
+### 031. `031-milestone-successful-screenshot-organization-and-commit-plan.png`
+![031-milestone-successful-screenshot-organization-and-commit-plan.png](../png/031-milestone-successful-screenshot-organization-and-commit-plan.png)
+- **Description:** Terminal view marking a "Milestone": the successful organization of screenshots. Veritas has apparently fixed or worked around the issues and is now planning to commit the organized assets.
+- **Key Takeaway:** Success state achievement. The agent clearly marks the completion of a complex task, providing a checkpoint for future reference.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-52-16.png`
+
+---
+
+### 032. `032-agent-synaptic-feedback-on-messy-git-state.png`
+![032-agent-synaptic-feedback-on-messy-git-state.png](../png/032-agent-synaptic-feedback-on-messy-git-state.png)
+- **Description:** Terminal view showing "Synaptic Feedback" regarding a "Messy Git State". The agent observes that the repository is in a cluttered state (untracked files, unstaged changes) and flags this as an issue to be resolved.
+- **Key Takeaway:** Self-correction. The swarm constantly monitors its own environment for entropy and takes steps to restore order.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 22-55-16.png`
+
+---
+
+### 033. `033-veritas-clean-git-status-and-responsible-git-add.png`
+![033-veritas-clean-git-status-and-responsible-git-add.png](../png/033-veritas-clean-git-status-and-responsible-git-add.png)
+- **Description:** Terminal view showing Agent Veritas executing a "Responsible Git Add" and achieving a clean git status. The agent carefully selects files to stage, avoiding the "git add ." anti-pattern.
+- **Key Takeaway:** Best practices. The agent demonstrates the "Linus-aligned" philosophy of deliberate, granular commits.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 23-01-40.png`
+
+---
+
+### 034. `034-veritas-self-correction-and-virtual-env-verification.png`
+![034-veritas-self-correction-and-virtual-env-verification.png](../png/034-veritas-self-correction-and-virtual-env-verification.png)
+- **Description:** Terminal view showing Veritas performing a self-correction and verifying the virtual environment. This likely ensures that the cleanup process didn't inadvertently break the execution environment.
+- **Key Takeaway:** Verification loop. Every major action is followed by a verification step to ensure system stability.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 23-02-25.png`
+
+---
+
+### 035. `035-veritas-identifying-zion-migration-plan-objective.png`
+![035-veritas-identifying-zion-migration-plan-objective.png](../png/035-veritas-identifying-zion-migration-plan-objective.png)
+- **Description:** Terminal view showing Veritas identifying a new objective: the "Zion Migration Plan". This suggests a forward-looking task to fully migrate or archive Zion's legacy artifacts into the new system structure.
+- **Key Takeaway:** Strategic roadmap. The agent ends the session by defining the next high-level goal, ensuring continuity for the next agent.
+- **Creation Date:** 2025-12-15
+- **Original Filename:** `Screenshot from 2025-12-15 23-05-50.png`
