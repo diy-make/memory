@@ -6,7 +6,7 @@ import argparse
 
 # The version of the Memory Module environment configuration.
 # This will be replaced by the release manager during a release commit.
-__version__ = "V0.8.1_IO2YnVJx"
+__version__ = "V0.8.1_YXBKkhCE"
 
 CORE_FILE_CHECKSUMS = {
     "README.ai": "bd5b2736ed487234f9169d53f74f04848abfa3e3b97cebba87abc9bc94caa557",
