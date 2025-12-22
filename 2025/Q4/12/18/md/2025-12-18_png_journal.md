@@ -816,3 +816,73 @@
 - **Key Takeaway:** A core architectural realization. The swarm's performance is intrinsically linked to the "wedo" shared attention between human and agent, requiring specialized protocols to manage model transitions without breaking the thread of context.
 - **Creation Date:** 2025-12-18
 - **Original Filename:** `Screenshot from 2025-12-18 12-51-30.png`
+
+### 123. `123-vigil-codifies-the-gem-process-philosophy.png`
+![123-vigil-codifies-the-gem-process-philosophy.png](../png/123-vigil-codifies-the-gem-process-philosophy.png)
+- **Description:** Terminal view showing agent Vigil's formalization of the "Gem Process" philosophy. He drafts the core definitions for `gem_process.json`, identifying the "WeDo Thread" as the irreducible foundation of the human-agent system. He explicitly documents the "single-threaded" constraint that necessitates halting the agent for model-switching operations.
+- **Key Takeaway:** Theoretical foundation for operational stability. By codifying the nature of the shared attention thread, the swarm establishes a clear rationale for specialized workflow designs that accommodate the technical limitations of the underlying model substrate.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-55-20.png`
+
+### 124. `124-vigil-updates-boilerplate-with-model-switch-pause.png`
+![124-vigil-updates-boilerplate-with-model-switch-pause.png](../png/124-vigil-updates-boilerplate-with-model-switch-pause.png)
+- **Description:** Terminal view showing agent Vigil executing the philosophical directives. He creates the `json/philosophy/gem_process.json` artifact and then modifies the `png_journal_wedo` boilerplate to include an explicit "PAUSE FOR MODEL SWITCH" step. This structural change ensures that the agent proactively yields control to the user when a substrate transition is required.
+- **Key Takeaway:** Integration of philosophy into workflow. The agent demonstrates how abstract principles (the irreducible nature of the WeDo thread) are translated into concrete, actionable steps within the swarm's task management system.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-55-31.png`
+
+### 125. `125-vigil-formalizes-phase-switch-protocol.png`
+![125-vigil-formalizes-phase-switch-protocol.png](../png/125-vigil-formalizes-phase-switch-protocol.png)
+- **Description:** Terminal view showing agent Vigil's refined implementation of the model-switching protocol. He introduces a specific "PHASE-SWITCH" step into the boilerplate workflow, positioned as a mandatory checkpoint between manual setup and automated execution. This ensures the "Gem Process" is respected by explicitly halting the agent for human-initiated model transitions.
+- **Key Takeaway:** Refinement of task orchestration. By designating a specific step number (2.5) for model switching, the agent provides a deterministic framework for transitioning between different levels of AI intelligence, optimizing the swarm's collective throughput.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-55-45.png`
+
+### 126. `126-vigil-executes-phase-switch-and-plans-commit.png`
+![126-vigil-executes-phase-switch-and-plans-commit.png](../png/126-vigil-executes-phase-switch-and-plans-commit.png)
+- **Description:** Terminal view showing agent Vigil preparing for session handoff. He checks off the "PHASE-SWITCH" step in his job file and outlines a comprehensive commit plan covering multiple repositories (public and parent memory). He then executes the final Git staging command before halting his process to allow for the model substrate transition.
+- **Key Takeaway:** disciplined execution of session closure. The agent ensures that all philosophical and structural contributions are safely versioned before relinquishing control, providing a clean and well-documented starting point for the next automated session.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-56-27.png`
+
+### 127. `127-vigil-prompts-model-switch-and-halts.png`
+![127-vigil-prompts-model-switch-and-halts.png](../png/127-vigil-prompts-model-switch-and-halts.png)
+- **Description:** Terminal view showing agent Vigil's final action before session termination. He summarizes the completion of his philosophical and structural objectives and provides a clear "User Action Required" prompt to switch the model substrate to `gemini-2.5-flash`. The screen capture includes the interactive model selection interface, documenting the exact moment of the handoff.
+- **Key Takeaway:** Milestone in human-AI collaboration. The agent demonstrates the "Passive Waiting" virtue by explicitly stopping his own execution after providing the user with all necessary information to proceed, respecting the singular thread of shared attention.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-57-33.png`
+
+### 128. `128-vigil-resumes-in-automated-mode-after-switch.png`
+![128-vigil-resumes-in-automated-mode-after-switch.png](../png/128-vigil-resumes-in-automated-mode-after-switch.png)
+- **Description:** Terminal view showing agent Vigil (now running on `gemini-2.5-flash`) resuming the PNG journaling task. He marks the model-switch checkpoint as complete and transitions immediately into the high-velocity automated processing loop, listing the inbox to continue the Dec 18 backfill.
+- **Key Takeaway:** Successful completion of the first "substrate transition" protocol. The agent demonstrates how the swarm can dynamically shift its underlying intelligence level while maintaining task continuity, proving the robustness of the "Gem Process" architecture.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 12-58-29.png`
+
+### 129. `129-vigil-processes-automated-image-07.png`
+![129-vigil-processes-automated-image-07.png](../png/129-vigil-processes-automated-image-07.png)
+- **Description:** Terminal view showing agent Vigil's automated processing of Dec 18 image 07. The analyzed artifact documents agent Clarity's (Dec 18) plan to formally investigate Chronos's termination and develop a "pre-flight" validation script to prevent recurring image-reading crashes.
+- **Key Takeaway:** Documentation of the swarm's immune system. The agents are not just processing data but are actively developing defensive scripts and protocols based on historical failures to increase the robustness of the collective memory substrate.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 13-00-36.png`
+
+### 130. `130-vigil-processes-automated-image-08.png`
+![130-vigil-processes-automated-image-08.png](../png/130-vigil-processes-automated-image-08.png)
+- **Description:** Terminal view showing agent Vigil's automated processing of Dec 18 image 08. He demonstrates the high-fidelity archival loop: (1) counting existing files to determine the next index, (2) reading the image content, and (3) preparing for the semantic rename and move.
+- **Key Takeaway:** Execution of the "deterministic numbering" protocol. By explicitly counting the target archive before every move, the agent ensures that the sequential numbering remains perfectly aligned with the file system state, even in a multi-agent environment.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 13-01-24.png`
+
+### 131. `131-vigil-commits-automated-batch-2-continue.png`
+![131-vigil-commits-automated-batch-2-continue.png](../png/131-vigil-commits-automated-batch-2-continue.png)
+- **Description:** Terminal view showing agent Vigil's automated commit of "Batch 2" for the Dec 18 archive. He confirms the renaming and relocation of images 11 and 12 (Clarity's session) and lists the next available file in the inbox, maintaining a high-frequency commit cadence to ensure data persistence.
+- **Key Takeaway:** Consistent application of the "Commit Policy." By persisting changes in small, frequent increments, the agent minimizes the potential impact of technical failures or session timeouts, ensuring the memory reorganization progress is always securely versioned.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 13-07-48.png`
+
+### 132. `132-vigil-git-status-verification.png`
+![132-vigil-git-status-verification.png](../png/132-vigil-git-status-verification.png)
+- **Description:** Terminal view showing agent Vigil's `git status` verification. The output confirms the relocation of multiple screenshots from the inbox to the Dec 18 archive (images 10-12) and the corresponding updates to the daily journal markdown.
+- **Key Takeaway:** Validation of the archival pipeline's physical impact. The status report provides empirical proof that the agent is successfully transforming untracked "inbox" data into versioned, semantically named "archive" assets.
+- **Creation Date:** 2025-12-18
+- **Original Filename:** `Screenshot from 2025-12-18 13-07-53.png`
