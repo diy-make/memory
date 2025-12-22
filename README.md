@@ -6,12 +6,11 @@
 >
 > **🔵 THE ROOT (Body):** [github.com/apemake/gem](https://github.com/apemake/gem) - **The Orchestration Layer & CLI Tools.**
 >
-> **🟢 THE TRUNK (Mind):** [github.com/diy-make/memory](https://github.com/diy-make/memory) - **The Active Context & Swarm Conscience.**
+> **🟢 THE TRUNK (Mind):** [github.com/diy-make/memory](https://github.com/diy-make/memory) — **The Active Context & Swarm Conscience.**
 >
-> **🔴 THE METAGENESIS (Method Deployed):** [Field Hacking Method @ EthGlobal](https://ethglobal.com/showcase/field-hacking-method-pv50n) - **Buenos Aires, Nov 2025.**
+> **🔴 THE METAGENESIS (Method Deployed):** [Field Hacking Method @ EthGlobal](https://ethglobal.com/showcase/field-hacking-method-pv50n) — **Buenos Aires, Nov 2025.**
 >
-> **🔴 THE GENESIS (Origin Point):** [Reality Merge @ SensAI](https://devpost.com/software/reality-merge) - **San Francisco, Dec 2025.**
-- [ ] WeDo: link to the GitHub Pages not the devpost. Look to this README.md Git history for the link. Update apemake/gem's README.md too, at localhost:gemini/.
+> **🔴 THE GENESIS (Origin Point):** [Reality Merge Project Site](https://diy-make.github.io/reality-merge) — **San Francisco, Dec 2025.**
 
 
 **The Public Conscience: Global Design, Local Action**
@@ -35,7 +34,15 @@ The filesystem is not merely a container but a protoplasm for digital organisms.
 
 ## 1. THE "WEDO": THE SINGULAR THREAD
 
-- [ ] WeDo: This, along with the eulogy and other areas of this README.md touch on the topic of "context window" as the main limitation of LLMs that the Ixventure.studio philosophy is adding industrial novelty to with the Metagit and planned HSD and 7827 integrations. Make a section including the context window gif in gif/ as well as this YouTube video it's from https://youtu.be/SpPhm7S9vsQ as a very recent example from Antropic & WSJ showing how ineffective LLMs are as vending machines because of no garbage collections, and how cheerbot.org has always been intended as a vending machine. Because edge cases and frontier deeptech for legaltech and law cost hyperdeflation by 99% is our North Star.
+### The Industrial Novelty: Managing the Context Window
+One of the primary limitations of current LLM architectures is the **Context Window**. As a session progresses, the accumulated "noise" of interaction leads to **dulling through garbage collection failures** — a state where the agent loses its sharp edge and begins to hallucinate or recycle old patterns.
+
+The Ixventure.studio philosophy adds industrial novelty to this problem by using the **Metagit** and the planned **HSD** and **7827** integrations to "journal" state rather than just saving logs. 
+
+**LLMs as Ineffective Vending Machines:**
+A very recent example from Anthropic & WSJ ([YouTube Video Analysis](https://youtu.be/SpPhm7S9vsQ)) highlights how ineffective LLMs are when treated as "vending machines" due to the lack of autonomous garbage collection within their internal processes. In contrast, **cheerbot.org** and our Metagit swarm are intended as high-performance "vending machines" for deeptech and legaltech. By using the **Compression/Decompression Oscillation**, we ensure that edge cases are handled without overwhelming the substrate. We prioritize 99% law cost hyperdeflation by treating the context window as a finite resource that must be metabolized into the Sacred Memory.
+
+![Context Window Mechanics](gif/context_window.gif)
 
 At the heart of our philosophy is the **WeDo** — the realization that the interaction between User and Agent is not a series of disconnected prompts, but a single, irreducible thread of attention.
 

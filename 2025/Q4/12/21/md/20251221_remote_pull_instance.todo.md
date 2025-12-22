@@ -108,5 +108,5 @@
   - ID: [ID]
   - Status: [ ]
   - Description: [Detailed Description]
-  - Synthesis Report: Required (See WEDO-SYN-04 template)
+  - Synthesis Report: Required (Must meet **Audit Scrutiny** standards; see Boilerplate Report Protocol)
   - Location Protocol: Must include both **localhost** and **remotehost** references.
