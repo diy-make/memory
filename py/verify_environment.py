@@ -18,6 +18,8 @@ CORE_FILE_CHECKSUMS = {
     "json/personality/personality.json": "3f60491bd2a1645091589494da059532188691f6a5076b7752e05ac8c5c7158f",
     "json/philosophy/gem_process.json": "fc210dd5e9b023d2d453568fbf6b13b191d02867d42ec39244da5ddef70d8756",
     "json/schema/wedo_pseudolanguage_schema.json": "cc8aca93bddf8cf4ef277e61b049d5672d5e60a755e551da34018ac9814d46c1",
+    "py/verify_environment.py": "28c5783f6169a4311cf2bb2c45cfb517c4bb14d4a18e14d7ff227e3fb8d83e9c",
+    "py/signatures/generate_salt.py": "2d002c832e62cb0a261759d2d6f484fbb2ffa18d748b5755d388e3a77bed6d9c",
     "md/wedo/markdown_generation/png_journal.todo.md": "1500212fbf702e2dc3c915a6e3a5cfecb308b4648d58b3d620c41289dd08192c",
     "md/wedo/markdown_generation/boilerplate_report.todo.md": "2d2658d7124fc6d14d0879ab9513313ba8145b5456a53032ab0d38bb3d1870bb",
     "md/wedo/markdown_generation/boilerplate_readme.todo.md": "f71844e116b4d1b5409880b64da8ae4a5b0b7d59161b4d2e81fe464448a7a2d1",
@@ -45,13 +47,17 @@ def check_remote_origin():
         remote_url = result.stdout.strip()
         if required_path in remote_url:
              print(f"✔ Git remote 'origin' correctly points to '{required_path}' ({remote_url}).")
+             # Verify reachability
+             print("Checking remote reachability...")
+             subprocess.run(['git', 'ls-remote', '--exit-code', 'origin', 'HEAD'], capture_output=True, check=True)
+             print("✔ Remote 'origin' is reachable.")
              return True
         else:
             print(f"❌ Git remote 'origin' is set to '{remote_url}'. Expected to contain '{required_path}'.")
             return False
     except subprocess.CalledProcessError:
-        print("⚠ Git remote 'origin' is not configured (Common for local-only forks).")
-        return True 
+        print("⚠ Remote verification failed. Ensure origin is configured and reachable.")
+        return False 
 
 def verify_self_integrity():
     my_path = "py/verify_environment.py"
@@ -91,8 +97,8 @@ def verify_environment(no_self_verify=False):
     print(f"--- verifying Memory Module environment v{__version__} ---")
     all_ok = True
     
-    # 1. Remote Configuration
-    print("\n[1/4] Checking Remote Configuration...")
+    # 1. Remote Configuration & Reachability
+    print("\n[1/4] Checking Remote Configuration & Reachability...")
     if not check_remote_origin():
         all_ok = False
 
@@ -110,8 +116,7 @@ def verify_environment(no_self_verify=False):
     print("\n[3/4] Checking Core File Integrity...")
     for file_path, expected_checksum in CORE_FILE_CHECKSUMS.items():
         if not check_file_integrity(file_path, expected_checksum):
-            if file_path != "py/verify_environment.py":
-                all_ok = False
+            all_ok = False
 
     # 4. Self-Integrity
     print("\n[4/4] Verifying Self-Integrity...")
