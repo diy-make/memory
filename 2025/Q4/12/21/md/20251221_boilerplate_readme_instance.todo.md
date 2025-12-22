@@ -21,9 +21,9 @@ A standard README in the Metagit environment should follow this hierarchical str
 **Direct Aesthetic:** README reviews, proposed edits, and final versions must be presented to the User "straightup" in their entirety—no triple-backtick Markdown wrappers or line numbers. Use clear headers and bolding for terminal clarity, allowing the User to immediately verify the full context for screenshots and manual copying.
 
 ## Tasks
-- [ ] WeDo: SCH-BRD-01 | Create standardized README template
+- [x] WeDo: SCH-BRD-01 | Create standardized README template
   - ID: SCH-BRD-01
-  - Status: [ ]
+  - Status: [x]
   - Description: Create a reusable template file in schemas/ for READMEs.
 - [ ] WeDo: SCH-BRD-02 | Audit Root and Trunk READMEs against this schema
   - ID: SCH-BRD-02
