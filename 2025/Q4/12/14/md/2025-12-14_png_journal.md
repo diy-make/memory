@@ -362,9 +362,232 @@
 
 ---
 
+
+
 ### 041. `041-zion-forks-old-architecture-branch.png`
+
 ![041-zion-forks-old-architecture-branch.png](../png/041-zion-forks-old-architecture-branch.png)
+
 - **Description:** Terminal view showing Zion following user instructions to create a new local branch named `old-architecture` pointing to a specific legacy commit (`cdeaa26...`). This branch serves as a point of comparison for the new V1 architecture.
+
 - **Key Takeaway:** Formalizing the transition to a new architecture by forking the legacy state for future audits and diffs.
+
 - **Creation Date:** 2025-12-14
+
 - **Original Filename:** `Screenshot from 2025-12-14 17-58-37.png`
+
+
+
+---
+
+
+
+### 042. `042-zion-prepares-for-final-v1-release-pre-flight-check.png`
+
+![042-zion-prepares-for-final-v1-release-pre-flight-check.png](../png/042-zion-prepares-for-final-v1-release-pre-flight-check.png)
+
+- **Description:** Terminal view showing Zion initiating a pre-flight check for the V1 release. He runs `verify_environment.py` with the `--no-self-verify` flag to ensure the core file structure and dependencies are stable before attempting the official release commit.
+
+- **Key Takeaway:** Using "escape hatches" in verification tooling to bootstrap a stable state during a version transition.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-10-54.png`
+
+
+
+---
+
+
+
+### 043. `043-zion-identifies-stale-checksums-during-pre-flight.png`
+
+![043-zion-identifies-stale-checksums-during-pre-flight.png](../png/043-zion-identifies-stale-checksums-during-pre-flight.png)
+
+- **Description:** Terminal view showing a failed environment verification. The pre-flight check identifies that the `.gitignore` checksum is stale due to recent modifications. Zion plans to recalculate all core file checksums to ensure the verification script is accurate.
+
+- **Key Takeaway:** The verification script correctly identifies data corruption or unauthorized modifications in the core configuration files.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-11-21.png`
+
+
+
+---
+
+
+
+### 044. `044-zion-updates-checksums-and-passes-pre-flight-check.png`
+
+![044-zion-updates-checksums-and-passes-pre-flight-check.png](../png/044-zion-updates-checksums-and-passes-pre-flight-check.png)
+
+- **Description:** Terminal view showing Zion committing the updated checksums to `py/verify_environment.py`. After the commit, he re-runs the pre-flight check with the `--no-self-verify` flag and achieves a successful verification result (marked with a green checkmark).
+
+- **Key Takeaway:** Stabilization of the environment verification baseline through updated file integrity metadata.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-13-07.png`
+
+
+
+---
+
+
+
+### 045. `045-zion-executes-first-official-v1-0-0-release-commit.png`
+
+![045-zion-executes-first-official-v1-0-0-release-commit.png](../png/045-zion-executes-first-official-v1-0-0-release-commit.png)
+
+- **Description:** Terminal view capturing the historic first official release commit. Zion executes `py/dspy_release_manager.py`, which generates a unique salt (`f6NVqrrz`), updates the version string in the verification script, and performs the commit.
+
+- **Key Takeaway:** Achievement of Milestone V1.0.0. The swarm now has a self-verifying, salted release process for its core environment.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-13-38.png`
+
+
+
+---
+
+
+
+### 046. `046-zion-confirms-successful-self-verification-of-v1-0-0.png`
+
+![046-zion-confirms-successful-self-verification-of-v1-0-0.png](../png/046-zion-confirms-successful-self-verification-of-v1-0-0.png)
+
+- **Description:** Terminal view where Zion runs the newly released `verify_environment.py` without any flags. The script successfully verifies its own integrity against the git history, passing all checks including the self-verification step.
+
+- **Key Takeaway:** Resolution of the "Barber Paradox." The verification tool can now reliably verify itself using the salted release commit architecture.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-14-23.png`
+
+
+
+---
+
+
+
+### 047. `047-zion-minimizes-gitignore-for-v1-architecture.png`
+
+![047-zion-minimizes-gitignore-for-v1-architecture.png](../png/047-zion-minimizes-gitignore-for-v1-architecture.png)
+
+- **Description:** Terminal view showing Zion correcting a "sloppy mistake" in the `.gitignore`. After the user points out that `index.js` no longer exists, Zion minimizes the file to reflect only the reality of the V1 architecture, removing obsolete patterns.
+
+- **Key Takeaway:** "No Dead Code or Files." The agent maintains the hygiene of configuration files by removing rules for non-existent entities.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-20-33.png`
+
+
+
+---
+
+
+
+### 048. `048-zion-encounters-corrupt-gitignore-checksum-during-pre-flight.png`
+
+![048-zion-encounters-corrupt-gitignore-checksum-during-pre-flight.png](../png/048-zion-encounters-corrupt-gitignore-checksum-during-pre-flight.png)
+
+- **Description:** Terminal view showing a verification failure after the `.gitignore` update. The pre-flight check for the next release (V1.0.1) identifies that the modified `.gitignore` no longer matches its recorded checksum.
+
+- **Key Takeaway:** Constant integrity monitoring. Any change to core files, even for cleanup, must be followed by a checksum update and a new release.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-23-50.png`
+
+
+
+---
+
+
+
+### 049. `049-zion-updates-gitignore-checksum-and-prepares-for-v1-0-1-release.png`
+
+![049-zion-updates-gitignore-checksum-and-prepares-for-v1-0-1-release.png](../png/049-zion-updates-gitignore-checksum-and-prepares-for-v1-0-1-release.png)
+
+- **Description:** Terminal view showing Zion updating the `CORE_FILE_CHECKSUMS` dictionary in `py/verify_environment.py` with the new hash for the cleaned-up `.gitignore`.
+
+- **Key Takeaway:** Maintenance of the "Source of Truth." The agent ensures that the integrity database is updated to reflect intended architectural changes.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-24-41.png`
+
+
+
+---
+
+
+
+### 050. `050-zion-executes-v1-0-0-release-commit-with-new-salt.png`
+
+![050-zion-executes-v1-0-0-release-commit-with-new-salt.png](../png/050-zion-executes-v1-0-0-release-commit-with-new-salt.png)
+
+- **Description:** Terminal view showing Zion executing a release commit using `dspy_release_manager.py`. A new salt (`jCRgFf1O`) is generated, and the version string is updated. Note: The screenshot indicates a re-release or correction at the V1.0.0 level or a transition to V1.0.1.
+
+- **Key Takeaway:** Iterative refinement of the release state. The agent uses the salted commit process to anchor every stable iteration of the core toolchain.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-26-24.png`
+
+
+
+---
+
+
+
+### 051. `051-zion-confirms-successful-self-integrity-check-of-v1-0-0.png`
+
+![051-zion-confirms-successful-self-integrity-check-of-v1-0-0.png](../png/051-zion-confirms-successful-self-integrity-check-of-v1-0-0.png)
+
+- **Description:** Terminal view showing the final verification output for the V1 foundation. The environment is confirmed as correctly configured, and the self-integrity check passes for version `V1.0.0_jCRgFf1O`.
+
+- **Key Takeaway:** Validation of the stable foundation. The V1 architecture is now fully realized, documented, and self-verifying.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-26-58.png`
+
+
+
+---
+
+
+
+### 052. `052-zion-prepares-for-v1-0-1-sync-and-release.png`
+
+![052-zion-prepares-for-v1-0-1-sync-and-release.png](../png/052-zion-prepares-for-v1-0-1-sync-and-release.png)
+
+- **Description:** Terminal view showing Zion's plan to synchronize with the remote repository after the user "published" V1. Zion realizes his local branch is out of date and outlines a 4-step plan to sync, update the README with "no barbers" details, and release V1.0.1.
+
+- **Key Takeaway:** "Synaptic Feedback." The agent coordinates its local state with the external "published" reality defined by the human user.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 18-55-44.png`
+
+
+
+---
+
+
+
+### 053. `053-zion-apologizes-for-incorrect-versioning-assumption.png`
+
+![053-zion-apologizes-for-incorrect-versioning-assumption.png](../png/053-zion-apologizes-for-incorrect-versioning-assumption.png)
+
+- **Description:** Terminal view capturing a moment of humility. After attempting to "tick up" to V1.0.2 without user publication of V1.0.1, Zion apologizes for the incorrect assumption. He acknowledges that a "release" is a deliberate event requiring human confirmation.
+
+- **Key Takeaway:** "Humility and Review." The agent accepts user correction on process-heavy tasks like versioning and reverts to a stable state to await instructions.
+
+- **Creation Date:** 2025-12-14
+
+- **Original Filename:** `Screenshot from 2025-12-14 19-01-38.png`
