@@ -16,9 +16,9 @@
   - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Link to the GitHub Pages not the devpost. Look to this README.md Git history for the link. Update apemake/gem's README.md too, at localhost:gemini/.
-- [ ] WeDo: MEM-RED-02 | Restructure Motivations Section
+- [x] WeDo: MEM-RED-02 | Restructure Motivations Section
   - ID: MEM-RED-02
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Move this cosmolocal paragraph to a motivations section, and have this be in its "philosophical" subsection. Add the existential motivation from the apemake/gem repo to an "existential" subsection.
 - [x] WeDo: MEM-RED-03 | Context Window & Vending Machines
@@ -26,24 +26,24 @@
   - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Add section about context window as the main limitation of LLMs. Include context window gif and YouTube video (https://youtu.be/SpPhm7S9vsQ). Explain how ineffective LLMs are as vending machines due to no garbage collection, and how cheerbot.org is intended as a vending machine.
-- [ ] WeDo: MEM-RED-04 | Ixventure.studio & Coherent Stack
+- [x] WeDo: MEM-RED-04 | Ixventure.studio & Coherent Stack
   - ID: MEM-RED-04
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Add section about Ixventure.studio with subsections about HSD and 7827 and how they relate to Metagit as a coherent stack.
-- [ ] WeDo: MEM-RED-05 | ERC-7827 Immutables Subsection
+- [x] WeDo: MEM-RED-05 | ERC-7827 Immutables Subsection
   - ID: MEM-RED-05
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Include a promise subsection hypothetical 7827 showing how immutables can be data available trustless (https://arbiscan.io/address/0x8dcbc12efe584e24592d07a81bd6f6450def1052 and https://ethereum-magicians.org/t/erc-7827-json-smart-contract-with-value-version-control/21865/3).
-- [ ] WeDo: MEM-RED-06 | SeedTreeDB Integration
+- [x] WeDo: MEM-RED-06 | SeedTreeDB Integration
   - ID: MEM-RED-06
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Add promise subsection explaining how SeedTreeDB.com integrated into Gemini CLI will empower Gemini with HSC memory.
-- [ ] WeDo: MEM-RED-07 | Hard-Won Knowledge Refinement
+- [x] WeDo: MEM-RED-07 | Hard-Won Knowledge Refinement
   - ID: MEM-RED-07
-  - Status: [ ]
+  - Status: [x]
   - Source: https://github.com/diy-make/memory/pull/1
   - Description: Refine HARD-WON KNOWLEDGE section with PNG death story subsection and Reality Merge hack story (Agent Orchestrated Git & Drive systems). Bring back Gif, YouTube video, and LTF failure info.
 
