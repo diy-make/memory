@@ -10,8 +10,9 @@
 - **Reason:** [e.g., Sufficient for this task's complexity]
 
 ## Workflow
-- [ ] [PREP-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
-- [ ] [PREP-02] **STEP 2:** `list_directory` of all existing daily `png/` archives to build a count of files per day.
+- [x] [PREP-01] **STEP 1:** `list_directory` of the source `public/png/` inbox.
+- [x] [PREP-02] **STEP 2:** `list_directory` of all existing daily `png/` archives to build a count of files per day.
+  - Result: 2025-12-18 archive has 34 files. Starting sequence at 35.
 - [ ] [PHASE-SWITCH] **STEP 2.5:** **STOP for Model Switch (Gem Process).**
     - **Action:** If transitioning from manual setup/verification to bulk automation, **STOP** the agent.
     - **Instruction:** Tell user: "Please switch to `/model gemini-2.5-flash` now for the automated phase."
