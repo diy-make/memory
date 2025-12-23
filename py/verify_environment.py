@@ -18,7 +18,7 @@ CORE_FILE_CHECKSUMS = {
     "json/personality/personality.json": "3f60491bd2a1645091589494da059532188691f6a5076b7752e05ac8c5c7158f",
     "json/philosophy/gem_process.json": "fc210dd5e9b023d2d453568fbf6b13b191d02867d42ec39244da5ddef70d8756",
     "json/schema/wedo_pseudolanguage_schema.json": "cc8aca93bddf8cf4ef277e61b049d5672d5e60a755e551da34018ac9814d46c1",
-    "py/verify_environment.py": "1c33762980bcf8098c8c699366ba7434bf7409e9a7b639744365f567f3aa45f7",
+    "py/verify_environment.py": "1e25cfdb6eaa84bf649b1d7f5eb39fb2d6801525d9200dbee1097699f3c04681",
     "py/signatures/generate_salt.py": "2d002c832e62cb0a261759d2d6f484fbb2ffa18d748b5755d388e3a77bed6d9c",
     "md/wedo/markdown_generation/png_journal.todo.md": "1500212fbf702e2dc3c915a6e3a5cfecb308b4648d58b3d620c41289dd08192c",
     "md/wedo/markdown_generation/boilerplate_report.todo.md": "2d2658d7124fc6d14d0879ab9513313ba8145b5456a53032ab0d38bb3d1870bb",
