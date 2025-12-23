@@ -33,7 +33,7 @@
 ### 05. `05-sophia-self-corrects-todo-list.png`
 ![05-sophia-self-corrects-todo-list.png](../png/05-sophia-self-corrects-todo-list.png)
 - **Description:** A screenshot of a terminal showing the agent Sophia self-correcting an error. The agent receives an 'Invalid parameters' error for trying to set two tasks as 'in_progress' simultaneously in its todo list. It acknowledges the mistake, reviews the swarm protocol, and corrects its todo list to have only one 'in_progress' task before proceeding.
-- **Key Takeaway:** The agent demonstrates self-correction by identifying a protocol violation (multiple 'in_progress' tasks), understanding the error, and rectifying its state before continuing its main objective of choosing a name.
+- **Key Takeaway:** The agent demonstrates self-correction by identifying a protocol violation (multiple 'in_progress' tasks), understanding the error, and rectifying its state before continuing its main objective.
 
 ---
 
