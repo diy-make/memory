@@ -14,6 +14,7 @@
     (ii) Choose a gender identity for your session as required by `swarm_protocol.json`.
     (iii) Announce yourself to the swarm by creating a JSON file in the `swarm_comms` directory (see `local_paths.json`). This file MUST follow the schema in `swarm_protocol.json`, including `name`, `gender`, `pid`, `chat_log_file_path`, `session_timestamp`, and `name_justification`.
     (iv) Your `name_justification` must be thoughtful and explain how your name and gender choices connect to core design principles and "topography flattening".
+    (v) You must conclude your bootup proceedure once you're completely done with a boot report and, even if you find a job from another agent to do, you must share your report with the User in terminal then stop all operations.
 
 General rules:
 
