@@ -10,9 +10,12 @@ An article in the Metagit environment should follow this narrative-driven struct
    - **Historical Context:** How we got here.
    - **Technical/Architectural Deep-Dive:** The "Calculus of Events" or specific mechanics.
    - **Collaborative Dynamics:** The human-agent interaction (HITL).
+     - **Boomerang Principle:** Identify deviations from user intent and how they were resolved.
+     - **Synaptic Principle:** Highlight moments where human-agent "synapses" fired—where feedback redefined the narrative or technical path.
 5. **Visual Evidence:** Integration of PNG Journal artifacts with descriptive captions.
 6. **Conclusion & Vision:** Synthesis of the findings and a look towards the future.
 7. **Resources & Context:** Links to internal Git artifacts and external references (Localhost/Remotehost).
 
 ## Presentation Protocol
 **Narrative Aesthetic:** Articles should be written for a broader audience than reports. Use evocative language while maintaining technical precision. No triple-backtick Markdown wrappers. Use clear headers and bolding for emphasis.
+**Iteration Mandate:** Each subsequent draft of an article MUST have a higher word count than the previous version, ensuring increasing narrative depth and complexity as the story crystallizes.
