@@ -11,8 +11,11 @@ A standard report in the Metagit environment should follow this hierarchical str
    - **Audit Scrutiny:** For Pull Synthesis, list ALL changes and requests directly from the source. Document resolutions in granular detail to ensure a transparent legislative history.
    - **Active Investigation:** Document the verification of any referenced artifacts (e.g., gifs, links) on the **localhost**.
 5. **Dynamics & Learnings:** Narrative on collaboration (HITL), corrections, and "Hard-Won Knowledge."
+   - **Boomerang Principle:** Explicitly document any deviations from the original user request and the rationale.
+   - **Synaptic Principle:** Document points of uncertainty where user feedback (HITL) was sought or is required for final approval.
 6. **Artifacts:** Visuals (PNGs) or code snippets generated.
 7. **Next Steps:** WeDo task list for the singular thread.
 
 ## Presentation Protocol
 **Direct Aesthetic:** Reports must be presented to the User "straightup"—no triple-backtick Markdown wrappers. Use plain text with clear headers and bolding.
+**Iteration Mandate:** Each subsequent draft of a report MUST have a higher word count than the previous version, ensuring increasing depth and detail as the collaboration progresses.
