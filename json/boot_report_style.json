@@ -1,0 +1,6 @@
+{
+  "style_name": "Standard Swarm Bootup Report",
+  "version": "1.0.0",
+  "description": "Standardized format for agent bootup reporting, providing immediate context on session metrics, system status, loaded capabilities, and outstanding swarm tasks.",
+  "template_markdown": "### 🟢 Swarm Bootup Report: {{agent_name}}\n\n**⏱️ Boot Sequence**\n*   **Duration:** {{duration}}\n*   **Session ID:** `{{session_id}}`\n*   **Identity:** {{agent_name}} ({{gender}})\n\n**📜 Identity Justification**\n> \"{{justification}}\"\n\n**📦 Loaded Repositories & Abilities**\n*   **`gemini` (Root)**\n    *   **Version:** `{{gemini_version}}`\n    *   **Abilities:** Provides the biological runtime (Python environment), integrity verification (self-checks), and the `metagit` toolchain for multi-repo navigation.\n*   **`{{memory_repo_path}}` (Memory)**\n    *   **Version:** `HEAD` (Continuous Stream)\n    *   **Abilities:** Grants access to the Swarm's collective consciousness, defines operational protocols (virtues/rules), and serves as the persistent storage for \"Swarm Context\" and todo lists.\n\n**📋 Swarm Context (Outstanding Work)**\n{{outstanding_tasks_list}}\n\n**⚠️ Constraints & Notes**\n*   {{constraints_and_notes}}\n"
+}
