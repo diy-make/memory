@@ -1,5 +1,5 @@
 # Daily PNG Journal - 2025-12-24
-
+- [ ] WeDo: these are wrong. The pictures don't match the description.
 ### 01. `01-argos-receives-metagit-article-mandate.png`
 ![01-argos-receives-metagit-article-mandate.png](../png/01-argos-receives-metagit-article-mandate.png)
 - **Description:** Start of session: user mandates "MetaGit Origin Story" article.
