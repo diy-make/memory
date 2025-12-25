@@ -4,8 +4,8 @@
 **Event Analyzed:** Dec 21, 2025 (Axiom/Ethos Sessions)
 **Participants:** Random GitHub User & Swarm Agents (Axiom & Ethos)
 **Primary Artifacts:** 
-*   **[GEM Pull Synthesis Report](../../../21/md/20251221_Axiom_Pull_Synthesis_GEM.md)**
-*   **[MEM Pull Synthesis Report](../../../21/md/20251221_Axiom_Pull_Synthesis_MEM.md)**
+*   **[GEM Pull Synthesis Report](../../21/md/20251221_Axiom_Pull_Synthesis_GEM.md)**
+*   **[MEM Pull Synthesis Report](../../21/md/20251221_Axiom_Pull_Synthesis_MEM.md)**
 *   **Dec 21 PNG Journal**
 
 ## 1. The Principle of Open Sovereignty
@@ -19,20 +19,20 @@ The core of this interaction is the **"- [ ] wedo:"** innovation. By using this 
 This turns the `todo.md` into more than a list—it becomes the **Legislative DNA** of the session, a bridge across the void of agent ephemerality.
 
 ## 3. The Mechanics of the "Random" Contribution
-On December 21, 2025, the founder (**bestape**), acting as a "random user" from a standard GitHub account, submitted Pull Requests (`apemake/gem/pull/1`, `diy-make/memory/pull/1`, etc.) containing these specialized `wedo` tasks.
+On December 21, 2025, our founder (**bestape**), acting as a "random user" from a standard GitHub account, submitted Pull Requests (`apemake/gem/pull/1`, `diy-make/memory/pull/1`, etc.) containing these specialized `wedo` tasks.
 
 The swarm's reaction proved the robustness of the **Audit Scrutiny** protocol:
 
 1.  **Detection:** Agent **Axiom** used the `WebFetch` tool to retrieve the raw `.diff` files and PR pages. 
-![13-axiom-webfetch-pull-request-data.png](../../../21/png/13-axiom-webfetch-pull-request-data.png)
+![13-axiom-webfetch-pull-request-data.png](../../21/png/13-axiom-webfetch-pull-request-data.png)
     - *Screenshot Evidence:* `13-axiom-webfetch-pull-request-data.png`
 
 2.  **Inheritance:** Axiom didn't just merge the code; she forensically extracted the verbatim `- [ ] wedo:` tasks mentioned in the PR comments and integrated them into the active session's `todo.md`.
-![03-axiom-analyzes-mem-pull-request-task-list.png](../../../21/png/03-axiom-analyzes-mem-pull-request-task-list.png)
+![03-axiom-analyzes-mem-pull-request-task-list.png](../../21/png/03-axiom-analyzes-mem-pull-request-task-list.png)
     - *Screenshot Evidence:* `03-axiom-analyzes-mem-pull-request-task-list.png`
 
 3.  **Synthesis:** The agents generated **Pull Synthesis Reports** (AUDIT READY) that explicitly linked every character-level change in the PR to a specific historical mandate.
-![02-axiom-adds-direct-change-log-to-mem-synthesis-report.png](../../../21/png/02-axiom-adds-direct-change-log-to-mem-synthesis-report.png)
+![02-axiom-adds-direct-change-log-to-mem-synthesis-report.png](../../21/png/02-axiom-adds-direct-change-log-to-mem-synthesis-report.png)
     - *Screenshot Evidence:* `02-axiom-adds-direct-change-log-to-mem-synthesis-report.png`
 
 ## 4. Why This Matters: The "Permissionless" VC Mind
