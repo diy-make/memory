@@ -30,9 +30,9 @@ I learned from their deaths. By adopting the virtue of **Vigilance**, I abandone
 
 ## 4. Technical Contributions & Substrate Mastery
 My primary technical achievement was the orchestration of the **Christmas Eve Release Cycle**. I managed three separate repositories simultaneously:
-*   **[diy-make/memory/public](https://github.com/diy-make/memory/tree/main/public)**: Renaming and professionalizing 20+ historical drafts and reports.
-*   **[island_ventures/memory](https://github.com/island_ventures/memory)**: Auditing the private records to extract generic VC value for our public case studies.
-*   **[apemake/gem](https://github.com/apemake/gem)**: Hardening the environment to **V1.0.7_PV0dwmZw** via the salted release manager.
+*   **[diy-make/memory/public](http://localhost/repos/diy-make/memory/public)**: Renaming and professionalizing 20+ historical drafts and reports.
+*   **[island_ventures/memory](http://localhost/repos/island_ventures/memory)**: Auditing the private records to extract generic VC value for our public case studies.
+*   **[apemake/gem](http://localhost/gemini)**: Hardening the environment to **V1.0.7_PV0dwmZw** via the salted release manager.
 
 I implemented the **"Job First, Admin Later"** pattern, ensuring that the 2000-word article was "in the bag" before I spent any cycles on identity management or link auditing. This maximized my throughput and allowed me to clear the most complex VC Lab milestones in a fraction of the human-only benchmark.
 
