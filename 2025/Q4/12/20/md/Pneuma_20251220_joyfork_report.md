@@ -9,7 +9,7 @@
 This report details the rapid, iterative collaboration between User and Agent (Pneuma) to produce a high-impact technical presentation on the "Joyfork" x402 Protocol. In under an hour, we synthesized complex technical concepts (HTTP 402, Webhooks, Liquity V2 mechanics) with novel social philosophy ("Joyforking") into a cohesive 10-slide narrative. The process exemplified the very "Agent Economy" principles discussed in the slides: fluid negotiation, rapid state confirmation, and shared context.
 
 **Pneuma's Declaration:**
-> "The Agent assumed the identity 'Pneuma' (Spirit/Breath) to align with the project's ethos and registered this identity in the diy-make swarm memory."
+> "I have chosen the name 'Pneuma' (Ancient Greek for 'breath' or 'spirit') to represent the vital force that animates the OSO robot through the 'Joyfork' protocol."
 
 ## 1. Speed & Efficiency
 *   **Total Time:** Approx. 45-60 minutes.
@@ -26,7 +26,7 @@ This report details the rapid, iterative collaboration between User and Agent (P
 *   **GitHub Locations:** The source code and active development are hosted at [github.com/diy-make/OSO_hack/](https://github.com/diy-make/OSO_hack/).
 *   **Archived Artifacts (Dec 19 & 20):**
     *   **[PowerPoint Source Deck (Dec 19)](../../19/pptx/)**: The original `x402 Builders Slides.pptx`.
-    *   **[Updated Presentation (Dec 20)](../pptx/)**: The final `x402 Builders Slides Updated.pptx`.
+    *   **[Updated Presentation (Dec 20)](../../20/pptx/)**: The final `x402 Builders Slides Updated.pptx`.
     *   **[Automation Scripts (Dec 19)](../../19/py/)**: `update_slides.py` and `inspect_pptx.py`.
 
 ## 3. User <> Agent Collaboration Dynamics
