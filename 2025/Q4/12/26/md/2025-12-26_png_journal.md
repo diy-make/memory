@@ -135,6 +135,7 @@
 
 ### 20. `20-simplicius-initiates-eric-miki-linktree-audit.png`
 ![20-simplicius-initiates-eric-miki-linktree-audit.png](../png/20-simplicius-initiates-eric-miki-linktree-audit.png)
+- [ ] WeDo: link is broken.
 - **Description:** Starting the deeper forensic audit of Eric Miki's (VP) professional profiles and web presence.
 - **Key Takeaway:** Curiosity-driven research.
 - **Creation Date:** 2025-12-26
