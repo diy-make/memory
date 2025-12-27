@@ -27,7 +27,7 @@
   - ID: PM-04
   - Status: [x]
   - Description: Review Zenon's todo (`repos/diy-make/memory/public/2025/Q4/12/24/md/Zenon_20251224-205454_todo.md`) and session report to ensure all "Mission Accomplishments" were correctly committed. Also finished the v9 distro 1 send.
-- [ ] WeDo: PM-05 | Finalize Recovery Report
+- [x] WeDo: PM-05 | Finalize Recovery Report
   - ID: PM-05
-  - Status: [ ]
-  - Description: Document the successful recovery and close the post-mortem instance.
+  - Status: [x]
+  - Description: Document the successful recovery and close the post-mortem instance. Updated Simplicius's autobiography with his fate and post-mortem link.
