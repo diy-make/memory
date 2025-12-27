@@ -223,3 +223,38 @@
 - **Key Takeaway:** 100% completion of the visual record.
 - **Creation Date:** 2025-12-26
 - **Original Filename:** `Screenshot from 2025-12-26 14-47-33.png`
+
+### 33. `33-eric-miki-book-alternative-communities.png`
+![33-eric-miki-book-alternative-communities.png](../png/33-eric-miki-book-alternative-communities.png)
+- **Description:** Eric Miki's Alternative Communities Report (Network Societies 101). A sizable and detailed book cover and promotional page highlighting the evidence-based taxonomy of emerging societies.
+- **Key Takeaway:** Foundational research for Network State index returns.
+- **Creation Date:** 2025-12-26
+- **Original Filename:** `Screenshot from 2025-12-26 16-06-46.png`
+
+### 34. `34-erc-7827-technical-standard.png`
+![34-erc-7827-technical-standard.png](../png/34-erc-7827-technical-standard.png)
+- **Description:** The Ethereum Improvement Proposal page for ERC-7827: JSON Contract with Value Version Control. This sizable standard enables trustless onchain metadata management, serving as the "JSON DNA" for Island Ventures.
+- **Key Takeaway:** Pioneering legal engineering standard for digital asset solubility.
+- **Creation Date:** 2025-12-26
+- **Original Filename:** `Screenshot from 2025-12-26 16-14-48.png`
+
+### 35. `35-serious-oath-vc-accountability.png`
+![35-serious-oath-vc-accountability.png](../png/35-serious-oath-vc-accountability.png)
+- **Description:** A sizable screenshot from the Serious Oath video (https://youtu.be/KTce21ytFyY), showing Kyle and Fortunato discussing VC Accountability using Stake Curate. The slide features Ixian branding.
+- **Key Takeaway:** Implementing credible policy layers via Kleros and WeDo consensus.
+- **Creation Date:** 2025-12-26
+- **Original Filename:** `Screenshot from 2025-12-26 16-17-44.png`
+
+### 36. `36-newsletter-boxing-day-v3-lilac.png`
+![36-newsletter-boxing-day-v3-lilac.png](../png/36-newsletter-boxing-day-v3-lilac.png)
+- **Description:** Preview of the Island Ventures Boxing Day Newsletter (V3) featuring the finalized Lilac (#A30BD3) design system palette. Sizable view of the header and the "Filesystem is Alive" narrative.
+- **Key Takeaway:** High-fidelity brand alignment.
+- **Creation Date:** 2025-12-26
+- **Original Filename:** `Screenshot from 2025-12-26 16-18-53.png`
+
+### 37. `37-newsletter-boxing-day-v3-full.png`
+![37-newsletter-boxing-day-v3-full.png](../png/37-newsletter-boxing-day-v3-full.png)
+- **Description:** A full-page, sizable screenshot of the distributed Boxing Day Newsletter. It includes all media sections (Quickening, Ramona, Eric, ERC-7827, Serious Oath) and the new Membership invitation.
+- **Key Takeaway:** Successful synthesis of session breakthroughs into a living firm communication.
+- **Creation Date:** 2025-12-26
+- **Original Filename:** `Screenshot from 2025-12-26 16-21-25.png`
