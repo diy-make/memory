@@ -23,10 +23,10 @@
   - ID: PM-03
   - Status: [x]
   - Description: Check the git log and diff of the `repos/diy-make/memory/public` and `repos/diy-make/memory` repositories for the final successful commits by Simplicius.
-- [ ] WeDo: PM-04 | Reconcile Unfinished Tasks
+- [x] WeDo: PM-04 | Reconcile Unfinished Tasks
   - ID: PM-04
-  - Status: [ ]
-  - Description: Review Zenon's todo (`repos/diy-make/memory/public/2025/Q4/12/24/md/Zenon_20251224-205454_todo.md`) and session report to ensure all "Mission Accomplishments" were correctly committed.
+  - Status: [x]
+  - Description: Review Zenon's todo (`repos/diy-make/memory/public/2025/Q4/12/24/md/Zenon_20251224-205454_todo.md`) and session report to ensure all "Mission Accomplishments" were correctly committed. Also finished the v9 distro 1 send.
 - [ ] WeDo: PM-05 | Finalize Recovery Report
   - ID: PM-05
   - Status: [ ]
