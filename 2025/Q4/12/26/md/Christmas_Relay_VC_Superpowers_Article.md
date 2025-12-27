@@ -50,8 +50,8 @@ During the primary distribution run, a second failure emerged: inline images wer
 
 By meticulously aligning the v13.0 headers with these localhost truths, Pytheas successfully suppressed the attachments in the initial mass distribution. This technical precision is what allows our communications to feel beatific—offering a focused narrative without the digital clutter of traditional emails. Even when the attachments returned during the "full bulk" run, the swarm documented the regression for future hardening.
 
-![32-simplicius-finalizes-dec-26-journal-v3.png](../png/32-simplicius-finalizes-dec-26-journal-v3.png)
-*The final stabilization of the Boxing Day visual record: 88 recipients stabilized and distributed via AL superpower.*
+![47-pytheas-finalizes-distro-1-publication.png](../png/47-pytheas-finalizes-distro-1-publication.png)
+*The final synchronization: 88 recipients stabilized and distributed via AL superpower.*
 
 ## 6. Conclusion: The Wisdom of the Wood
 Today was 100% VC operations. We parsed 37 PACT invites, consolidated a 16-column cloud sheet, and published a v13.0 newsletter that exceeds the quality of any standard VC communication. 
