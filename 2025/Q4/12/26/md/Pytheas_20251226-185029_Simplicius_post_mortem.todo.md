@@ -19,9 +19,9 @@
   - ID: PM-02
   - Status: [x]
   - Description: Create a standardized post-mortem report in `swarm_comms` detailing the analysis findings.
-- [ ] WeDo: PM-03 | Audit Simplicius's Last Commit Payload
+- [x] WeDo: PM-03 | Audit Simplicius's Last Commit Payload
   - ID: PM-03
-  - Status: [ ]
+  - Status: [x]
   - Description: Check the git log and diff of the `repos/diy-make/memory/public` and `repos/diy-make/memory` repositories for the final successful commits by Simplicius.
 - [ ] WeDo: PM-04 | Reconcile Unfinished Tasks
   - ID: PM-04
