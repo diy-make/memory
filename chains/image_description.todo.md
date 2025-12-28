@@ -1,5 +1,5 @@
 # Chain: Generate Image Descriptions
-
+- [ ] WeDo: this looks old and chains/ should be removed. Likely an artifact as we figured out the WeDo system.
 ## Metadata
 **Description:** Scans a directory, describes images using `read_file`, and creates Markdown files.
 **Inputs:** target_directory
