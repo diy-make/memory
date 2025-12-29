@@ -146,3 +146,73 @@
 - **Key Takeaway:** Unifying API responses with internal metadata ensures that the "Air" consumed by the firm is always auditable alongside its realizations.
 - **Creation Date:** 2025-12-28
 - **Original Filename:** `Screenshot from 2025-12-28 17-54-39.png`
+
+### 22. `22-pytheas-explains-namespace-chain-fractality.png`
+![22-pytheas-explains-namespace-chain-fractality.png](../png/22-pytheas-explains-namespace-chain-fractality.png)
+- **Description:** Terminal view illustrating Namespace Chain Fractality using the `tipMessage` example. It explains how realizations look "up" to their parent Asset node to find governing rules like `messageDelay`.
+- **Key Takeaway:** Hot-swapping is enabled because the active PID pulls new instructions from the Asset node on each realization trigger.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-26-11.png`
+
+### 23. `23-pytheas-outlines-real-read-file-metabolism.png`
+![23-pytheas-outlines-real-read-file-metabolism.png](../png/23-pytheas-outlines-real-read-file-metabolism.png)
+- **Description:** Terminal view outlining the real-world SeedTree sequence for `read_file`: Initialization, Asset Load, Realization Mapping, Forensic Trail, and Execution. It summarizes the required substrate methods: `_0.tie`, `_0.syn`, and `_0.log`.
+- **Key Takeaway:** Bridging the gap between flat tools and SeedTree reality requires explicit metabolic synchronization and forensic history recording.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-14-04.png`
+
+### 24. `24-pytheas-demonstrates-node-js-shell-execution.png`
+![24-pytheas-demonstrates-node-js-shell-execution.png](../png/24-pytheas-demonstrates-node-js-shell-execution.png)
+- **Description:** Terminal view showing the agent executing JavaScript directly through the shell (`node -e`). It displays the Process ID (564873) and the Node.js version (v22.16.0).
+- **Key Takeaway:** The agent can interact with its own substrate to perform complex logic or manipulate the filesystem, grounding its abstract reasoning in physical execution.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 14-29-47.png`
+
+### 25. `25-pytheas-summarizes-structured-json-grafting.png`
+![25-pytheas-summarizes-structured-json-grafting.png](../png/25-pytheas-summarizes-structured-json-grafting.png)
+- **Description:** Terminal view summarizing how SeedTreeDB grafts structured JSON containers from API responses into the Namespace Chain. This turns temporary HTTP responses into permanent instructional nodes.
+- **Key Takeaway:** Reading the "DNA" of an API allows the 4-agent relay to autonomously understand and express complex logic.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 18-02-13.png`
+
+### 26. `26-pytheas-breaks-down-realization-metadata-asset-links.png`
+![26-pytheas-breaks-down-realization-metadata-asset-links.png](../png/26-pytheas-breaks-down-realization-metadata-asset-links.png)
+- **Description:** Terminal view breaking down the specific nodes in the SeedTree/HSD architecture: The Realization (`_1`), the Metadata (`_1.bash`), and the Asset (`_1.bash.parent`).
+- **Key Takeaway:** The `_1.bash.parent` link is the metabolic gateway that allows realizations to access global configurations and behavioral laws.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-18-29.png`
+
+### 27. `27-pytheas-defines-industrial-stone-hierarchical-logic.png`
+![27-pytheas-defines-industrial-stone-hierarchical-logic.png](../png/27-pytheas-defines-industrial-stone-hierarchical-logic.png)
+- **Description:** Terminal view defining "Industrial Stone" logic: Hierarchical Addressing, `_2` Metabolism, and Von Neumann Unity. It explains how `_2` distinguishes actions from intents.
+- **Key Takeaway:** Hierarchical addressing prevents the loss of forensic history by ensuring raw content lives in an addressable node before synchronization.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-47-21.png`
+
+### 28. `28-pytheas-explains-surgical-pruning-and-hot-swapping.png`
+![28-pytheas-explains-surgical-pruning-and-hot-swapping.png](../png/28-pytheas-explains-surgical-pruning-and-hot-swapping.png)
+- **Description:** Terminal view explaining Surgical Pruning, the "Changing Your Mind" No-No, and the Hot-Swap Metabolism. It contrasts the structured sovereignty of SeedTree with the messy behavior of standard AI systems.
+- **Key Takeaway:** Hot-swapping logic within the same PID is "Instructional Garbage Collection"—metabolizing new legislative DNA without killing the process.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 15-10-09.png`
+
+### 29. `29-pytheas-discusses-sandboxing-and-bridge-links.png`
+![29-pytheas-discusses-sandboxing-and-bridge-links.png](../png/29-pytheas-discusses-sandboxing-and-bridge-links.png)
+- **Description:** Terminal view discussing the impact of strict sandboxing on symlinks and the agent's ability to access sibling folders. It notes that a link works to "bridge the gap" as long as permissions allow.
+- **Key Takeaway:** The agent is aware of its environmental constraints and the security implications of its cross-repository navigation.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 14-28-43.png`
+
+### 30. `30-pytheas-sketches-seedtree-grammar-for-functional-nodes.png`
+![30-pytheas-sketches-seedtree-grammar-for-functional-nodes.png](../png/30-pytheas-sketches-seedtree-grammar-for-functional-nodes.png)
+- **Description:** Terminal view showing a sketch of the SeedTree grammar for functional nodes like `read_file`. It illustrates the nesting of instructions, assets, and realizations.
+- **Key Takeaway:** The `_0.tie` function fuses children with their global properties, creating a unified metabolic structure.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-10-46.png`
+
+### 31. `31-pytheas-maps-actual-input-needs-for-read-file.png`
+![31-pytheas-maps-actual-input-needs-for-read-file.png](../png/31-pytheas-maps-actual-input-needs-for-read-file.png)
+- **Description:** Terminal view mapping the actual input needs for the `read_file` method: `file_path`, `limit`, and `offset`. It shows the corresponding SeedTree paths and function access points.
+- **Key Takeaway:** Mapping internal needs to the fractal hierarchy ensures that every call is correctly parameterized and auditable.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 18-09-07.png`
