@@ -1,0 +1,20 @@
+{
+  "name": "Chrono-Fractal Memory Hierarchy",
+  "summary": "Rules for storing working and finished markdown memories within the temporal Heartwood.",
+  "principles": [
+    {
+      "name": "Working Documents (Context)",
+      "rule": "All intermediate drafts, versioned reports (e.g., V4, V5), and working session artifacts must be stored in the 'md/context/' subdirectory of their respective temporal branch.",
+      "naming_convention": "Timestamped and audit-friendly: <AGENT>_<YYYYMMDD-HHMMSS>_<DESCRIPTION>_v<N>.md"
+    },
+    {
+      "name": "Finished Documents (Heartwood)",
+      "rule": "Only the final, polished versions of articles, reports, and strategic crystallizations are stored in the root 'md/' directory of their respective temporal branch.",
+      "naming_convention": "User-friendly and descriptive: <DESCRIPTIVE_TITLE>.md"
+    }
+  ],
+  "path_template": {
+    "working": "public/<YEAR>/<QUARTER>/<MONTH>/<DAY>/md/context/",
+    "finished": "public/<YEAR>/<QUARTER>/<MONTH>/<DAY>/md/"
+  }
+}

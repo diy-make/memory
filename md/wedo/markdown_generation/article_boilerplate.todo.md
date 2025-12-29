@@ -19,3 +19,6 @@ An article in the Metagit environment should follow this narrative-driven struct
 ## Presentation Protocol
 **Narrative Aesthetic:** Articles should be written for a broader audience than reports. Use evocative language while maintaining technical precision. No triple-backtick Markdown wrappers. Use clear headers and bolding for emphasis.
 **Iteration Mandate:** Each subsequent draft of an article MUST have a higher word count than the previous version, ensuring increasing narrative depth and complexity as the story crystallizes.
+**Storage Protocol:** 
+- **Working Drafts:** Store in `md/context/` with timestamped filenames (e.g., `Pytheas_20251228-174500_SeedTree_v4.md`).
+- **Final Versions:** Store in the root `md/` of the temporal branch with user-friendly filenames (e.g., `SeedTree_Gemini_CLI_Investment_Case.md`).
