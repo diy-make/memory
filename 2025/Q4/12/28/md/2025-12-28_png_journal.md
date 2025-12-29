@@ -216,3 +216,73 @@
 - **Key Takeaway:** Mapping internal needs to the fractal hierarchy ensures that every call is correctly parameterized and auditable.
 - **Creation Date:** 2025-12-28
 - **Original Filename:** `Screenshot from 2025-12-28 18-09-07.png`
+
+### 32. `32-pytheas-details-instructional-sovereignty-binding.png`
+![32-pytheas-details-instructional-sovereignty-binding.png](../png/32-pytheas-details-instructional-sovereignty-binding.png)
+- **Description:** Terminal view detailing how the `start()` function is bound to the `_1` realization. It explains that execution rules are found at `_1.bash.parent` (the Wood) while intent is found at `_1.file_path` (the Air).
+- **Key Takeaway:** Binding instructions to realizations ensures that each functional execution is sovereign and contextually aware.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-38-01.png`
+
+### 33. `33-pytheas-illustrates-seedtree-disconnect-hot-swap.png`
+![33-pytheas-illustrates-seedtree-disconnect-hot-swap.png](../png/33-pytheas-illustrates-seedtree-disconnect-hot-swap.png)
+- **Description:** Terminal view illustrating the "SeedTree Disconnect" in the current substrate. It explains that while current instructions are static, SeedTreeDB will allow hot-swapping by reading new fractal paths within the same running process.
+- **Key Takeaway:** Hot-swapping eliminates the need for process restarts when updating core tool logic, enabling a truly living firmware.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-57-13.png`
+
+### 34. `34-pytheas-summarizes-api-container-grafting.png`
+![34-pytheas-summarizes-api-container-grafting.png](../png/34-pytheas-summarizes-api-container-grafting.png)
+- **Description:** Terminal view summarizing how SeedTreeDB takes structured JSON containers from APIs and grafts them into the Namespace Chain. This process converts temporary network responses into permanent, auditable nodes.
+- **Key Takeaway:** Autonomous logic expression is powered by "reading the DNA" of structured data containers.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 18-02-53.png`
+
+### 35. `35-pytheas-verifies-node-js-pid-substrate.png`
+![35-pytheas-verifies-node-js-pid-substrate.png](../png/35-pytheas-verifies-node-js-pid-substrate.png)
+- **Description:** Terminal view verifying the Node.js substrate version (v22.16.0) and the active Process ID (564873). It confirms the ability to execute complex JS logic directly.
+- **Key Takeaway:** Grounding reasoning in the specific PID and version ensures that architectural claims are backed by physical substrate capabilities.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 14-38-17.png`
+
+### 36. `36-pytheas-refines-read-file-tie-metabolism.png`
+![36-pytheas-refines-read-file-tie-metabolism.png](../png/36-pytheas-refines-read-file-tie-metabolism.png)
+- **Description:** Terminal view showing the refinement of the `read_file` method with `_2 = _0.tie`. It illustrates the use of `_0.syn` to update `_2.rawContent` without direct assignments.
+- **Key Takeaway:** Dual-layer realization (`_1` and `_2`) separates auditable results from volatile metabolic actions.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 19-11-54.png`
+
+### 37. `37-pytheas-accesses-tool-through-realization.png`
+![37-pytheas-accesses-tool-through-realization.png](../png/37-pytheas-accesses-tool-through-realization.png)
+- **Description:** Terminal view showing the "Right" way to access tools: through the realization (`_1.readFileSync`). It ensures that the PID carries its "Heavy Machinery" with it.
+- **Key Takeaway:** Accessing tools through the realization node maintains the Instruction/Data unification mandate.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 16-59-52.png`
+
+### 38. `38-pytheas-archives-dec-27-baseline-metadata.png`
+![38-pytheas-archives-dec-27-baseline-metadata.png](../png/38-pytheas-archives-dec-27-baseline-metadata.png)
+- **Description:** Terminal view showing the Report Metadata for the December 27, 2025 session. It establishes the baseline for SeedTreeDB/HSD legislative evolution.
+- **Key Takeaway:** Maintaining consistent metadata baselines is critical for the long-term auditability of the firm's growth.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 14-51-16.png`
+
+### 39. `39-pytheas-discusses-sandbox-bridge-navigation.png`
+![39-pytheas-discusses-sandbox-bridge-navigation.png](../png/39-pytheas-discusses-sandbox-bridge-navigation.png)
+- **Description:** Terminal view discussing how agents navigate between repositories using links. It notes that while a strict sandbox might block such movements, links currently bridge the gap for the firm's operations.
+- **Key Takeaway:** Environmental awareness ensures that the agent understands the boundaries and possibilities of its navigation substrate.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 14-25-25.png`
+
+### 40. `40-pytheas-contrasts-instructional-gc-vs-blind-disposal.png`
+![40-pytheas-contrasts-instructional-gc-vs-blind-disposal.png](../png/40-pytheas-contrasts-instructional-gc-vs-blind-disposal.png)
+- **Description:** Terminal view contrasting standard Garbage Collection (blind disposal) with HSD's Surgical Pruning. It explains how instructions can be hot-swapped within the same PID using higher legislative protocols.
+- **Key Takeaway:** Surgical pruning ensures that the firm's "Wisdom" is never accidentally recycled, unlike standard volatile memory.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 15-55-19.png`
+
+### 41. `41-pytheas-maps-hierarchical-input-requirements.png`
+![41-pytheas-maps-hierarchical-input-requirements.png](../png/41-pytheas-maps-hierarchical-input-requirements.png)
+- **Description:** Terminal view mapping hierarchical input requirements for the `read_file` metabolic node. It distinguishes between the Intent (Inputs) in the call node and the Realization (Outputs) in the resources node.
+- **Key Takeaway:** Hierarchical input mapping ensures that all sensory engagements are correctly contextualized within the SeedTree.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-01-21.png`
