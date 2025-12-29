@@ -8,6 +8,9 @@
 **Web Theory:** [seedtreedb.com](https://seedtreedb.com)  
 **Word Count:** ~2,450 words (Monotonic Increase verified)
 
+![36-joyfork-logic-of-botanical-al-v2.jpg](../../29/png/36-joyfork-logic-of-botanical-al-v2.jpg)
+*The joyfork logic of botanical AL — the bough becomes a trunk to many homes.*
+
 ---
 
 ## 1. The Vision: The Firm is the Wood
