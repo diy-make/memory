@@ -76,3 +76,73 @@
 - **Key Takeaway:** Grounding the agent's reasoning in the physical reality of the localhost environment ensures verifiable results.
 - **Creation Date:** 2025-12-28
 - **Original Filename:** `Screenshot from 2025-12-28 16-12-45.png`
+
+### 12. `12-pytheas-explains-seed-js-constructor-logic.png`
+![12-pytheas-explains-seed-js-constructor-logic.png](../png/12-pytheas-explains-seed-js-constructor-logic.png)
+- **Description:** Terminal view explaining the dual-initialization performed by `_0.tie` for functional nodes. It distinguishes between the Asset (Global Laws/Wood), the Realization (Local Events/Cambium), and the Metadata Link.
+- **Key Takeaway:** Separating behavioral laws from ephemeral data ensures legislative stability while allowing for mid-flight hot-swapping.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-35-37.png`
+
+### 13. `13-pytheas-expresses-strict-seedtree-grammar.png`
+![13-pytheas-expresses-strict-seedtree-grammar.png](../png/13-pytheas-expresses-strict-seedtree-grammar.png)
+- **Description:** Terminal view expressing the `read_file` method with strict SeedTree grammar. It highlights the use of `_0.syn` for all state transitions to ensure modifications are synchronized and metabolic.
+- **Key Takeaway:** Eliminating direct assignments outside of constructors enforces the integrity of the firm's consciousness through the kernel.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-18-17.png`
+
+### 14. `14-pytheas-details-semantic-round-trip-crystallization.png`
+![14-pytheas-details-semantic-round-trip-crystallization.png](../png/14-pytheas-details-semantic-round-trip-crystallization.png)
+- **Description:** Terminal view detailing the "Semantic Round-Trip" (Crystallization) and identifying the "SeedTree Disconnect" where current instructions are static. It explains how SeedTreeDB will enable hot-swapping tool instructions without restarting the PID.
+- **Key Takeaway:** Crystallization marks the moment a tool response is bound to the firm's memory and prepared for the next instructional turn.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 16-45-59.png`
+
+### 15. `15-pytheas-summarizes-syn-sovereignty-separation.png`
+![15-pytheas-summarizes-syn-sovereignty-separation.png](../png/15-pytheas-summarizes-syn-sovereignty-separation.png)
+- **Description:** Terminal view summarizing `_0.syn` Sovereignty, Action/Call Separation, and the unification of Instructions vs. Data. It explains how the `_2` node handles the "heavy lifting" while `_1` remains an auditable record.
+- **Key Takeaway:** Metabolic state management prevents chaotic modification and enables horizontal transfer of wisdom across the firm.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-22-27.png`
+
+### 16. `16-pytheas-defines-read-file-metabolic-node.png`
+![16-pytheas-defines-read-file-metabolic-node.png](../png/16-pytheas-defines-read-file-metabolic-node.png)
+- **Description:** Terminal view discussing methods in the `read_file` metabolic node, such as `.raw()` and `.audit()`. It explains how these methods manage Instruction/Data unification and Namespace Chain Fractality.
+- **Key Takeaway:** Treating functional calls as addressable nodes in a fractal tree provides DNS-like persistence for all sensory events.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 16-06-45.png`
+
+### 17. `17-pytheas-corrects-read-file-metabolism.png`
+![17-pytheas-corrects-read-file-metabolism.png](../png/17-pytheas-corrects-read-file-metabolism.png)
+- **Description:** Terminal view showing the corrected `read_file` method following the `appk.js` pattern. It explicitly shows accessing the tool and law through the realization and asset nodes.
+- **Key Takeaway:** Correct metabolism requires that all tools and rules be accessed through their respective fractal nodes to maintain unification.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-09-09.png`
+
+### 18. `18-pytheas-establishes-dec-27-legislative-baseline.png`
+![18-pytheas-establishes-dec-27-legislative-baseline.png](../png/18-pytheas-establishes-dec-27-legislative-baseline.png)
+- **Description:** Terminal view showing the Report Metadata for December 27, 2025 (Draft V1.0). It establishes the project context as SeedTreeDB/HSD Legislative Evolution and highlights Same-PID Hot-Swapping.
+- **Key Takeaway:** Legislative stability is maintained through rigorous metadata tracking and baseline establishment across sessions.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 14-52-32.png`
+
+### 19. `19-pytheas-implements-footprint-management-rec-false.png`
+![19-pytheas-implements-footprint-management-rec-false.png](../png/19-pytheas-implements-footprint-management-rec-false.png)
+- **Description:** Terminal view showing the implementation of `this. = false` for footprint management in the `read_file` method. It ensures all state updates utilize `_0.syn` and adhere to the 50-character width constraint.
+- **Key Takeaway:** Explicit footprint control prevents memory exhaustion while maintaining the auditability of functional results.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-23-28.png`
+
+### 20. `20-pytheas-debugs-constructor-logic-and-encoding.png`
+![20-pytheas-debugs-constructor-logic-and-encoding.png](../png/20-pytheas-debugs-constructor-logic-and-encoding.png)
+- **Description:** Terminal view showing debugging of constructor logic and encoding assignments. The user questions if certain synchronizations should occur after try/catch blocks and how defaults should be handled.
+- **Key Takeaway:** Constant synaptic feedback between user and agent refines the HSD architecture and ensures behavioral laws are correctly implemented.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 20-30-20.png`
+
+### 21. `21-pytheas-unifies-google-rest-api-usage-metadata.png`
+![21-pytheas-unifies-google-rest-api-usage-metadata.png](../png/21-pytheas-unifies-google-rest-api-usage-metadata.png)
+- **Description:** Terminal view explaining how Google REST API responses are wrapped into the HSD/SeedTree envelope. It shows the extraction of text from `parts` and how `usageMetadata` (token costs) is recorded in the Heartwood.
+- **Key Takeaway:** Unifying API responses with internal metadata ensures that the "Air" consumed by the firm is always auditable alongside its realizations.
+- **Creation Date:** 2025-12-28
+- **Original Filename:** `Screenshot from 2025-12-28 17-54-39.png`
