@@ -128,8 +128,8 @@ Agent: Ethos (v1.0.0)
 123. 2025/Q4/12/21/md/Ethos_20251221-193000_Performance_Report.md
 124. 2025/Q4/12/21/md/Ethos_Autobiography_Report.md
 125. chains/image_description.todo.md
-126. gif/Big_Files_In_Git.gif
-127. gif/Context_Window_Limit.gif
+126. 2025/Q4/12/18/gif/Big_Files_In_Git.gif
+127. 2025/Q4/12/20/gif/Context_Window_Limit.gif
 128. .gitignore
 129. .gitkeep
 130. json/bot_crash_protocol.json

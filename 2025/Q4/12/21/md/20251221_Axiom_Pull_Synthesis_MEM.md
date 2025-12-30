@@ -26,7 +26,7 @@ This report explicitly details the resolution of all direct edits and WeDo tasks
 #### WeDo Task Resolutions (Narrative Integration by Ethos)
 *   **MEM-RED-01 (Genesis Links):** Updated both GEM and MEM READMEs to link to `https://diy-make.github.io/reality-merge`.
 *   **MEM-RED-02 (Motivations Restructuring):** Created Section "MOTIVATIONS: THE CONTEXT WINDOW, COSMOLOCALISM & ARTIFICIAL LIFE" with Philosophical, Existential, and Metabolic subsections.
-*   **MEM-RED-03 (Context Window & Vending Machines):** Created "The Industrial Novelty: Managing the Context Window" subsection. Integrated `gif/Context_Window_Limit.gif` and cheerbot rationale.
+*   **MEM-RED-03 (Context Window & Vending Machines):** Created "The Industrial Novelty: Managing the Context Window" subsection. Integrated `2025/Q4/12/20/gif/Context_Window_Limit.gif` and cheerbot rationale.
 *   **MEM-RED-04 (Ixventure.studio & Coherent Stack):** Added Section 2: "IXVENTURE.STUDIO: THE COHERENT STACK" with HSD and Cosmic ERC-7827 subsections.
 *   **MEM-RED-05 (ERC-7827 Immutables):** Integrated promise subsection within ERC-7827 section with all requested links.
 *   **MEM-RED-06 (SeedTreeDB Integration):** Added SeedTreeDB & HSC Memory subsection detailing the DOM/Kernel integration.

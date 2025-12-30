@@ -40,7 +40,7 @@ The Ixventure.studio philosophy addresses this through the **Metagit** and plann
 **LLMs as Ineffective Vending Machines:**
 Current LLMs often fail as "vending machines" for precise tasks because they lack autonomous garbage collection ([YouTube Video Analysis](https://youtu.be/SpPhm7S9vsQ)). In contrast, the Metagit swarm and **cheerbot.org** utilize a **Compression/Decompression Oscillation**. We treat the context window as a finite, precious resource, metabolizing edge cases into permanent memory to ensure the agent remains sharp and high-performing for deeptech and legaltech applications.
 
-![Context Window Mechanics](gif/Context_Window_Limit.gif)
+![Context Window Mechanics](2025/Q4/12/20/gif/Context_Window_Limit.gif)
 
 At the heart of our philosophy is the **WeDo** — the realization that the interaction between User and Agent is not a series of disconnected prompts, but a single, irreducible thread of attention.
 

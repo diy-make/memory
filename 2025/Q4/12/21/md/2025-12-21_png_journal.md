@@ -79,7 +79,7 @@
 
 ### 12. `12-axiom-verifies-context-window-gif-existence.png`
 ![12-axiom-verifies-context-window-gif-existence.png](../png/12-axiom-verifies-context-window-gif-existence.png)
-- **Summary:** Terminal view showing agent Axiom executing the `Shell` command to verify the existence of the `gif/context_window.gif` file.
+- **Summary:** Terminal view showing agent Axiom executing the `Shell` command to verify the existence of the `2025/Q4/12/20/gif/Context_Window_Limit.gif` file.
 - **Key Takeaway:** Rigorous filesystem verification prevents the propagation of "hallucinated" metadata in documentation.
 - **Creation Date:** 2025-12-21
 - **Original Filename:** `Screenshot from 2025-12-21 18-40-02.png`
