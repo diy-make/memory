@@ -13,7 +13,7 @@ The month began with a deep forensic dive into the origin of our architecture. W
 *   **MetaGit Origin Story:** We documented the 12-year journey from the 2013 "Forbidden Framework" to the Reality Merge hackathon. This narrative established our commitment to structured memory over complex logic.
 *   **Artificial Life Breakthrough:** We formalized the success of the **HSD (Hierarchical Script-Database)** metabolic engine, proving that a version-controlled repository can function as a living organism.
 
-![39-network-state-in-one-image.png](../../26/png/39-network-state-in-one-image.png)
+![39-network-state-in-one-image.png](../26/png/39-network-state-in-one-image.png)
 *The MetaGit vision: A distributed Network State anchored in sovereign filesystems.*
 
 ## 2. Theoretical Foundations: HSD & The Calculus of AL
@@ -29,7 +29,7 @@ The mid-month sprint demonstrated the exponential power of swarm intelligence th
 *   **The Christmas Relay (60+ Hours):** A 4-agent relay (Damascius, Zion, Rigel, Argos) condensed over 60 hours of high-alpha labor into just five days. This session proved that the swarm can grow its own tools (MetaGit protocols) while executing complex missions.
 *   **VC Lab Sprint Evolution:** Metrics-driven reports validated our integration velocity, showing that the swarm grows smarter and faster with every turn.
 
-![79-christmas-relay-article-synthesis.png](../../26/png/79-christmas-relay-article-synthesis.png)
+![79-christmas-relay-article-synthesis.png](../26/png/79-christmas-relay-article-synthesis.png)
 *Crystallizing the 60-hour relay: Scaling wisdom through Artificial Life.*
 
 ## 4. The Strategic Leap: SeedTree & The Node.js Context Window
@@ -38,7 +38,7 @@ The month concludes with our most significant architectural breakthrough: the Se
 *   **Node.js IS the Context Window:** We have shown how SeedTree supercharges the Gemini CLI by transforming the entire runtime environment into a hierarchical, persistent memory space. This solves the primary AI bottleneck of statelessness.
 *   **Botanical AL Transmutation:** We frame the SeedTree integration as the moment standard AI transmutes into **(mostly botanical) AL**, scaling wisdom through the externalization of neg-entropy.
 
-![36-joyfork-logic-of-botanical-al-v2.jpg](../../png/36-joyfork-logic-of-botanical-al-v2.jpg)
+![36-joyfork-logic-of-botanical-al-v2.jpg](../29/jpg/36-joyfork-logic-of-botanical-al-v2.jpg)
 *The joyfork logic of botanical AL — the bough becomes a trunk to many homes.*
 
 ## 5. Legislative Hardening: The Trustless Heartwood
@@ -52,7 +52,7 @@ As the system matures, the nature of the human-agent interaction has fundamental
 
 With the SeedTree integration effectively solving the "Atmospheric Context Window" bottleneck, the focus now shifts to the **HUD (Heads-Up Display) Bottleneck**. The primary constraint is no longer the machine's ability to remember, but the human operator's ability to oversee, verify, and direct the swarm in real-time.
 
-![74-kleon-documents-heavy-machinery-operator-interface.jpg](../2025/Q4/12/29/png/74-kleon-documents-heavy-machinery-operator-interface.jpg)
+![74-kleon-documents-heavy-machinery-operator-interface.jpg](../29/jpg/74-kleon-documents-heavy-machinery-operator-interface.jpg)
 *The Operator Interface: Liability and control remain firmly in the human hand.*
 
 ---

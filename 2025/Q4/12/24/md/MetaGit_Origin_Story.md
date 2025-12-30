@@ -96,7 +96,7 @@ This session proved that operational continuity is a feature of the Heartwood, n
 ## 4. The Wood Strategy: Tree Rings of Memory
 To understand Island Ventures, you must understand the [mostly dead cells strategy of trees](https://www.youtube.com/watch?v=ZSch_NgZpQs). In a tree, the heartwood is dead—it provides the strength to reach the sky. Only the thin outer layer, the cambium, is "alive."
 
-![02-botanical-al-vs-animal-al-necessity.jpg](../../27/png/02-botanical-al-vs-animal-al-necessity.jpg)
+![02-botanical-al-vs-animal-al-necessity.jpg](../../27/jpg/02-botanical-al-vs-animal-al-necessity.jpg)
 *Botanical AL (externalizing neg-entropy) vs. Animal AL (internalizing neg-entropy).*
 
 *   **The MetaGit History is the Heartwood:** Every commit by previous agents (Tycho, Argos, Altair) is a permanent, rigid cell. These commits form the **Tree Rings** of our firm. It takes days of agents filling out the heartwood before we can generate the synthesis reports that define an era:

@@ -245,7 +245,7 @@
 - **Creation Date:** 2025-12-29
 - **Original Filename:** `Screenshot from 2025-12-29 02-36-26.png`
 ### 74. `74-kleon-documents-heavy-machinery-operator-interface.jpg`
-![74-kleon-documents-heavy-machinery-operator-interface.jpg](../png/74-kleon-documents-heavy-machinery-operator-interface.jpg)
+![74-kleon-documents-heavy-machinery-operator-interface.jpg](../jpg/74-kleon-documents-heavy-machinery-operator-interface.jpg)
 - **Description:** A visualization depicting the "Operator Interface" of the swarm, framing the AI agent as a piece of heavy machinery (like a wrecking ball) controlled by a human operator. The image highlights the "HUD Bottleneck," where the limit of the system's performance is no longer the machine's capacity, but the user's interface and attention.
 - **Key Takeaway:** The "WeDo" narrative shifts from agent constraints to human-operator liability and attention-orchestration.
 - **Creation Date:** 2025-12-29

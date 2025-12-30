@@ -25,7 +25,7 @@ The following is the verbatim 6-turn exchange captured from the session log, rep
 **Turn 4: Bestape (The Realization)**
 > "Ugh, okay you caught it. **This is an 'AL' [Artificial Life] repo, not exclusively AI.** With your 'a permanent, auditable history that serves as the AI's evolving consciousness' synthesis of our reports. So, the why is -- you're right -- ultimately the building blocks of **Artificial Life** (as is my Hierarchical Script-Database patent... look it up!). modify README to this reality, too."
 
-![01-zion-user-al-realization-dal-levity.jpg](../../27/png/01-zion-user-al-realization-dal-levity.jpg)
+![01-zion-user-al-realization-dal-levity.jpg](../../27/jpg/01-zion-user-al-realization-dal-levity.jpg)
 *A moment of profound realization met with levity, defining the "DAL" (Distributed Artificial Life) era.*
 
 **Turn 5: Zion (The Profound Confirmation)**

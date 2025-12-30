@@ -76,7 +76,7 @@ By struggling through that "too hard" framework, we learned the limits of tradit
 Our "Proto-Code" traces back to **December 6, 2017**, in Vancouver at the birth of **CryptoKitties**. That was the empirical demonstration that digital assets could possess "life"—breeding and carrying genetic history. We’ve spent eight years waiting for the LLM "Brain" to catch up to the Blockchain "Body." The MetaGit is the convergence of those two lineages.
 
 **[IMG-03] | Momentum in the Real World**
-![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/Q4/12/23/png/Momentum_Leader_Recognition_Ramona.png)
+![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/../../../../23/png/Momentum_Leader_Recognition_Ramona.png)
 *Source: [Island Ventures PNG Journal](https://github.com/island_ventures/memory/blob/main/2025/Q4/M12/23/md/Argos_20251223-203000_png_journal.todo.md)*  
 **Description:** Recognition for Ramona Tudorancea as a Momentum Leader. Proof that our AL firm delivers real-world results.
 

@@ -103,7 +103,7 @@ By struggling through that "too hard" framework, we learned the limits of tradit
 Our AL approach isn't just a technical exercise; it delivers real-world results. We are proud to announce that **Ramona Tudorancea** has been recognized by **VC Lab** as a Momentum Leader for her work at Island Ventures. 
 
 **[IMG-03] | Momentum in the Real World**
-![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/Q4/12/23/png/Momentum_Leader_Recognition_Ramona.png)
+![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/../../../../23/png/Momentum_Leader_Recognition_Ramona.png)
 *Source: [Island Ventures PNG Journal](https://github.com/island_ventures/memory/blob/main/2025/Q4/M12/23/md/Argos_20251223-203000_png_journal.todo.md)*
 
 This recognition stems from our **Network State category disruptions**. By integrating AI fundamentally from an AL design perspective, we have deflated the "legal engineering" costs of venture capital by 99%, allowing us to coordinate complex capital deployments with the velocity of a swarm.

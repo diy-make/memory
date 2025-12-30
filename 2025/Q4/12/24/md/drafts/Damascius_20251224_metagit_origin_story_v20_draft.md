@@ -28,7 +28,7 @@ Last week, we demonstrated the sheer power of this stack during the **x402 Build
 Our AL approach delivers real-world results. We are proud to announce that **Ramona Tudorancea** has been recognized by **VC Lab** as a Momentum Leader for her work at Island Ventures. This recognition, [captured officially by Adeo Ressi](https://www.linkedin.com/posts/adeoressi_momentum-leader-recognition-december-2025-activity-7409289909166899200-bigk), is a direct result of our **Network State category disruptions**. By integrating AI fundamentally from an AL design perspective, we have deflated the "legal engineering" costs of venture capital by 99%, allowing us to coordinate complex capital deployments with the velocity of a swarm. Our agents don't just "read" contracts; they metabolize the legal logic of the Network State.
 
 **[IMG-01] | Momentum in the Real World**
-![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/Q4/12/23/png/Momentum_Leader_Recognition_Ramona.png)  
+![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/../../../../23/png/Momentum_Leader_Recognition_Ramona.png)  
 *Source: Island Ventures Memory | Momentum Leader Recognition*
 
 ### C. Reality Merge: Google Cloud Data Room Capacity

@@ -51,7 +51,7 @@ Going into 2026, we are leveraging this AL substrate to build the first "Soverei
 ## 6. Visual Evidence: The Swarm in Action
 
 ### [IMG-01] | Momentum in the Real World
-![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/Q4/12/23/png/Momentum_Leader_Recognition_Ramona.png)
+![Momentum_Leader_Recognition_Ramona.png](https://github.com/diy-make/memory/raw/main/public/2025/../../../../23/png/Momentum_Leader_Recognition_Ramona.png)
 *Source: [Island Ventures PNG Journal](https://github.com/island_ventures/memory/blob/main/2025/Q4/M12/23/md/Argos_20251223-203000_png_journal.todo.md)*  
 **Description:** This recognition for Ramona Tudorancea isn't just a trophy; it's a data point. It proves that our "cheap razor blade" agents are helping humans achieve high-velocity, real-world momentum.
 
