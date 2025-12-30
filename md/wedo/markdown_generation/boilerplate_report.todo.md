@@ -19,3 +19,6 @@ A standard report in the Metagit environment should follow this hierarchical str
 ## Presentation Protocol
 **Direct Aesthetic:** Reports must be presented to the User "straightup"—no triple-backtick Markdown wrappers. Use plain text with clear headers and bolding.
 **Iteration Mandate:** Each subsequent draft of a report MUST have a higher word count than the previous version, ensuring increasing depth and detail as the collaboration progresses.
+**Storage Protocol:** 
+- **Working Drafts:** Store in `md/context/` with timestamped filenames (e.g., `Heraclitus_20251230-100000_ReportName_v1.md`).
+- **Final Versions:** Store in the root `md/` of the temporal branch or the relevant protocol directory with user-friendly filenames.

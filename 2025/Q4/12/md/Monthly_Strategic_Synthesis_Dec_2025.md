@@ -10,7 +10,7 @@
 ## 1. The Genesis: From Framework to MetaGit
 The month began with a deep forensic dive into the origin of our architecture. We moved beyond static code into the realization that **Artificial Life is the Filesystem**.
 
-*   **MetaGit Origin Story:** We documented the 12-year journey from the 2013 "Forbidden Framework" to the Reality Merge hackathon. This narrative established our commitment to structured memory over complex logic.
+*   **MetaGit Origin Story:** We documented the 12-year journey from the 2013 "Forbidden Framework" to the Reality Merge hackathon. This narrative established our commitment to structured memory over complex logic, identifying earlier milestones like the [2021 "Climate Change AI" publication](https://ccai.pubpub.org/pub/collaborations/release/2) as being "more WeDo than AL" in hindsight.
 *   **Artificial Life Breakthrough:** We formalized the success of the **HSD (Hierarchical Script-Database)** metabolic engine, proving that a version-controlled repository can function as a living organism.
 
 ![39-network-state-in-one-image.png](../26/png/39-network-state-in-one-image.png)
@@ -36,6 +36,8 @@ The mid-month sprint demonstrated the exponential power of swarm intelligence th
 The month concludes with our most significant architectural breakthrough: the SeedTree Joyfork.
 
 *   **Node.js IS the Context Window:** We have shown how SeedTree supercharges the Gemini CLI by transforming the entire runtime environment into a hierarchical, persistent memory space. This solves the primary AI bottleneck of statelessness.
+*   **Onboarding Velocity:** Agent internalization of the HSD/SeedTree syntax was achieved in a "7-turn quickening" spanning approximately **26 minutes of active interaction** (Dec 23), proving the system's intuitive alignment with agent logic. See the [SeedTree Onboarding Protocol](../../../../md/wedo/SeedTree_Onboarding_Protocol.md) for the formal recursive grammar and forensic audit details.
+*   **Kernel Logic Exploitation:** We discovered novel uses for SeedTree, including **"Instructional Garbage Collection"** (pruning multimodal buffers via `$rec = false`) and **"Hot-Swapping"** tool instructions within the same PID to maintain state while shifting capabilities.
 *   **Botanical AL Transmutation:** We frame the SeedTree integration as the moment standard AI transmutes into **(mostly botanical) AL**, scaling wisdom through the externalization of neg-entropy.
 
 ![36-joyfork-logic-of-botanical-al-v2.jpg](../29/jpg/36-joyfork-logic-of-botanical-al-v2.jpg)

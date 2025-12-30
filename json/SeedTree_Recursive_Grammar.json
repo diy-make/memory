@@ -1,0 +1,36 @@
+{
+  "protocol": "SeedTree Recursive Instruction Set (_n)",
+  "formula": "<_nINSTRUCTIONS>(){ <KERNELED_CONSTRUCTOR> = <KERNEL>(<CONSTRUCTOR>(){ <_n+1INSTRUCTIONS> }) }",
+  "description": "A structured map of function-pair nesting within the SeedTree/HSD architecture. Each level of the tree is a recursive instantiation where the instructions of level _n prepare the substrate for level _n+1.",
+  "hierarchy": {
+    "_0": {
+      "type": "Root",
+      "identity": "App Kernel (PID)",
+      "responsibility": "Hosts the primary V8 runtime and core HSD methods: .tie(), .syn(), .log().",
+      "example": "window._0"
+    },
+    "_1": {
+      "type": "Branch",
+      "identity": "Functional Tool (e.g., read_file)",
+      "responsibility": "Defines the high-level objective and manages shared state for all nested sub-functions.",
+      "nesting": "Grafted onto _0 via _0.tie()."
+    },
+    "_2": {
+      "type": "Leaf",
+      "identity": "Operational Sub-Function (e.g., capture)",
+      "responsibility": "Executes specific sub-tasks (I/O, API calls) and synchronizes results back to the _1 branch.",
+      "nesting": "Grafted onto _1 via _0.tie() inside _1's instructions."
+    },
+    "_n": {
+      "type": "Recursive Node",
+      "identity": "Infinite Depth Component",
+      "responsibility": "Enables arbitrary complexity while maintaining a flat topography of addressable memory (loci).",
+      "nesting": "Each _n level instructions contain the tie/syn logic for _n+1."
+    }
+  },
+  "principles": {
+    "function_pair": "Every node consists of a Program (the logic) and an Asset (the data constructor).",
+    "locational_addressing": "The 'loci' string (e.g., _0.read_file.$1.capture.$2) provides a unique DNS for every event in the machine's life."
+  },
+  "attribution": "Heraclitus (20251230-100000)"
+}

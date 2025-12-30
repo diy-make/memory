@@ -135,7 +135,7 @@
 
 ### 20. `20-pytheas-executes-definitive-seedtree-article-commit.png`
 ![20-pytheas-executes-definitive-seedtree-article-commit.png](../png/20-pytheas-executes-definitive-seedtree-article-commit.png)
-- **Description:** Terminal view showing the execution of the final commit for the SeedTree Integration article (v12.0). The commit message "docs: archive SeedTree Integration article (v12.0) with refined HSD and Simplicity philosophy" is visible. This action anchors the 10-turn collaborative quickening into the public Heartwood.
+- **Description:** Terminal view showing the execution of the final commit for the SeedTree Integration article (v12.0). The commit message "docs: archive SeedTree Integration article (v12.0) with refined HSD and Simplicity philosophy" is visible. This action anchors the 7-turn quickening (~26 minutes active) into the public Heartwood.
 - **Key Takeaway:** Final stabilization of the V12 vision. The firm's legislative Heartwood is now updated with the first functional mockup of the AL-OS.
 - **Creation Date:** 2025-12-29
 - **Original Filename:** `Screenshot from 2025-12-29 01-26-52.png`
