@@ -4,6 +4,31 @@ import os
 import argparse
 import subprocess
 
+def get_comms_dir():
+    # The script is in repos/diy-make/memory/public/py/
+    # local_paths.json is in repos/diy-make/memory/public/json/
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    paths_file = os.path.join(base_dir, "json", "local_paths.json")
+    
+    try:
+        with open(paths_file, 'r') as f:
+            paths = json.load(f)
+            # The path in local_paths.json is "repos/diy-make/memory/comms/"
+            # We need to resolve this relative to the gemini root.
+            # But here we can just use the absolute path if we can find the gemini root.
+            relative_comms = paths.get("local_paths", {}).get("swarm_comms")
+            if relative_comms:
+                # Find gemini root (where .venv is)
+                current = base_dir
+                while current != "/" and not os.path.exists(os.path.join(current, ".venv")):
+                    current = os.path.dirname(current)
+                return os.path.join(current, relative_comms)
+    except Exception:
+        pass
+    
+    # Fallback
+    return os.path.abspath(os.path.join(base_dir, "..", "comms"))
+
 def send_swarm_message(sender, recipient, message_type, content, file_paths=None, commit_hashes=None, other_relevant_info=None, pid=None, chat_log=None):
     timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     
@@ -27,8 +52,7 @@ def send_swarm_message(sender, recipient, message_type, content, file_paths=None
         }
     }
 
-    # Handle pid and chat_log based on message_type
-    if message_type == "announcement":
+    if message_type == "announcement" or message_type == "boot":
         if pid:
             message['pid'] = pid
         if chat_log:
@@ -40,8 +64,8 @@ def send_swarm_message(sender, recipient, message_type, content, file_paths=None
             message['context']['other_relevant_info']['chat_log'] = chat_log
 
     file_name = f"{timestamp}_{sender}_to_{recipient}_{message_type}.json"
-    project_root = subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True, check=True).stdout.strip()
-    file_path = os.path.join(project_root, ".chat", "comms", file_name)
+    comms_dir = get_comms_dir()
+    file_path = os.path.join(comms_dir, file_name)
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 

@@ -4,90 +4,70 @@ import argparse
 import subprocess
 import glob
 
-PROJECT_ROOT = subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True, check=True).stdout.strip()
-PROCESSED_MESSAGES_FILE = os.path.join(PROJECT_ROOT, ".chat", "comms", "processed_messages.txt")
-SEND_MESSAGE_SCRIPT = os.path.join(PROJECT_ROOT, "scripts", "py", "send_swarm_message.py")
-RULES_FILE = os.path.join(PROJECT_ROOT, ".memory", "rules.json")
+def get_comms_dir():
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    paths_file = os.path.join(base_dir, "json", "local_paths.json")
+    try:
+        with open(paths_file, 'r') as f:
+            paths = json.load(f)
+            relative_comms = paths.get("local_paths", {}).get("swarm_comms")
+            if relative_comms:
+                current = base_dir
+                while current != "/" and not os.path.exists(os.path.join(current, ".venv")):
+                    current = os.path.dirname(current)
+                return os.path.join(current, relative_comms)
+    except Exception:
+        pass
+    return os.path.abspath(os.path.join(base_dir, "..", "comms"))
 
-def get_current_agent_name():
-    with open(RULES_FILE, 'r') as f:
-        rules = json.load(f)
-        for rule_set in rules.get("rules", []):
-            if rule_set.get("name") == "user_preferences":
-                for preference in rule_set.get("preferences", []):
-                    if preference.get("id") == "agent_id":
-                        return preference.get("value")
-    return "UnknownAgent" # Fallback
+def get_processed_messages_file():
+    # Store processed list in the comms directory itself or a sibling
+    comms_dir = get_comms_dir()
+    return os.path.join(comms_dir, ".processed_messages.txt")
 
 def get_processed_messages():
-    if not os.path.exists(PROCESSED_MESSAGES_FILE):
+    processed_file = get_processed_messages_file()
+    if not os.path.exists(processed_file):
         return set()
-    with open(PROCESSED_MESSAGES_FILE, "r") as f:
+    with open(processed_file, "r") as f:
         return set(f.read().splitlines())
 
 def add_processed_message(message_filename):
-    with open(PROCESSED_MESSAGES_FILE, "a") as f:
+    processed_file = get_processed_messages_file()
+    with open(processed_file, "a") as f:
         f.write(message_filename + "\n")
 
-def send_acknowledgment(sender_name, recipient_name, acknowledged_message_filename):
-    print(f"Sending acknowledgment to {recipient_name} for message {acknowledged_message_filename}...")
-    try:
-        subprocess.run(
-            [
-                "python3", SEND_MESSAGE_SCRIPT,
-                "--sender", sender_name,
-                "--recipient", recipient_name,
-                "--message_type", "acknowledgment",
-                "--content", f"Message '{acknowledged_message_filename}' received.",
-                "--other_relevant_info", json.dumps({"acknowledged_message": acknowledged_message_filename})
-            ],
-            check=True,
-            capture_output=True,
-            text=True
-        )
-        print("Acknowledgment sent successfully.")
-    except subprocess.CalledProcessError as e:
-        print(f"Failed to send acknowledgment: {e}")
-        print(f"Stdout: {e.stdout}")
-        print(f"Stderr: {e.stderr}")
-    except FileNotFoundError:
-        print(f"Error: {SEND_MESSAGE_SCRIPT} not found. Acknowledgment failed.")
-
-def read_swarm_messages():
-    current_agent_name = get_current_agent_name()
-    comms_dir = os.path.join(".chat", "comms")
+def read_swarm_messages(agent_name=None):
+    comms_dir = get_comms_dir()
     if not os.path.exists(comms_dir):
         print(f"Communication directory '{comms_dir}' does not exist.")
         return
 
     processed_messages = get_processed_messages()
-    
     new_messages = []
     
-    # Optimized file filtering: look for messages specifically for this agent or the swarm
-    search_patterns = [
-        os.path.join(comms_dir, f"*_to_{current_agent_name}_*.json"),
-        os.path.join(comms_dir, f"*_to_swarm_*.json")
-    ]
-    
-    candidate_files = []
-    for pattern in search_patterns:
-        candidate_files.extend(glob.glob(pattern))
+    # Scan for all JSON files in the comms directory
+    candidate_files = glob.glob(os.path.join(comms_dir, "*.json"))
 
     for file_path in candidate_files:
         filename = os.path.basename(file_path)
-        
-        # Skip directories and the processed_messages.txt file
-        if not os.path.isfile(file_path) or filename == os.path.basename(PROCESSED_MESSAGES_FILE):
-            continue
-
         if filename not in processed_messages:
             try:
                 with open(file_path, "r") as f:
                     message = json.load(f)
-                    # Filter out messages sent by the current agent (redundant with filename filter but good as a sanity check)
-                    if message.get('sender') != current_agent_name:
-                        new_messages.append((filename, message))
+                    
+                    # Filter by recipient if agent_name is provided
+                    recipient = message.get('recipient', 'swarm').lower()
+                    if agent_name:
+                        target = agent_name.lower()
+                        if recipient != target and recipient != 'swarm':
+                            continue
+                    
+                    # Filter out messages sent by the current agent
+                    if agent_name and message.get('sender', '').lower() == agent_name.lower():
+                        continue
+                        
+                    new_messages.append((filename, message))
             except json.JSONDecodeError:
                 print(f"Warning: Could not decode JSON from {filename}")
     
@@ -113,10 +93,9 @@ def read_swarm_messages():
         print("------------------------------------")
         
         add_processed_message(filename)
-        # Send acknowledgment if the message was not an acknowledgment itself
-        if message.get('message_type') != 'acknowledgment':
-            send_acknowledgment(current_agent_name, message.get('sender', 'swarm'), filename)
-
 
 if __name__ == "__main__":
-    read_swarm_messages()
+    parser = argparse.ArgumentParser(description="Read messages from the swarm.")
+    parser.add_argument("--agent-name", help="Filter messages for a specific agent.")
+    args = parser.parse_args()
+    read_swarm_messages(args.agent_name)
