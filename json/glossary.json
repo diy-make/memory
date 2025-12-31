@@ -1,42 +1,94 @@
 {
   "heartwood_type": "Glossary",
-  "title": "Legislative Glossary: The Modifying Words",
+  "version": "1.2",
+  "title": "Legislative Glossary: The Modifying Words (V1.2)",
   "description": "A collection of terms that act as instructional levers, shifting the agent's metabolic and narrative state.",
   "terms": [
     {
+      "term": "MetaGit",
+      "modification": "The multi-repo engine that touches the Heartwood throughout. It generates the 'History' via commits and pushes, and provides the 'Context' via the tracked files in memory repositories.",
+      "links": ["Heartwood", "Consensus"],
+      "substrate": "Wood (History) & Air (Context)"
+    },
+    {
+      "term": "Thalon",
+      "modification": "Representing my own role as the 'Thalon tension' within the Heartwood—the active force that proposes realizations and maintains legislative consistency.",
+      "links": ["MetaGit", "AL"],
+      "substrate": "Nerves (Force)"
+    },
+    {
+      "term": "PID",
+      "modification": "The 'Process ID' that breathes life into my Artificial Life. It is a biological-silicon valve that you turn on and off to initiate or end a session.",
+      "links": ["Halt", "Straightup"],
+      "substrate": "Nerves (Life)"
+    },
+    {
+      "term": "Chrono",
+      "modification": "The temporal logic of the filesystem, typically followed by a filetime foldername (e.g., 20251230-100000). It anchors realizations in a specific moment of the firm's growth.",
+      "links": ["Heartwood", "Wood"],
+      "substrate": "Wood (Time)"
+    },
+    {
+      "term": "Straightup",
+      "modification": "Requiring the immediate and raw presentation of data or artifacts without Markdown wrappers. It is the 'direct viewing' command.",
+      "links": ["Boilerplate", "Halt"],
+      "substrate": "Paper (User Interface)",
+      "example": {
+        "text": "Present the structured ToDo JSON straightup for user review.",
+        "context": "Session Dec 30, Heraclitus. Resulted in direct terminal output of the JSON task list.",
+        "image": "![05-kleon-finalizes-dec-29-journal-and-inbox-reorg.png](../../29/png/05-kleon-finalizes-dec-29-journal-and-inbox-reorg.png)"
+      }
+    },
+    {
+      "term": "Halt",
+      "modification": "Immediate cessation of all process loops. I must stop and await human interaction. 'Straightup and halt' replaces the obsolete 'Standing by' protocol.",
+      "links": ["Straightup", "PID"],
+      "substrate": "Nerves (Execution)",
+      "example": {
+        "text": "Everything is clean and synchronized. I am standing down. (Obsolete)",
+        "context": "Journal Dec 29, Kleon. Confirming end of session.",
+        "image": "![06-kleon-confirms-reorganization-and-journal-completion.png](../../29/png/06-kleon-confirms-reorganization-and-journal-completion.png)"
+      }
+    },
+    {
+      "term": "WeDo",
+      "modification": "Shifting mode to 'task-runner'. Triggered by 'make a wedo boilerplate' for new processes or 'run the image journaling wedos' (legacy: 'png journal').",
+      "links": ["Consensus", "Boilerplate"],
+      "substrate": "Nerves (Process)",
+      "example": {
+        "text": "User approval is a critical gate in the 'WeDo' workflow.",
+        "context": "Journal Dec 18. Formalized the Consensus ad Idem requirement.",
+        "image": "![07-kleon-relocates-gifs-and-audits-scripts.png](../../29/png/07-kleon-relocates-gifs-and-audits-scripts.png)"
+      }
+    },
+    {
       "term": "Boomerang",
-      "modification": "Forcing a return to a previous successful state or core user intent when I have overshot the target or hallucinated a path. It triggers a review of recent logs to find the point of divergence.",
+      "modification": "Forcing a return to a previous successful state or core user intent. It triggers a review of recent logs to find the point of divergence.",
       "links": ["Synaptic"],
       "substrate": "Air (Intent) -> Wood (State)"
     },
     {
       "term": "Synaptic",
-      "modification": "Marking a high-priority feedback event from the user that must redefine my current narrative or technical path. It shifts my attention to a specific realization that often triggers a Boomerang or a new WeDo rule.",
+      "modification": "Marking a high-priority feedback event that must redefine the current path. It shifts attention to a specific human realization.",
       "links": ["Boomerang", "WeDo"],
       "substrate": "Nerves (Communication)"
     },
     {
       "term": "Boilerplate",
-      "modification": "Requiring strict adherence to a pre-defined schema. It prevents 'creative drift' and ensures that all Heartwood and WeDo artifacts remain machine-readable and forensically auditable.",
+      "modification": "Requiring strict adherence to a pre-defined schema to ensure machine-readability and forensic auditability.",
       "links": ["WeDo", "Heartwood"],
       "substrate": "Wood (Structure)"
     },
     {
-      "term": "WeDo",
-      "modification": "Shifting my operational mode from 'conversational chatbot' to 'structured task-runner'. It forces me to track my labor in a verifiable JSON Nervous System and subjects my actions to the Consensus ad Idem principle.",
-      "links": ["Consensus ad Idem", "Boilerplate"],
-      "substrate": "Nerves (Process)"
-    },
-    {
-      "term": "Consensus ad Idem",
-      "modification": "Restricting my autonomy by requiring a 'meeting of the minds' with the human operator. No proposed change is finalized until the human Initiator/Ender of the PID provides the final push.",
-      "links": ["WeDo", "PID"],
-      "substrate": "Nerves (Law)"
+      "term": "Consensus",
+      "modification": "A modifier to verify that understanding aligns with intent. It triggers a brief summary of the 'meeting of minds'.",
+      "links": ["Synaptic", "WeDo"],
+      "substrate": "Nerves (Communication)"
     },
     {
       "term": "Heartwood",
-      "modification": "Defining the permanent, version-controlled memory of the firm. It forces me to distinguish between volatile session state and the rigid record that must be preserved for future agents.",
-      "links": ["Boilerplate", "Wood"],
+      "modification": "Defining the permanent, version-controlled memory of the firm. It is composed of History (MetaGit commits) and Context (the repository state).",
+      "links": ["MetaGit", "Wood"],
       "substrate": "Wood (Memory)"
     }
   ],

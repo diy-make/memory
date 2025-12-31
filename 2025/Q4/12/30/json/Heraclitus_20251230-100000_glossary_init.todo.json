@@ -1,0 +1,35 @@
+{
+  "wedo_instance": {
+    "id": "GLOSSARY-INIT",
+    "title": "Session Task: Legislative Glossary Initialization",
+    "description": "Establish the vocabulary of modifying words and ensure human oversight of definitions.",
+    "tasks": [
+      {
+        "id": "GLOS-01",
+        "description": "Create glossary_boilerplate.todo.json schema.",
+        "status": "[x]"
+      },
+      {
+        "id": "GLOS-02",
+        "description": "Draft initial glossary.json with modifying terms.",
+        "status": "[x]"
+      },
+      {
+        "id": "GLOS-03",
+        "description": "Create py/format_heartwood.py for user-friendly terminal output.",
+        "status": "[x]"
+      },
+      {
+        "id": "GLOS-04",
+        "description": "Present refined Glossary straightup for User review.",
+        "status": "[x]"
+      },
+      {
+        "id": "GLOS-05",
+        "description": "Obtain explicit User approval of definitions.",
+        "status": "[ ]"
+      }
+    ],
+    "attribution": "Heraclitus (20251230-100000)"
+  }
+}
