@@ -9,8 +9,9 @@ import argparse
 __version__ = "V0.8.2_fEbfclvj"
 
 CORE_FILE_CHECKSUMS = {
-    "README.ai": "bd5b2736ed487234f9169d53f74f04848abfa3e3b97cebba87abc9bc94caa557",
-    "README.md": "0f10c1ff9bd0144a1fb389c28f727b349ab7823a19a35aeee2aca8ce74775da9",
+    "README.ai.json": "e5d40f3abeaf805288b5a2e241c3b2bbe8de1f75bfcfb7bcc2fa1af39478f4d7",
+    "README.md": "02d1fba6285a6d6fc03029d5ff5df3b52d2e898191ab571fa11fee330e7b30d8",
+    "requirements.txt": "1bcf79ff3bb074ae623f72804b2404863e24ce856e8c4c3762f3102ddfcededd",
     "json/local_paths.json": "3c46f16ea7deffaaaede72c14843d2bf0d5b427e7e5e5917f85bd4ee692234fb",
     "json/rules/swarm_protocol.json": "2611d24ac52ce620ecf0cd6bb5ca911769052619aacd2e30fb0961ce2623c2f8",
     "json/principles/agent_virtues.json": "4fbfd2378a4bb8d778636908ad7ba35ae24a0a499372701d926d4ca951ca7b96",
