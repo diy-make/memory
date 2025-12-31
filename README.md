@@ -164,12 +164,11 @@ These protocols govern the creation and refinement of narrative and technical do
 3. **Meta-Management:**
    - **Protocol:** `repos/diy-make/memory/public/json/wedo/meta_wedo.todo.json`
 
-### GitHub Management
-Protocols for managing remote state, pull requests, and repository-wide documentation integrity.
+### Meta-Management
+Protocols for managing the swarm's own legislative DNA and operational rules.
 
-1. **GitHub Sync (Planned):**
-   - **Reference:** `repos/google/gemini-cli/scripts/`
-   - **Objective:** Keeping our bespoke MetaGit aligned with the official CLI evolution.
+1. **Meta-WeDo Protocol:**
+   - **Protocol:** `repos/diy-make/memory/public/json/wedo/meta_wedo.todo.json`
 
 ---
 **POWERED BY THE GEMINI METAGIT ORCHESTRATION LAYER.** 
