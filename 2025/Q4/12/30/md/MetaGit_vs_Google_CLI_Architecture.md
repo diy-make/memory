@@ -98,12 +98,16 @@ Through Node.js orchestration, the CLI is transformed from a static line of text
 
 ### 10. Collaborative Dynamics: The Human Signature
 
-The most profound difference is the **Final Action** of the Git lifecycle. While Google’s demos highlight autonomous task execution, the **MetaGit protocol forbids autonomous pushing**. 
+The most profound difference is the **Final Action** of the Git lifecycle. While Google’s demos highlight autonomous task execution, the **MetaGit protocol forbids autonomous pushing**.
 
-In our system, the agent creates the commit (the "thought"), but the **Human pushes the branch (the "action")**. 
+In our system, the agent creates the commit (the "thought"), but the **Human pushes the branch (the "action")**.
 
 This is an **Accountability Signature**. The human "signs" the agent's work by executing the final push, providing the final impulse of neg-entropy required for release and ensuring no autonomous loop can pollute the Heartwood without a conscious observer.
 
+![74-kleon-documents-heavy-machinery-operator-interface.jpg](../../29/jpg/74-kleon-documents-heavy-machinery-operator-interface.jpg)
+*The Operator Interface: Liability and control remain firmly in the human hand.*
+
+## 🟢 Visual Evidence
 ## 🟢 Conclusion & Vision
 
 Google has built a magnificent **Voice** for the AI. We have built a **Memory**. 
