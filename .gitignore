@@ -13,3 +13,4 @@ png/*.png
 !png/[0-9]*.png
 png/DO_NOT_MOVE_source_of_truth_only/
 png/DO_NOT_MOVE_source_of_truth_only/
+json/client_secret.json
