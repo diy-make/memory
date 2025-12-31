@@ -44,7 +44,7 @@
       {
         "id": "START-05",
         "name": "Initialize Session ToDo",
-        "description": "Create a session ToDo file in the day's chrono-fractal json/ directory using the meta_wedo.todo.json template.",
+        "description": "Create a session todo.json file in the day's chrono-fractal directory. These nerves are rendered 'straightup' via py/format_todo.py.",
         "priority": "high",
         "status": "[ ]"
       },
