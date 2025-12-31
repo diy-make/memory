@@ -1,0 +1,20 @@
+{
+  "wedo_instance": {
+    "id": "GLOSSARY-BOILERPLATE",
+    "title": "WeDo Template: Heartwood Glossary Schema",
+    "description": "Governs the definition of the 'modifying words' that shape agent behavior and swarm alignment.",
+    "rules": {
+      "modifying_definitions": "Definitions must explicitly state how the word changes the agent's behavior or processing mode.",
+      "interlinking": "Each definition should mention at least one other glossary term that works in tandem with it.",
+      "legislative_fidelity": "Terms must be mapped to their role in the MetaGit (Wood), Nervous System (Nerves), or User Interface (Paper).",
+      "direct_aesthetic": "Present definitions 'straightup' without backtick wrappers."
+    },
+    "structure": {
+      "term": "The word or phrase being defined.",
+      "modification": "How this word modifies the agent's behavior.",
+      "links": "Related terms within the glossary.",
+      "substrate": "The layer it inhabits (Wood/Nerves/Air/Paper)."
+    },
+    "attribution": "Heraclitus (20251230-100000)"
+  }
+}

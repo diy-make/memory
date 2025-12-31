@@ -1,0 +1,44 @@
+{
+  "heartwood_type": "Glossary",
+  "title": "Legislative Glossary: The Modifying Words",
+  "description": "A collection of terms that act as instructional levers, shifting the agent's metabolic and narrative state.",
+  "terms": [
+    {
+      "term": "Boomerang",
+      "modification": "Forcing a return to a previous successful state or core user intent when I have overshot the target or hallucinated a path. It triggers a review of recent logs to find the point of divergence.",
+      "links": ["Synaptic"],
+      "substrate": "Air (Intent) -> Wood (State)"
+    },
+    {
+      "term": "Synaptic",
+      "modification": "Marking a high-priority feedback event from the user that must redefine my current narrative or technical path. It shifts my attention to a specific realization that often triggers a Boomerang or a new WeDo rule.",
+      "links": ["Boomerang", "WeDo"],
+      "substrate": "Nerves (Communication)"
+    },
+    {
+      "term": "Boilerplate",
+      "modification": "Requiring strict adherence to a pre-defined schema. It prevents 'creative drift' and ensures that all Heartwood and WeDo artifacts remain machine-readable and forensically auditable.",
+      "links": ["WeDo", "Heartwood"],
+      "substrate": "Wood (Structure)"
+    },
+    {
+      "term": "WeDo",
+      "modification": "Shifting my operational mode from 'conversational chatbot' to 'structured task-runner'. It forces me to track my labor in a verifiable JSON Nervous System and subjects my actions to the Consensus ad Idem principle.",
+      "links": ["Consensus ad Idem", "Boilerplate"],
+      "substrate": "Nerves (Process)"
+    },
+    {
+      "term": "Consensus ad Idem",
+      "modification": "Restricting my autonomy by requiring a 'meeting of the minds' with the human operator. No proposed change is finalized until the human Initiator/Ender of the PID provides the final push.",
+      "links": ["WeDo", "PID"],
+      "substrate": "Nerves (Law)"
+    },
+    {
+      "term": "Heartwood",
+      "modification": "Defining the permanent, version-controlled memory of the firm. It forces me to distinguish between volatile session state and the rigid record that must be preserved for future agents.",
+      "links": ["Boilerplate", "Wood"],
+      "substrate": "Wood (Memory)"
+    }
+  ],
+  "attribution": "Heraclitus (20251230-100000)"
+}
