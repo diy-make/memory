@@ -1,0 +1,59 @@
+{
+  "title": "Heraclitus Todo - 2025-12-29/30",
+  "meta": {
+    "agent": "Heraclitus",
+    "session_id": "20251229-184235",
+    "status": "ongoing"
+  },
+  "tasks": [
+    {
+      "id": "WEDO-01",
+      "description": "Complete Swarm Bootup",
+      "status": "[x]"
+    },
+    {
+      "id": "WEDO-02",
+      "description": "Diagnose ixventure.studio SSL error (526 - Cloudflare Full/Strict mismatch)",
+      "status": "[x]"
+    },
+    {
+      "id": "WEDO-03",
+      "description": "Verify ixventure.studio resolution (Site Operational)",
+      "status": "[x]"
+    },
+    {
+      "id": "WEDO-04",
+      "description": "Update Monthly_Strategic_Synthesis_Dec_2025.md",
+      "status": "[x]",
+      "subtasks": [
+        {
+          "id": "WEDO-04a",
+          "description": "Integrated 2021 PubPub reference ('more WeDo than AL')",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-04b",
+          "description": "Documented '7-turn quickening' SeedTree onboarding velocity (~26 minutes active)",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-04c",
+          "description": "Formalized 'Instructional Garbage Collection' ($rec = false) and 'Hot-Swapping' logic",
+          "status": "[x]"
+        }
+      ]
+    },
+    {
+      "id": "WEDO-05",
+      "description": "Review pending jobs in swarm_comms",
+      "status": "[x]"
+    },
+    {
+      "id": "WEDO-06",
+      "description": "Transition ToDo system to JSON",
+      "status": "[x]",
+      "command": "python3 py/format_todo.py"
+    }
+  ],
+  "attribution": "Heraclitus (20251230-100000)"
+}

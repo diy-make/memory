@@ -6,27 +6,25 @@
     "_0": {
       "type": "Root",
       "identity": "App Kernel (PID)",
-      "responsibility": "Hosts the primary V8 runtime and core HSD methods: .tie(), .syn(), .log().",
-      "example": "window._0"
+      "responsibility": "The singular entry point for runtime access. Hosts the core HSD methods.",
+      "runtime_access": "_0"
     },
     "_1": {
-      "type": "Branch",
-      "identity": "Functional Tool (e.g., read_file)",
-      "responsibility": "Defines the high-level objective and manages shared state for all nested sub-functions.",
-      "nesting": "Grafted onto _0 via _0.tie()."
+      "type": "Script-Local Branch",
+      "identity": "Function/Tool Context",
+      "responsibility": "A relative variable used within a script to define the current tool's scope. Multiple _1 exist across different scripts.",
+      "runtime_resolution": "_0.functionName.$n"
     },
     "_2": {
-      "type": "Leaf",
-      "identity": "Operational Sub-Function (e.g., capture)",
-      "responsibility": "Executes specific sub-tasks (I/O, API calls) and synchronizes results back to the _1 branch.",
-      "nesting": "Grafted onto _1 via _0.tie() inside _1's instructions."
-    },
-    "_n": {
-      "type": "Recursive Node",
-      "identity": "Infinite Depth Component",
-      "responsibility": "Enables arbitrary complexity while maintaining a flat topography of addressable memory (loci).",
-      "nesting": "Each _n level instructions contain the tie/syn logic for _n+1."
+      "type": "Script-Local Leaf",
+      "identity": "Operational Context",
+      "responsibility": "Used within _1 to manage sub-functions.",
+      "runtime_resolution": "_0.functionName.$n.subFunction.$m"
     }
+  },
+  "runtime_mapping": {
+    "principle": "The variable _1 is a script-level handle that maps to a uniquely addressable path in the _0 runtime tree based on function name and instance count ($n).",
+    "formula": "Script(_1) == Runtime(_0.<functionName>.<$instanceCount>)"
   },
   "principles": {
     "function_pair": "Every node consists of a Program (the logic) and an Asset (the data constructor).",

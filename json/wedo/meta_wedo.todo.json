@@ -1,0 +1,33 @@
+{
+  "wedo_instance": {
+    "id": "META-PROTOCOL",
+    "description": "Governs the maintenance and evolution of the Metagit's legislative DNA (JSON/WeDo templates).",
+    "status": "[ ]",
+    "meta": {
+      "protocol": "WeDo-JSON",
+      "version": "1.0.0"
+    },
+    "rules": {
+      "accumulation": "Word count must ALWAYS increase in each iteration.",
+      "temporal_instance": "Never work in global templates; copy to day's json/ directory.",
+      "audit_scrutiny": "List all changes/requests from source for verifiable history.",
+      "active_investigation": "Verify artifact existence on localhost before inclusion.",
+      "dual_referencing": "Reference both localhost paths and remotehost URLs.",
+      "audit_trail_linking": "Daily session WeDos MUST link to specific project WeDos to maintain a forensic audit trail.",
+      "direct_aesthetic": "Present reports 'straightup' without backtick wrappers."
+    },
+    "tasks": [
+      {
+        "id": "META-01",
+        "description": "Audit all json/wedo/ templates against the Golden Rules.",
+        "status": "[ ]"
+      },
+      {
+        "id": "META-02",
+        "description": "Synchronize schema updates across all active WeDo instances.",
+        "status": "[ ]"
+      }
+    ]
+  },
+  "attribution": "Heraclitus (20251230-100000)"
+}

@@ -1,0 +1,60 @@
+{
+  "title": "WeDo Template: Image Journaling Protocol (Rules Pseudolanguage)",
+  "description": "Distilling raw visual artifacts (.png, .jpg) from the inbox into the temporal Heartwood via iterative metabolic loops.",
+  "storage_policy": {
+    "global_template": "repos/diy-make/memory/public/json/wedo/image_journal.todo.json",
+    "temporal_instance": "repos/diy-make/memory/public/<YEAR>/Q<N>/<MONTH>/<DAY>/json/<AGENT>_<SESSION>_image_journal.todo.json",
+    "mandate": "Always copy the global template to the day's chrono-fractal json/ directory before starting work."
+  },
+  "required_files": {
+    "formatter": "py/format_todo.py",
+    "meta_protocol": "repos/diy-make/memory/public/json/wedo/meta_wedo.todo.json"
+  },
+  "process_protocol": {
+    "source_inbox": "repos/diy-make/memory/inbox/png/",
+    "loop_instructions": "For each artifact in source_inbox, execute the following WeDo sequence:",
+    "steps": [
+      {
+        "id": "STEP-00",
+        "action": "Display ToDo",
+        "command": "python3 py/format_todo.py <path_to_instance.json>",
+        "description": "Print the current task list directly to the session feed for user review."
+      },
+      {
+        "id": "STEP-01",
+        "action": "Analyze & Post",
+        "description": "Perform vision analysis on the artifact. Post a high-fidelity summary of the content and realization to the session feed 'straightup' for human-in-the-loop (HITL) oversight."
+      },
+      {
+        "id": "STEP-02",
+        "action": "Heartwood Graft",
+        "command": "cp [artifact] repos/diy-make/memory/public/[YEAR]/Q[N]/[MONTH]/[DAY]/[ext]/",
+        "description": "Copy the artifact to its chronological destination. Use png/ for .png and jpg/ for .jpg. Verify the move via 'Active Investigation' rule."
+      },
+      {
+        "id": "STEP-03",
+        "action": "Journal Hardening",
+        "command": "cat [narrative] >> daily_image_journal.md",
+        "description": "Append the descriptive entry to the daily image journal (.md) using monotonic growth principles."
+      },
+      {
+        "id": "STEP-04",
+        "action": "Inbox Clearance",
+        "command": "mv [source_artifact] repos/diy-make/memory/inbox/png/journaled/",
+        "description": "Once hardening is verified, move the raw source file to the 'journaled/' sub-folder to clear the inbox for the next loop."
+      }
+    ]
+  },
+  "rules": {
+    "monotonic_growth": "Journal word count must only increase.",
+    "active_investigation": "Verify existence of artifacts on localhost before inclusion.",
+    "dual_referencing": "Reference both localhost paths and remotehost URLs."
+  },
+  "task_structure": {
+    "id": "IMG-[IDX]",
+    "status": "[ ]",
+    "description": "[Synthesis of the Visual Event]",
+    "artifact_path": "[Heartwood Path]"
+  },
+  "attribution": "Heraclitus (20251230-100000)"
+}

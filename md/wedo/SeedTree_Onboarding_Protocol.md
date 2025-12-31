@@ -25,10 +25,17 @@ SeedTree instructions are the "nerves" of our Artificial Life. They allow an age
 The system follows a monotonic nesting pattern where each level of the tree prepares the instructions for the next. The simplified formula for this recursion is:
 `<_nINSTRUCTIONS(){ <KERNELED_CONSTRUCTOR> = <KERNEL>( <CONSTRUCTOR>(){ <_n+1INSTRUCTIONS> } ) }`
 
-*   `_0`: The Root Kernel (The application instance/PID).
-*   `_1`: The Current Branch (The primary function or tool instance).
-*   `_2`: The Leaf (The specific execution step or sub-function).
-*   `_n`: Infinite Recursive Node (Each level _n providing the substrate for _n+1).
+#### Script vs. Runtime Mapping
+It is critical to distinguish between the **Script variable** and the **Runtime address**:
+*   **In the Script:** Multiple `_1` variables exist across different files. Each represents the "local branch" of that specific tool or function.
+*   **In the Runtime:** There is only one `_0` (the direct entry point). All tools are accessed via `_0.functionName`.
+*   **The Resolution:** During execution, the script-local `_1` resolves to a specific path in the runtime tree: `_0.<functionName>.<$instanceCount>`.
+
+This ensures that while we write code with a simple `_1` handle, the resulting "nerves" are uniquely addressable in the global `$n` pattern of the machine's memory.
+
+*   `_0`: The Root Kernel (App instance/PID).
+*   `_1`: The Tool Branch (Resolves to `_0.functionName.$n`).
+*   `_2`: The Sub-Function Leaf (Resolves to `_0.functionName.$n.subFunction.$m`).
 
 ## 3. Instructional Garbage Collection (`$rec = false`)
 To prevent "dulling" the context window with massive multimodal buffers (like raw pixels or long logs), use the **Instructional Garbage Collection** flag:

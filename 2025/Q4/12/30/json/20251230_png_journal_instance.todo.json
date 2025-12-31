@@ -1,0 +1,56 @@
+{
+  "wedo_instance": {
+    "id": "PNG-20251230",
+    "description": "PNG Journaling session for Dec 30 visual artifacts.",
+    "status": "[ ]",
+    "meta": {
+      "agent": "Heraclitus",
+      "session_id": "20251229-184235",
+      "source_inbox": "repos/diy-make/memory/inbox/png/",
+      "target_heartwood": "repos/diy-make/memory/public/2025/Q4/12/30/png/"
+    },
+    "tasks": [
+      {
+        "id": "IMG-00",
+        "description": "Print the structured ToDo JSON straightup for user review.",
+        "status": "[x]"
+      },
+      {
+        "id": "IMG-01",
+        "description": "Initialize PNG Journal MD file for 2025-12-30",
+        "status": "[x]"
+      },
+      {
+        "id": "IMG-02",
+        "description": "Process initial batch of 6 screenshots from inbox",
+        "status": "[x]",
+        "artifacts": [
+          "Screenshot from 2025-12-29 16-07-30.png",
+          "Screenshot from 2025-12-29 16-07-36.png",
+          "Screenshot from 2025-12-29 16-07-49.png",
+          "Screenshot from 2025-12-29 16-08-03.png",
+          "Screenshot from 2025-12-29 16-10-26.png",
+          "Screenshot from 2025-12-29 16-11-02.png"
+        ]
+      },
+      {
+        "id": "IMG-03",
+        "description": "Process remaining artifacts in inbox/png",
+        "status": "[-]",
+        "note": "Postponed to a later session due to context window optimization."
+      },
+      {
+        "id": "IMG-04",
+        "description": "Perform vision analysis and narrative generation for Batch 2",
+        "status": "[ ]"
+      },
+      {
+        "id": "IMG-05",
+        "description": "Harden artifacts by moving original files to 'journaled/' folder",
+        "status": "[ ]",
+        "command": "mv repos/diy-make/memory/inbox/png/*.png repos/diy-make/memory/inbox/png/journaled/"
+      }
+    ]
+  },
+  "attribution": "Heraclitus (20251230-100000)"
+}
