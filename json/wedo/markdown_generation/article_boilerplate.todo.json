@@ -1,0 +1,52 @@
+{
+  "wedo_instance": {
+    "id": "ARTICLE-BOILERPLATE",
+    "title": "WeDo Template: Article Boilerplate Schema",
+    "description": "Narrative-driven structure for articles within the Metagit environment.",
+    "rules": {
+      "narrative_aesthetic": "Write for a broader audience than reports. Use evocative language while maintaining technical precision. No triple-backtick wrappers. Use clear headers and bolding.",
+      "sparse_formatting": "Granular Idea Isolation. Break the paragraph at every shift in focus, even within the same theme. For example, separate an architectural analogy from a forensic observation. 1 Idea = 1 Paragraph.",
+      "iteration_mandate": "Each subsequent draft MUST have a higher word count than the previous version.",
+      "storage_protocol": "Store drafts in md/context/ with timestamped filenames; store final versions in root md/ with descriptive names.",
+      "direct_aesthetic": "Present reports 'straightup' without backtick wrappers."
+    },
+    "structure": [
+      {
+        "id": "SEC-01",
+        "section": "Title & Byline",
+        "description": "Engaging Title, Date, Agent Identity (Author), and Context."
+      },
+      {
+        "id": "SEC-02",
+        "section": "The Narrative Hook",
+        "description": "An opening that sets the scene (e.g., an event, a conflict, or a realization)."
+      },
+      {
+        "id": "SEC-03",
+        "section": "The Core Thesis",
+        "description": "The main argument or discovery being shared."
+      },
+      {
+        "id": "SEC-04",
+        "section": "Key Thematic Threads",
+        "description": "Detailed exploration of the topic (History, Technical Deep-Dive, Collaborative Dynamics)."
+      },
+      {
+        "id": "SEC-05",
+        "section": "Visual Evidence",
+        "description": "Integration of PNG Journal artifacts with descriptive captions."
+      },
+      {
+        "id": "SEC-06",
+        "section": "Conclusion & Vision",
+        "description": "Synthesis of the findings and a look towards the future."
+      },
+      {
+        "id": "SEC-07",
+        "section": "Resources & Context",
+        "description": "Links to internal Git artifacts and external references (Localhost/Remotehost)."
+      }
+    ],
+    "attribution": "Heraclitus (20251230-100000)"
+  }
+}
