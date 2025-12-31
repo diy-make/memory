@@ -14,6 +14,7 @@
       "active_investigation": "Verify artifact existence on localhost before inclusion.",
       "dual_referencing": "Reference both localhost paths and remotehost URLs.",
       "audit_trail_linking": "Daily session WeDos MUST link to specific project WeDos to maintain a forensic audit trail.",
+      "versioning_archival": "When updating Markdown documents, always rename the previous version and move it to the local context/ directory (e.g., <AGENT>_<SESSION>_<NAME>_v<OLD>.md) before establishing the new version in the primary md/ location.",
       "direct_aesthetic": "Present reports 'straightup' without backtick wrappers."
     },
     "tasks": [
