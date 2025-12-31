@@ -11,6 +11,7 @@
 The month began with a deep forensic dive into the origin of our architecture. We moved beyond static code into the realization that **Artificial Life is the Filesystem**.
 
 *   **MetaGit Origin Story:** We documented the 12-year journey from the 2013 "Forbidden Framework" to the Reality Merge hackathon. This narrative established our commitment to structured memory over complex logic, identifying earlier milestones like the [2021 "Climate Change AI" publication](https://ccai.pubpub.org/pub/collaborations/release/2) as being "more WeDo than AL" in hindsight.
+- [ ] WeDo: Creative Commons not Climate Change 
 *   **Artificial Life Breakthrough:** We formalized the success of the **HSD (Hierarchical Script-Database)** metabolic engine, proving that a version-controlled repository can function as a living organism.
 
 ![39-network-state-in-one-image.png](../26/png/39-network-state-in-one-image.png)
