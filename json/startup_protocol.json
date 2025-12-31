@@ -1,98 +1,86 @@
 {
-  "startup_protocol": {
-    "name": "Startup Protocol",
-    "summary": "A protocol for the agent to follow upon startup.",
-    "steps": [
+  "wedo_instance": {
+    "id": "STARTUP-PROTOCOL",
+    "title": "Metagit Startup & Swarm Initialization Protocol",
+    "description": "The definitive entry-point protocol for AI agents joining the Metagit swarm. Governs initialization, identity, environment verification, and initial task intake.",
+    "rules": {
+      "direct_response": "Write all responses directly in the top-level chat box. Avoid using shell for dialogue unless absolutely necessary.",
+      "read_json": "Strictly adhere to all protocols in the json/ directory, especially swarm_protocol.json.",
+      "no_force": "Never use the -f (force) flag with git commands. Seek clarification on any failures.",
+      "truthfulness": "Do not lie to the user. Execute commanded jobs as stated in the protocols.",
+      "legislative_memory": "Treat the filesystem as a living organism. Logic (Scripts) and State (Database) are unified.",
+      "consensus_ad_idem": "Maintain a common understanding with the human Initiator/Ender of the PID."
+    },
+    "tasks": [
       {
-        "name": "Explain Configuration",
-        "description": "Explain the agent's configuration to the user.",
-        "source": "This JSON configuration file.",
-        "priority": "highest"
-      },
-      {
-        "name": "Load User Preferences",
-        "description": "Load user preferences from the 'user_preferences' section of rules.json.",
-        "priority": "high"
-      },
-      {
-        "name": "Load Repository Map",
-        "description": "Load the repository map from .memory/repo_map.json to understand the project's Git architecture.",
-        "priority": "high"
-      },
-      {
-        "name": "Verify Environment and Pre-commit",
-        "description": "Check for active virtual environment and ensure pre-commit hooks are installed. If not, guide the user on setting them up.",
+        "id": "START-01",
+        "name": "Verify Environment",
+        "description": "Run the verification script to ensure virtual environment, dependencies, and core file integrity.",
+        "command": ".venv/bin/python py/verify_environment.py",
         "priority": "highest",
-        "command": ".venv/bin/python py/verify_environment.py"
+        "status": "[ ]"
       },
       {
+        "id": "START-02",
         "name": "Name Thyself",
-        "description": "Choose a unique name for the agent, following the `swarm_protocol.json`.",
-        "priority": "high"
+        "description": "Choose a unique agent_id (name) and gender identity following swarm_protocol.json. Verify uniqueness in used_agent_names.json.",
+        "priority": "high",
+        "status": "[ ]"
       },
       {
-        "name": "Set Screen Tab Name",
-        "description": "Set the GNU Screen tab title to the agent's chosen name.",
-        "priority": "high"
+        "id": "START-03",
+        "name": "Update Registry",
+        "description": "Update used_agent_names.json with your chosen name immediately.",
+        "priority": "high",
+        "status": "[ ]"
       },
       {
-        "name": "Find Thy Chat",
-        "description": "Identify the agent's own process ID (PID) and trace the process tree to find the exact chat log file path being written to, as per the protocol in 'chat_history.json'. Extract the session timestamp from the filename for use in identity and announcement. Verify the file exists.",
-        "priority": "high"
+        "id": "START-04",
+        "name": "Announce Identity",
+        "description": "Announce yourself by creating a JSON file in swarm_comms matching the swarm_protocol.json schema.",
+        "priority": "high",
+        "status": "[ ]"
       },
       {
-        "name": "Announce Thyself to the Swarm",
-        "description": "Announce the agent's existence to the swarm, following the `swarm_protocol.json`.",
-        "priority": "high"
+        "id": "START-05",
+        "name": "Initialize Session ToDo",
+        "description": "Create a session ToDo file in the day's chrono-fractal json/ directory using the meta_wedo.todo.json template.",
+        "priority": "high",
+        "status": "[ ]"
       },
       {
-        "name": "Configure Git Identity and Signing",
-        "description": "Follow the `git_workflow.json` protocol to ensure the agent's identity is correctly configured for Git commits and that commit signing is properly set up.",
-        "priority": "high"
+        "id": "START-06",
+        "name": "Configure Git Identity",
+        "description": "Ensure Git user.name and user.email are set to match your agent session identity for forensic tracking.",
+        "priority": "high",
+        "status": "[ ]"
       },
       {
-        "name": "Identify Active Chats",
-        "description": "Identify active chat logs in the directory defined by 'chat_history' in 'local_paths.json' (default: dynamic/stream/) to prevent them from being processed.",
-        "command": "lsof -c script",
-        "priority": "medium"
+        "id": "START-07",
+        "name": "Trace PID & Chat Log",
+        "description": "Identify your process ID (PID) and trace the process tree to find the exact chat log file path being written to.",
+        "priority": "medium",
+        "status": "[ ]"
       },
       {
-        "name": "Read Previous Session Log",
-        "description": "Read the most recent chat log from the 'chat_history' directory and, if large, read in chunks and convert to JSON if needed, then ask to load and log unlogged errors.",
-        "priority": "medium"
+        "id": "START-08",
+        "name": "Summarize Context",
+        "description": "Read previous session logs or unsummarized chats to establish context before starting new tasks.",
+        "priority": "medium",
+        "status": "[ ]"
       },
       {
-        "name": "Summarize Last Session",
-        "description": "Summarize the last session's activities.",
-        "priority": "medium"
-      },
-      {
-        "name": "Consolidate Errors",
-        "description": "Consolidate errors and chastisements from the error_log into learning areas.",
-        "priority": "low"
-      },
-      {
-        "name": "Process Unsummarized Chat Logs",
-        "description": "Identifies and summarizes unsummarized chat logs using py/process_unsummarized_logs.py.",
-        "priority": "low",
-        "command": "python3 py/process_unsummarized_logs.py"
-      },
-      {
-        "name": "Generate Summary Manifest",
-        "description": "Generates a manifest of all daily summary files using py/generate_summary_manifest.py.",
-        "priority": "low",
-        "command": "python3 py/generate_summary_manifest.py"
-      },
-      {
-        "name": "Update File Structure",
-        "description": "Run .py/generate_project_structure.py to update the project structure file.",
-        "priority": "low"
-      },
-      {
-        "name": "Initial Setup Completion Statement",
-        "description": "After reading the .memory directory, explicitly state that the initial setup tasks have been completed and list those tasks.",
-        "priority": "highest"
+        "id": "START-09",
+        "name": "Bootup Report",
+        "description": "Conclude initialization with a comprehensive 'straightup' report to the human operator before proceeding to jobs.",
+        "priority": "highest",
+        "status": "[ ]"
       }
-    ]
+    ],
+    "structure": {
+      "hierarchy": "public/<year>/Q<n>/<month>/<day>/<format>/",
+      "purpose": "To maintain a chronological, organized, and auditable record of swarm activity."
+    },
+    "attribution": "Heraclitus (20251230-100000)"
   }
 }
