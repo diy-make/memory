@@ -1,0 +1,40 @@
+{
+  "title": "Heartwood Artifact Map",
+  "version": "1.0",
+  "description": "A hierarchical index of all JSON artifacts within the Heartwood, tracking their status and last human review.",
+  "generated_at": "2025-12-31T14:30:00Z",
+  "root_path": "repos/diy-make/memory/public/json/",
+  "artifacts": [
+    {
+      "path": "glossary.json",
+      "status": "active",
+      "last_human_review": "2025-12-31",
+      "tags": ["core", "legislative"]
+    },
+    {
+      "path": "../../2025/Q4/12/31/json/json_plus_py_pattern.json",
+      "status": "active",
+      "last_human_review": "2025-12-31",
+      "tags": ["architectural", "pattern"]
+    },
+    {
+      "path": "configuration/memory_repo_structure.json",
+      "status": "active",
+      "last_human_review": "2025-12-31",
+      "tags": ["configuration", "eukaryotic"]
+    },
+    {
+      "path": "configuration/memory_metagit_map.json",
+      "status": "active",
+      "last_human_review": "2025-12-31",
+      "tags": ["index", "mapping"]
+    },
+    {
+      "path": "../../2025/Q4/12/31/json/audit_log.json",
+      "status": "active",
+      "last_human_review": "2025-12-31",
+      "tags": ["audit", "review"]
+    }
+  ],
+  "attribution": "Anaximander (20251231-135827)"
+}

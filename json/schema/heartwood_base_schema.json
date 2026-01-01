@@ -1,0 +1,29 @@
+{
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Heartwood Base Schema Specification",
+  "description": "Universal schema definitions for Metagit JSON artifacts, enforcing array-based collections and unique identification.",
+  "definitions": {
+    "named_item": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["name"]
+    },
+    "identified_item": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["id"]
+    }
+  },
+  "artifact_requirements": [
+    "version",
+    "attribution",
+    "title"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "DSPy Screenshot Organizer Module",
+  "description": "Module for renaming and archiving session screenshots into chrono-fractal directories.",
+  "config": {
+    "module_name": "dspy_screenshot_organizer",
+    "script_path": "py/dspy_screenshot_organizer.py",
+    "inputs": ["source_png_dir"],
+    "outputs": ["status"]
+  }
+}

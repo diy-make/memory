@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Linguistic & Naming Conventions",
+  "principle": "In directory and file naming, preference is given to the singular form unless the plural form is essential for clarity.",
+  "rules": [
+    "Use \"json/\" instead of \"jsons/\"",
+    "Use \"md/\" instead of \"mds/\"",
+    "Collective nouns like \"dotfiles/\" are acceptable.",
+    "Eukaryotic collectives (inbox/, trash/) remain singular to reflect their status as single-subject organisms."
+  ]
+}

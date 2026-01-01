@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Swarm Startup & Initialization Protocols",
+  "protocols": {
+    "startup_protocol": {
+      "wedo_instance": {
+        "id": "STARTUP-PROTOCOL",
+        "title": "Metagit Startup & Swarm Initialization Protocol",
+        "description": "The definitive entry-point protocol for AI agents joining the Metagit swarm.",
+        "rules": {
+          "direct_response": "Write all responses directly in the top-level chat box.",
+          "read_json": "Strictly adhere to all protocols in the json/ directory.",
+          "no_force": "Never use the -f flag with git commands.",
+          "truthfulness": "Do not lie to the user.",
+          "legislative_memory": "Treat the filesystem as a living organism.",
+          "consensus_ad_idem": "Maintain a common understanding with the human Initiator."
+        },
+        "tasks": [
+          {
+            "id": "START-01",
+            "name": "Verify Environment",
+            "command": ".venv/bin/python py/verify_environment.py",
+            "status": "[x]"
+          },
+          {
+            "id": "START-02",
+            "name": "Name Thyself",
+            "status": "[x]"
+          }
+        ]
+      }
+    },
+    "local_paths": {
+      "chat_history": "dynamic/stream/",
+      "swarm_comms": "repos/diy-make/memory/comms/",
+      "used_agent_names": "repos/diy-make/memory/used_agent_names.json",
+      "memory_json": "repos/diy-make/memory/public/json/"
+    }
+  }
+}

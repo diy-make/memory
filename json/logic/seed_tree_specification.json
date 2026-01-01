@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "SeedTree Recursive Grammar Specification",
+  "description": "Foundational HSD logic for monotonic instruction nesting and instructional garbage collection.",
+  "grammar": {
+    "nodes": {
+      "_0": "Root Kernel (Application Instance)",
+      "_1": "Branch (Primary Function)",
+      "_2": "Leaf (Execution Step)",
+      "_n": "Infinite Recursive Node"
+    },
+    "recursion_formula": "<_nINSTRUCTIONS(){ <KERNELED_CONSTRUCTOR> = <KERNEL>( <CONSTRUCTOR>(){ <_n+1INSTRUCTIONS> } ) }",
+    "garbage_collection": {
+      "flag": "this.$rec = false",
+      "description": "Instructs the kernel not to record the result of the branch into permanent history, preventing memory bloat."
+    }
+  }
+}

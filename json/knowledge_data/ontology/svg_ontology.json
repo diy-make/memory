@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "SVG & Generative Geometry Ontology",
+  "description": "Best practices for generating complex, layered vector graphics and coordinate system management.",
+  "principles": {
+    "coordinate_system": {
+      "origin": "Top-left (0,0)",
+      "rule": "Translate centered geometric constructions to top-left system via post-processing offset."
+    },
+    "sanitization": {
+      "rule": "Application-safe IDs: Remove special characters (#) from layer names to prevent Inkscape/Parsing errors."
+    },
+    "rendering_performance": {
+      "strategy": "Hybrid Rendering: Pattern-based overlays for high-density layers; individual elements for detail-layers.",
+      "metrics": ["tile_count", "boundary_size"]
+    },
+    "safety": {
+      "rule": "Generative Capping: Pre-calculate complexity and cap layer generation to prevent heap-exhausting file sizes."
+    }
+  }
+}

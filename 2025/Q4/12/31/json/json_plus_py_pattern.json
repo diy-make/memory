@@ -1,0 +1,36 @@
+{
+  "title": ".json+.py Architectural Pattern Store",
+  "description": "A registry of instances where structured data stores (.json) are paired with user-friendly display scripts (.py) sharing the same name and path.",
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "pattern_definition": {
+    "logic": ".json files serve as the rigid, versioned 'nerves' of the system.",
+    "interface": ".py scripts serve as the 'paper', sharing the exact same path and name as the data store."
+  },
+  "instances": [
+    {
+      "id": "JPP-01",
+      "name": "Audit Log",
+      "path": "repos/diy-make/memory/public/2025/Q4/12/31/json/audit_log",
+      "purpose": "Renders JSON audit results as enjoyable CLI lists."
+    },
+    {
+      "id": "JPP-02",
+      "name": "Heartwood Map",
+      "path": "repos/diy-make/memory/public/2025/Q4/12/31/json/heartwood_map",
+      "purpose": "Indexes and displays the status of all JSON artifacts."
+    },
+    {
+      "id": "JPP-03",
+      "name": "Memory Metagit Map",
+      "path": "repos/diy-make/memory/public/json/configuration/memory_metagit_map",
+      "purpose": "Indexes the eukaryotic memory/ structure."
+    },
+    {
+      "id": "JPP-04",
+      "name": "Glossary",
+      "path": "repos/diy-make/memory/public/json/glossary",
+      "purpose": "Displays the modifying words and legislative definitions."
+    }
+  ]
+}

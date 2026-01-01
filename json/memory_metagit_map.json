@@ -1,0 +1,27 @@
+{
+  "title": "Metagit Map: Memory (Chrono-Fractal)",
+  "version": "1.0",
+  "description": "A forensic index of the eukaryotic memory/ repository, mapping git-managed logic and cloud-synced blobs.",
+  "root": "repos/diy-make/memory/",
+  "mappings": [
+    {
+      "path": "public/2025/Q4/12/31/json/",
+      "type": "heartwood",
+      "status": "active",
+      "contains": ["audit_log.json", "heartwood_map.json"]
+    },
+    {
+      "path": "webm/",
+      "type": "substrate",
+      "status": "active",
+      "description": "Cloud-synced video/binary storage."
+    },
+    {
+      "path": "comms/",
+      "type": "nerves",
+      "status": "deprecated",
+      "notes": "Awaiting refactor to chrono-fractal structure."
+    }
+  ],
+  "attribution": "Anaximander (20251231-135827)"
+}

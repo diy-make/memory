@@ -1,0 +1,49 @@
+{
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Domain-Specific Knowledge Ontology",
+  "description": "Consolidated definitions for core technical and conceptual domains within the Ixventure ecosystem.",
+  "domains": {
+    "memory_concepts": {
+      "summary": "Differentiation of 'memory' across system, application, and domain levels.",
+      "types": [
+        {
+          "name": "System Memory",
+          "description": "Physical RAM/VRAM managed by MemoryManager class."
+        },
+        {
+          "name": "Application-Level Memory",
+          "description": "Data structures held in runtime memory (V8/Python/C++)."
+        },
+        {
+          "name": "Domain-Specific Memory",
+          "description": "Conceptual memory representing domain knowledge or search trees."
+        }
+      ]
+    },
+    "gemini_integration": {
+      "summary": "Patterns for Gemini API and class-based model management."
+    },
+    "root_concepts": {
+      "summary": "Polysemous definitions of 'root' across filesystem, AI, and infrastructure (Terraform)."
+    },
+    "bim_concepts": {
+      "name": "Building Information Modeling (BIM)",
+      "summary": "Collaborative AEC digital representation standards."
+    },
+    "hsd_concepts": {
+      "name": "Hierarchical Script-Database (HSD)",
+      "summary": "Patent-pending system representing the logic of Ixventure.studio.",
+      "definitions": [
+        {
+          "name": "HSD",
+          "description": "The filesystem as a living database governed by scripts."
+        },
+        {
+          "name": "Metagit vs HSD",
+          "description": "Metagit is the orchestration layer; HSD is the structural methodology."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,982 @@
+{
+  "title": "Chrono Review: JSON Store Audit",
+  "agent": "Anaximander",
+  "session_id": "20251231-135827",
+  "entries": [
+    {
+      "id": "01",
+      "path": "project_structure.json",
+      "recommendation": "KEEP (as newly structured)",
+      "decision": "RENAME to memory_repo_structure.json",
+      "rationale": "Corrected eukaryotic definition: memory/ is a Subject for its logs and an Object for its leaf-passthrough (public/ or private/).",
+      "user_reasons": "memory/ is the GDrive layer; webm/ replaces big_files/; inbox/ is for unorganized files.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "EUKARYOTIC",
+        "GDRIVE_LAYER",
+        "EXCLUSIVE_LEAF",
+        "DEPRECATED: md/"
+      ]
+    },
+    {
+      "id": "02",
+      "path": "metadata_schema/schema.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Bootstrap artifact superseded by dedicated schema/ branch.",
+      "user_reasons": "Followed agent recommendation.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "BOOTSTRAP"
+      ]
+    },
+    {
+      "id": "03",
+      "path": "metadata_schema/file_architecture/*",
+      "recommendation": "MOVE + EDIT + DELETE PARENT",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Collapsed deep fragmentation into a single schema. This adheres to Hierarchy Proportion principles.",
+      "user_reasons": "User recorded trepidations: fragmented files may help less capable models focus context, but agreed that for high-capability sessions, this leads to bloat.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "HIERARCHY BLOAT",
+        "USER TREPIDATION RECORDED"
+      ]
+    },
+    {
+      "id": "04",
+      "path": "job_takeover_protocol.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (MOVE & REFINE)",
+      "rationale": "Moved to rules/ and updated \"unclean\" language to dynamic/stream/ standards.",
+      "user_reasons": "The image journal and memory/ repo were created as a workaround for the difficulty of cleaning streams in .chat/ (deprecated). This path led to the metagit as a self-reflective AL solution.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "CORE PROTOCOL",
+        "TERMINOLOGY_DEPRECATED"
+      ]
+    },
+    {
+      "id": "05",
+      "path": "personality/personality.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (MOVE & REFINE)",
+      "rationale": "Relocated to principles/ and expanded with swarm-specific traits.",
+      "user_reasons": "Add a WEDO to make it less generic and mention it beside glossary as helpful user info in startup.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "OVERLY GENERIC"
+      ]
+    },
+    {
+      "id": "BULK-01",
+      "path": "startup/*, local_paths.json, knowledge_data/*",
+      "recommendation": "CONSOLIDATE",
+      "decision": "BULK CONSOLIDATION",
+      "rationale": "Autonomous cleanup of single-key fragments. Merged startup protocols, error handling, and knowledge base into logical group-files.",
+      "user_reasons": "Consolidate single key:value json with agent discretion.",
+      "flags": [
+        "HIERARCHY BLOAT REDUCED",
+        "AUTONOMOUS CLEANUP"
+      ]
+    },
+    {
+      "id": "07",
+      "path": "rules/submodule_handling.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (MOVE & REFINE)",
+      "rationale": "Moved to git_methodology/ and added recursive commit logic.",
+      "user_reasons": "Followed agent recommendation.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "METAGIT CORE"
+      ]
+    },
+    {
+      "id": "08",
+      "path": "rules/code_generation_policy.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged root fragments into session_behavior/ branch.",
+      "user_reasons": "Followed agent recommendation.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "09",
+      "path": "rules/chat_history.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged root chat_history and LIFO principle into session_behavior/. Corrected format to .txt and deprecated .chat/.",
+      "user_reasons": "Followed agent recommendation; confirmed log format is exclusively .txt.",
+      "flags": [
+        "POTENTIALLY REDUNDANT",
+        "CORE LOGIC",
+        "TERMINOLOGY_CORRECTED"
+      ]
+    },
+    {
+      "id": "BULK-02",
+      "path": "rules/swarm_protocol/*, rules/git_methodology/*, rules/session_behavior/*, principles/agent_virtues/*, principles/data_and_interfaces/*",
+      "recommendation": "CONSOLIDATE",
+      "decision": "BULK CONSOLIDATION (STAGE 2)",
+      "rationale": "Collapsed hundreds of fragmented rules and principles into unified branch-files. This significantly reduces hierarchy bloat while preserving all legislative logic.",
+      "user_reasons": "Consolidate single key:value json with agent discretion.",
+      "flags": [
+        "HIERARCHY BLOAT REDUCED",
+        "AUTONOMOUS CLEANUP",
+        "LEGISLATIVE CONSOLIDATION"
+      ]
+    },
+    {
+      "id": "10",
+      "path": "rules/singular_plural_ambiguity.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (MOVE & REFINE)",
+      "rationale": "Created principles/naming_conventions.json. Added Eukaryotic singular-logic.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "11",
+      "path": "configuration/parsing_config/noise_patterns.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Added metadata and versioning. Preserved location as it fits configuration/ well.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "UTILITY"
+      ]
+    },
+    {
+      "id": "12",
+      "path": "configuration/programming_legalese_mcp.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Preserved as a core MCP definition. Added versioning and aligned with SeedTree standards.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "MCP",
+        "CORE"
+      ]
+    },
+    {
+      "id": "13",
+      "path": "configuration/summarization_template.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (MOVE & REFINE)",
+      "rationale": "Moved to knowledge_data/ as it serves as a logic reference rather than session config. Added versioning.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "TEMPLATE",
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "14",
+      "path": "configuration/verified_repositories.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Core trust registry. Added metadata and refined eukaryotic notes.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "SECURITY"
+      ]
+    },
+    {
+      "id": "15",
+      "path": "domain_specific_knowledge.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (MOVE & REFINE)",
+      "rationale": "Relocated to knowledge_data/ and renamed to ontology.json. Added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "ONTOLOGY",
+        "POLYSYMY"
+      ]
+    },
+    {
+      "id": "16",
+      "path": "glossary.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Legislative backbone. Added metadata and integrated new terms (Post-mortem, .json+.py, Chrono Versioning).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "17",
+      "path": "job_takeover_protocol.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant copy of Entry 04 (now in rules/).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "18",
+      "path": "knowledge_data/bim_concepts/aec.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json to reduce fragmentation.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT",
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "19",
+      "path": "knowledge_data/bim_concepts/bimhero_io.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json to reduce fragmentation.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT",
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "20",
+      "path": "knowledge_data/bim_concepts/bim.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json to reduce fragmentation.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT",
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "21",
+      "path": "knowledge_data/documentation_standards/format.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Added metadata and placed in standards/ sub-directory.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "STANDARDS"
+      ]
+    },
+    {
+      "id": "22",
+      "path": "knowledge_data/documentation_standards/purpose.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into standards/format.json to reduce single-key bloat.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "23",
+      "path": "knowledge_data/domain_specific_ontology.json",
+      "recommendation": "KEEP",
+      "decision": "KEEP",
+      "rationale": "New consolidated node. Serves as the domain truth.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "ONTOLOGY",
+        "CONSOLIDATED"
+      ]
+    },
+    {
+      "id": "24",
+      "path": "knowledge_data/gemini_integration/configuration.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "25",
+      "path": "knowledge_data/gemini_integration/gemini_class.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "26",
+      "path": "knowledge_data/gemini_integration/gemini_model_class.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "27",
+      "path": "knowledge_data/memory_concepts/application_level_memory.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "28",
+      "path": "knowledge_data/memory_concepts/domain_specific_memory.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "29",
+      "path": "knowledge_data/memory_concepts/system_memory.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "30",
+      "path": "knowledge_data/process_improvements.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Historical record of improvements. Relocated to history/ sub-directory.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HISTORY",
+        "IMPROVEMENT"
+      ]
+    },
+    {
+      "id": "31",
+      "path": "knowledge_data/session_tricks.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Created standards/agent_ops.json to house operational tactics. Added versioning.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "TACTICAL",
+        "STANDARDS"
+      ]
+    },
+    {
+      "id": "32",
+      "path": "knowledge_data/root_concepts/data_structures.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json to eliminate fragment.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "33",
+      "path": "knowledge_data/root_concepts/file_system.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "34",
+      "path": "knowledge_data/root_concepts/game_ai_search.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "35",
+      "path": "knowledge_data/root_concepts/terraform.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "36",
+      "path": "knowledge_data/root_concepts/ui_frontend.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "37",
+      "path": "knowledge_data/session_tricks.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant copy of Entry 31 (now in standards/agent_ops.json).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "38",
+      "path": "knowledge_data/standards/agent_ops.json",
+      "recommendation": "KEEP",
+      "decision": "KEEP",
+      "rationale": "New consolidated operational tactic node.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "TACTICAL",
+        "STANDARDS"
+      ]
+    },
+    {
+      "id": "39",
+      "path": "knowledge_data/standards/format.json",
+      "recommendation": "KEEP",
+      "decision": "KEEP",
+      "rationale": "New consolidated formatting standard node.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "STANDARDS",
+        "FORMATTING"
+      ]
+    },
+    {
+      "id": "40",
+      "path": "knowledge_data/summarization_template.json",
+      "recommendation": "KEEP",
+      "decision": "KEEP",
+      "rationale": "Correctly relocated knowledge node.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "41",
+      "path": "knowledge_data/svg_learnings.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Elevated to domain ontology. Added metadata and refined logic structure.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "ONTOLOGY",
+        "SVG"
+      ]
+    },
+    {
+      "id": "42",
+      "path": "knowledge_data/svg_learnings/summary.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into svg_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "43",
+      "path": "knowledge_data/svg_learnings/principles/application_safe_ids.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into svg_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "44",
+      "path": "knowledge_data/svg_learnings/principles/coordinate_system_management.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into svg_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "45",
+      "path": "knowledge_data/svg_learnings/principles/generative_capping.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into svg_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "46",
+      "path": "knowledge_data/svg_learnings/principles/hybrid_rendering_for_performance.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into svg_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "47",
+      "path": "knowledge_data/svg_learnings.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant root-fragment superseded by refined ontology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "48",
+      "path": "local_paths.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Moved to configuration/ and added metadata. Critical for session path-finding.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "CONFIGURATION"
+      ]
+    },
+    {
+      "id": "49",
+      "path": "SeedTree_Recursive_Grammar.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Moved to logic/ and expanded into a full specification. Core AL foundation.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LOGIC"
+      ]
+    },
+    {
+      "id": "50",
+      "path": "philosophy/gem_process.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Moved to principles/philosophy/ and added metadata. Defines the \"Shared Thread\" foundation.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "PHILOSOPHY",
+        "SINGULARITY"
+      ]
+    },
+    {
+      "id": "51",
+      "path": "memory_metagit_map.json",
+      "recommendation": "KEEP",
+      "decision": "KEEP",
+      "rationale": "New session artifact mapping the eukaryotic memory layer.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "MAP",
+        "EUKARYOTIC"
+      ]
+    },
+    {
+      "id": "52",
+      "path": "metadata_schema/file_architecture/benefits.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into file_architecture_schema.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "53",
+      "path": "metadata_schema/file_architecture/examples.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into file_architecture_schema.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "54",
+      "path": "metadata_schema/file_architecture/indexing_principle.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into file_architecture_schema.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "55",
+      "path": "metadata_schema/file_architecture.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant root-fragment superseded by consolidated schema.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "56",
+      "path": "metadata_schema/file_architecture/name.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into file_architecture_schema.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "57",
+      "path": "metadata_schema/file_architecture/principle.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into file_architecture_schema.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "58",
+      "path": "metadata_schema/file_architecture/purpose.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (CONSOLIDATE)",
+      "rationale": "Merged into file_architecture_schema.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "59",
+      "path": "metadata_schema/project_structure.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant bootstrap artifact superseded by memory_repo_structure.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE",
+        "BOOTSTRAP"
+      ]
+    },
+    {
+      "id": "60",
+      "path": "metadata_schema/schema.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Elevated to core schema specification. Added versioning and unified requirements.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "SCHEMA"
+      ]
+    },
+    {
+      "id": "61",
+      "path": "personality/personality.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant personality fragment superseded by Entry 05.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "62",
+      "path": "philosophy/gem_process.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (DELETE)",
+      "rationale": "Redundant copy of Entry 50.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "10",
+      "path": "configuration/modules/dspy_modules/dspy_screenshot_organizer.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Relocated to logic/modules/ and added versioning.",
+      "flags": [
+        "MODULE",
+        "DSPY"
+      ]
+    },
+    {
+      "id": "11",
+      "path": "configuration/modules/workflows/daily_reporting_workflow.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Relocated to logic/workflows/. Updated deprecated terminology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "WORKFLOW",
+        "TERMINOLOGY_DEPRECATED"
+      ]
+    },
+    {
+      "id": "12",
+      "path": "configuration/parsing_config/noise_patterns.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Metadata updated in previous turn. File is stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "STABLE",
+        "UTILITY"
+      ]
+    },
+    {
+      "id": "13",
+      "path": "configuration/programming_legalese_mcp.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Relocated to principles/ branch to align with other legislative artifacts.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "MCP",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "14",
+      "path": "configuration/summarization_template.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of Entry 13 (now in knowledge_data/summarization_template.json).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "15",
+      "path": "configuration/verified_repositories.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core trust registry. Stable and metadata-compliant.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "16",
+      "path": "domain_specific_knowledge.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of Entry 15 (now in knowledge_data/domain_specific_ontology.json).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "17",
+      "path": "glossary.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core legislative glossary. Metadata updated in previous turn.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "18",
+      "path": "job_takeover_protocol.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of Entry 04 (now in rules/job_takeover_protocol.json).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "19",
+      "path": "knowledge_data/bim_concepts/aec.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "20",
+      "path": "knowledge_data/bim_concepts/bimhero_io.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "21",
+      "path": "knowledge_data/bim_concepts/bim.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "22",
+      "path": "knowledge_data/documentation_standards/format.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of Entry 21 (now in standards/format.json).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "23",
+      "path": "knowledge_data/documentation_standards/purpose.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into standards/format.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "24",
+      "path": "knowledge_data/domain_specific_ontology.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core consolidated ontology node. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE",
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "25",
+      "path": "knowledge_data/gemini_integration/configuration.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "26",
+      "path": "knowledge_data/gemini_integration/gemini_class.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into Entry 24.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "27",
+      "path": "knowledge_data/gemini_integration/gemini_model_class.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into Entry 24.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "28",
+      "path": "knowledge_data/history/process_improvements.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core historical record. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "HISTORY"
+      ]
+    },
+    {
+      "id": "29",
+      "path": "knowledge_data/memory_concepts/application_level_memory.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "30",
+      "path": "knowledge_data/memory_concepts/domain_specific_memory.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    }
+  ],
+  "wedo_tasks": [
+    "Convert all existing md/ content in memory/public/ to .json",
+    "Convert memory/comms/ into the proper chrono-fractal / type-attribution structure.",
+    "Create a metagit_map specifically for the chrono-fractal memory/ directory (stored in memory/public/).",
+    "Refine personality.json and integrate it into the startup ending message as helpful user info."
+  ]
+}

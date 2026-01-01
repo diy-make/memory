@@ -1,4 +1,8 @@
 {
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Log Noise Filtering Patterns",
+  "description": "Regex and string patterns used to strip CLI artifacts and redundant terminal output from session logs.",
   "noise_patterns": [
     "Script started on",
     "Loaded cached credentials.",
@@ -30,8 +34,6 @@
     "Giving Cloudy a pat on the head...",
     "⠋|⠙|⠹|⠸|⠼|⠴|⠦|⠧|⠇|⠏|esc to cancel",
     "\u001b]2;Gemini - gemini\u0007",
-    "[NORMAL]",
     "Queued (press .* to edit):"
-  ],
-  "path_to_scripting": "This JSON file defines a list of regular expressions or strings that are considered 'noise' in chat logs or other text-based inputs. A script (e.g., `process_unsummarized_logs.py` or a general log cleaning utility) would read this file and use its contents to filter out irrelevant information. This ensures that the agent's LLM is presented with clean, relevant data for processing, improving efficiency and accuracy. The patterns themselves are not executable, but they are crucial input for a cleaning script."
+  ]
 }

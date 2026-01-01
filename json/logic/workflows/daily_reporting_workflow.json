@@ -1,0 +1,16 @@
+{
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Daily Reporting Workflow Specification",
+  "description": "The standard process for summarizing session logs and archiving them in the Heartwood.",
+  "workflow": {
+    "name": "Daily Reporting",
+    "steps": [
+      "Identify raw .txt logs in dynamic/stream/ (formerly .chat/unclean/ - DEPRECATED).",
+      "Generate structured JSON summaries via dspy_chat_summarizer.",
+      "Consolidate into Daily Summary Markdown via dspy_daily_summary_generator.",
+      "Commit to chrono-fractal directory structure.",
+      "Archive processed streams."
+    ]
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "summary_template": {
-    "name": "Hierarchical Hourly Summary",
-    "description": "A template for generating a hierarchical summary of chat logs, with an hourly breakdown of conversations.",
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Hierarchical Hourly Summary Template",
+  "description": "Template for generating hierarchical chrono-fractal summaries of chat logs.",
+  "template": {
     "structure": {
       "year": {
         "quarter": {
@@ -13,7 +15,7 @@
                     "hour": "HH:00",
                     "conversation": [
                       {
-                        "speaker": "user/gemini",
+                        "speaker": "user/agent",
                         "utterance": "..."
                       }
                     ]

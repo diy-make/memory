@@ -1,0 +1,44 @@
+{
+  "version": "1.5",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Data Standards & Universal Interfaces",
+  "content": {
+    "universal_interface": {
+      "name": "Text as Universal Interface (Unix Philosophy)",
+      "rule": "Treat text streams as a universal interface for interoperability.",
+      "path_to_scripting": "This is a core architectural principle that is implemented in the agent's command execution engine. The agent's tools are designed to accept text as input and to produce text as output. This allows the agent to chain tools together, using the text output of one tool as the text input to another. This is a fundamental part of the agent's design and is not a standalone script."
+    },
+    "timestamp_organization": {
+      "name": "Timestamp as a Universal Organizing Principle",
+      "rule": "Organize all data that has the capacity for a timestamp by its timestamp. This provides a universal, chronological structure for all data types.",
+      "rationale": "Timestamps provide a consistent and predictable way to organize and retrieve data, regardless of its type. This is especially important for time-series data like chat logs and for creating summaries over different time periods.",
+      "path_to_scripting": "This rule is a foundational principle for data organization. It is implemented through a set of conventions and scripts that are used throughout the agent's workflow. For example, all chat logs are named with a timestamp, and all summary files are organized by date. A script could be created to periodically scan the filesystem and ensure that all files that have a timestamp are correctly named and organized. This script would help to maintain the chronological integrity of the agent's memory."
+    },
+    "hierarchy_proportion": {
+      "name": "Hierarchy Proportion",
+      "rule": "Aim for a 'shallow' hierarchy. Avoid structures that are completely flat or excessively steep (deeply nested).",
+      "path_to_scripting": "This rule can be implemented as a linter or a static analysis script that runs on the JSON files in the agent's memory. The script would parse each JSON file and calculate the maximum depth of the JSON tree. If the depth exceeds a certain threshold, the script would flag the file and suggest that it be refactored into a shallower structure. This would be a valuable tool for maintaining the quality and consistency of the agent's memory."
+    },
+    "summarization_strategy": {
+      "name": "Summarization from Refined Data",
+      "rule": "When summarizing information, always start with the most refined and structured data available (e.g., JSON summaries). Work backwards to less structured data (e.g., cleaned chunks, raw logs) only when necessary for additional detail. Avoid processing raw logs if summaries are available.",
+      "rationale": "This approach is more efficient and less prone to context window overruns. It leverages the structured data that has already been processed and summarized.",
+      "path_to_scripting": "This rule can be implemented as a script that the agent uses to summarize information. The script would first search for a JSON summary file. If one is found, it would be used as the basis for the summary. If not, the script would search for cleaned text chunks. If those are not available, it would fall back to processing the raw logs. This script would be a key component of the agent's summarization capabilities, and would be used in tasks such as generating daily reports or summarizing chat sessions."
+    },
+    "polysemous_terms": {
+      "name": "Polysemous Terms",
+      "rule": "Be aware of terms that have multiple meanings depending on the context. When encountering such a term, consult `domain_specific_knowledge.json` or ask for clarification to ensure correct interpretation.",
+      "examples": [
+        "root",
+        "memory"
+      ],
+      "path_to_scripting": "This rule can be implemented as a pre-processing step before the agent's LLM processes a user's prompt. A script would scan the prompt for any terms that are listed in the 'examples' of this rule. If a polysemous term is found, the script would retrieve the different meanings of that term from the `domain_specific_knowledge.json` file. This information would then be provided to the LLM as part of the context for the prompt, helping the LLM to disambiguate the user's intent."
+    },
+    "structured_data": {
+      "name": "Structured Data",
+      "rule": "Use tree structures (like JSON) whenever possible. Avoid unstructured formats.",
+      "alternative": "If not tree structures, use modular syntax such as Ix's programming legalese.",
+      "path_to_scripting": "This rule is a foundational principle for the agent's data handling. It's not a single script, but a set of conventions and tools that are used throughout the agent's workflow. For example, the agent's memory is stored in JSON files, and the agent's communication with the user is often structured as JSON. The agent's LLM can be prompted to generate data in JSON format, and the agent can use JSON schemas to validate the structure of the data it receives. The 'alternative' of using 'Ix's programming legalese' suggests a fallback to a structured text format when JSON is not appropriate."
+    }
+  }
+}

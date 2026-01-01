@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Metagit Environment Local Paths",
+  "description": "Standardized path mapping for swarm communication, memory, and logs.",
+  "local_paths": {
+    "chat_history": "dynamic/stream/",
+    "swarm_comms": "repos/diy-make/memory/comms/",
+    "used_agent_names": "repos/diy-make/memory/used_agent_names.json",
+    "memory_json": "repos/diy-make/memory/public/json/"
+  }
+}

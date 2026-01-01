@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "File Architecture Schema",
+  "description": "Consolidated schema for filetype attribution and sequential indexing principles.",
+  "principles": {
+    "filetype_attribution": {
+      "name": "Filetype Attribution with Filesystem Von Neumann Architecture",
+      "rule": "All files must reside in folders explicitly designated for their file type. No file should be stored in a generic or unrelated folder.",
+      "purpose": "Promotes a clean and organized filesystem where file types dictate their logical memory space."
+    },
+    "sequential_indexing": {
+      "name": "Sequential Indexing within File Type",
+      "rule": "Files are indexed sequentially based on processing order within their file_type. The index is continuous across subdirectories.",
+      "implementation": "Crucial for maintaining predictable order in chronological logs or structured documentation."
+    }
+  },
+  "examples": {
+    "py/": "Python scripts",
+    "md/": "Markdown files",
+    "svg/": "Scalable Vector Graphics",
+    "sh/": "Shell scripts"
+  },
+  "benefits": [
+    "Improved organization and navigability",
+    "Reduced clutter",
+    "Enhanced consistency and predictability",
+    "Facilitates automated processing"
+  ]
+}
