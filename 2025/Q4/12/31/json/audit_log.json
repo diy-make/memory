@@ -3531,6 +3531,119 @@
       "flags": [
         "HIERARCHY BLOAT"
       ]
+    },
+    {
+      "id": "261",
+      "path": "rules/recovery/broken_instance_protocol/post_mortem_analysis/6_update_swarm_with_report.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "262",
+      "path": "rules/recovery/broken_instance_protocol/reporting_procedure/1_create_communication_file.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "263",
+      "path": "rules/recovery/broken_instance_protocol/reporting_procedure/2_message_should_include.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "264",
+      "path": "rules/recovery/broken_instance_protocol/reporting_procedure/3_list_of_chat_log_files.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "265",
+      "path": "rules/recovery/broken_instance_protocol/reporting_procedure/4_specific_errors.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "266",
+      "path": "rules/session_behavior/chat_history.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core session behavior node. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "267",
+      "path": "rules/session_behavior/code_generation_policy.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core code generation policy. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "268",
+      "path": "rules/swarm_protocol/rules/commit_process.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "269",
+      "path": "rules/error_handling_protocols.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core error handling node. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "270",
+      "path": "rules/recovery/fatal_error_protocol/1_identify_the_fatal_error.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
     }
   ],
   "wedo_tasks": [
