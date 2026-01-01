@@ -971,6 +971,119 @@
       "flags": [
         "DUPLICATE"
       ]
+    },
+    {
+      "id": "31",
+      "path": "knowledge_data/memory_concepts/system_memory.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "32",
+      "path": "knowledge_data/ontology/svg_ontology.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core domain ontology. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "ONTOLOGY"
+      ]
+    },
+    {
+      "id": "33",
+      "path": "knowledge_data/process_improvements.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of Entry 28 (now in history/process_improvements.json).",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "34",
+      "path": "knowledge_data/root_concepts/data_structures.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "35",
+      "path": "knowledge_data/root_concepts/file_system.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "36",
+      "path": "knowledge_data/root_concepts/game_ai_search.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "37",
+      "path": "knowledge_data/root_concepts/terraform.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "38",
+      "path": "knowledge_data/root_concepts/ui_frontend.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into domain_specific_ontology.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "39",
+      "path": "knowledge_data/session_tricks.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into standards/agent_ops.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "40",
+      "path": "knowledge_data/standards/agent_ops.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core operational tactic node. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE",
+        "TACTICAL"
+      ]
     }
   ],
   "wedo_tasks": [
