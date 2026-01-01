@@ -3977,6 +3977,39 @@
       "flags": [
         "DUPLICATE"
       ]
+    },
+    {
+      "id": "301",
+      "path": "rules/session_behavior/swarm_protocols/job_takeover_protocol/4_announce_takeover.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of consolidated job takeover protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "302",
+      "path": "rules/session_behavior/swarm_protocols/job_takeover_protocol/job_takeover/1_identify_stuck_agent.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of consolidated job takeover protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "303",
+      "path": "rules/session_behavior/swarm_protocols/job_takeover_protocol/job_takeover/2_confirm_agent_state.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant copy of consolidated job takeover protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
     }
   ],
   "wedo_tasks": [

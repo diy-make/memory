@@ -3,7 +3,7 @@
   "meta": {
     "agent": "Anaximander",
     "session_id": "20251231-135827",
-    "status": "ongoing"
+    "status": "paused"
   },
   "tasks": [
     {
@@ -35,6 +35,11 @@
           "id": "WEDO-03c",
           "description": "Initial Metagit Commit of Audit State",
           "status": "[ ]"
+        },
+        {
+          "id": "WEDO-03d",
+          "description": "Handover to next agent at Entry 304",
+          "status": "[x]"
         }
       ]
     }
