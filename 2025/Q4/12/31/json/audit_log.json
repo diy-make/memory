@@ -1531,6 +1531,116 @@
       "flags": [
         "DUPLICATE"
       ]
+    },
+    {
+      "id": "81",
+      "path": "principles/agent_error_log/20251025_200800_missing_python_dependency.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "82",
+      "path": "principles/agent_error_log/20251025_203800_unnecessary_echo_for_communication.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "83",
+      "path": "principles/agent_error_log/20251025_234000_repeated_commit_attempts.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "84",
+      "path": "principles/agent_error_log/20251102_100000_resource_exhausted_api_errors.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "85",
+      "path": "principles/agent_error_log/20251112_035500_trailing_newline_failure.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "86",
+      "path": "principles/agent_error_log/20251128_132000_git_signing_assumption.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "87",
+      "path": "principles/agent_error_log/20251128_135500_git_diff_misunderstanding.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "88",
+      "path": "principles/agent_error_log/20251128_140000_git_status_misinterpretation.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "89",
+      "path": "principles/agent_error_log/20251129_170000_hallucinated_user_input.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "90",
+      "path": "principles/agent_error_log/20251222_124458_ender_paradox_destruction.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into forensic history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
     }
   ],
   "wedo_tasks": [
