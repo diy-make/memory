@@ -1,18 +1,11 @@
 {
-  "name": "Memory Architecture",
-  "summary": "Principles governing the agent's memory system, particularly its Git-based architecture.",
-  "principles": [
-    {
-      "name": "Subject-Object Git System",
-      "description": "The agent's memory is implemented as a subject-object Git system. 'Subject' Git repositories contain actual, versioned content, while 'Object' Git repositories act as containers or 'passthroughs' for other repositories, ignoring their subdirectories via .gitignore. This creates a fractal, decentralized, and hierarchical memory.",
-      "low_latency_requirement": "Due to the memory system's low-latency requirement, big files must be stored with Google Drive via Google Cloud App API permissions, rather than Git LFS. This ensures Git remains low-latency and the memory system responsive.",
-      "related_files": [
-        "md/git_architecture.md"
-      ]
-    },
-    {
-      "name": "README.ai for Context",
-      "description": "Each Git repository, whether subject or object, must have a README.ai file that provides context to an agent. This file should describe the repository's type (subject or object), its remote sync status (Git and Google Drive), and any other relevant information for an agent to understand its purpose and state."
-    }
-  ]
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Eukaryotic Memory Architecture Principles",
+  "description": "The Subject-Object Git system and the Google Drive synchronization layer.",
+  "principles": {
+    "subject_object_duality": "Subject repos contain versioned logic; Object repos contain subjects. This creates a fractal, decentralized hierarchy.",
+    "eukaryotic_sync": "Big files and high-entropy blobs are stored via Google Drive layer to maintain Git low-latency.",
+    "context_entry": "Each repo must have a README.ai providing context on its type (Subject/Object) and sync status."
+  }
 }

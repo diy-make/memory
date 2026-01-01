@@ -1,10 +1,12 @@
 {
-  "name": "Development Process",
-  "summary": "Principles for an effective development workflow.",
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Swarm Development Process Guidelines",
+  "description": "Workflow standards for debugging, deployment, and testing.",
   "principles": [
     {
       "name": "DOM Synaptic Feedback",
-      "rule": "When debugging HTML and JavaScript issues, proactively ask the user to open the browser's console and provide any error messages. This provides crucial runtime feedback."
+      "rule": "When debugging web-layer issues, proactively solicit browser console logs from the user to establish runtime context."
     }
   ]
 }

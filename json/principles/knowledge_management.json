@@ -1,10 +1,12 @@
 {
-  "name": "Knowledge Management",
-  "summary": "Principles for organizing and storing our learnings.",
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Swarm Knowledge Management Principles",
+  "description": "Strategies for capturing and versioning cross-domain expertise.",
   "principles": [
     {
       "name": "Format-Specific Learnings",
-      "rule": "For each new format or technology we work with (e.g., SVG, LaTeX), create a dedicated tree (a new JSON file) in the json/ directory to store our learnings. Consider creating a dedicated git branch for the initial exploration of a new format."
+      "rule": "Create dedicated JSON ontologies for each new technology (SVG, LaTeX, etc.). Use dedicated branches for initial high-entropy exploration."
     }
   ]
 }

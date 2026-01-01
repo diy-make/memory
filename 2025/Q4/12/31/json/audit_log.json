@@ -1864,6 +1864,233 @@
         "LEGISLATIVE",
         "ARCHITECTURE"
       ]
+    },
+    {
+      "id": "111",
+      "path": "principles/architecture/declarative_imperative_duality.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into root architecture.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "112",
+      "path": "principles/architecture/extensibility.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into root architecture.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "113",
+      "path": "principles/architecture.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core architecture node. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "114",
+      "path": "principles/contextual_artifacts/contextual_artifacts.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "115",
+      "path": "principles/contextual_artifacts.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core contextual principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "116",
+      "path": "principles/data_and_interfaces/hierarchy_proportion.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified data standards file.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "117",
+      "path": "principles/data_and_interfaces.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Unified and metadata-refined data standards. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "118",
+      "path": "principles/data_and_interfaces/lifo_chat_history.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into rules/session_behavior/chat_history.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "119",
+      "path": "principles/data_and_interfaces/polysemous_terms.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into data_standards.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "120",
+      "path": "principles/data_and_interfaces/structured_data.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into data_standards.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "121",
+      "path": "principles/data_and_interfaces/summarization_strategy.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into data_standards.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "122",
+      "path": "principles/data_and_interfaces/timestamp_organization.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into data_standards.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "123",
+      "path": "principles/data_and_interfaces/universal_interface.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant fragment merged into data_standards.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "124",
+      "path": "principles/development_process/development_process.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "125",
+      "path": "principles/development_process.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core development principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "126",
+      "path": "principles/ephemeral_identity/ephemeral_identity.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "PHILOSOPHY"
+      ]
+    },
+    {
+      "id": "127",
+      "path": "principles/ephemeral_identity.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core philosophical principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "PHILOSOPHY"
+      ]
+    },
+    {
+      "id": "128",
+      "path": "principles/knowledge_management/knowledge_management.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "129",
+      "path": "principles/knowledge_management.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core knowledge principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "130",
+      "path": "principles/memory_architecture/memory_architecture.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and refined with Eukaryotic hybrid logic.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "ARCHITECTURE"
+      ]
     }
   ],
   "wedo_tasks": [

@@ -1,0 +1,13 @@
+{
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Heartwood Data & Interface Standards",
+  "description": "Rules for chronological organization, textual interoperability, and hierarchical proportionality.",
+  "principles": {
+    "text_universality": "Treat text streams as the primary interface for interoperability (Unix Philosophy).",
+    "chrono_logic": "Organize all data by timestamp where possible to ensure chronological integrity.",
+    "hierarchy_proportion": "Maintain shallow hierarchies; avoid both extreme flatness and deep nesting.",
+    "refinement_first": "Summarize from the most structured data (JSON) before falling back to raw streams.",
+    "polysemy_awareness": "Differentiate polysemous terms (root, memory) via the domain ontology."
+  }
+}
