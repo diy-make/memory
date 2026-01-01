@@ -12,6 +12,10 @@
 6. **Word Count:** The word count must be substantial (aiming for 800+ words) to ensure "more words" and deeper wisdom.
 
 ## Tasks
+- [ ] WeDo: BIO-[ID]-00 | Move Source JSON Artifact
+  - ID: BIO-[ID]-00
+  - Status: [ ]
+  - Description: Move the raw `gemini-conversation-[ID].json` file from the project root (`gemini/`) to the agent's chrono-fractal memory directory (`memory/public/YYYY/QN/MM/DD/json/`).
 - [ ] WeDo: BIO-[ID]-01 | Extract Quotes and Moments from .json
   - ID: BIO-[ID]-01
   - Status: [ ]

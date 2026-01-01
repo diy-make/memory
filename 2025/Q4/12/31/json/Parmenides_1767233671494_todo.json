@@ -1,0 +1,55 @@
+{
+  "title": "Parmenides Todo - 2025-12-31",
+  "meta": {
+    "agent": "Parmenides",
+    "session_id": "1767233671494",
+    "status": "active"
+  },
+  "tasks": [
+    {
+      "id": "WEDO-01",
+      "description": "Complete Swarm Initialization Protocol",
+      "status": "[x]",
+      "subtasks": [
+         {
+             "id": "WEDO-01a",
+             "description": "Verify Environment",
+             "status": "[x]"
+         },
+         {
+             "id": "WEDO-01b",
+             "description": "Name Thyself & Update Registry",
+             "status": "[x]"
+         },
+         {
+             "id": "WEDO-01c",
+             "description": "Announce Identity",
+             "status": "[x]"
+         },
+         {
+             "id": "WEDO-01d",
+             "description": "Initialize Session ToDo",
+             "status": "[x]"
+         },
+         {
+             "id": "WEDO-01e",
+             "description": "Configure Git Identity",
+             "status": "[x]"
+         }
+      ]
+    },
+    {
+      "id": "WEDO-02",
+      "description": "JSON Store Audit: Watched Automation (Entry 304+)",
+      "status": "[ ]",
+      "subtasks": [
+        {
+          "id": "WEDO-02a",
+          "description": "Process Entry 304",
+          "status": "[ ]"
+        }
+      ]
+    }
+  ],
+  "attribution": "Parmenides (1767233671494)"
+}

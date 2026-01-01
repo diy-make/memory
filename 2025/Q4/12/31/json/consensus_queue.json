@@ -1,0 +1,19 @@
+{
+  "title": "Chrono Audit: Consensus Queue",
+  "agent": "Parmenides",
+  "session_id": "1767233671494",
+  "queue": [
+    {
+      "id": "304",
+      "path": "repos/diy-make/memory/public/json/rules/job_takeover_protocol/job_takeover/3_identify_task.json",
+      "action": "DELETE",
+      "rationale": "Redundant fragment consolidated in rules/job_takeover_protocol.json."
+    },
+    {
+      "id": "305",
+      "path": "repos/diy-make/memory/public/json/rules/job_takeover_protocol/job_takeover/4_announce_takeover.json",
+      "action": "DELETE",
+      "rationale": "Redundant fragment consolidated in rules/job_takeover_protocol.json."
+    }
+  ]
+}

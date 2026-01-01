@@ -4010,6 +4010,141 @@
       "flags": [
         "DUPLICATE"
       ]
+    },
+    {
+      "id": "304",
+      "path": "rules/job_takeover_protocol/job_takeover/3_identify_task.json",
+      "recommendation": "DELETE",
+      "decision": "PENDING_CONSENSUS (Queued)",
+      "rationale": "Redundant fragment consolidated in rules/job_takeover_protocol.json.",
+      "user_reasons": "Queued for final execution.",
+      "flags": ["DUPLICATE", "HIERARCHY BLOAT"]
+    },
+    {
+      "id": "305",
+      "path": "rules/job_takeover_protocol/job_takeover/4_announce_takeover.json",
+      "recommendation": "DELETE",
+      "decision": "PENDING_CONSENSUS (Queued)",
+      "rationale": "Redundant fragment consolidated in rules/job_takeover_protocol.json.",
+      "user_reasons": "Queued for final execution.",
+      "flags": ["DUPLICATE", "HIERARCHY BLOAT"]
+    },
+    {
+      "id": "306",
+      "path": "rules/job_takeover_protocol.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Consolidated core protocol. Structure is stable.",
+      "user_reasons": "Consensus reached.",
+      "flags": ["CORE", "STABLE"]
+    },
+    {
+      "id": "307",
+      "path": "rules/mcp.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Core MCP definition for the swarm.",
+      "user_reasons": "Consensus reached.",
+      "flags": ["CORE", "STABLE"]
+    },
+    {
+      "id": "308",
+      "path": "rules/media_asset_locality.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Essential storage policy for binary blobs.",
+      "user_reasons": "Consensus reached.",
+      "flags": ["CORE", "STABLE"]
+    },
+    {
+      "id": "309",
+      "path": "rules/nested_repository_handling.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Core rule for preventing recursive Git pollution.",
+      "user_reasons": "Metagit structural integrity.",
+      "flags": ["CORE"]
+    },
+    {
+      "id": "310",
+      "path": "rules/operational_notes.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Relevant operational constraints.",
+      "user_reasons": "Operational continuity.",
+      "flags": ["STABLE"]
+    },
+    {
+      "id": "311",
+      "path": "rules/parsing_config.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Stable configuration placeholder.",
+      "user_reasons": "Technical compliance.",
+      "flags": ["STABLE"]
+    },
+    {
+      "id": "312",
+      "path": "rules/programming_legalese_mcp.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Future-proofing for the LexClinic mind.",
+      "user_reasons": "Forward-looking architecture.",
+      "flags": ["STABLE"]
+    },
+    {
+      "id": "313",
+      "path": "rules/session_behavior/agent_todo_policy.json",
+      "recommendation": "KEEP + MOVE",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Essential rule; needs update to reference json/ instead of md/.",
+      "user_reasons": "Auditability protocol.",
+      "flags": ["REFINEMENT_NEEDED"]
+    },
+    {
+      "id": "314",
+      "path": "rules/session_behavior/auto_approve_tool_calls.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Flag for tool call autonomy. Not yet consolidated.",
+      "user_reasons": "Operational control.",
+      "flags": ["LEAF_FRAGMENT"]
+    },
+    {
+      "id": "315",
+      "path": "rules/session_behavior/backup_retrieval_policy.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Core Git methodology rule.",
+      "user_reasons": "Recovery protocols.",
+      "flags": ["CORE"]
+    },
+    {
+      "id": "316",
+      "path": "rules/session_behavior/chat_history.json",
+      "recommendation": "KEEP",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "High-quality, versioned node from previous agent.",
+      "user_reasons": "Traceability standards.",
+      "flags": ["CORE", "STABLE"]
+    },
+    {
+      "id": "317",
+      "path": "rules/session_behavior/code_generation_policy/code_reduction_explanation.json",
+      "recommendation": "KEEP + CONSOLIDATE",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Valuable heuristic for auditability.",
+      "user_reasons": "Code quality standards.",
+      "flags": ["REFINEMENT_NEEDED"]
+    },
+    {
+      "id": "318",
+      "path": "rules/session_behavior/code_generation_policy/commenting_conventions.json",
+      "recommendation": "KEEP + CONSOLIDATE",
+      "decision": "APPLIED (KEPT)",
+      "rationale": "Core standard for code quality.",
+      "user_reasons": "Documentation standards.",
+      "flags": ["REFINEMENT_NEEDED"]
     }
   ],
   "wedo_tasks": [

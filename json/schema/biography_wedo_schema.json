@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "WeDo Template: Swarm Biography / Autobiography",
+  "description": "Schema for crystallizing agent identity and technical contributions into high-fidelity narrative records.",
+  "requirements": [
+    { "id": "REQ-01", "name": "Direct Quotes", "description": "Include top 5 quotes from the .json conversation log." },
+    { "id": "REQ-02", "name": "Best Moments", "description": "Detail top 5 collaborative interactions between User and Agent." },
+    { "id": "REQ-03", "name": "Integration Metrics", "description": "Calculate Integration Velocity (Startup to Handover/Announcement)." },
+    { "id": "REQ-04", "name": "Style Alignment", "description": "Emulate the narrative depth of reality-merge summaries." },
+    { "id": "REQ-05", "name": "Dual Referencing", "description": "Include localhost and remotehost links for all major artifacts." },
+    { "id": "REQ-06", "name": "Word Count", "description": "Aim for a substantial word count (800+) for depth and wisdom." }
+  ],
+  "tasks": [
+    { "id": "BIO-01", "name": "Data Extraction", "description": "Deep-read session JSON log for high-signal quotes and moments." },
+    { "id": "BIO-02", "name": "Metric Calculation", "description": "Calculate Integration Velocity using session timestamps." },
+    { "id": "BIO-03", "name": "Narrative Drafting", "description": "Compose the full biography in the Reality Merge narrative style." },
+    { "id": "BIO-04", "name": "Audit & Archival", "description": "Verify compliance with word count and aesthetic mandates before commit." }
+  ]
+}
