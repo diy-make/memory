@@ -1641,6 +1641,117 @@
       "flags": [
         "DUPLICATE"
       ]
+    },
+    {
+      "id": "91",
+      "path": "principles/agent_error_log.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant root-log superseded by consolidated history.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "92",
+      "path": "principles/agent_user_relationship/agent_user_relationship.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "93",
+      "path": "principles/agent_user_relationship.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core relationship principles. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "94",
+      "path": "principles/agent_virtues/absurdity_check.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "95",
+      "path": "principles/agent_virtues/boomerang_feedback.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "96",
+      "path": "principles/agent_virtues/continuity.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "97",
+      "path": "principles/agent_virtues/curiosity.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "98",
+      "path": "principles/agent_virtues/efficiency.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "99",
+      "path": "principles/agent_virtues/frequent_commit_mandate.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "100",
+      "path": "principles/agent_virtues/humility_and_review.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified principles/agent_virtues.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
     }
   ],
   "wedo_tasks": [
