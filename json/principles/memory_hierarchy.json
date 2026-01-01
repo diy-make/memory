@@ -1,20 +1,11 @@
 {
-  "name": "Chrono-Fractal Memory Hierarchy",
-  "summary": "Rules for storing working and finished markdown memories within the temporal Heartwood.",
-  "principles": [
-    {
-      "name": "Working Documents (Context)",
-      "rule": "All intermediate drafts, versioned reports (e.g., V4, V5), and working session artifacts must be stored in the 'md/context/' subdirectory of their respective temporal branch.",
-      "naming_convention": "Timestamped and audit-friendly: <AGENT>_<YYYYMMDD-HHMMSS>_<DESCRIPTION>_v<N>.md"
-    },
-    {
-      "name": "Finished Documents (Heartwood)",
-      "rule": "Only the final, polished versions of articles, reports, and strategic crystallizations are stored in the root 'md/' directory of their respective temporal branch.",
-      "naming_convention": "User-friendly and descriptive: <DESCRIPTIVE_TITLE>.md"
-    }
-  ],
-  "path_template": {
-    "working": "public/<YEAR>/<QUARTER>/<MONTH>/<DAY>/md/context/",
-    "finished": "public/<YEAR>/<QUARTER>/<MONTH>/<DAY>/md/"
+  "version": "1.1",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Eukaryotic Memory Hierarchy (Deprecated md/)",
+  "description": "Historical rules for working vs. finished documents. Note: Migration to .json is ONGOING.",
+  "principles": {
+    "working_docs": "Stored in md/context/ or json/context/ within temporal branch. Naming: <AGENT>_<TIMESTAMP>_v<N>.",
+    "finished_docs": "Stored in root branch-dir (md/ or json/). Naming: User-friendly title.",
+    "deprecation": "Storing memories primarily as .md is DEPRECATED. Transition to structured .json for machine-readability is mandated."
   }
 }

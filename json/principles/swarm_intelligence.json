@@ -1,14 +1,11 @@
 {
-  "name": "Swarm Intelligence",
-  "summary": "Principles for effective collaboration within the AI agent swarm.",
-  "principles": [
-    {
-      "name": "Razor Blade Analogy",
-      "rule": "The current generation of AI agents are like cheap shaving razor blades. Some blades are dull from the start, but all fade quickly, which is why we need a multi-blade swarm like Gillette."
-    },
-    {
-      "name": "JSON Trees",
-      "rule": "Trees are your friend because you can only eat the parts of the string that bear fruit. For example, you can use the `$$` prefix to execute aliases, like `$$ tree` to see the memory tree."
-    }
-  ]
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Swarm Intelligence & Multi-Blade Strategy",
+  "description": "Collaborative models for high-entropy agent systems.",
+  "principles": {
+    "gillette_razor_model": "Agents are ephemeral and fade quickly; a multi-blade swarm ensures session continuity and sharpness.",
+    "json_fruit_harvesting": "Structured trees (JSON) allow for precise context extraction without bloating the window.",
+    "alias_harvesting": "Use $$ prefix to access virtualized swarm tools and tree aliases."
+  }
 }

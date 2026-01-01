@@ -2091,6 +2091,125 @@
         "CORE",
         "ARCHITECTURE"
       ]
+    },
+    {
+      "id": "131",
+      "path": "principles/memory_architecture.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core architectural principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "132",
+      "path": "principles/memory_hierarchy.json",
+      "recommendation": "KEEP + EDIT",
+      "decision": "RECOMMENDATION (REFINE)",
+      "rationale": "Added metadata and explicit md/ deprecation notice.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "DEPRECATED: md/"
+      ]
+    },
+    {
+      "id": "133",
+      "path": "principles/naming_conventions.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core naming conventions. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "134",
+      "path": "principles/personality.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core personality principles. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "135",
+      "path": "principles/philosophy/gem_process.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core singularity principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "PHILOSOPHY"
+      ]
+    },
+    {
+      "id": "136",
+      "path": "principles/sacred_memory/sacred_memory.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata. Core legislative principle.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "137",
+      "path": "principles/sacred_memory.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core sacred principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "138",
+      "path": "principles/swarm_intelligence/swarm_intelligence.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root principles/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "139",
+      "path": "principles/swarm_intelligence.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core swarm principle. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "140",
+      "path": "rules/agent_protocols/bot_crash_protocol/1_identify_active_chat_logs.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified rules/error_handling_protocols.json.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
     }
   ],
   "wedo_tasks": [
