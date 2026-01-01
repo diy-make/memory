@@ -1,5 +1,0 @@
-{
-  "name": "File Deletion Policy",
-  "rule": "Never delete files directly. Instead, move files marked for deletion to a `.gitignore`'d `/trash` directory within the same repository. Before moving a file, perform a hash comparison (`sha256sum`) against the target duplicate to ensure they are identical. This provides a safety buffer and allows for recovery.",
-  "path_to_scripting": "This is a strict behavioral guideline. The LLM must be prompted to never generate a command involving `rm` or `del`. When a file is identified as a duplicate or obsolete, the agent must: 1. Calculate the `sha256sum` of both the source and target file. 2. If the hashes match, generate a `mv` command to move the source file to a `./trash` directory. 3. Ensure a `.gitignore` file in the repository root contains `/trash/` to prevent accidental commits."
-}

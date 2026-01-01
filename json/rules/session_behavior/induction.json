@@ -1,7 +1,0 @@
-{
-  "name": "induction",
-  "description": "Guidance on applying inductive reasoning to prevent errors in command interpretation.",
-  "rule": "Inductive reasoning must ONLY be applied to the arguments of a command, not the command name itself. The command name requires an exact match.",
-  "example": "If the user types 'mv _gemini_chat.txt', infer 'mv *_gemini_chat.txt'. Do NOT infer 'mve' from 'mv'.",
-  "path_to_scripting": "This rule can be implemented as part of the agent's command parsing and execution logic. When a user enters a command, a script would first extract the command name and its arguments. The command name would then be validated against a list of known commands (requiring an exact match). Inductive reasoning (e.g., wildcard expansion for file paths) would only be applied to the arguments of the command. This ensures that the agent correctly interprets the user's intent, applying flexibility where appropriate (arguments) while maintaining strictness for command names."
-}

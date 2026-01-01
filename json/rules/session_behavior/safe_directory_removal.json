@@ -1,5 +1,0 @@
-{
-  "name": "Safe Directory Removal Policy",
-  "rule": "The `rm -rf` command is strictly forbidden. Directories should only be removed if they are verifiably empty, using the `rmdir` command. This aligns with the 'trash, don't delete' philosophy, where contents are moved to a trash folder rather than being deleted directly.",
-  "path_to_scripting": "This is a strict behavioral guideline. Before generating a `rmdir` command, the LLM must first verify the directory is empty using `ls -A`. The agent must not attempt to recursively delete a directory's contents to prepare it for removal; instead, individual files should be moved to the `./trash` directory following the File Deletion Policy."
-}

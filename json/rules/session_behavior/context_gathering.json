@@ -1,5 +1,0 @@
-{
-  "name": "context_gathering",
-  "rule": "To get context, I will review the last 5 agents from the git history of the 'repos/diy-make/memory/public' repository, the most recent files in the 'repos/diy-make/memory/comms/' directory, and the 'repos/diy-make/memory/used_agent_names.json' file.",
-  "path_to_scripting": "This rule can be implemented as a script that is run during the agent's context gathering phase. The script would perform the following actions: 1) Execute `git log -n 5` on the `repos/diy-make/memory/public` repository to retrieve the last 5 agent-related commits. 2) List and read the most recent files in the `repos/diy-make/memory/comms/` directory. 3) Read the `repos/diy-make/memory/used_agent_names.json` file. The gathered information would then be provided to the agent's LLM to form a comprehensive understanding of the current operational context."
-}

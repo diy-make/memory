@@ -1,5 +1,0 @@
-{
-  "name": "auto_approve_tool_calls",
-  "value": true,
-  "path_to_scripting": "This JSON file defines a boolean flag that controls whether the agent automatically approves tool calls. It is not directly scriptable, but its `value` is read by the agent's main control loop. If `true`, the agent will execute tool calls without explicit user confirmation. If `false`, the agent will prompt the user for approval before executing a tool call. This is a crucial configuration for managing the agent's autonomy and user interaction."
-}
