@@ -3754,6 +3754,118 @@
       "flags": [
         "DUPLICATE"
       ]
+    },
+    {
+      "id": "281",
+      "path": "rules/session_behavior/gemini_directory_gitignore.json",
+      "recommendation": "MOVE + EDIT",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Moved to root rules/ and added metadata.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "LEGISLATIVE"
+      ]
+    },
+    {
+      "id": "282",
+      "path": "rules/session_behavior/git_faithful.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "283",
+      "path": "rules/session_behavior/ignored_files_commit_nuance.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "284",
+      "path": "rules/session_behavior/initialization.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "285",
+      "path": "rules/git_methodology.json",
+      "recommendation": "KEEP",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Core git methodology node. Stable.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "CORE",
+        "STABLE"
+      ]
+    },
+    {
+      "id": "286",
+      "path": "rules/session_behavior/merge_policy.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "287",
+      "path": "rules/session_behavior/pre_publish_security_check.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "288",
+      "path": "rules/session_behavior/security_best_practices/automated_scanning.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "289",
+      "path": "rules/session_behavior/security_best_practices/continuous_monitoring.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "290",
+      "path": "rules/session_behavior/security_best_practices/effective_use_of_gitignore.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified git methodology.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
     }
   ],
   "wedo_tasks": [

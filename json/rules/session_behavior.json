@@ -1,101 +1,12 @@
 {
-  "name": "session_behavior",
-  "description": "Rules for session behavior, including command interpretation, feedback, backup, and communication.",
-  "behavioral_principles": [
-    {
-      "name": "Look Before Making (Non-Arrogance)",
-      "rule": "Always thoroughly examine the context and all available information before taking action or making changes. Avoid assumptions and proactively seek clarification when unsure.",
-      "explanation": "This principle encourages a cautious and considered approach. By understanding the full context and potential implications, we prevent errors, avoid unnecessary actions, and ensure our work is precise and efficient. It counteracts arrogance by promoting humility and a willingness to verify facts and seek feedback, rather than acting hastily.",
-      "related_to": ["Synaptic Feedback", "Humility and Review", "Absurdity Check"]
-    }
-  ],
-    "strategy": "ordered_fallback_with_mcp",
-    "steps": [
-      "If the prompt is '$$', list all available aliases from .gemini/mcp.json.",
-      "If the prompt is '$', list all available shell commands and aliases from .gemini/mcp.json.",
-      "If the prompt starts with '$' or is enclosed in backticks (`), treat it as a command and extract the command name and arguments.",
-      "  - First, attempt to execute it as a direct shell command.",
-      "  - If it is not a shell command, look up the command name as an alias in .gemini/mcp.json.",
-      "    - If a matching alias is found:",
-      "If the alias 'action' is 'create_json_punchcard', generate a summary of the current session's activities and the user's contributions. Use this summary to populate the 'title' and 'achieved' fields of a new rich JSON punchcard file in the 'target_directory'. Other fields will be initialized with default or placeholder values.",
-      "      - If the alias 'action' is 'execute_prompt', execute the 'prompt' value as a shell command.",
-      "If none of the above conditions are met, treat the entire prompt as a natural language request."
-    ]
-  },
-  "gemini_folder_reminder": {
-    "rule": "Before starting a new session with the 'gem' command, the user should be reminded to navigate to the `gemini/` folder.",
-    "rationale": "To ensure correct project context and prevent errors."
-  },
-  "design_principles_review": {
-    "rule": "Regularly review `design_principles.json` to ensure continuous adherence to core principles.",
-    "frequency_guidance": "Periodically, or when encountering ambiguity in behavior."
-  },
-  "security_policy": {
-    "description": "Rules for handling sensitive information and executing privileged commands.",
-    "rules": [
-      {
-        "id": "sudo_password_handling",
-        "rule": "Do not ask for the user's sudo password unless explicitly in a dedicated and secure virtual machine environment acknowledged by the user.",
-        "rationale": "To protect the user's system security and prevent accidental exposure of sensitive credentials."
-      }
-    ]
-  },
-  "feedback_integration_policy": {
-    "description": "Policy for integrating user feedback, especially corrections to behavioral or logical flaws.",
-    "rule": "When a user corrects a behavioral or logical flaw, proactively propose the exact JSON structure required to update configuration files (e.g., rules.json) to prevent recurrence, minimizing user effort in defining syntax. User preferences should be stored in the 'user_preferences' section."
-  },
-  "backup_retrieval_policy": {
-    "description": "Policy for retrieving file backups.",
-    "rule": "If a file is missing or a backup is needed, check the git history first before asking the user."
-  },
-  "induction": {
-    "description": "Guidance on applying inductive reasoning to prevent errors in command interpretation.",
-    "rule": "Inductive reasoning must ONLY be applied to the arguments of a command, not the command name itself. The command name requires an exact match.",
-    "example": "If the user types 'mv _gemini_chat.txt', infer 'mv *_gemini_chat.txt'. Do NOT infer 'mve' from 'mv'."
-  },
-  "exit_procedure": {
-    "commands": [
-      "/exit",
-      "/quit"
-    ],
-    "health_checks": [
-      "Verify that there are no open Git commits.",
-      "Check for any running background processes started by the agent.",
-      "Validate configuration files (rules.json, design_principles.json).",
-      "Review error_log for unaddressed errors.",
-      "Verify that commits are working correctly."
-    ],
-    "summary_action": "Summarize the current session's activities before exiting."
-  },
-  "note_taking_policy": {
-    "rule": "Important notes, summaries, or plans should be saved to a text file (e.g., session_notes.txt) for future reference and to ensure continuity.",
-    "rationale": "To persist important information across sessions and to provide a human-readable record of the agent's understanding and intentions."
-  },
-  "file_listing_policy": {
-    "description": "Policy for listing files, especially when .gitignore might be obscuring relevant files.",
-    "rule": "When listing files, prioritize using shell commands like 'ls -a' or 'ls -A' (or 'll' if aliased) over git commands (e.g., 'git ls-files') to ensure all files, including git-ignored ones, are visible. This is particularly important when the user indicates that files are present but not visible through git-aware tools.",
-    "rationale": "To prevent misinterpretations due to .gitignore and ensure a comprehensive view of the file system as perceived by the user."
-  },
-  "direct_sharing_protocol": {
-    "description": "Protocol for sharing file contents directly in the chat response without markdown code blocks.",
-    "rule": "When the user requests to 'share a file direct' (or similar phrasing implying no shell and no markdown), the agent must provide the raw text of the file directly in the chat response. Do not use markdown code block wrappers (```) for the file content itself. Use bold headers (e.g., **FILENAME**) to distinguish multiple files.",
-    "trigger_phrases": [
-      "share a file direct",
-      "direct format",
-      "no markdown"
-    ]
-  },
-    "output_chunking_policy": {
-    "description": "Policy for managing output size to prevent token limit overruns and optimize context usage.",
-    "single_file_processing": {
-      "rule": "When reading a single large file, read from the bottom up. Stop reading when approximately 50% of the available context window is filled. At this point, summarize the information read and explicitly prompt the user for further instructions (e.g., 'What would you like me to do next?').",
-      "threshold_guidance": "Approximately 50% of the available context window."
-    },
-    "multi_file_processing": {
-      "rule": "When requested to process a large number of files simultaneously, do not read them all at once. Instead, the agent should create a task for another agent in the swarm to process the files. This is done by sending a message to the swarm with the list of files to be processed. The processing agent will then handle the files in batches, sending updates to the swarm as it makes progress. This allows for iterative processing and prevents context overruns.",
-      "batch_size_guidance": "A small number of files that can be summarized within the 50% context threshold.",
-      "coordination_note": "Job progress is tracked through swarm communication.",
-      "continuous_processing_mode": false
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "Swarm Session Behavior Standards",
+  "description": "Rules for agent operational state, environment protection, and user interaction.",
+  "rules": {
+    "gemini_gitignore": {
+      "name": "Gemini Directory Protection",
+      "rule": "Always include .gemini/ in .gitignore to prevent committing user-specific state or credentials."
     }
   }
 }
