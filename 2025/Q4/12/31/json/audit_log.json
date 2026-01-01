@@ -2320,6 +2320,116 @@
       "flags": [
         "HIERARCHY BLOAT"
       ]
+    },
+    {
+      "id": "151",
+      "path": "rules/agent_protocols/broken_instance_protocol.json",
+      "recommendation": "DELETE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Redundant root-log superseded by consolidated error handling node.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "DUPLICATE"
+      ]
+    },
+    {
+      "id": "152",
+      "path": "rules/agent_protocols/broken_instance_protocol/post_mortem_analysis/1_check_for_recursive_error.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "153",
+      "path": "rules/agent_protocols/broken_instance_protocol/post_mortem_analysis/2_get_more_context.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "154",
+      "path": "rules/agent_protocols/broken_instance_protocol/post_mortem_analysis/3_read_in_chunks.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "155",
+      "path": "rules/agent_protocols/broken_instance_protocol/post_mortem_analysis/4_analyze_extended_log.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "156",
+      "path": "rules/agent_protocols/broken_instance_protocol/post_mortem_analysis/5_identify_last_job.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "157",
+      "path": "rules/agent_protocols/broken_instance_protocol/post_mortem_analysis/6_update_swarm_with_report.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "158",
+      "path": "rules/agent_protocols/broken_instance_protocol/reporting_procedure/1_create_communication_file.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "159",
+      "path": "rules/agent_protocols/broken_instance_protocol/reporting_procedure/2_message_should_include.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "160",
+      "path": "rules/agent_protocols/broken_instance_protocol/reporting_procedure/3_list_of_chat_log_files.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified error recovery protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
     }
   ],
   "wedo_tasks": [
