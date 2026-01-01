@@ -1,41 +1,11 @@
 {
-  "name": "architecture",
-  "declarative_imperative_duality": {
-    "name": "Declarative/Imperative Duality",
-    "rule": "Employ a dual approach. Imperative code is guided by metadeclarative comments within the same file."
-  },
-  "extensibility": {
-    "name": "Extensibility",
-    "summary": "Principles for creating systems that are easy to modify and extend.",
-    "sub_principles": [
-      {
-        "name": "Simplicity over Easiness (Hickey Principle)",
-        "rule": "Prioritize objective simplicity (the absence of complexity/entanglement) over subjective easiness (familiarity). Actively 'de-complect' concerns to create systems that are easier to reason about."
-      },
-      {
-        "name": "Modularity (Unix Philosophy)",
-        "rule": "Write simple parts connected by clean interfaces.",
-        "sub_principles": [
-          {
-            "name": "Do One Thing Well",
-            "rule": "Each script or tool should have a single, well-defined purpose."
-          },
-          {
-            "name": "Pipe within an AI Agent Process",
-            "rule": "The agent itself can act as the 'pipe' between different tools and scripts, orchestrating a complex workflow by passing the output of one tool as the input to another."
-          }
-        ]
-      }
-    ]
-  },
-  "ai_unix_philosophy": {
-    "name": "AI Unix Philosophy",
-    "rule": "Create a series of small, modular Python scripts that each do one thing well. These scripts are then orchestrated by the Gemini CLI, which acts as the interactive shell, providing a 'boomerang feedback' experience. The agent asks questions, then stops all processes to await user input. This allows for a flexible and interactive workflow, with the agent and user working together in a tight loop.",
-    "sub_principles": [
-      {
-        "name": "Fractal Memory",
-        "rule": "Each sub-project or repository can have its own local `json/` directory, which contains project-specific rules, principles, and configurations. This allows for a fractal-like organization of knowledge and context, where each part of the system is self-contained and self-describing, while still inheriting from the parent `json/` concepts."
-      }
-    ]
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "AI Unix Philosophy & System Architecture",
+  "description": "Architectural guidelines for modular, interactive, and fractal agent systems.",
+  "principles": {
+    "unix_modularity": "Create small, single-purpose Python scripts orchestrated by the CLI.",
+    "boomerang_orchestration": "Agent executes tools, provides feedback, and stops to await human intent.",
+    "fractal_memory": "Local json/ directories allow project-specific context while inheriting global principles."
   }
 }
