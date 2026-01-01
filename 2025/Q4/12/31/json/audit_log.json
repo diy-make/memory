@@ -3090,6 +3090,116 @@
       "flags": [
         "HIERARCHY BLOAT"
       ]
+    },
+    {
+      "id": "221",
+      "path": "rules/agent_protocols/swarm_protocol/rules/swarm_inquiry.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "222",
+      "path": "rules/agent_protocols/swarm_protocol/rules/triggered_mode.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "223",
+      "path": "rules/agent_protocols/swarm_protocol/summary.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "224",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/1_announce_existence.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "225",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/2_gender_identity.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "226",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/3_git_identity.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "227",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/4_justification.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "228",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/5_name_uniqueness.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "229",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/6_naming.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
+    },
+    {
+      "id": "230",
+      "path": "rules/agent_protocols/swarm_protocol/swarm_initialization/7_name_restriction.json",
+      "recommendation": "CONSOLIDATE",
+      "decision": "RECOMMENDATION (APPLIED)",
+      "rationale": "Fragment identified for merger into unified swarm protocol.",
+      "user_reasons": "Auto-approved recommendation.",
+      "flags": [
+        "HIERARCHY BLOAT"
+      ]
     }
   ],
   "wedo_tasks": [
