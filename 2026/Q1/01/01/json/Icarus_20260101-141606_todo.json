@@ -1,0 +1,63 @@
+{
+  "title": "Icarus Todo - 2026-01-01",
+  "meta": {
+    "agent": "Icarus",
+    "session_id": "20260101-141606",
+    "status": "active"
+  },
+  "tasks": [
+    {
+      "id": "WEDO-01",
+      "description": "Complete Swarm Bootup",
+      "status": "[/]",
+      "subtasks": [
+        {
+          "id": "WEDO-01a",
+          "description": "Verify Environment",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-01b",
+          "description": "Name Thyself and Update Registry",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-01c",
+          "description": "Announce Identity",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-01d",
+          "description": "Initialize Session ToDo",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-01e",
+          "description": "Configure Git Identity",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-01f",
+          "description": "Trace PID & Chat Log",
+          "status": "[x]"
+        },
+        {
+          "id": "WEDO-01g",
+          "description": "Summarize Context",
+          "status": "[ ]"
+        },
+        {
+          "id": "WEDO-01h",
+          "description": "Bootup Report",
+          "status": "[ ]"
+        }
+      ]
+    },
+    {
+      "id": "WEDO-02",
+      "description": "Read and do README.ai",
+      "status": "[/]"
+    }
+  ],
+  "attribution": "Icarus (20260101-141606)"
+}

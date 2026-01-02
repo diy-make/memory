@@ -1,0 +1,71 @@
+{
+  "title": "Icarus Image Journaling - 2026-01-01",
+  "description": "Distilling raw visual artifacts from the inbox into the temporal Heartwood via 3-by-3 metabolic batches.",
+  "meta": {
+    "agent": "Icarus",
+    "session_id": "20260101-141606",
+    "status": "active"
+  },
+  "storage_policy": {
+    "global_template": "repos/diy-make/memory/public/json/wedo/markdown_generation/image_journal.todo.json",
+    "temporal_instance": "repos/diy-make/memory/public/2026/Q1/01/01/json/Icarus_20260101-141606_image_journal.todo.json"
+  },
+  "required_files": {
+    "formatter": "py/format_todo.py",
+    "meta_protocol": "repos/diy-make/memory/public/json/wedo/meta_wedo.todo.json"
+  },
+  "process_protocol": {
+    "source_inbox": "repos/diy-make/memory/inbox/png/",
+    "loop_instructions": "Execute the following sequence in 3-by-3 metabolic batches:",
+    "steps": [
+      { "id": "STEP-00", "action": "Display ToDo" },
+      { "id": "STEP-01", "action": "Metabolic Batch Analysis" },
+      { "id": "STEP-02", "action": "Heartwood Graft" },
+      { "id": "STEP-03", "action": "Journal Hardening" },
+      { "id": "STEP-04", "action": "Inbox Clearance" }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "BATCH-07",
+      "status": "[x]",
+      "description": "Anaximander Bootup and Forensic Initialization",
+      "sub_tasks": [
+        { "id": "IMG-21", "description": "Session ToDo Initialization", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/21-anaximander-session-todo-initialization.png" },
+        { "id": "IMG-22", "description": "Heraclitus Log Access (Tail)", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/22-forensic-context-retrieval-heraclitus-log-access.png" },
+        { "id": "IMG-23", "description": "Swarm Bootup Report", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/23-anaximander-swarm-bootup-report.png" }
+      ]
+    },
+    {
+      "id": "BATCH-08",
+      "status": "[x]",
+      "description": "Post-Mortem Hardening and Glossary Updates",
+      "sub_tasks": [
+        { "id": "IMG-24", "description": "Constraints Verification", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/24-final-initialization-and-constraints-verification.png" },
+        { "id": "IMG-25", "description": "Glossary: Post-mortem", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/25-glossary-hardening-post-mortem-definition.png" },
+        { "id": "IMG-26", "description": "SeedTree Directive", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/26-heraclitus-post-mortem-and-seedtree-directive.png" }
+      ]
+    },
+    {
+      "id": "BATCH-09",
+      "status": "[x]",
+      "description": "Synaptic Correction and Report Re-formatting",
+      "sub_tasks": [
+        { "id": "IMG-27", "description": "Synaptic Correction on WeDo", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/27-synaptic-correction-on-wedo-protocol.png" },
+        { "id": "IMG-28", "description": "Report Re-formatting", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/28-re-formatting-heraclitus-post-mortem.png" },
+        { "id": "IMG-29", "description": "Forensic Statistics", "artifact_path": "repos/diy-make/memory/public/2025/Q4/12/31/png/29-forensic-statistics-and-audit-scrutiny.png" }
+      ]
+    },
+    {
+      "id": "BATCH-10",
+      "status": "[ ]",
+      "description": "Post-Mortem Lessons and Next Steps",
+      "sub_tasks": [
+        { "id": "IMG-30", "description": "Hard-Won Knowledge", "artifact_path": "repos/diy-make/memory/inbox/png/Screenshot from 2025-12-31 14-24-11.png" },
+        { "id": "IMG-31", "description": "Verification Note", "artifact_path": "repos/diy-make/memory/inbox/png/Screenshot from 2025-12-31 14-24-44.png" },
+        { "id": "IMG-32", "description": "JSON Review Directive", "artifact_path": "repos/diy-make/memory/inbox/png/Screenshot from 2025-12-31 14-35-48.png" }
+      ]
+    }
+  ],
+  "attribution": "Icarus (20260101-141606)"
+}

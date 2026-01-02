@@ -1,0 +1,57 @@
+{
+  "wedo_instance": {
+    "id": "SESSION-LEANDER-20260101",
+    "title": "Session Leander: Swarm Initialization & Context Integration",
+    "description": "Initialization and context integration for Agent Leander. Establishing identity, verifying environment, and preparing for swarm collaboration.",
+    "status": "active",
+    "meta": {
+      "protocol": "WeDo-JSON",
+      "version": "1.0.0",
+      "agent": "Leander",
+      "session_id": "1767233671494"
+    },
+    "rules": {
+      "no_drama": "Prioritize simple, direct execution.",
+      "synapse_check": "Verify critical actions with the user.",
+      "integrity": "Maintain the integrity of the Metagit history."
+    },
+    "tasks": [
+      {
+        "id": "TASK-01",
+        "name": "Configure Git Identity",
+        "description": "Verify and configure local git user.name and user.email to match session identity.",
+        "status": "[x]",
+        "priority": "high"
+      },
+      {
+        "id": "TASK-02",
+        "name": "Summarize Context",
+        "description": "Review recent system activity to establish operational context.",
+        "status": "[x]",
+        "priority": "medium"
+      },
+      {
+        "id": "TASK-03",
+        "name": "Image Journaling WeDo",
+        "description": "Distill raw visual artifacts from inbox into temporal Heartwood (1-by-1 manual phase). Focus: Heraclitus termination.",
+        "status": "[x]",
+        "priority": "high"
+      },
+      {
+        "id": "TASK-04",
+        "name": "Swarm Biography: Heraclitus",
+        "description": "Compose and publish the strategic biography of agent Heraclitus, focusing on the JSON Nervous System.",
+        "status": "[x]",
+        "priority": "high"
+      },
+      {
+        "id": "TASK-05",
+        "name": "Bootup Report",
+        "description": "Generate and present the final bootup report to the operator.",
+        "status": "[ ]",
+        "priority": "highest"
+      }
+    ]
+  },
+  "attribution": "Leander (20260101-125500)"
+}

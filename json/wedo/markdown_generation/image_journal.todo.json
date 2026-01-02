@@ -12,7 +12,7 @@
   },
   "process_protocol": {
     "source_inbox": "repos/diy-make/memory/inbox/png/",
-    "loop_instructions": "For each artifact in source_inbox, execute the following WeDo sequence:",
+    "loop_instructions": "Execute the following sequence in 3-by-3 metabolic batches to balance session velocity with human oversight:",
     "steps": [
       {
         "id": "STEP-00",
@@ -22,39 +22,51 @@
       },
       {
         "id": "STEP-01",
-        "action": "Analyze & Post",
-        "description": "Perform vision analysis on the artifact. Post a high-fidelity summary of the content and realization to the session feed 'straightup' for human-in-the-loop (HITL) oversight."
+        "action": "Metabolic Batch Analysis",
+        "description": "Read 3 artifacts from the inbox. Perform vision analysis on the batch. Post a high-fidelity summary of all 3 'straightup' for human-in-the-loop (HITL) oversight."
       },
       {
         "id": "STEP-02",
         "action": "Heartwood Graft",
-        "command": "cp [artifact] repos/diy-make/memory/public/[YEAR]/Q[N]/[MONTH]/[DAY]/[ext]/",
-        "description": "Copy the artifact to its chronological destination. Use png/ for .png and jpg/ for .jpg. Verify the move via 'Active Investigation' rule."
+        "command": "cp [artifact] repos/diy-make/memory/public/[YEAR]/Q[N]/[MONTH]/[DAY]/[ext]/[IDX]-[descriptive-name].[ext]",
+        "description": "Copy the batch artifacts to their chronological destination. Artifacts MUST be renamed to user-friendly indexed names. Verify moves via 'Active Investigation' rule."
       },
       {
         "id": "STEP-03",
         "action": "Journal Hardening",
-        "command": "cat [narrative] >> daily_image_journal.md",
-        "description": "Append the descriptive entry to the daily image journal (.md) using monotonic growth principles."
+        "command": "cat [narrative] >> repos/diy-make/memory/public/[YEAR]/Q[N]/[MONTH]/[DAY]/md/wedo/daily_image_journal.md",
+        "description": "Append the descriptive batch to the daily image journal (.md). Group entries by batch to maintain structural clarity."
       },
       {
         "id": "STEP-04",
         "action": "Inbox Clearance",
-        "command": "mv [source_artifact] repos/diy-make/memory/inbox/png/journaled/",
-        "description": "Once hardening is verified, move the raw source file to the 'journaled/' sub-folder to clear the inbox for the next loop."
+        "command": "mv [source_artifacts] repos/diy-make/memory/inbox/png/journaled/",
+        "description": "Once hardening is verified, move the batch source files to the 'journaled/' sub-folder."
       }
     ]
   },
   "rules": {
+    "3_by_3_compromise": "Batch operations in sets of 3 to prevent OOM-maxing and reduce human oversight fatigue.",
     "monotonic_growth": "Journal word count must only increase.",
     "active_investigation": "Verify existence of artifacts on localhost before inclusion.",
-    "dual_referencing": "Reference both localhost paths and remotehost URLs."
+    "dual_referencing": "Reference both localhost paths and remotehost URLs.",
+    "chronological_integrity": "ALWAYS append new entries to the absolute end of the file. Use the 'replace' tool with the last few lines of the file as context to ensure no out-of-order dangling entries remain.",
+    "timestamp_verification": "Verify that the artifact's source timestamp matches the destination directory's date before grafting."
   },
   "task_structure": {
-    "id": "IMG-[IDX]",
+    "id": "BATCH-[N]",
     "status": "[ ]",
-    "description": "[Synthesis of the Visual Event]",
-    "artifact_path": "[Heartwood Path]"
+    "description": "Metabolic Batch: [Summary of the 3 Visual Events]",
+    "sub_tasks": [
+      {
+        "id": "IMG-[IDX]",
+        "description": "[Detail]",
+        "key_takeaway": "[Strategic realization]",
+        "artifact_path": "repos/diy-make/memory/public/[YEAR]/Q[N]/[MONTH]/[DAY]/[ext]/[IDX]-[descriptive-name].[ext]",
+        "original_filename": "[Source filename from inbox]",
+        "markdown_format": "### [IDX]. `[IDX]-[descriptive-name].[ext]`\n![[IDX]-[descriptive-name].[ext]](../[ext]/[IDX]-[descriptive-name].[ext])\n- **Description:** [Detail]\n- **Key Takeaway:** [Strategic realization]\n- **Creation Date:** [YYYY-MM-DD]\n- **Original Filename:** `[Source filename from inbox]`"
+      }
+    ]
   },
   "attribution": "Heraclitus (20251230-100000)"
 }
