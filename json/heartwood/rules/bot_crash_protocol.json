@@ -1,0 +1,43 @@
+{
+  "version": "1.8",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "Bot Crash & Systemic Failure Protocol",
+  "description": "Metagit-aware guidelines for forensic investigation, interactive triage, and swarm-based recovery.",
+  "values": [
+    {
+      "name": "Audit Swarm Comms",
+      "rule": "Scan .swarm_comms for agent announcements and status alerts.",
+      "rationale": "Identify agents attesting to specific streams."
+    },
+    {
+      "name": "Up-Stream Tail Analysis",
+      "rule": "Examine the tail of the last 5 .txt logs in the .chat_history directory.",
+      "rationale": "Limits open-ended searching."
+    },
+    {
+      "name": "Interactive Identification",
+      "rule": "Compare active script processes against a baseline before/after user termination.",
+      "rationale": "Surgically identify PID and log."
+    },
+    {
+      "name": "Cross-Metagit Commit Audit",
+      "rule": "Review git logs across all repositories in the metarepo map.",
+      "rationale": "Git is the temporal truth."
+    },
+    {
+      "name": "Forensic Backfill",
+      "rule": "Create backfilled announcements in .swarm_comms for agents who failed to self-announce.",
+      "rationale": "Ensures an unbroken audit trail."
+    },
+    {
+      "name": "Post-Mortem Analysis",
+      "rule": "Check for recursive errors; escalate tail to 500+ lines; chunk read large logs.",
+      "rationale": "Deepens understanding while protecting heap."
+    },
+    {
+      "name": "WeDo Publication",
+      "rule": "Formalize findings into a WEDO report in the .wedo directory (json/wedo/).",
+      "rationale": "Transforms failure into wisdom."
+    }
+  ]
+}

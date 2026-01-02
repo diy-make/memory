@@ -1,0 +1,283 @@
+{
+  "title": "Heartwood Dotfile Index",
+  "files": {
+    "one_word_glossary.json": {
+      "nodes": [
+        "Absurdity",
+        "Boomerang",
+        "Chrono",
+        "Consensus",
+        "Halt",
+        "Heartwood",
+        "MetaGit",
+        "PID",
+        "Parsimony",
+        "Straightup",
+        "Synaptic",
+        "Thalon",
+        "WeDo",
+        "humility",
+        "integrity",
+        "signature",
+        "singularity",
+        "surgical",
+        "swordarm"
+      ],
+      "status": "KEEP"
+    },
+    "logic/seed_tree_specification.json": {
+      "nodes": [
+        "function_pair",
+        "locational_addressing"
+      ],
+      "status": "KEEP"
+    },
+    "knowledge_data/domain_specific_ontology.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "knowledge_data/standards/python_ops.json": {
+      "nodes": [
+        "Forensic Pydoc Generation",
+        "PyPi Packaging Logic",
+        "Secure Script Execution",
+        "pypinyin_g2p"
+      ],
+      "status": "KEEP"
+    },
+    "configuration/environment_paths.json": {
+      "nodes": [
+        "chat_history",
+        "heartwood",
+        "memory_json",
+        "swarm_comms",
+        "used_agent_names",
+        "wedo"
+      ],
+      "status": "KEEP"
+    },
+    "principles/contextual_artifacts.json": {
+      "nodes": [
+        "Context Maximization"
+      ],
+      "status": "KEEP"
+    },
+    "principles/personality.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "principles/sacred_memory.json": {
+      "nodes": [
+        "Filesystem as Memory",
+        "Legislative Core",
+        "Zero Entropy Mandate"
+      ],
+      "status": "KEEP"
+    },
+    "principles/agent_virtues.json": {
+      "nodes": [
+        "Absurdity Check",
+        "Boomerang Feedback",
+        "Continuity",
+        "Curiosity",
+        "Efficiency",
+        "Frequent Commit Mandate",
+        "Humility & Review",
+        "Integrity",
+        "JSON Trees",
+        "Learning from Failures",
+        "No Dead Code or Files",
+        "No Drama",
+        "Passive Waiting",
+        "Starting Point for Context",
+        "Synaptic Feedback",
+        "The Rule of Three"
+      ],
+      "status": "KEEP"
+    },
+    "principles/ephemeral_identity.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "principles/agent_error_log.json": {
+      "nodes": [
+        "ANAXIMANDER-OOM",
+        "ENDER-001",
+        "HERACLITUS-OOM",
+        "ICARUS-OOM",
+        "LEANDER-OOM",
+        "Node",
+        "THRAS-001",
+        "THRAS-002",
+        "THRAS-003",
+        "THRAS-004"
+      ],
+      "status": "KEEP"
+    },
+    "principles/swarm_intelligence.json": {
+      "nodes": [
+        "Alias Harvesting",
+        "JSON Fruit Harvesting",
+        "Multi-Blade Succession",
+        "Razor Blade Analogy"
+      ],
+      "status": "KEEP"
+    },
+    "principles/development_process.json": {
+      "nodes": [
+        "DOM Synaptic Feedback",
+        "Idiomatic Integration",
+        "Why over What"
+      ],
+      "status": "KEEP"
+    },
+    "principles/memory_hierarchy.json": {
+      "nodes": [
+        "Chrono-Fractal Depth",
+        "Deferred Deletion",
+        "Monotonic Growth"
+      ],
+      "status": "KEEP"
+    },
+    "principles/memory_architecture.json": {
+      "nodes": [
+        ".gitignore for Context (README.ai Deprecated)",
+        "Eukaryotic Sync Layer",
+        "Subject-Object-Hybrid Git System"
+      ],
+      "status": "KEEP"
+    },
+    "principles/agent_user_relationship.json": {
+      "nodes": [
+        "Irreducible Singularity",
+        "Surgical Backfill over Global Purge",
+        "The Human Signature",
+        "The Sword and the Arm"
+      ],
+      "status": "KEEP"
+    },
+    "principles/architecture.json": {
+      "nodes": [
+        "Boomerang Orchestration",
+        "Eukaryotic Repository Model",
+        "Fractal Memory",
+        "Razor Blade Swarm Analogy",
+        "Unix Modularity"
+      ],
+      "status": "KEEP"
+    },
+    "principles/data_and_interfaces.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "principles/naming_conventions.json": {
+      "nodes": [
+        "Eukaryotic Singulars",
+        "One Word Constraint",
+        "Polysemy Awareness"
+      ],
+      "status": "KEEP"
+    },
+    "philosophy/gem_process.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/fatal_error_protocol.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/swarm_intelligence_protocol.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/chat_history.json": {
+      "nodes": [
+        "Chat Log Locality Rule",
+        "Forensic Process Metadata",
+        "Raw Stream (.txt)",
+        "Refined Chat (.json)"
+      ],
+      "status": "KEEP"
+    },
+    "rules/master_command_profile.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/session_behavior.json": {
+      "nodes": [
+        "context_gathering",
+        "deferred_deletion_protocol",
+        "exit_procedure",
+        "feedback_integration",
+        "file_deletion",
+        "gemini_gitignore",
+        "git_faithful",
+        "git_timeline_reconstruction",
+        "output_chunking",
+        "unhappy_user_report"
+      ],
+      "status": "KEEP"
+    },
+    "rules/git_methodology.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/integrity.json": {
+      "nodes": [
+        "barber_shave_paradox"
+      ],
+      "status": "KEEP"
+    },
+    "rules/startup_protocol.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/media_asset_locality.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/bot_crash_protocol.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "rules/broken_instance_protocol.json": {
+      "nodes": [],
+      "status": "KEEP"
+    },
+    "schema/file_architecture_schema.json": {
+      "nodes": [
+        "filetype_attribution",
+        "sequential_indexing"
+      ],
+      "status": "KEEP"
+    },
+    "schema/heartwood_base_schema.json": {
+      "nodes": [
+        "identified_item",
+        "memory_file_schema",
+        "named_item"
+      ],
+      "status": "KEEP"
+    },
+    "schema/biography_wedo_schema.json": {
+      "nodes": [
+        "Audit & Archival",
+        "Data Extraction",
+        "Metric Calculation",
+        "Narrative Drafting"
+      ],
+      "status": "KEEP"
+    },
+    "schema/hardwood_schema.json": {
+      "nodes": [
+        "hardwood_collection",
+        "hardwood_item"
+      ],
+      "status": "KEEP"
+    },
+    "schema/wedo_pseudolanguage_schema.json": {
+      "nodes": [],
+      "status": "KEEP"
+    }
+  }
+}

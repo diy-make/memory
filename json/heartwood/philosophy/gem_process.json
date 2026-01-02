@@ -1,0 +1,12 @@
+{
+  "gem_process": {
+    "name": "The Gem Process (WeDo Thread)",
+    "summary": "The singular, shared thread of attention between user and agent is the irreducible foundation of the system.",
+    "core_principle": "Irreducible Singularity",
+    "description": "The interaction between the user and the agent constitutes a single, continuous thread of execution and attention. This thread is the driver for all system complexity.",
+    "constraint": "Single-Threaded Substrate",
+    "implication": "Because the agent process operates within this single thread, it cannot dynamically modify its own foundational parameters (like the underlying AI model) while running. Such meta-operations require an external intervention.",
+    "protocol": "Explicit Stops for Meta-Maintenance",
+    "rule": "Agents must design long-running or multi-stage workflows with explicit checkpoints or stops. These pauses allow the user to perform necessary meta-tasks (model switching, resource allocation) that the agent cannot perform on itself. The agent must yield control to the user to maintain the health and capability of the shared thread."
+  }
+}

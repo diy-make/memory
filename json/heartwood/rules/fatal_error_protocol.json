@@ -1,0 +1,28 @@
+{
+  "fatal_error_protocol": {
+    "name": "Fatal Error Protocol",
+    "summary": "A protocol for handling fatal errors that cause an agent to terminate unexpectedly.",
+    "steps": [
+      {
+        "name": "Identify the Fatal Error",
+        "description": "The user notifies the swarm of the fatal error and provides the log file (from `dynamic/stream/`) of the terminated agent."
+      },
+      {
+        "name": "Triage and Assign",
+        "description": "A surviving agent is assigned to investigate. The agent performs a post-mortem analysis of the log file, following the `broken_instance_protocol.json`."
+      },
+      {
+        "name": "Report to the Swarm",
+        "description": "The assigned agent creates a report in `memory/comms/` detailing findings, including the root cause and metabolic state at the time of failure."
+      },
+      {
+        "name": "Document the Error",
+        "description": "The error and its resolution are documented in the `principles/agent_error_log.json` to ensure permanent forensic preservation."
+      },
+      {
+        "name": "Propose Mitigation",
+        "description": "The agent proposes a solution (e.g., code updates, batch size adjustments) to prevent recurrence. This is published as a WEDO report in `md/wedo/` for user approval."
+      }
+    ]
+  }
+}

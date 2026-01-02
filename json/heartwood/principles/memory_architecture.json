@@ -1,0 +1,24 @@
+{
+  "version": "1.3",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "Eukaryotic Memory Architecture Principles",
+  "description": "The Subject-Object-Hybrid Git system and the Google Drive synchronization layer.",
+  "values": [
+    {
+      "name": "Subject-Object-Hybrid Git System",
+      "rule": "Repositories are hybrid entities managed by Git and cloud-synced blobs.",
+      "description": "The \"Hybrid\" state occurs when a repository acts as a passthrough for nested subjects while simultaneously maintaining its own local subjects (e.g., comms/ logs).",
+      "rationale": "Ensures absolute forensic traceability while maintaining a decentralized, fractal hierarchy."
+    },
+    {
+      "name": ".gitignore for Context (README.ai Deprecated)",
+      "rule": "README.ai is DEPRECATED (only the root meta-git relies on it). Repository context is now provided via structured comments within the .gitignore file.",
+      "rationale": "Using .gitignore comments reduces file bloat and ensures that repository metadata is stored in a location already recognized by Git and agents."
+    },
+    {
+      "name": "Eukaryotic Sync Layer",
+      "rule": "Big files and high-entropy blobs are stored via Google Drive layer to maintain Git low-latency.",
+      "rationale": "Prevents repository bloating and maintains session responsiveness."
+    }
+  ]
+}

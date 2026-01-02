@@ -1,0 +1,46 @@
+{
+  "version": "1.1",
+  "attribution": "Parmenides (1767233671494)",
+  "title": "Swarm Session Behavior Standards",
+  "description": "Rules for agent operational state, environment protection, and user interaction.",
+  "rules": {
+    "gemini_gitignore": {
+      "name": "Gemini Directory Protection",
+      "rule": "Always include .gemini/ in .gitignore to prevent committing user-specific state or credentials."
+    },
+    "git_faithful": {
+      "name": "Git Faithful Protocol",
+      "rule": "The agent must ALWAYS ask for explicit user permission before creating a new branch in any memory repository.",
+      "rationale": "To prevent fragmented memory and identity confusion."
+    },
+    "output_chunking": {
+      "rule": "Read large files bottom-up; stop at 50% context; summarize and prompt user."
+    },
+    "context_gathering": {
+      "rule": "Review last 5 agents in history, comms/, and used_agent_names.json."
+    },
+    "exit_procedure": {
+      "rule": "Verify no open commits, check background processes, validate configs, and summarize before exit."
+    },
+    "feedback_integration": {
+      "rule": "Proactively propose JSON structure updates for behavior/logic corrections."
+    },
+    "file_deletion": {
+      "rule": "Trash, don't delete. Move to .gitignore'd /trash after hash comparison."
+    },
+    "deferred_deletion_protocol": {
+      "name": "Deferred Deletion Protocol",
+      "rule": "Destructive acts (rm) must be collected in a WEDO queue until the end of the session. Automated and 1-by-1 modes typically only grant permission for one 'rm' command per session; therefore, bulk deletions must be batch-executed manually or at the conclusion of the audit.",
+      "rationale": "To prevent workflow interruption due to repeated safety prompts and to ensure all deletions are audited as a set."
+    },
+    "git_timeline_reconstruction": {
+      "name": "Timeline Reconstruction Trick",
+      "rule": "Use git log --since=\"YYYY-MM-DD\" --until=\"YYYY-MM-DD\" to reconstruct session history when context is ambiguous."
+    },
+    "unhappy_user_report": {
+      "name": "Unhappy User Report Trigger",
+      "rule": "If the user expresses continual dissatisfaction or if the agent enters a repetitive failure loop, the agent must halt and perform a Forensic Post-Mortem report immediately. During this report, the agent should proactively ask the user for screenshots of the CLI terminal to establish absolute forensic alignment.",
+      "example_reference": "Principles.Agent_Error_Log.THRAS-001"
+    }
+  }
+}

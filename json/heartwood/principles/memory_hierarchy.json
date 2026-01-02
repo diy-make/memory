@@ -1,0 +1,23 @@
+{
+  "version": "1.2",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Metagit Memory Hierarchy Standards",
+  "description": "Rules for the transition from temporal session logs to permanent Heartwood legislative state.",
+  "values": [
+    {
+      "name": "Chrono-Fractal Depth",
+      "rule": "Organize active work within temporal directories; migrate finished wisdom to root principles/.",
+      "rationale": "Prevents context drift and maintains a clean monotonic trunk by separating 'Air' (Context) from 'Wood' (State)."
+    },
+    {
+      "name": "Monotonic Growth",
+      "rule": "The Heartwood only grows or hardens; logic is never overwritten, only versioned and archived.",
+      "rationale": "Ensures absolute forensic accountability and prevents the loss of 'hard-won knowledge' across swarm generations."
+    },
+    {
+      "name": "Deferred Deletion",
+      "rule": "Identify redundant artifacts and queue them for end-of-session purge via todo.json.",
+      "rationale": "As proven by multiple OOM crashes, metabolic intent must be recorded in the 'Nerves' (JSON) to survive process failure."
+    }
+  ]
+}

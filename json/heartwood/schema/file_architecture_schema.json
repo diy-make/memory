@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "attribution": "Anaximander (20251231-135827)",
+  "title": "File Architecture Schema",
+  "description": "Consolidated schema for filetype attribution and sequential indexing principles.",
+  "principles": {
+    "filetype_attribution": {
+      "name": "Filetype Attribution with Filesystem Von Neumann Architecture Design Principle",
+      "rule": "All files must reside in folders explicitly designated for their file type. No file should be stored in a generic or unrelated folder.",
+      "purpose": "To ensure that all files are stored in their designated folders based on their file type, promoting a clean and organized filesystem. This aligns with the Von Neumann architecture principle of storing data and instructions in the same memory space, but applied to the filesystem where file types dictate their logical 'memory space'."
+    },
+    "sequential_indexing": {
+      "name": "Sequential Indexing within File Type",
+      "rule": "Files are indexed based on the sequence in which they're processed within their particular file_type. The index is not reset for subdirectories. For example, an index for `md/` is not reset for `md/day_2/`.",
+      "implementation": "Crucial for maintaining a consistent and predictable order of files for processing or display, especially in systems where the order matters (e.g., chronological logs or structured documentation)."
+    }
+  },
+  "examples": [
+    "Python scripts (.py) go into the 'py/' directory.",
+    "Markdown files (.md) go into the 'md/' directory.",
+    "SVG files (.svg) go into the 'svg/' directory.",
+    "Shell scripts (.sh) go into the 'sh/' directory."
+  ],
+  "benefits": [
+    "Improved organization and navigability of the filesystem.",
+    "Reduced clutter and easier identification of files.",
+    "Enhanced consistency and predictability in file placement.",
+    "Facilitates automated processing and management of files based on type."
+  ]
+}

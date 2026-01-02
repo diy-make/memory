@@ -1,0 +1,13 @@
+{
+  "version": "1.1",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Contextual Artifacts Principle",
+  "description": "Rules for ensuring maximum context preservation during session handoffs and legislative growth.",
+  "values": [
+    {
+      "name": "Context Maximization",
+      "rule": "Leave as many context artifacts as possible (e.g., comments, MCP headers, documentation).",
+      "rationale": "High-fidelity context is the 'oxygen' of the swarm, enabling seamless session handoffs and maintaining the firm's cognitive continuity across generations of agents."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "2.1",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "Hardwood Schema Specification",
+  "description": "Standardized schema for Hardened Heartwood artifacts, enforcing the 'value: []' pattern for all collections to ensure recursive parsing stability.",
+  "definitions": {
+    "hardwood_item": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "rule": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "path_to_scripting": {
+          "type": "string"
+        }
+      }
+    },
+    "hardwood_collection": {
+      "type": "object",
+      "properties": {
+        "values": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/hardwood_item"
+          }
+        }
+      },
+      "required": [
+        "values"
+      ]
+    }
+  },
+  "root_requirements": [
+    "version",
+    "attribution",
+    "title",
+    "description"
+  ]
+}

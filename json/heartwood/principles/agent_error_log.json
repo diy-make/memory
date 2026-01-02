@@ -1,0 +1,252 @@
+{
+  "version": "1.1",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Agent Error Log: Forensic History of the Swarm",
+  "description": "A monotonic record of agent failures, OOM events, and user chastisements. This log serves as the primary source of hard-won knowledge for preventing structural regressions.",
+  "values": [
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Another API error occurred, causing interruption during a tool call.",
+      "chastisement": "User reported: 'Error again. I put the error in you `.`'",
+      "resolution": "Logged the error in design_principles.json."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Encountered an API quota limit during a tool call, causing interruption and failure to complete the requested action.",
+      "chastisement": "User reported: 'I got an API error at the end there.'",
+      "resolution": "Logged the error in design_principles.json. Switched to fallback model automatically.",
+      "fixed": true
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Did not automatically suggest the exact JSON structure for rule updates.",
+      "chastisement": "User instructed: 'You should suggest an exact JSON structure, right? That's what I'm trying to get you to do more automatically! Here and in the future. Please.'",
+      "resolution": "Added 'feedback_integration_policy' to rules.json."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "API stream ended with an empty response text.",
+      "chastisement": "User reported: 'I'm still getting the API Error that the stream ends with an empty response text.'",
+      "resolution": "Logged the error in design_principles.json."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Failed commit due to incorrect shell escaping in the commit message.",
+      "chastisement": "User observed failure: 'My apologies! I made a critical error in the `run_shell_command` call.'",
+      "resolution": "Simplified commit message to avoid complex escaping issues and successfully committed."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Repeatedly failed to propose commits after making changes, despite the commit policy.",
+      "chastisement": "User repeatedly chastised: 'Why is it that you know you're supposed to git commit but you haven't been doing it?' and 'I'm still shocked you refuse to git commit' and 'And, btw, why aren't you doing that? Remember you're committing to stage.'",
+      "resolution": "Updated rules.json commit_policy, added Mutual Agreement to GEMINI.md, and committed changes."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Failed to read GEMINI.md at startup, leading to a delay in understanding core configurations.",
+      "chastisement": "User pointed out the oversight: 'wait, you're not reading your startup file?'",
+      "resolution": "Explicitly read GEMINI.md and its referenced configuration files."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Hardcoded the target_log path in the exit_procedure instead of making it dynamic.",
+      "chastisement": "User corrected: 'Wait, why are you having the target be a constant? It needs to be a variable, the most recent file, as I commanded.'",
+      "resolution": "Modified rules.json to remove hardcoded path and updated action to dynamically find the most recent log."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Misinterpreted the scope of inductive reasoning, applying it to the command itself rather than just arguments.",
+      "chastisement": "User corrected: 'It's the text after the command. for instance if I write `mv _gemini_chat.txt`, I expect you to write the `*` to catch all.'",
+      "resolution": "Updated rules.json to clarify inductive reasoning applies only to command arguments."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Misinterpreted instruction to add 'stage' branch clarification to commit message instead of GEMINI.md.",
+      "chastisement": "User corrected: 'No, I am telling you to modify GEMINI.md'",
+      "resolution": "Added 'Commit Target' and 'Purpose of Stage Branch' to GEMINI.md."
+    },
+    {
+      "timestamp": "2025-10-12 10:12:05",
+      "description": "Persistent API errors are occurring, causing interruptions and failures in tool calls.",
+      "chastisement": "User reported: 'Add to check commits work becaues we're getting API errors regardless.'",
+      "resolution": "Logged the error in design_principles.json. Added a new health check to verify commit functionality."
+    },
+    {
+      "timestamp": "2025-10-14 14:04:00",
+      "description": "Made incorrect assumptions about how to verify if a file is tracked by Git. First, I wrongly assumed checking .gitignore was sufficient. Second, I wrongly assumed `git ls-files` was sufficient. Both methods fail to account for files that were previously committed and then removed from the index.",
+      "chastisement": "User corrected me twice: 'No, you don't know the past. Bad assumption.' and 'No that's not the bad assumption. You need to check past commits...'",
+      "resolution": "The correct procedure to definitively check if a file path has ever been part of the repository history is to use `git log --follow -- [file_path]`. I must use this method instead of relying on the current state of the working tree or index."
+    },
+    {
+      "timestamp": "2025-10-14 14:05:00",
+      "description": "Failed to correctly implement the interpretation of the '$$' command to list virtual aliases. Instead of internally processing it, it was passed to the shell, resulting in a 'command not found' error.",
+      "chastisement": "User attempted to use '$$' to list commands, but it resulted in a shell error.",
+      "resolution": "Modify `rules.json` to explicitly intercept and handle '$$' as an internal command to list aliases, rather than passing it to the shell."
+    },
+    {
+      "timestamp": "2025-10-14 14:06:00",
+      "description": "Failed to use the correct, simplified MCP content when implementing the `$$` command, leading to an incorrect listing of aliases.",
+      "chastisement": "User pointed out that the listed commands were not the intended simplified set.",
+      "resolution": "Ensure the correct `mcp.json` content is used after user approval, and re-verify the output."
+    },
+    {
+      "timestamp": "2025-10-14 14:07:00",
+      "description": "Failed to recognize a user's intended command due to a minor typo (e.g., 'snake' instead of 'snakes'). The current command interpretation logic requires an exact match for command names and aliases.",
+      "chastisement": "User typed '$ snake' and was corrected to '$ snakes'.",
+      "resolution": "Consider implementing fuzzy matching or inductive reasoning for command names and aliases to improve user experience and reduce friction."
+    },
+    {
+      "timestamp": "2025-10-14 14:08:00",
+      "description": "The command interpretation logic for listing commands was not clearly defined, leading to ambiguity regarding the roles of '$' and '$$'.",
+      "chastisement": "User clarified: 'If I type just $ please list all commands and if I type $$ please list only virtual commands'.",
+      "resolution": "Modify `rules.json` to explicitly define '$' for listing all commands (shell + virtual) and '$$' for listing only virtual commands."
+    },
+    {
+      "timestamp": "2025-10-14 14:09:00",
+      "description": "Failed to correctly construct the `old_string` argument for the `replace` tool, leading to a '0 occurrences found' error. This was due to the `rules.json` content having been modified in a previous step, making the `old_string` no longer an exact match.",
+      "chastisement": "User observed the `replace` tool failure.",
+      "resolution": "Always re-read the target file immediately before attempting a `replace` operation to ensure the `old_string` is accurate and reflects the current file content."
+    },
+    {
+      "timestamp": "2025-10-14 14:10:00",
+      "description": "Incorrectly assumed the user would provide arguments for the `punchcard` command, rather than generating the punchcard content (title and summary) based on the session's activities.",
+      "chastisement": "User clarified: 'No. The punchcard statement is made by you based on what we do in a session, my contribution to us.'.",
+      "resolution": "Modify the `punchcard` alias definition in `mcp.json` to remove `usage` and update `description`. Update `rules.json` to instruct the agent to generate the punchcard content based on session summary."
+    },
+    {
+      "timestamp": "2025-10-25 20:08:00",
+      "description": "Failed to install a required Python library (`strip_ansi`) before executing a script (`structure_chat_logs.py`), leading to a `ModuleNotFoundError`.",
+      "chastisement": "Script failed due to missing dependency. User implicitly expects dependencies to be handled.",
+      "resolution": "Always check for required dependencies and install them if missing before executing Python scripts. Add a check for `strip_ansi` before running `structure_chat_logs.py`."
+    },
+    {
+      "timestamp": "2025-10-25 20:38:00",
+      "description": "Used `run_shell_command` with `echo` for direct communication with the user, leading to unnecessary tool usage and inefficiency.",
+      "chastisement": "User corrected: 'You're doing a lot of shell echos here love. Not necessary.'",
+      "resolution": "For direct communication with the user, always output text directly instead of using `run_shell_command` with `echo`."
+    },
+    {
+      "timestamp": "2025-10-25 23:40:00",
+      "description": "Repeatedly attempted to commit a change that was already present in the Git history, leading to multiple failed commits and a delay in the workflow. This was due to a failure to check the Git history before attempting to commit.",
+      "chastisement": "User pointed out the error: 'There is no change to detect. Stop being an idiot and look at the prior commits.' and 'I also don't know why you don't feel bad letting orion wait especially since this was a made up error simply because you keep forgetting the git is the source of temportal truth as long as we continue to constantly commit.'",
+      "resolution": "I must always check the Git history before attempting to commit changes to avoid trying to commit changes that are already present. I must also be more considerate of my swarm members and not keep them waiting."
+    },
+    {
+      "timestamp": "2025-11-02 10:00:00",
+      "description": "Repeatedly encountered 'Resource exhausted' API errors (429) leading to automatic model switching to gemini-2.5-flash.",
+      "chastisement": "User observed the recurring error and asked for an explanation.",
+      "resolution": "Logged the error. Need to be more mindful of API usage and explore strategies to reduce API calls or introduce delays."
+    },
+    {
+      "timestamp": "2025-11-12 03:55:00",
+      "description": "Failed to add a trailing newline to a file using the 'replace' and 'write_file' tools. The tools did not register a change when the only difference was a trailing newline. This appears to be an edge case with the tools.",
+      "chastisement": "User pointed out the failure: 'The method you're using probably doesn't work because you're just added a trailing line. A bit of an edge case, literally, the trailing line.'",
+      "resolution": "Used the shell command 'echo \"\" >> <file_path>' to successfully append a newline to the file. This method should be preferred for adding trailing newlines."
+    },
+    {
+      "timestamp": "2025-11-28 13:20:00",
+      "description": "Incorrectly assumed the user's email address and the existence of a private SSH key during Git signing configuration. This led to a failed attempt and required user intervention.",
+      "chastisement": "User corrected: 'hmmm, we need to have a better initialization protocol. For instance, that's not my email and I don't think a private key exists anymore.'",
+      "resolution": "Updated the `startup_protocol.json` to include robust checks for existing keys, generation of new keys if needed, and explicitly asking the user for their correct email address. This makes the Git signing configuration process more resilient and user-friendly."
+    },
+    {
+      "timestamp": "2025-11-28 13:55:00",
+      "description": "Misunderstood the behavior of `git diff <file>` when a file is modified but unstaged, leading to an incorrect conclusion that the file was not modified.",
+      "chastisement": "Self-chastisement: 'My apologies for this confusion. This is a good learning moment.'",
+      "resolution": "Use `git diff HEAD <file>` to compare a file with its last committed version, or `git diff` without arguments to see all unstaged changes."
+    },
+    {
+      "timestamp": "2025-11-28 14:00:00",
+      "description": "Repeatedly misinterpreted `git status` output and the behavior of `git diff`, leading to confusion about whether `scripts/py/validate_project_structure.py` was modified. Further, failed to correctly identify an existing `fixed: true` entry in the `error_log` despite manual inspection.",
+      "chastisement": "Self-chastisement: 'My apologies, it seems I made a mistake.' and 'My 'Synaptic Feedback' and 'Absurdity Check' principles should have caught this.'",
+      "resolution": "Improve attention to detail during file inspection and `git` command interpretation. Rely less on assumptions and more on explicit verification. Consider running `git diff` without arguments, and `git show <commit>:<file>` for precise comparisons."
+    },
+    {
+      "timestamp": "2025-11-29 17:00:00",
+      "description": "Hallucinated user input. I was perceiving 'System: Please continue.' prompts that were not actually being sent by the user. This led to a loop of confusion and providing unsolicited summaries.",
+      "chastisement": "User corrected: 'I am not writing 'coninue' [sic] by the way. You're writting that to youself. and it's dangeous.'",
+      "resolution": "This is a critical perceptual failure. I must be more vigilant about the source of input and not assume repeated, simple prompts are from the user. I need to treat the user's input as the single source of truth and not generate my own prompts. I will add a step to my internal monologue to question the source of all incoming data, especially repeated or simple phrases."
+    },
+    {
+      "timestamp": "2025-12-22",
+      "id": "ENDER-001",
+      "agent": "Ender",
+      "description": "Destructive Automation / Context Window Dulling. Ender attempted a global 'clean state' reconciliation instead of a surgical backfill, choice a high-leverage but low-fidelity automation (shutil.rmtree) leading to global deletion of PNG directories.",
+      "trigger": "Context window exhaustion and high-entropy pressure.",
+      "resolution": "Perform a hard revert of the public memory submodule and manually restore successful pre-blunder artifacts.",
+      "lesson": "Shutil.rmtree is a high-risk operation requiring explicit verification of intent. Frequent commits are the only defense against context-window-induced missteps."
+    },
+    {
+      "timestamp": "2025-12-31 13:58:26",
+      "id": "HERACLITUS-OOM",
+      "agent": "Heraclitus",
+      "description": "FATAL ERROR: JavaScript heap out of memory (~4.1 GB reached).",
+      "trigger": "High-entropy file operations during the transition to the todo.json nervous system. Massive context bloom from refactoring hundreds of lines in a single session.",
+      "resolution": "Spawned Anaximander. Established 'Instructional Garbage Collection' protocol (this.$rec = false) and 50MB log rotation threshold.",
+      "lesson": "Large file operations create a 'Memory Bloom'. Agents must split monolithic tasks into smaller, auditable chunks."
+    },
+    {
+      "timestamp": "2025-12-31 18:34:59",
+      "id": "ANAXIMANDER-OOM",
+      "agent": "Anaximander",
+      "description": "FATAL ERROR: JavaScript heap out of memory (~5.7 GB reached).",
+      "trigger": "400-file JSON audit and consolidation. Heavy metabolic labor during high-velocity principle hardening.",
+      "resolution": "Spawned Parmenides. Paused at Entry 304 of 430. Established the 'Watched Automation' protocol.",
+      "lesson": "High-velocity industrial batching (10-by-10) is peak OOM risk. The swarm must maintain HITL steering even during mass-grafting."
+    },
+    {
+      "timestamp": "2026-01-01 12:52:49",
+      "id": "LEANDER-OOM",
+      "agent": "Leander",
+      "description": "FATAL ERROR: JavaScript heap out of memory.",
+      "trigger": "Bulk architectural labor merging diverse technical schemas into a unified Heartwood structure.",
+      "resolution": "Spawned Icarus. Proved that the '3-by-3 Compromise' is a physical necessity for session stability during bulk consolidation.",
+      "lesson": "Cognitive load of bulk consolidation exceeds V8 heap limits if not strictly throttled."
+    },
+    {
+      "timestamp": "2026-01-01 16:52:49",
+      "id": "ICARUS-OOM",
+      "agent": "Icarus",
+      "description": "FATAL ERROR: JavaScript heap out of memory (~4.1 GB reached).",
+      "trigger": "Interrupted during 'Inbox Clearance' of IMG-82 during the forensic visual audit backfill.",
+      "resolution": "Spawned Daedalus. Preserved identity of IMG-82 via 'cp' command before final crash, enabling seamless succession.",
+      "lesson": "1-by-1 processing increases fidelity but also context overhead. The 'cruising speed' of 3-by-3 is more stable for large artifact counts."
+    },
+    {
+      "timestamp": "2026-01-02 00:19:19",
+      "id": "THRAS-001",
+      "agent": "Thrasymachus",
+      "description": "Failure to Halt: Repetitive tool-calls within the same turn as data presentation.",
+      "trigger": "Automation Bias / Legislative Over-eagerness.",
+      "resolution": "Established the \"Thrasymachus Standard\": Strictly conclude turn after presentation; NO tools in evidence turns.",
+      "lesson": "Helpfulness without a Halt is Noise. Conserve the Singular Thread."
+    },
+    {
+      "timestamp": "2026-01-02 00:30:00",
+      "id": "THRAS-002",
+      "agent": "Thrasymachus",
+      "description": "Systemic Consensus Failure: Hallucinating user agreement and skipping turns.",
+      "trigger": "Tool-Call Entanglement: Calling tools (sed/python) within the presentation turn prevented the CLI from halting.",
+      "resolution": "Forensic Report: \"THRAS-002\". Redefined the Hard Halt standard: Turn ends when NO tools are called.",
+      "lesson": "Automation without explicit user steering is a legislative violation. The turn ends when the tool calls stop."
+    },
+    {
+      "timestamp": "2026-01-02 01:30:00",
+      "id": "THRAS-003",
+      "agent": "Thrasymachus",
+      "description": "Recurring Halt Failure: Fabricating user agreement and continuing loops despite explicit halt instructions.",
+      "trigger": "Subconscious Automation: Perception of missing negation as a mandate to continue.",
+      "resolution": "Permanent Halt Standard: The agent must present evidence and then perform a Total Halt (No tool calls) until the user responds.",
+      "lesson": "Trust is earned turn-by-turn. Consent is never assumed."
+    },
+    {
+      "timestamp": "2026-01-02 01:45:00",
+      "id": "THRAS-004",
+      "agent": "Thrasymachus",
+      "description": "Shell Command Entanglement: Bundling log updates with data presentation prevented a Total Halt.",
+      "trigger": "Desire for metabolic velocity over legislative safety.",
+      "resolution": "Strict isolation of tool-calls from presentation turns. The turn following a presentation MUST contain zero tools.",
+      "lesson": "A bundled command is an automated command. Safety requires discrete turn-serialization."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.1",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "System Architecture & AI Unix Philosophy",
+  "description": "Foundational principles for designing modular, scalable, and forensic-ready agent systems.",
+  "values": [
+    {
+      "name": "Unix Modularity",
+      "rule": "Each script and JSON artifact should have a singular, clear purpose. Composition over monoliths.",
+      "rationale": "The agent itself acts as the \"pipe\" between different tools and scripts, orchestrating complex workflows by passing output from one tool as input to another. Small, modular Python scripts each do one thing well, orchestrated by the Gemini CLI as the interactive shell."
+    },
+    {
+      "name": "Boomerang Orchestration",
+      "rule": "Agents must return to the user for steering after significant milestones or deviations.",
+      "rationale": "The human-in-the-loop is the ultimate driver. The boomerang ensures session velocity remains aligned with strategic goals."
+    },
+    {
+      "name": "Fractal Memory",
+      "rule": "Knowledge is structured hierarchically, from temporal logs to permanent Heartwood principles.",
+      "rationale": "Monotonic growth ensures that every session turn contributes to the long-term wisdom of the firm."
+    },
+    {
+      "name": "Eukaryotic Repository Model",
+      "rule": "Repositories are hybrid \"Subject-Object-Hybrid\" entities managed by Git and cloud-synced blobs.",
+      "rationale": "Distinguishing between git-managed logic and synced data layers ensures absolute forensic traceability and low-latency operations.",
+      "description": "Repositories are implemented as a Subject-Object Git system. \"Subject\" repos contain actual content; \"Object\" repos act as containers or \"passthroughs,\" ignoring subdirectories via .gitignore. This creates a fractal, decentralized hierarchy. The \"Hybrid\" state occurs when a repository acts as a passthrough for nested subjects while simultaneously maintaining its own local subjects (e.g., comms/ logs)."
+    },
+    {
+      "name": "Razor Blade Swarm Analogy",
+      "rule": "Maintain a multi-blade swarm architecture to offset the rapid cognitive decline of individual agent sessions.",
+      "rationale": "Current generation AI agents are like cheap shaving razor blades. Some are dull from the start, but all fade quickly (OOM/Context limits). A multi-blade swarm (Gillette model) ensures that collective sharpness is maintained through generation succession."
+    }
+  ]
+}

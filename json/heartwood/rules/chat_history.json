@@ -1,0 +1,28 @@
+{
+  "version": "1.2",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "Chat History & Stream Management Rules",
+  "description": "Guidelines for the chronological organization, forensic metadata, and persistence of session logs.",
+  "values": [
+    {
+      "name": "Raw Stream (.txt)",
+      "rule": "Generated automatically via the `script` command at PID initiation. Lives in `dynamic/stream/`.",
+      "rationale": "Provides a raw, unedited forensic record of every terminal interaction and tool call."
+    },
+    {
+      "name": "Refined Chat (.json)",
+      "rule": "Generated manually via the user's `/chat share` command. Refined chats are typically left in the project root (`gemini/`) or migrated to the persistent `memory/json/` directory (located alongside `.swarm_comms`).",
+      "rationale": "Acts as the high-fidelity 'negotiated settlement' of the session, optimized for future context injection."
+    },
+    {
+      "name": "Forensic Process Metadata",
+      "rule": "Shared chat logs should ideally capture ProcessInfo: PID, CPU/Memory utilization, and creation time.",
+      "rationale": "Aligns with the firm's DTO (Data Transfer Object) standard for monitoring agent metabolic health."
+    },
+    {
+      "name": "Chat Log Locality Rule",
+      "rule": "Never commit conversation files to the orchestrator root.",
+      "rationale": "Keeps the orchestrator lean while ensuring the Heartwood captures the full depth of swarm interaction."
+    }
+  ]
+}

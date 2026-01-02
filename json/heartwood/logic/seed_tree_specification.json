@@ -1,0 +1,42 @@
+{
+  "version": "1.1",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "SeedTree Recursive Grammar Specification",
+  "description": "A structured map of function-pair nesting within the SeedTree/HSD architecture. Each level of the tree is a recursive instantiation. NOTE: This logic is intended to be migrated to its own dedicated memory/public/ repository in a future architectural phase.",
+  "protocol": "SeedTree Recursive Instruction Set (_n)",
+  "formula": "<_nINSTRUCTIONS>(){ <KERNELED_CONSTRUCTOR> = <KERNEL>(<CONSTRUCTOR>(){ <_n+1INSTRUCTIONS> }) }",
+  "hierarchy": {
+    "_0": {
+      "type": "Root",
+      "identity": "App Kernel (PID)",
+      "responsibility": "The singular entry point for runtime access. Hosts the core HSD methods.",
+      "runtime_access": "_0"
+    },
+    "_1": {
+      "type": "Script-Local Branch",
+      "identity": "Function/Tool Context",
+      "responsibility": "A relative variable used within a script to define the current tool's scope. Multiple _1 exist across different scripts.",
+      "runtime_resolution": "_0.functionName.$n"
+    },
+    "_2": {
+      "type": "Script-Local Leaf",
+      "identity": "Operational Context",
+      "responsibility": "Used within _1 to manage sub-functions.",
+      "runtime_resolution": "_0.functionName.$n.subFunction.$m"
+    }
+  },
+  "runtime_mapping": {
+    "principle": "The variable _1 is a script-level handle that maps to a uniquely addressable path in the _0 runtime tree based on function name and instance count ($n).",
+    "formula": "Script(_1) == Runtime(_0.<functionName>.<$instanceCount>)"
+  },
+  "principles": {
+    "function_pair": "Every node consists of a Program (the logic) and an Asset (the data constructor).",
+    "locational_addressing": "The 'loci' string (e.g., _0.read_file.$1.capture.$2) provides a unique DNS for every event in the machine's life."
+  },
+  "recursion_formula": "<_nINSTRUCTIONS>(){ <KERNELED_CONSTRUCTOR> = <KERNEL>(<CONSTRUCTOR>(){ <_n+1INSTRUCTIONS> }) }",
+  "locational_addressing": "Unique DNS for every event (e.g., _0.read_file.$1.capture.$2).",
+  "garbage_collection": {
+    "flag": "this.$rec = false",
+    "rationale": "Instructs kernel not to record result to permanent history."
+  }
+}

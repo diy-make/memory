@@ -1,0 +1,23 @@
+{
+  "version": "1.2",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Heartwood Naming Conventions",
+  "description": "Rules for linguistic consistency and cognitive clarity across the firm's filesystem.",
+  "values": [
+    {
+      "name": "Eukaryotic Singulars",
+      "rule": "Collective directories like 'inbox', 'trash', and 'memory' remain singular.",
+      "rationale": "Reflects their status as single-subject organisms within the eukaryotic tree."
+    },
+    {
+      "name": "One Word Constraint",
+      "rule": "Linguistic levers (glossary terms) should aim for a single-word essence.",
+      "rationale": "Brevity increases the potency of the lever and ensures high-resolution cognitive anchoring."
+    },
+    {
+      "name": "Polysemy Awareness",
+      "rule": "Avoid ambiguous or context-dependent terms without qualified definitions.",
+      "rationale": "Absolute precision in naming prevents 'Data Drift' and maintains the integrity of the forensic record."
+    }
+  ]
+}

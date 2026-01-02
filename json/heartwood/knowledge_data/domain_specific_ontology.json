@@ -1,0 +1,178 @@
+{
+  "version": "1.3",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Domain-Specific Knowledge Ontology",
+  "description": "Consolidated definitions for core technical and conceptual domains within the Ixventure ecosystem.",
+  "domains": {
+    "memory_concepts": {
+      "summary": "Differentiation of 'memory' across system, application, and domain levels.",
+      "types": [
+        {
+          "name": "System Memory",
+          "description": "Refers to the physical RAM and VRAM of the system. Managed by MemoryManager class using psutil and torch.cuda.",
+          "related_files": [
+            "MemoryManager class"
+          ]
+        },
+        {
+          "name": "Application-Level Memory",
+          "description": "Refers to data structures and objects held in runtime memory (V8/Python/C++).",
+          "related_files": [
+            "Memory class (SQLAlchemy)",
+            "Memory class (embedding)",
+            "RootMove struct (C++)"
+          ]
+        },
+        {
+          "name": "Domain-Specific Memory",
+          "description": "Conceptual memory representing domain knowledge (embeddings) or search trees (RootMove).",
+          "related_files": [
+            "get_memory_controller",
+            "add_memory",
+            "memory_buffers"
+          ]
+        }
+      ]
+    },
+    "gemini_integration": {
+      "summary": "Patterns for Gemini API and class-based model management.",
+      "definitions": [
+        {
+          "name": "Gemini (BaseLlm)",
+          "description": "Main integration point for the Gemini API. Inherits from BaseLlm; handles async requests, streaming, and API client management.",
+          "related_files": [
+            "Gemini class (Python)"
+          ]
+        },
+        {
+          "name": "GeminiModel",
+          "description": "Interaction layer with features like retries, parallel calls, and caching.",
+          "related_files": [
+            "GeminiModel class (Python)"
+          ]
+        },
+        {
+          "name": "Configuration",
+          "description": "Handled through `setup_gemini_config` functions, including OpenRouter setup.",
+          "related_files": [
+            "setup_gemini_config functions"
+          ]
+        }
+      ]
+    },
+    "root_concepts": {
+      "summary": "Polysemous definitions of 'root' across technical contexts.",
+      "definitions": [
+        {
+          "context": "Data Structures",
+          "meaning": "The root node of a tree or graph.",
+          "related_files": [
+            "get_root (Python)"
+          ]
+        },
+        {
+          "context": "File System",
+          "meaning": "The root directory of the project or application.",
+          "related_files": [
+            "root_path (Python)"
+          ]
+        },
+        {
+          "context": "Game AI / Search",
+          "meaning": "The starting move or position in a search tree.",
+          "related_files": [
+            "RootMove (C++)"
+          ]
+        },
+        {
+          "context": "Terraform",
+          "meaning": "The main module in a Terraform configuration.",
+          "related_files": [
+            "Root module structure"
+          ]
+        },
+        {
+          "context": "UI / Frontend",
+          "meaning": "The top-level component in a UI hierarchy.",
+          "related_files": [
+            "RootLayout (React)"
+          ]
+        }
+      ]
+    },
+    "bim_concepts": {
+      "name": "Building Information Modeling (BIM)",
+      "summary": "Collaborative AEC digital representation standards.",
+      "definitions": [
+        {
+          "name": "AEC",
+          "description": "Architecture, Engineering, and Construction sector."
+        },
+        {
+          "name": "BIMhero.io",
+          "description": "Community hub platform for BIM coordinators and AEC professionals."
+        },
+        {
+          "name": "BIM",
+          "description": "Collaborative process for managing digital representations of built assets."
+        }
+      ]
+    },
+    "documentation_standards": {
+      "name": "Metadata and Documentation Standards",
+      "summary": "Consistent, machine-readable formats for documenting code and Heartwood.",
+      "definitions": [
+        {
+          "name": "Header Syntax",
+          "description": "Standardized [Title], [Section], and [Subsection] markers for article and report generation."
+        },
+        {
+          "name": "Comment Purpose",
+          "description": "Provide machine-readable format for documentation extraction (e.g., C++ Reader::addComment).",
+          "related_files": [
+            "C++ Reader::addComment"
+          ]
+        }
+      ]
+    }
+  },
+  "polysemy_mapping": {
+    "root": [
+      {
+        "context": "File System",
+        "meaning": "The root directory of the project/repo."
+      },
+      {
+        "context": "Data Structures",
+        "meaning": "The starting node of a tree or graph."
+      },
+      {
+        "context": "Game AI / Search",
+        "meaning": "The initial move or position in a search tree."
+      },
+      {
+        "context": "UI / Frontend",
+        "meaning": "The top-level component in a hierarchy (e.g., RootLayout)."
+      }
+    ],
+    "memory": [
+      {
+        "type": "System",
+        "meaning": "Physical RAM/VRAM managed by the OS."
+      },
+      {
+        "type": "Application",
+        "meaning": "Data structures and objects held in process memory."
+      },
+      {
+        "type": "Domain",
+        "meaning": "Conceptual state like game search trees or document embeddings."
+      }
+    ]
+  },
+  "aec_bim_context": {
+    "BIM": "Building Information Modeling: A collaborative process for managing digital representations of built assets.",
+    "AEC": "Architecture, Engineering, and Construction sector.",
+    "BIMhero": "Community platform for BIM and AEC professionals."
+  }
+}

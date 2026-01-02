@@ -1,0 +1,137 @@
+{
+  "title": "Thrasymachus - 40-File 1-by-1 Heartwood Audit",
+  "meta": {
+    "agent": "Thrasymachus",
+    "session_id": "20260102-001919",
+    "status": "active"
+  },
+  "tasks": [
+    {
+      "id": "AUDIT-INDEX",
+      "path": "json/heartwood/index.json",
+      "status": "[x]",
+      "description": "Generate and maintain the dot-notated node index."
+    },
+    {
+      "id": "AUDIT-01",
+      "path": "json/configuration/environment_paths.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-02",
+      "path": "json/knowledge_data/domain_specific_ontology.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-03",
+      "path": "json/knowledge_data/standards/python_ops.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP",
+      "notes": ".venv meta-root edit preserved"
+    },
+    {
+      "id": "AUDIT-04",
+      "path": "json/logic/seed_tree_specification.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-05",
+      "path": "json/one_word_glossary.json",
+      "status": "[x]",
+      "notes": "Added reference logic for keyword-to-branch opening.",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-06",
+      "path": "json/philosophy/gem_process.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-07",
+      "path": "json/principles/agent_error_log.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-08",
+      "path": "json/principles/agent_user_relationship.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-09",
+      "path": "json/principles/agent_virtues.json",
+      "status": "[x]",
+      "user_response": "keep. frequent commit mandate refined.",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-10",
+      "path": "json/principles/architecture.json",
+      "status": "[x]",
+      "user_response": "keep. add hybrid.",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-14",
+      "path": "json/heartwood/principles/development_process.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-15",
+      "path": "json/heartwood/principles/ephemeral_identity.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-16",
+      "path": "json/heartwood/principles/memory_architecture.json",
+      "status": "[x]",
+      "user_response": "keep. deprecate README.ai.",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-17",
+      "path": "json/heartwood/principles/memory_hierarchy.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-18",
+      "path": "json/heartwood/principles/naming_conventions.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-23",
+      "path": "json/heartwood/rules/broken_instance_protocol.json",
+      "status": "[x]",
+      "user_response": "consolidate into 22",
+      "decision": "CONSOLIDATED -> 22"
+    },
+    {
+      "id": "AUDIT-25",
+      "path": "json/heartwood/rules/fatal_error_protocol.json",
+      "status": "[ ]"
+    }
+  ],
+  "indexing_protocol": "Article.Section.Clause",
+  "structure_update": "Move superhubs to json/heartwood/"
+}

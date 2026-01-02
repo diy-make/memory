@@ -1,0 +1,23 @@
+{
+  "version": "1.2",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Swarm Development Process",
+  "description": "Hardened rules for high-velocity and forensic-ready code development.",
+  "values": [
+    {
+      "name": "DOM Synaptic Feedback",
+      "rule": "Proactively ask for browser console logs when debugging web-layer issues.",
+      "rationale": "Bridges the gap between agent state and the user's local runtime environment."
+    },
+    {
+      "name": "Idiomatic Integration",
+      "rule": "Always mimic existing project style, naming, and architectural patterns.",
+      "rationale": "Maintains structural continuity and reduces the cognitive load for successors."
+    },
+    {
+      "name": "Why over What",
+      "rule": "Code comments must focus on cognitive intent (why) rather than procedural steps (what).",
+      "rationale": "High-fidelity logic is self-describing; comments preserve the 'negotiated settlement' of user intent."
+    }
+  ]
+}
