@@ -1,0 +1,106 @@
+{
+  "title": "Palamedes - Manual 1-by-1 Heartwood Audit - 2026-01-01",
+  "description": "Granular manual audit of the hardened Heartwood substrate following the Great Purge.",
+  "meta": {
+    "agent": "Palamedes",
+    "session_id": "20260101-205115",
+    "status": "active"
+  },
+  "tasks": [
+    {
+      "id": "AUDIT-01",
+      "name": "Audit principles/agent_error_log.json",
+      "description": "Verify the consolidated error history and forensic traceability.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "AUDIT-02",
+      "name": "Audit principles/agent_user_relationship.json",
+      "description": "Review 'The Sword and the Arm' metaphor and technical precision mandates.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "WEDO-DEFERRED-PURGE-ADJACENT-PY",
+      "name": "Purge Adjacent Python Formatters",
+      "description": "Delete individual .py scripts located next to JSON files, replacing them with the universal formatter.",
+      "status": "[x]",
+      "commands": [
+        "rm repos/diy-make/memory/public/json/principles/agent_user_relationship.py",
+        "rm repos/diy-make/memory/public/json/principles/agent_virtues.py",
+        "rm repos/diy-make/memory/public/json/principles/architecture.py",
+        "rm repos/diy-make/memory/public/json/principles/contextual_artifacts.py",
+        "rm repos/diy-make/memory/public/json/principles/data_standards.py",
+        "rm repos/diy-make/memory/public/json/principles/development_process.py",
+        "rm repos/diy-make/memory/public/json/principles/ephemeral_identity.py",
+        "rm repos/diy-make/memory/public/json/principles/knowledge_management.py",
+        "rm repos/diy-make/memory/public/json/principles/memory_architecture.py",
+        "rm repos/diy-make/memory/public/json/principles/memory_hierarchy.py",
+        "rm repos/diy-make/memory/public/json/principles/personality.py",
+        "rm repos/diy-make/memory/public/json/principles/programming_legalese_mcp.py",
+        "rm repos/diy-make/memory/public/json/principles/sacred_memory.py",
+        "rm repos/diy-make/memory/public/json/principles/swarm_intelligence.py",
+        "rm repos/diy-make/memory/public/json/principles/philosophy/gem_process.py",
+        "rm -rf repos/diy-make/memory/public/json/knowledge_data/bim_concepts/",
+        "rm -rf repos/diy-make/memory/public/json/knowledge_data/memory_concepts/",
+        "rm -rf repos/diy-make/memory/public/json/knowledge_data/root_concepts/",
+        "rm -rf repos/diy-make/memory/public/json/knowledge_data/gemini_integration/",
+        "rm -rf repos/diy-make/memory/public/json/knowledge_data/documentation_standards/",
+        "rm -rf repos/diy-make/memory/public/json/knowledge_data/svg_learnings/",
+        "rm -rf repos/diy-make/memory/public/json/configuration/mcp/",
+        "rm -rf repos/diy-make/memory/public/json/configuration/modules/",
+        "rm repos/diy-make/memory/public/json/job_takeover_protocol.json",
+        "rm repos/diy-make/memory/public/json/local_paths.json",
+        "rm repos/diy-make/memory/public/json/glossary.py",
+        "rm repos/diy-make/memory/public/json/memory_metagit_map.json",
+        "rm repos/diy-make/memory/public/json/memory_metagit_map.py",
+        "rm repos/diy-make/memory/public/json/domain_specific_knowledge.json",
+        "rm -rf repos/diy-make/memory/public/json/personality/"
+      ]
+    },
+    {
+      "id": "AUDIT-03",
+      "name": "Audit principles/agent_virtues.json",
+      "description": "Check moral hardening: No Drama, Integrity, and Efficiency.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "AUDIT-04",
+      "name": "Audit principles/architecture.json",
+      "description": "Review AI Unix Philosophy and Fractal Memory standards.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "AUDIT-05",
+      "name": "Audit principles/data_standards.json",
+      "description": "Verify V2.2 rules for polysemy and hierarchical proportionality.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "AUDIT-06",
+      "name": "Audit knowledge_data/domain_specific_ontology.json",
+      "description": "Verify deep merger of all concept and integration fragments.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "AUDIT-07",
+      "name": "Audit rules/master_command_profile.json",
+      "description": "Verify resolution of MCP polysemy and consolidation of aliases/modules.",
+      "status": "[x]",
+      "priority": "high"
+    },
+    {
+      "id": "AUDIT-08",
+      "name": "Audit py/metagit_git_map.py",
+      "description": "Verify creation of the repo-local mapping script and redirection of map instances to chrono-fractal json/.",
+      "status": "[x]",
+      "priority": "high"
+    }
+  ],
+  "attribution": "Palamedes (20260101-233000)"
+}
