@@ -1,6 +1,0 @@
-{
-  "timestamp": "2025-11-02 10:00:00",
-  "description": "Repeatedly encountered 'Resource exhausted' API errors (429) leading to automatic model switching to gemini-2.5-flash.",
-  "chastisement": "User observed the recurring error and asked for an explanation.",
-  "resolution": "Logged the error. Need to be more mindful of API usage and explore strategies to reduce API calls or introduce delays."
-}

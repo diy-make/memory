@@ -66,6 +66,15 @@
       "decision": "RESTORED",
       "rationale": "Forensic comparison with pre-refactor state (Dec 29) identified critical omissions. Re-injected mandatory commit tool usage into git_methodology.json, restored deep rationale for agent justification, and enhanced base schema definitions for better validation.",
       "status": "HARDENED"
+    },
+    {
+      "id": "PAL-08",
+      "timestamp": "20260101-234500",
+      "path": "SeedTree_Recursive_Grammar.json",
+      "recommendation": "MOVE -> logic/seed_tree_specification.json",
+      "decision": "HARDENED",
+      "rationale": "Relocated foundational recursive logic to the logic/ branch. Added metadata and a note regarding the future intent to migrate this logic to a dedicated repository.",
+      "status": "FINALIZED"
     }
   ]
 }

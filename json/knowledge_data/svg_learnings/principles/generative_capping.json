@@ -1,4 +1,0 @@
-{
-  "name": "Generative Capping",
-  "rule": "To prevent the creation of impractically large files, the generation process should be capped. Before drawing, calculate the complexity metric for all requested layers. Determine the highest layer that remains below the threshold and only generate layers up to that cap. Inform the user when a cap has been applied (Boomerang Feedback)."
-}

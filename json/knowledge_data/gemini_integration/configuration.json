@@ -1,4 +1,0 @@
-{
-  "description": "Configuration for the Gemini model is handled through `setup_gemini_config` functions, which can set up the model to use OpenRouter.",
-  "related_files": ["setup_gemini_config functions"]
-}

@@ -1,12 +1,13 @@
 {
-  "version": "1.0",
-  "attribution": "Anaximander (20251231-135827)",
-  "title": "Metagit Environment Local Paths",
-  "description": "Standardized path mapping for swarm communication, memory, and logs.",
-  "local_paths": {
+  "version": "1.1",
+  "attribution": "Palamedes (20260101-211500)",
+  "title": "Environment Path Configuration",
+  "description": "Standardized directory mapping for session path-finding, communication, and persistent memory access. NOTE: This file is a 'pointer superhub'—many external files and scripts rely on these paths. A deep forensic audit is required to identify and update all references to the legacy 'local_paths.json' to point here.",
+  "paths": {
     "chat_history": "dynamic/stream/",
     "swarm_comms": "repos/diy-make/memory/comms/",
     "used_agent_names": "repos/diy-make/memory/used_agent_names.json",
     "memory_json": "repos/diy-make/memory/public/json/"
-  }
+  },
+  "rationale": "Centralizing environment paths ensures that all swarm agents use a consistent mapping for metabolic and forensic operations."
 }

@@ -1,5 +1,0 @@
-{
-  "name": "GeminiModel",
-  "description": "Another class for interacting with the Gemini model, with features like retries, parallel calls, and caching.",
-  "related_files": ["GeminiModel class (Python)"]
-}

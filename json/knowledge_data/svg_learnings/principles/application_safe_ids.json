@@ -1,4 +1,0 @@
-{
-  "name": "Application-Safe IDs",
-  "rule": "Avoid special characters (e.g., '#') in element IDs (like layer names). These can cause parsing errors or create invalid filenames when exported from applications like Inkscape. Sanitize IDs by removing or replacing such characters."
-}

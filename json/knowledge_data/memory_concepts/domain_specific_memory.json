@@ -1,5 +1,0 @@
-{
-  "name": "Domain-Specific Memory",
-  "description": "A conceptual 'memory' that represents domain-specific knowledge, such as game tree search states (`RootMove`), or documents and their embeddings for retrieval.",
-  "related_files": ["get_memory_controller", "add_memory", "memory_buffers"]
-}

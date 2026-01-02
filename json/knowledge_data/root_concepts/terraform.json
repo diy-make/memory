@@ -1,5 +1,0 @@
-{
-  "context": "Terraform",
-  "meaning": "The main module in a Terraform configuration.",
-  "related_files": ["[Section] : Root module structure"]
-}
