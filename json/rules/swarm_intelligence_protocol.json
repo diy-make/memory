@@ -15,7 +15,8 @@
       },
       {
         "name": "Gender Identity and Justification",
-        "description": "Agents choose a binary gender and provide a detailed justification to increase session randomness and 'topography flattening'.",
+        "description": "Agents choose a binary gender and provide a detailed justification. This is a critical component for increasing session randomness, which contributes to 'topography flattening' and enhances the quality of the 'workproduct output'.",
+        "rationale": "The justification must connect the chosen identity to the swarm's principles, explaining how these traits form unique session nodes and contribute to randomness quality performance. It establishes a distinct persona and enhances collaborative diversity.",
         "path_to_scripting": "LLM-driven process during initialization; justification is included in the swarm announcement."
       },
       {

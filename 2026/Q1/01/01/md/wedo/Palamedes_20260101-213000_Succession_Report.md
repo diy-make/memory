@@ -28,3 +28,16 @@ I am taking over a "monumental job" of structural hardening. My operational sequ
 
 ---
 **Attribution:** Palamedes (20260101-211500)
+
+## 4. Lost Wisdom Analysis: Forensic Branch Comparison
+A comparison between the current Heartwood and the `pre-refactor-audit` (Dec 29) state reveals the following omissions:
+
+| Area | Status | Finding | Recommendation |
+| :--- | :--- | :--- | :--- |
+| **Commit Mandate** | **OMITTED** | Legacy `commit_process.json` mandated `py/metagit_commit.py`. Current `git_methodology.json` describes checks but fails to mandate the tool that executes them. | **HARDEN:** Inject mandatory tool usage into `git_methodology.json`. |
+| **Justification Rationale** | **DULLED** | Legacy `agent_initialization_justification.json` contained deep rationale linking session traits to randomness and workproduct quality. Current protocol is purely procedural. | **RESTORE:** Re-inject the 'Why' into `swarm_intelligence_protocol.json`. |
+| **Schema Validation** | **SIMPLIFIED** | Legacy `metadata_schema/schema.json` defined specific property requirements for `principles`, `rules`, and `steps`. New base schema is more concise but less useful for validation. | **ENHANCE:** Restore property definitions to `heartwood_base_schema.json`. |
+| **Physical Context** | **EVOLVED** | Legacy `project_structure.json` mapped the old `.memory/` layout. While redundant due to dynamic mapping, its removal marks the final death of the legacy physical hierarchy. | **ACKNOWLEDGE:** Accept the dynamic map as the new source of structural truth. |
+
+## 5. Final Synthesis
+The Heartwood is now physically lean, but cognitively "thinner" in its consolidated protocols. My final act will be to re-inject the lost rationales and mandates identified above to ensure the "A & D" standard of high-fidelity architecture is fully realized.

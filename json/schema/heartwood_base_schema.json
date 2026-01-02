@@ -8,7 +8,9 @@
       "type": "object",
       "properties": {
         "name": { "type": "string" },
-        "description": { "type": "string" }
+        "description": { "type": "string" },
+        "rationale": { "type": "string" },
+        "path_to_scripting": { "type": "string" }
       },
       "required": ["name"]
     },
@@ -16,9 +18,31 @@
       "type": "object",
       "properties": {
         "id": { "type": "string" },
-        "description": { "type": "string" }
+        "description": { "type": "string" },
+        "commands": { "type": "array", "items": { "type": "string" } }
       },
       "required": ["id"]
+    },
+    "memory_file_schema": {
+      "type": "object",
+      "properties": {
+        "principles": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/named_item" }
+        },
+        "rules": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/named_item" }
+        },
+        "steps": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/named_item" }
+        },
+        "tasks": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/identified_item" }
+        }
+      }
     }
   },
   "artifact_requirements": [

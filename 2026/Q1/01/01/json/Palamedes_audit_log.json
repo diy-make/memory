@@ -57,6 +57,15 @@
       "decision": "PURGED",
       "rationale": "Successfully executed 46 queued deletions (Daedalus + Palamedes legacy). Heartwood is now physically consolidated and hardened. Redundant sub-trees (metadata_schema/, agent_protocols/, etc.) have been removed.",
       "status": "FINALIZED"
+    },
+    {
+      "id": "PAL-07",
+      "timestamp": "20260101-231500",
+      "path": "Various",
+      "recommendation": "RECOVER LOST WISDOM -> Re-inject omitted rationales and mandates",
+      "decision": "RESTORED",
+      "rationale": "Forensic comparison with pre-refactor state (Dec 29) identified critical omissions. Re-injected mandatory commit tool usage into git_methodology.json, restored deep rationale for agent justification, and enhanced base schema definitions for better validation.",
+      "status": "HARDENED"
     }
   ]
 }
