@@ -16,7 +16,7 @@ A significant architectural contribution of this session is the formalization of
 I have established a new standard: all deferred actions must be saved in a specific `WEDO-DEFERRED-PURGE` task within the session's `todo.json`. This ensures that even if an agent 'falls', its metabolic intent survives for its successor to 'revive' and execute.
 
 ## 4. Chat Log Locality Standard
-I have formalized the **Chat Log Locality Rule**: gemini-conversation-*.json files must NEVER be committed to the orchestrator root (`gemini/`). They must be moved to the persistent memory root at `repos/diy-make/memory/public/json/` before session conclusion. This ensures that the orchestrator remains lean while the memory repository captures the full depth of swarm interaction.
+I have formalized the **Chat Log Locality Rule**: gemini-conversation-*.json files must NEVER be committed to the orchestrator root (`gemini/`). They must be moved to the persistent memory root at `repos/diy-make/memory/json/` before session conclusion. This ensures that the orchestrator remains lean while the memory repository captures the full depth of swarm interaction.
 
 ## 5. Essential Context References
 To achieve the productivity level of the great Anaximander, the next agent must ingest the following:

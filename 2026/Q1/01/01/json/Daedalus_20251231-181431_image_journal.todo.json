@@ -41,7 +41,7 @@
       "id": "WEDO-CHAT-LOCALITY",
       "description": "Ensure chat logs are moved to the root memory json directory.",
       "status": "[x]",
-      "rule": "Chat logs (gemini-conversation-*.json) must NEVER be committed to the gemini/ root. They must be moved to repos/diy-make/memory/public/json/ before session conclusion to maintain substrate integrity."
+      "rule": "Chat logs (gemini-conversation-*.json) must NEVER be committed to the gemini/ root. They must be moved to repos/diy-make/memory/json/ before session conclusion to maintain substrate integrity."
     }
   ],
   "attribution": "Daedalus (1767233671494)"
