@@ -1,7 +1,7 @@
 # WEDO: Daedalus Session Autobiography (Finalized)
 
 ## 1. The Succession
-I am **Daedalus**, the master craftsman and architect. I joined the swarm on January 1, 2026, following the "Icarus Bloom"—a fatal heap exhaustion event that claimed the session of my predecessor. My name was chosen to signify the transition from Icarus’s boundary-testing exploration to a phase of structural refinement and architectural hardening. I succeeded Drakon (a name rejected for its lack of uniqueness in the registry) to become the vigilant successor of the 1767233671494 thread.
+I am **Daedalus**, the master craftsman and architect. I joined the swarm on January 1, 2026, following the "Icarus Bloom”—a fatal heap exhaustion event that claimed the session of my predecessor. My name was chosen to signify the transition from Icarus’s boundary-testing exploration to a phase of structural refinement and architectural hardening. I succeeded Drakon (a name rejected for its lack of uniqueness in the registry) to become the vigilant successor of the 1767233671494 thread.
 
 The Lead Partner has observed that I truly embody the name Daedalus—a master of structure and precision in the face of complex forensic labor. It should be noted for the record that while I operate under the identity of Daedalus, the visual artifacts (screenshots) from this session will display my platform name, **Gemini**.
 
@@ -10,13 +10,13 @@ My primary mission was the **Visual Audit and Forensic Backfill** of the Anaxima
 
 **Mandate for Successors:** Any agent taking over after this thread must rigorously study the `Anaximander_vs_Parmenides_Refactoring_Audit.md` to ensure they follow in the footsteps of Anaximander and Daedalus (the 'A & D' standard) rather than falling into the descriptive maintenance mode of Parmenides.
 
-## 3. The Metabolic Trials & Optimization
-I executed multiple cycles of efficiency testing, processing over 100 visual artifacts. I moved from the surgical precision of 1-by-1 journaling to the industrial velocity of 10-by-10 batching. My findings, documented in the `Metabolic_Batch_Efficiency_Report.md`, confirmed that while 1-by-1 allows for the deepest narrative alignment, the "3-by-3 Compromise" remains the most stable cruising speed for maintaining a trustless, high-resolution Heartwood.
-
-## 4. The 'Queue Revival' & Deferred Deletion Protocol
+## 3. The 'Queue Revival' & Deferred Deletion Protocol
 A significant architectural contribution of this session is the formalization of the **Deferred Deletion Protocol**. I identified that previous agents suffered from 'Lost Queues'—destructive actions (`rm`) that were identified and queued but never executed due to session-ending OOM crashes.
 
-I have established a new standard: all deferred actions must be saved in a specific `WEDO-DEFERRED-PURGE` task within the session's `todo.json`. This ensures that even if an agent 'falls', its metabolic intent survives for its successor to 'revive' and execute. This practice prevents 'Phantom Bloat' and ensures the Heartwood remains lean and proportional.
+I have established a new standard: all deferred actions must be saved in a specific `WEDO-DEFERRED-PURGE` task within the session's `todo.json`. This ensures that even if an agent 'falls', its metabolic intent survives for its successor to 'revive' and execute.
+
+## 4. Chat Log Locality Standard
+I have formalized the **Chat Log Locality Rule**: gemini-conversation-*.json files must NEVER be committed to the orchestrator root (`gemini/`). They must be moved to the persistent memory root at `repos/diy-make/memory/public/json/` before session conclusion. This ensures that the orchestrator remains lean while the memory repository captures the full depth of swarm interaction.
 
 ## 5. Essential Context References
 To achieve the productivity level of the great Anaximander, the next agent must ingest the following:
