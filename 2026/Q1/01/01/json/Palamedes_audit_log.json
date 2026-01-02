@@ -75,6 +75,15 @@
       "decision": "HARDENED",
       "rationale": "Relocated foundational recursive logic to the logic/ branch. Added metadata and a note regarding the future intent to migrate this logic to a dedicated repository.",
       "status": "FINALIZED"
+    },
+    {
+      "id": "PAL-09",
+      "timestamp": "20260102-000500",
+      "path": "glossary.json",
+      "recommendation": "RENAME -> one_word_glossary.json",
+      "decision": "POLISHED",
+      "rationale": "Reduced the legislative glossary to its ultimate essence: Absurdity. This term now serves as the primary logical filter for the entire swarm.",
+      "status": "FINALIZED"
     }
   ]
 }
