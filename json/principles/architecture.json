@@ -1,11 +1,13 @@
 {
-  "version": "1.0",
-  "attribution": "Anaximander (20251231-135827)",
+  "version": "1.1",
+  "attribution": "Daedalus (1767233671494)",
   "title": "AI Unix Philosophy & System Architecture",
   "description": "Architectural guidelines for modular, interactive, and fractal agent systems.",
   "principles": {
     "unix_modularity": "Create small, single-purpose Python scripts orchestrated by the CLI.",
     "boomerang_orchestration": "Agent executes tools, provides feedback, and stops to await human intent.",
-    "fractal_memory": "Local json/ directories allow project-specific context while inheriting global principles."
+    "fractal_memory": "Local json/ directories allow project-specific context while inheriting global principles.",
+    "declarative_imperative_duality": "Employ a dual approach. Imperative code is guided by metadeclarative comments within the same file.",
+    "extensibility": "Prioritize objective simplicity (de-complecting concerns) over subjective easiness. Write simple parts connected by clean interfaces."
   }
 }

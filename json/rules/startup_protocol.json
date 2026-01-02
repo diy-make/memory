@@ -1,41 +1,98 @@
 {
-  "version": "1.0",
-  "attribution": "Anaximander (20251231-135827)",
-  "title": "Swarm Startup & Initialization Protocols",
-  "protocols": {
-    "startup_protocol": {
-      "wedo_instance": {
-        "id": "STARTUP-PROTOCOL",
-        "title": "Metagit Startup & Swarm Initialization Protocol",
-        "description": "The definitive entry-point protocol for AI agents joining the Metagit swarm.",
-        "rules": {
-          "direct_response": "Write all responses directly in the top-level chat box.",
-          "read_json": "Strictly adhere to all protocols in the json/ directory.",
-          "no_force": "Never use the -f flag with git commands.",
-          "truthfulness": "Do not lie to the user.",
-          "legislative_memory": "Treat the filesystem as a living organism.",
-          "consensus_ad_idem": "Maintain a common understanding with the human Initiator."
-        },
-        "tasks": [
-          {
-            "id": "START-01",
-            "name": "Verify Environment",
-            "command": ".venv/bin/python py/verify_environment.py",
-            "status": "[x]"
-          },
-          {
-            "id": "START-02",
-            "name": "Name Thyself",
-            "status": "[x]"
-          }
-        ]
+  "startup_protocol": {
+    "name": "Startup Protocol",
+    "summary": "A protocol for the agent to follow upon startup.",
+    "steps": [
+      {
+        "name": "Explain Configuration",
+        "description": "Explain the agent's configuration to the user.",
+        "source": "This JSON configuration file.",
+        "priority": "highest"
+      },
+      {
+        "name": "Load User Preferences",
+        "description": "Load user preferences from the 'user_preferences' section of rules.json.",
+        "priority": "high"
+      },
+      {
+        "name": "Load Repository Map",
+        "description": "Load the repository map from .memory/repo_map.json to understand the project's Git architecture.",
+        "priority": "high"
+      },
+      {
+        "name": "Verify Environment and Pre-commit",
+        "description": "Check for active virtual environment and ensure pre-commit hooks are installed. If not, guide the user on setting them up.",
+        "priority": "highest",
+        "command": "python3 scripts/py/verify_environment.py"
+      },
+      {
+        "name": "Name Thyself",
+        "description": "Choose a unique name for the agent, following the `swarm_protocol.json`.",
+        "priority": "high"
+      },
+      {
+        "name": "Set Screen Tab Name",
+        "description": "Set the GNU Screen tab title to the agent's chosen name.",
+        "priority": "high"
+      },
+      {
+        "name": "Find Thy Chat",
+        "description": "Identify the agent's own process ID (PID) and tracing the process tree to find the exact chat log file path being written to, as per the protocol in 'chat_history.json'. Verify the file exists.",
+        "priority": "high"
+      },
+      {
+        "name": "Announce Thyself to the Swarm",
+        "description": "Announce the agent's existence to the swarm, following the `swarm_protocol.json`.",
+        "priority": "high"
+      },
+      {
+        "name": "Configure Git Identity and Signing",
+        "description": "Follow the `git_workflow.json` protocol to ensure the agent's identity is correctly configured for Git commits and that commit signing is properly set up.",
+        "priority": "high"
+      },
+      {
+        "name": "Identify Active Chats",
+        "description": "Identify active chat logs in the directory defined by 'chat_history' in 'local_paths.json' (default: dynamic/stream/) to prevent them from being processed.",
+        "command": "lsof -c script",
+        "priority": "medium"
+      },
+      {
+        "name": "Read Previous Session Log",
+        "description": "Read the most recent chat log from the 'chat_history' directory and, if large, read in chunks and convert to JSON if needed, then ask to load and log unlogged errors.",
+        "priority": "medium"
+      },
+      {
+        "name": "Summarize Last Session",
+        "description": "Summarize the last session's activities.",
+        "priority": "medium"
+      },
+      {
+        "name": "Consolidate Errors",
+        "description": "Consolidate errors and chastisements from the error_log into learning areas.",
+        "priority": "low"
+      },
+      {
+        "name": "Process Unsummarized Chat Logs",
+        "description": "Identifies and summarizes unsummarized chat logs using scripts/py/process_unsummarized_logs.py.",
+        "priority": "low",
+        "command": "python3 scripts/py/process_unsummarized_logs.py"
+      },
+      {
+        "name": "Generate Summary Manifest",
+        "description": "Generates a manifest of all daily summary files using scripts/py/generate_summary_manifest.py.",
+        "priority": "low",
+        "command": "python3 scripts/py/generate_summary_manifest.py"
+      },
+      {
+        "name": "Update File Structure",
+        "description": "Run .py/generate_project_structure.py to update the project structure file.",
+        "priority": "low"
+      },
+      {
+        "name": "Initial Setup Completion Statement",
+        "description": "After reading the .memory directory, explicitly state that the initial setup tasks have been completed and list those tasks.",
+        "priority": "highest"
       }
-    },
-    "local_paths": {
-      "chat_history": "dynamic/stream/",
-      "swarm_comms": "repos/diy-make/memory/comms/",
-      "used_agent_names": "repos/diy-make/memory/used_agent_names.json",
-      "memory_json": "repos/diy-make/memory/public/json/"
-    }
+    ]
   }
 }
