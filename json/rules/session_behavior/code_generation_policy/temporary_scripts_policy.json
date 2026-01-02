@@ -1,6 +1,0 @@
-{
-  "name": "temporary_scripts_policy",
-  "rule": "Temporary scripts used for recurring tasks should be made permanent and committed to the repository.",
-  "rationale": "To prevent loss of work and ensure reusability of automation scripts.",
-  "path_to_scripting": "This rule can be implemented as a periodic script that scans the agent's workspace for temporary scripts (e.g., scripts in a designated 'temp/' directory, or scripts that have been modified multiple times but not committed). If such scripts are found, the agent's LLM would be prompted to review them and determine if they are suitable for permanent inclusion in the repository. If so, the agent would suggest to the user that these scripts be made permanent and committed, explaining the rationale. This helps to prevent loss of work and encourages the reuse of automation scripts."
-}

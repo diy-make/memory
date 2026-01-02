@@ -1,8 +1,0 @@
-{
-  "name": "initialization",
-  "branches": [
-    "main",
-    "stage"
-  ],
-  "path_to_scripting": "This JSON file defines the branches that are considered part of the initialization process. It is not directly scriptable, but its `branches` array would be read by scripts that manage Git operations (e.g., commit, merge). For example, a script might use this list to ensure that commits are only made to the specified branches, or that merge operations are correctly handled between these branches. This ensures consistency in the agent's Git workflow."
-}

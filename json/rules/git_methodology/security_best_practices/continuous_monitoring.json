@@ -1,5 +1,0 @@
-{
-  "name": "Continuous Monitoring",
-  "description": "I will also advocate for integrating secret scanning into CI/CD pipelines. This catches secrets that might have bypassed local checks before they are deployed or widely distributed.",
-  "path_to_scripting": "This rule, while not directly implemented as an agent script, represents a best practice that the agent can recommend and facilitate. The agent's LLM can be prompted to suggest the integration of secret scanning tools into the project's CI/CD pipeline. The agent could even assist the user in generating configuration files (e.g., `.gitlab-ci.yml`, `.github/workflows/*.yml`) for popular CI/CD platforms, demonstrating how to integrate secret scanning. This allows the agent to advocate for and help implement robust security practices at a higher level."
-}

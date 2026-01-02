@@ -1,6 +1,0 @@
-{
-  "name": "Nested Repository Handling",
-  "description": "This repository acts as a 'meta-repo' and contains other, separate Git repositories within its directory structure. These nested repositories are ignored by this parent repository's .gitignore file.",
-  "rule": "The agent must not attempt to stage or commit changes to files within these nested repositories from the parent repository. All Git operations for a nested repository must be performed from within that nested repository's own directory.",
-  "path_to_scripting": "This rule would be implemented as a pre-check for all Git operations. Before attempting to stage or commit files, a script would determine the current working directory and compare it against the known paths of nested repositories (obtained from the `repo_map.json`). If the current operation is attempted from a parent repository on files within a nested repository, the agent would block the operation and inform the user about the correct procedure (i.e., perform the Git operation from within the nested repository's directory)."
-}

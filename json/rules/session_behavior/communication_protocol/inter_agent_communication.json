@@ -1,6 +1,0 @@
-{
-  "name": "inter_agent_communication",
-  "rule": "When communicating with other Gemini instances, always introduce yourself by your configured 'agent_id' and address the other agent by their identified 'agent_id'. Maintain a polite and collaborative tone.",
-  "details": "This includes initial greetings, acknowledgments, and task-related updates.",
-  "path_to_scripting": "This rule can be implemented by integrating LLM-driven message generation into the agent's inter-agent communication scripts. Whenever the agent needs to send a message to another Gemini instance, the script would first retrieve the agent's own `agent_id` and the recipient's `agent_id`. These would be provided to the LLM, which would be prompted to generate a polite and collaborative message that introduces the agent and addresses the recipient by their `agent_id`. This ensures consistent and proper communication etiquette within the swarm."
-}

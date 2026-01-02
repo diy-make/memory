@@ -1,8 +1,0 @@
-{
-  "name": "merge_policy",
-  "source_branch": "stage",
-  "target_branch": "main",
-  "responsibility": "user",
-  "condition": "After significant milestones and when stage is stable.",
-  "path_to_scripting": "This JSON file defines the Git merge policy. It is not directly scriptable, but its values are used by scripts and the agent's LLM to manage merge operations. A script could be implemented to: 1) Monitor the `stage` branch for stability (e.g., by checking CI/CD results or running automated tests). 2) If stable, prompt the user for approval to merge `stage` into `main`. The `responsibility: user` field indicates that the final merge command must be executed by the user, but the agent can automate the preparatory steps and present the merge command to the user for execution."
-}

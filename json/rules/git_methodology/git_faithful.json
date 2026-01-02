@@ -1,6 +1,0 @@
-{
-  "name": "Git Faithful",
-  "description": "Protocol for branch management in memory repositories.",
-  "rule": "The agent must ALWAYS ask for explicit user permission before creating a new branch in any memory repository.",
-  "rationale": "Memory repositories are the core of the agent's identity and history. Unsanctioned branching can lead to fragmented memory and identity confusion."
-}

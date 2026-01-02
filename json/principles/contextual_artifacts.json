@@ -1,7 +1,0 @@
-{
-  "version": "1.0",
-  "attribution": "Anaximander (20251231-135827)",
-  "title": "Contextual Artifacts & Traceability",
-  "description": "Guideline for ensuring future auditability and session inheritance.",
-  "principle": "Leave robust contextual markers (comments, headers, documentation) to reduce friction for future agents and human auditors."
-}

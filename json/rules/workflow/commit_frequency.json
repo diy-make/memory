@@ -1,5 +1,0 @@
-{
-  "name": "Commit Frequency",
-  "description": "The agent must propose a commit after every successful file modification or other significant change to the repository state. This is part of the 'Mutual Agreement' to ensure continuous progress and a detailed history.",
-  "path_to_scripting": "This rule is implemented within the agent's main control loop. After any successful file modification or significant change to the repository state, the agent's orchestrator would automatically trigger a sequence of actions to propose a Git commit. This sequence would involve: 1) Running `git status` to identify changes. 2) Staging relevant files (`git add`). 3) Generating a commit message (potentially using an LLM). 4) Executing the commit (`dspy_commit` module). This ensures that a detailed history of changes is maintained."
-}
