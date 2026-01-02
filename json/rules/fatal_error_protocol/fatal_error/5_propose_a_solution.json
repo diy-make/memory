@@ -1,7 +1,0 @@
-{
-  "name": "Propose a solution",
-  "steps": [
-    "If possible, the assigned agent will propose a solution to prevent the error from happening again. This may involve updating code, configurations, or protocols.",
-    "The proposed solution will be discussed and approved by the user and the swarm."
-  ]
-}

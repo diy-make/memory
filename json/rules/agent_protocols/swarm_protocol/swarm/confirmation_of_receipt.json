@@ -1,4 +1,0 @@
-{
-  "name": "Confirmation of Receipt",
-  "description": "After sending a message with a new instruction or a significant change, an agent must wait for a confirmation message from the recipient agent(s) before proceeding with the task. This ensures that all agents are aware of the new context before action is taken."
-}

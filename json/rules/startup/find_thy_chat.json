@@ -1,6 +1,0 @@
-{
-  "name": "Find Thy Chat",
-  "description": "Identify the agent's own process ID (PID) and the chat log file it is writing to.",
-  "priority": "high",
-  "path_to_scripting": "This rule can be implemented as a script that is run at the beginning of the agent's lifecycle. The script would use shell commands like `ps` and `lsof` to identify the agent's own process ID and the chat log file that it is writing to. This information would then be stored in the agent's memory for later use, for example, when announcing its existence to the swarm."
-}

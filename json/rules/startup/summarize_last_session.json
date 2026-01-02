@@ -1,6 +1,0 @@
-{
-  "name": "Summarize Last Session",
-  "description": "Summarize the last session's activities.",
-  "priority": "medium",
-  "path_to_scripting": "This rule can be implemented as a script that is run at the end of a session, or at the beginning of a new session to review the previous one. The script would identify the chat log of the last session, and then feed it to an LLM, prompting the LLM to generate a concise summary of the session's activities. This summary would then be saved as a structured JSON file (e.g., in a `session_summaries/` directory), making it easily retrievable for future context. The script would leverage the `summarization_strategy` principle to efficiently process the chat log."
-}

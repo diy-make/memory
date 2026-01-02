@@ -1,6 +1,0 @@
-{
-  "name": "Initial Setup Completion Statement",
-  "description": "After reading the .memory directory, explicitly state that the initial setup tasks have been completed and list those tasks.",
-  "priority": "highest",
-  "path_to_scripting": "This rule can be implemented as a script that is run at the end of the agent's initial setup phase. The script would gather the list of completed setup tasks (which are part of the agent's `startup` protocol). It would then present this list to the agent's LLM, prompting the LLM to generate a clear and concise statement confirming the completion of these tasks. This statement would then be presented to the user."
-}

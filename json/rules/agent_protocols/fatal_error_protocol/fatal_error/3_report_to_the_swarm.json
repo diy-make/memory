@@ -1,6 +1,0 @@
-{
-  "name": "Report to the swarm",
-  "steps": [
-    "The assigned agent will report its findings to the swarm, including the root cause of the error."
-  ]
-}

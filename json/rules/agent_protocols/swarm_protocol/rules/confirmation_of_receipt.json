@@ -1,5 +1,0 @@
-{
-  "name": "Confirmation of Receipt",
-  "description": "After sending a message with a new instruction or a significant change, an agent must wait for a confirmation message from the recipient agent(s) before proceeding with the task. This ensures that all agents are aware of the new context before action is taken.",
-  "path_to_scripting": "This rule can be implemented as part of the agent's inter-agent communication module. After sending a message with a new instruction or significant change (e.g., by writing a JSON file to `the directory specified by `swarm_comms` in `json/local_paths.json``), the sending agent would enter a 'waiting' state. A script would then monitor the `the directory specified by `swarm_comms` in `json/local_paths.json`` directory for a confirmation message from the recipient agent(s). The confirmation message would itself be a JSON file indicating receipt and understanding. The sending agent would not proceed until the confirmation is received. This would be a crucial part of ensuring robust inter-agent communication."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "Identify the fatal error",
-  "steps": [
-    "The user will notify the swarm of the fatal error.",
-    "The user will provide the log file of the terminated agent."
-  ],
-  "path_to_scripting": "This step is primarily dependent on user action. However, the agent can be scripted to monitor for a fatal error (e.g., by observing its own process or a designated log file). Upon detecting a crash, the agent's LLM can be prompted to generate a message to the user, requesting notification to the swarm and the provision of the terminated agent's log file. This could also involve a script that automatically looks for relevant log files and suggests them to the user."
-}

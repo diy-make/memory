@@ -1,5 +1,0 @@
-{
-  "name": "Step 6",
-  "description": "Update the swarm with a more detailed report, including the root cause of the failure and the last job the agent was working on.",
-  "path_to_scripting": "This step can be implemented as a script that is executed after the post-mortem analysis is complete. The script would gather the findings of the analysis (including the root cause of the failure and the identified last job) and generate a comprehensive report. This report would then be communicated to the swarm using the agent's inter-agent communication mechanism (e.g., by creating a new JSON file in the `the directory specified by `swarm_comms` in `json/local_paths.json`` directory), ensuring all relevant agents are informed about the incident."
-}

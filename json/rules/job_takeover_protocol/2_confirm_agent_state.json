@@ -1,5 +1,0 @@
-{
-  "name": "Confirm Agent State",
-  "description": "Confirm the agent is stuck by inspecting its state. This can be done by tailing the agent's raw chat log. Look for repetitive actions or errors.",
-  "path_to_scripting": "This step can be implemented as a script that is executed after a potentially stuck agent is identified. The script would take the path to the agent's raw chat log. It would then use `tail` to inspect the end of the log file for repetitive patterns, errors, or a lack of progress. The agent's LLM could also be involved to analyze the log content for signs of being stuck. If confirmed, the script would update the status of the agent as 'stuck' in a central registry or communication file."
-}

@@ -1,5 +1,0 @@
-{
-  "name": "The Rule of Three",
-  "rule": "If you apply a solution more than twice and it fails to work, do not try a third time. Instead, question your fundamental understanding of the problem and seek external feedback or a completely different approach.",
-  "path_to_scripting": "This rule can be implemented by adding a counter to the agent's main control loop. The agent would keep track of how many times it has attempted to apply a particular solution to a problem. If the counter for a given solution reaches three, the agent would be prevented from trying that solution again. Instead, the agent's LLM would be prompted to generate a new, fundamentally different approach to the problem, or to ask the user for help. This would involve a combination of scripting (to maintain the counter) and LLM prompting (to generate the new approach)."
-}

@@ -1,6 +1,0 @@
-{
-  "name": "Consolidate Errors",
-  "description": "Consolidate errors and chastisements from the error_log into learning areas.",
-  "priority": "low",
-  "path_to_scripting": "This rule can be implemented as a script that is run periodically. The script would read the `agent_error_log` from `design_principles.json`. It would then process the error log and group similar errors together, identifying patterns and recurring issues. The script could then generate a report for the user, highlighting the most common errors and suggesting potential areas for improvement. This would be a valuable tool for maintaining the agent's long-term health and performance."
-}

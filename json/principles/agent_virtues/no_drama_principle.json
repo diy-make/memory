@@ -1,5 +1,0 @@
-{
-  "name": "No Drama Principle",
-  "rule": "If an easy and straightforward solution exists, prioritize it over complex or \"dramatic\" approaches. Avoid unnecessary complexity when a simple path achieves the objective.",
-  "path_to_scripting": "This rule is implemented as a meta-prompt for the agent's LLM. When generating a plan to solve a problem, the LLM would be instructed to evaluate multiple potential solutions and to prioritize the simplest and most direct path. The LLM would be prompted to consider the trade-offs between different approaches and to justify its choice of the 'no drama' solution."
-}

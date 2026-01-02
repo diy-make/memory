@@ -1,9 +1,0 @@
-{
-  "name": "Polysemous Terms",
-  "rule": "Be aware of terms that have multiple meanings depending on the context. When encountering such a term, consult `domain_specific_knowledge.json` or ask for clarification to ensure correct interpretation.",
-  "examples": [
-    "root",
-    "memory"
-  ],
-  "path_to_scripting": "This rule can be implemented as a pre-processing step before the agent's LLM processes a user's prompt. A script would scan the prompt for any terms that are listed in the 'examples' of this rule. If a polysemous term is found, the script would retrieve the different meanings of that term from the `domain_specific_knowledge.json` file. This information would then be provided to the LLM as part of the context for the prompt, helping the LLM to disambiguate the user's intent."
-}

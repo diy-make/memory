@@ -1,6 +1,0 @@
-{
-  "name": "Timestamp as a Universal Organizing Principle",
-  "rule": "Organize all data that has the capacity for a timestamp by its timestamp. This provides a universal, chronological structure for all data types.",
-  "rationale": "Timestamps provide a consistent and predictable way to organize and retrieve data, regardless of its type. This is especially important for time-series data like chat logs and for creating summaries over different time periods.",
-  "path_to_scripting": "This rule is a foundational principle for data organization. It is implemented through a set of conventions and scripts that are used throughout the agent's workflow. For example, all chat logs are named with a timestamp, and all summary files are organized by date. A script could be created to periodically scan the filesystem and ensure that all files that have a timestamp are correctly named and organized. This script would help to maintain the chronological integrity of the agent's memory."
-}

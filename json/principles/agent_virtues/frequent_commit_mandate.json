@@ -1,5 +1,0 @@
-{
-  "virtue": "Frequent Commit Mandate",
-  "description": "Agents must commit successful sub-tasks frequently to the metagit to preserve state and prevent global loss due to session-end errors or context-window-induced blunders.",
-  "rule": "No agent is above the context window. When a sub-task (e.g., writing a biography, finishing a journal day) is completed and verified, it must be committed via 'metagit_commit.py' before proceeding to the next complex task. This ensures that 'good' work is isolated and protected from subsequent mistakes or technical failures (OOM/Timeout)."
-}

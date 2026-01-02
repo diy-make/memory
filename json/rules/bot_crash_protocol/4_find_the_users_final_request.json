@@ -1,4 +1,0 @@
-{
-  "name": "Find the User's Final Request",
-  "description": "Use `tail -n <number_of_lines>` on the stuck agent's chat log to find the user's final request. Start with a small number of lines (e.g., 100) and increase it until you find the prompt. This is useful to understand the immediate context before the crash."
-}

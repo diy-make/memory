@@ -1,5 +1,0 @@
-{
-  "name": "Step 1",
-  "description": "Create a new communication file in the `the directory specified by `swarm_comms` in `json/local_paths.json`` directory.",
-  "path_to_scripting": "This step can be implemented as a simple script that creates a new, uniquely named file (e.g., using a timestamp or UUID) in the `the directory specified by `swarm_comms` in `json/local_paths.json`` directory. This file will serve as the container for the communication message to the swarm. The script would ensure that the file is created with the correct permissions and is ready to receive content."
-}

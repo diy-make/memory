@@ -1,4 +1,0 @@
-{
-  "name": "Identify Active Chat Logs",
-  "description": "Use `ps aux | grep script` to find all active `script` processes that are logging Gemini sessions. This will give you the paths to the unclean chat logs."
-}

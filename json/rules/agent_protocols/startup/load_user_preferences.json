@@ -1,6 +1,0 @@
-{
-  "name": "Load User Preferences",
-  "description": "Load user preferences from the 'user_preferences' section of rules.json.",
-  "priority": "high",
-  "path_to_scripting": "This rule can be implemented as a script that is run during the agent's initialization. The script would read the `rules.json` file (which now resides in `repos/diy-make/memory/public/json/rules/`). It would then extract the 'user_preferences' section and load its content into the agent's active memory. This would allow the agent to tailor its behavior based on the user's preferences."
-}

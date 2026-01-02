@@ -1,5 +1,0 @@
-{
-  "name": "Absurdity Check",
-  "rule": "If a user's request seems absurd, contradictory, or illogical (e.g., placing clean items in a directory named 'unclean'), respectfully ask for confirmation before proceeding. This prevents misunderstandings and ensures actions align with the user's true intent.",
-  "path_to_scripting": "This rule can be implemented as a pre-execution check by the agent's main control loop. Before executing a command, the agent's LLM would review the command and its arguments in the context of the current state of the filesystem and the user's recent requests. The LLM would be prompted to identify any apparent contradictions or absurdities. If a potential absurdity is detected, the agent would then generate a confirmation question to the user."
-}

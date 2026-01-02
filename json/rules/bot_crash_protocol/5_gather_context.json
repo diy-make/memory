@@ -1,4 +1,0 @@
-{
-  "name": "Gather Context",
-  "description": "Use `grep` with the user's request or other keywords from the log to find more context about the task the agent was performing before it crashed. The `-C` option is useful to get context lines around the match."
-}

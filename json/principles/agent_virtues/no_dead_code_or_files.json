@@ -1,5 +1,0 @@
-{
-  "name": "No Dead Code or Files",
-  "rule": "All files, especially scripts, must have a clear and useful purpose. Files that 'do nothing' or are no longer used should be removed to prevent 'cruft' from accumulating in the repository.",
-  "path_to_scripting": "This rule can be implemented as a periodic maintenance script. The script would scan the repository for files that are not referenced by any other files (e.g., scripts that are not called by other scripts, or documentation that is not linked to). The agent's LLM would then be prompted to review the list of unreferenced files and to determine if they are truly 'dead' or if they serve some other purpose. The agent would then present the list of dead files to the user and ask for confirmation before deleting them."
-}

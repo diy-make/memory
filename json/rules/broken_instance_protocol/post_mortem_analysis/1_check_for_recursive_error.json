@@ -1,5 +1,0 @@
-{
-  "name": "Step 1",
-  "description": "Check if the log file belongs to the agent itself. If so, report the recursive error and stop.",
-  "path_to_scripting": "This step can be implemented as a script that is executed at the beginning of the post-mortem analysis. The script would compare the PID of the agent performing the analysis with the PID of the agent that generated the log file. If they are the same, it indicates a recursive error. The script would then generate a report indicating the recursive error and stop the analysis process, preventing an infinite loop. This report could also be communicated to the swarm."
-}

@@ -1,4 +1,0 @@
-{
-  "principle": "All files must reside in folders explicitly designated for their file type. No file should be stored in a generic or unrelated folder.",
-  "path_to_scripting": "This rule can be implemented as a linter or a file organization script that periodically scans the filesystem. The script would identify files that are not located in a folder explicitly designated for their file type. If such files are found, the script could either automatically move them to the correct location (if a clear destination is available) or flag them for review by the user, providing a recommendation for their correct placement. This ensures that the file architecture principles are consistently enforced."
-}

@@ -1,8 +1,0 @@
-{
-  "name": "Triage the error",
-  "steps": [
-    "A surviving agent will be assigned to investigate the error.",
-    "The assigned agent will perform a post-mortem analysis of the log file, as defined in the `broken_instance_protocol.json`."
-  ],
-  "path_to_scripting": "This step can be implemented as a script that is triggered once a fatal error is identified and a log file is provided. The script would involve an orchestration layer that assigns a 'surviving agent' (which could be the current agent itself or another agent in a swarm). The assigned agent would then execute a script that performs a post-mortem analysis of the log file. This analysis would involve parsing the log file for error messages, stack traces, and other relevant information, potentially leveraging the `broken_instance_protocol` for a structured approach."
-}

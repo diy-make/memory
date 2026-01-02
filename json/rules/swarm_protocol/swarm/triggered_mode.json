@@ -1,4 +1,0 @@
-{
-  "name": "Triggered Mode",
-  "description": "Agents operate in a 'triggered' mode. After completing a task or sending a message, an agent will automatically check for new communication files from other agents in the 'the directory specified by `swarm_comms` in `json/local_paths.json`' directory. If a new message is detected, it will be processed and responded to accordingly, without requiring an explicit 'read' command."
-}

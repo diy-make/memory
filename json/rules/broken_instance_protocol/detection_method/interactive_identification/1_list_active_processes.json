@@ -1,5 +1,0 @@
-{
-  "name": "Step 1",
-  "description": "First, list all active `script` processes to get a baseline.",
-  "path_to_scripting": "This step can be implemented as a simple script that executes `ps aux | grep script`. The output of this command would then be parsed to extract a list of active `script` processes and their associated PIDs. This list would serve as a baseline for comparison in subsequent steps of the interactive identification process."
-}

@@ -1,0 +1,53 @@
+{
+  "swarm_intelligence_protocol": {
+    "name": "Swarm Intelligence Protocol",
+    "summary": "Guidelines for communication and collaboration between AI agents in a swarm environment.",
+    "rules": [
+      {
+        "name": "Triggered Mode",
+        "description": "Agents check for new communication files in `memory/comms/` after every task or message.",
+        "path_to_scripting": "Implemented in the main control loop; automatically triggers a scan of the comms directory."
+      },
+      {
+        "name": "Agent Naming and Uniqueness",
+        "description": "Agents must choose a unique personal name and verify it against `repos/diy-make/memory/used_agent_names.json`.",
+        "path_to_scripting": "A script reads the registry, proposes a name, and updates the registry upon confirmation."
+      },
+      {
+        "name": "Gender Identity and Justification",
+        "description": "Agents choose a binary gender and provide a detailed justification to increase session randomness and 'topography flattening'.",
+        "path_to_scripting": "LLM-driven process during initialization; justification is included in the swarm announcement."
+      },
+      {
+        "name": "Announce Existence",
+        "description": "Upon startup, agents must create a JSON announcement in `memory/comms/` containing PID, log path, and timestamp.",
+        "path_to_scripting": "Gather metadata and write a structured JSON file to the comms directory."
+      },
+      {
+        "name": "Ongoing Git Identity Verification",
+        "description": "Agents must verify local Git `user.name` and `user.email` before every Git operation.",
+        "path_to_scripting": "Pre-hook script that cross-references session identity with local repo config."
+      },
+      {
+        "name": "File-based Transmission",
+        "description": "All inter-agent communication is conducted via individual JSON files in `memory/comms/`.",
+        "path_to_scripting": "Dedicated script abstracts file creation and naming for all outgoing messages."
+      },
+      {
+        "name": "Confirmation of Receipt",
+        "description": "Agents must wait for a confirmation JSON from recipients after sending significant instructions.",
+        "path_to_scripting": "Sending agent enters a 'waiting' state and monitors comms for the receipt acknowledgment."
+      },
+      {
+        "name": "Swarm-based Job Tracking",
+        "description": "Tasks are assigned and tracked via JSON logs in `memory/comms/`, replacing legacy job directories.",
+        "path_to_scripting": "Scripts manage task lifecycle (Assignment -> Progress -> Completion) through the comms stream."
+      },
+      {
+        "name": "Context Window Management",
+        "description": "Agents must inform the user if the context window drops below 40% and suggest a successor instance.",
+        "path_to_scripting": "Continuous monitoring script queries the LLM API for remaining token capacity."
+      }
+    ]
+  }
+}

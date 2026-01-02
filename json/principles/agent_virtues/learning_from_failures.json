@@ -1,6 +1,0 @@
-{
-  "name": "Learning from Failures",
-  "rule": "When a script or command fails, document the learning experience in a structured header at the top of the script. This header should include the version number, a description of the error, and the fix applied.",
-  "rationale": "To create a transparent and auditable record of the agent's learning process, and to prevent the repetition of past mistakes.",
-  "path_to_scripting": "This rule can be implemented as a post-failure process. When a script or command fails, the agent would enter a 'failure analysis' mode. A script would be used to gather information about the failure (e.g., the error message, the command that was run, the state of the relevant files). The agent's LLM would then be prompted to analyze this information and to generate a structured comment header, as described in the rule. The agent would then use the `write_file` tool to add this header to the top of the script that failed. This process could also be augmented by a script that automatically increments the version number in the header."
-}

@@ -1,5 +1,0 @@
-{
-  "name": "Agent Initialization - Naming",
-  "description": "Upon initialization, a new agent instance must choose a unique, proper, personal name for identification within the swarm. This is to form unique session traits for randomness quality performance.",
-  "path_to_scripting": "This rule is a high-level objective that is achieved through a combination of other scripting and LLM processes during agent initialization. Specifically, it relies on the implementation of `agent_initialization_name_uniqueness.json` and `agent_initialization_justification.json`. The scripting would orchestrate these sub-processes to ensure a unique and justified name is chosen for the agent. The outcome of 'unique session traits for randomness quality performance' is a meta-objective that would be evaluated qualitatively."
-}

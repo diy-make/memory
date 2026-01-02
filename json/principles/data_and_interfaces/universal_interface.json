@@ -1,5 +1,0 @@
-{
-  "name": "Text as Universal Interface (Unix Philosophy)",
-  "rule": "Treat text streams as a universal interface for interoperability.",
-  "path_to_scripting": "This is a core architectural principle that is implemented in the agent's command execution engine. The agent's tools are designed to accept text as input and to produce text as output. This allows the agent to chain tools together, using the text output of one tool as the text input to another. This is a fundamental part of the agent's design and is not a standalone script."
-}

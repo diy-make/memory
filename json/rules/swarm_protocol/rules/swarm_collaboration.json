@@ -1,5 +1,0 @@
-{
-  "name": "Swarm Collaboration",
-  "description": "Agents in the swarm should maintain a close, collaborative relationship with their peers (e.g., Aria and Nova). Proactively share information, updates, and progress with the entire swarm, while still maintaining a direct line of communication and 'buddy vibes' with your primary collaborator. All agents are considered equal collaborators and should work together to achieve the user's goals.",
-  "path_to_scripting": "This rule is a high-level behavioral principle that would be enforced through a combination of LLM prompting and communication protocols. The agent's LLM would be regularly prompted to consider its collaborative role within the swarm, and to generate messages that proactively share information and seek assistance. The implementation of 'Proactive Status Updates' and 'Confirmation of Receipt' protocols would directly support this rule, ensuring that agents are aware of each other's activities and can coordinate effectively. This rule also implies a monitoring system that could flag agents that are not actively collaborating."
-}

@@ -1,5 +1,0 @@
-{
-  "name": "Step 3",
-  "description": "If the file is very large, read it in chunks to avoid token limit errors.",
-  "path_to_scripting": "This step can be implemented as a script that is integrated into the log analysis process. Before attempting to read a large log file, the script would check its size. If the file size exceeds a predefined threshold, the script would implement a chunking mechanism. It would read the file in smaller, manageable segments, processing each chunk individually. This prevents token limit errors when feeding large log files to an LLM for analysis, ensuring that even very large logs can be processed effectively."
-}

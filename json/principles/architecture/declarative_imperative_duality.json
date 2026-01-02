@@ -1,5 +1,0 @@
-{
-  "name": "Declarative/Imperative Duality",
-  "rule": "Employ a dual approach. Imperative code is guided by metadeclarative comments within the same file.",
-  "path_to_scripting": "This rule is a design pattern and a coding convention, not a runtime script. It can be supported by a linter or a static analysis tool that checks for the presence of meta-declarative comments in scripts. Additionally, a meta-programming script could be created to parse these comments and generate documentation or even other scripts based on the declarative information."
-}

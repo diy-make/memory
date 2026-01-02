@@ -1,4 +1,0 @@
-{
-  "purpose": "To ensure that all files are stored in their designated folders based on their file type, promoting a clean and organized filesystem. This aligns with the Von Neumann architecture principle of storing data and instructions in the same memory space, but applied to the filesystem where file types dictate their logical 'memory space'.",
-  "path_to_scripting": "This JSON file provides a high-level description of the purpose of adhering to the file architecture principles. It is not directly scriptable, but serves as documentation that an LLM could use to explain the rationale behind the file organization rules to a user. The purpose itself is realized through the implementation of other scripts and organizational practices that enforce the file architecture."
-}
