@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "attribution": "Anaximander (20251231-135827)",
+  "version": "1.3",
+  "attribution": "Palamedes (20260101-211500)",
   "title": "Domain-Specific Knowledge Ontology",
   "description": "Consolidated definitions for core technical and conceptual domains within the Ixventure ecosystem.",
   "domains": {
@@ -9,39 +9,72 @@
       "types": [
         {
           "name": "System Memory",
-          "description": "Physical RAM/VRAM managed by MemoryManager class."
+          "description": "Refers to the physical RAM and VRAM of the system. Managed by MemoryManager class using psutil and torch.cuda.",
+          "related_files": ["MemoryManager class"]
         },
         {
           "name": "Application-Level Memory",
-          "description": "Data structures held in runtime memory (V8/Python/C++)."
+          "description": "Refers to data structures and objects held in runtime memory (V8/Python/C++).",
+          "related_files": ["Memory class (SQLAlchemy)", "Memory class (embedding)", "RootMove struct (C++)"]
         },
         {
           "name": "Domain-Specific Memory",
-          "description": "Conceptual memory representing domain knowledge or search trees."
+          "description": "Conceptual memory representing domain knowledge (embeddings) or search trees (RootMove).",
+          "related_files": ["get_memory_controller", "add_memory", "memory_buffers"]
         }
       ]
     },
     "gemini_integration": {
-      "summary": "Patterns for Gemini API and class-based model management."
+      "summary": "Patterns for Gemini API and class-based model management.",
+      "definitions": [
+        {
+          "name": "Gemini (BaseLlm)",
+          "description": "Main integration point for the Gemini API. Inherits from BaseLlm; handles async requests, streaming, and API client management.",
+          "related_files": ["Gemini class (Python)"]
+        },
+        {
+          "name": "GeminiModel",
+          "description": "Interaction layer with features like retries, parallel calls, and caching.",
+          "related_files": ["GeminiModel class (Python)"]
+        },
+        {
+          "name": "Configuration",
+          "description": "Handled through `setup_gemini_config` functions, including OpenRouter setup.",
+          "related_files": ["setup_gemini_config functions"]
+        }
+      ]
     },
     "root_concepts": {
-      "summary": "Polysemous definitions of 'root' across filesystem, AI, and infrastructure (Terraform)."
+      "summary": "Polysemous definitions of 'root' across technical contexts.",
+      "definitions": [
+        { "context": "Data Structures", "meaning": "The root node of a tree or graph.", "related_files": ["get_root (Python)"] },
+        { "context": "File System", "meaning": "The root directory of the project or application.", "related_files": ["root_path (Python)"] },
+        { "context": "Game AI / Search", "meaning": "The starting move or position in a search tree.", "related_files": ["RootMove (C++)"] },
+        { "context": "Terraform", "meaning": "The main module in a Terraform configuration.", "related_files": ["Root module structure"] },
+        { "context": "UI / Frontend", "meaning": "The top-level component in a UI hierarchy.", "related_files": ["RootLayout (React)"] }
+      ]
     },
     "bim_concepts": {
       "name": "Building Information Modeling (BIM)",
-      "summary": "Collaborative AEC digital representation standards."
+      "summary": "Collaborative AEC digital representation standards.",
+      "definitions": [
+        { "name": "AEC", "description": "Architecture, Engineering, and Construction sector." },
+        { "name": "BIMhero.io", "description": "Community hub platform for BIM coordinators and AEC professionals." },
+        { "name": "BIM", "description": "Collaborative process for managing digital representations of built assets." }
+      ]
     },
-    "hsd_concepts": {
-      "name": "Hierarchical Script-Database (HSD)",
-      "summary": "Patent-pending system representing the logic of Ixventure.studio.",
+    "documentation_standards": {
+      "name": "Metadata and Documentation Standards",
+      "summary": "Consistent, machine-readable formats for documenting code and Heartwood.",
       "definitions": [
         {
-          "name": "HSD",
-          "description": "The filesystem as a living database governed by scripts."
+          "name": "Header Syntax",
+          "description": "Standardized [Title], [Section], and [Subsection] markers for article and report generation."
         },
         {
-          "name": "Metagit vs HSD",
-          "description": "Metagit is the orchestration layer; HSD is the structural methodology."
+          "name": "Comment Purpose",
+          "description": "Provide machine-readable format for documentation extraction (e.g., C++ Reader::addComment).",
+          "related_files": ["C++ Reader::addComment"]
         }
       ]
     }

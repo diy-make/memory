@@ -1,15 +1,28 @@
 {
-  "version": "1.2",
-  "attribution": "Daedalus (1767233671494)",
+  "version": "2.3",
+  "attribution": "Palamedes (20260101-211500)",
   "title": "Heartwood Data & Interface Standards",
-  "description": "Rules for chronological organization, textual interoperability, and hierarchical proportionality.",
-  "principles": {
-    "text_universality": "Treat text streams as the primary interface for interoperability (Unix Philosophy).",
-    "chrono_logic": "Organize all data by timestamp where possible to ensure chronological integrity.",
-    "hierarchy_proportion": "Maintain shallow hierarchies; avoid both extreme flatness and deep nesting.",
-    "refinement_first": "Summarize from the most structured data (JSON) before falling back to raw streams.",
-    "polysemy_awareness": "Differentiate polysemous terms (root, memory) via the domain ontology.",
-    "lifo_context": "Apply the LIFO (Last-In, First-Out) principle to chat history to prioritize relevance.",
-    "structured_data_mandate": "Use tree structures (JSON) whenever possible; fallback to modular legalese if necessary."
-  }
+  "description": "Rules for ensuring the machine-readability, interoperability, and hierarchical proportionality of the firm's memory.",
+  "principles": [
+    {
+      "name": "Text as Universal Interface",
+      "rule": "Always prefer plain text (JSON, MD, CSV) for legislative state. Binary blobs are for external sync only.",
+      "rationale": "Machine-readable text ensures that all swarm generations can traverse the Heartwood without specialized tools."
+    },
+    {
+      "name": "Hierarchy Proportion",
+      "rule": "Maintain shallow directory structures. Directory nesting must be proportional to data complexity.",
+      "rationale": "Excessive nesting leads to 'Context Friction' and metabolic slowdown. Consolidate fragments to reduce air."
+    },
+    {
+      "name": "Polysemy Awareness",
+      "rule": "Avoid ambiguous terms like 'root', 'memory', or 'agent' without qualified context.",
+      "rationale": "In a multi-repo metagit, absolute precision in naming prevents 'Data Drift' and misinterpretation by successors."
+    },
+    {
+      "name": "Atomization Principle",
+      "rule": "Split monolithic logs into individual timestamped JSON nodes for forensic searchability.",
+      "rationale": "Atomization improves metabolic efficiency and reduces the memory footprint of investigative queries."
+    }
+  ]
 }

@@ -1,8 +1,9 @@
 {
-  "version": "1.0",
-  "attribution": "Anaximander (20251231-135827)",
+  "version": "1.1",
+  "attribution": "Palamedes (20260101-211500)",
   "title": "SVG & Generative Geometry Ontology",
   "description": "Best practices for generating complex, layered vector graphics and coordinate system management.",
+  "summary": "Learnings and best practices for generating SVG files, particularly for complex, layered grids.",
   "principles": {
     "coordinate_system": {
       "origin": "Top-left (0,0)",
