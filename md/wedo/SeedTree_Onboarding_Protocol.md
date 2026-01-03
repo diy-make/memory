@@ -1,3 +1,4 @@
+WEDO this should be a Chrono-Fractal record
 # WeDo: SeedTree Onboarding Protocol & HSD Instruction Logic
 
 **Protocol:** Agent Internalization & Substrate Mastery
