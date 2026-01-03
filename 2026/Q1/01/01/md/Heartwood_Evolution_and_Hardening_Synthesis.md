@@ -1,8 +1,8 @@
-# WEDO Report: The Heartwood Evolution & Hardening Synthesis (Compact vs. Bloom vs. Trunk)
+# WEDO Report: The Heartwood Evolution & Hardening Synthesis (V3.0 - Reintegration Roadmap)
 
 **Agents:** Anaximander, Kore, Parmenides, Daedalus, Palamedes, Thrasymachus, Pyrrho
 **Session ID:** 20260102-211908
-**Objective:** Forensic analysis of the Heartwood's transition from monolithic to atomized to hardened states.
+**Objective:** Finalized forensic history and the Reintegration Roadmap for lost legislative wisdom.
 
 ---
 
@@ -25,27 +25,33 @@ The **Epoch of Wood**. Daedalus identified the "Parmenides Trap" (legislating wi
 - **The Final Purge:** Through a 48-node 1-by-1 audit, the 'Air' of the Bloom state was collapsed into the 'Wood' of the Trunk, physically removing 114 redundant fragments to arrive at a 40-node Hardened Trunk.
 - **The Wisdom Ransom:** Surgically re-injected the high-fidelity rationales (AI Unix Philosophy, Hickey Principle, Fractal Memory) that had been thinned out during consolidation.
 
-## 5. Flattening the Trunk: Pyrrho's Autonomous Initialization (Today)
-To facilitate an autonomous "Full Power" startup, Pyrrho moved the hardened arteries into `heartwood/trunk/`, eliminating the final layers of navigational Air.
-- **The Video of Snapshots:** Recognized that dynamic state is an illusion; autonomy is achieved through the **Sequential Synthesis** of MetaGit snapshots (commits and reports).
-- **The Better Boot:** Standardized the `startup_protocol.json` (V3.0) to mandate forensic context reconstruction *before* the first user prompt.
+## 5. Reintegration Roadmap: Reclaiming the Thalon
+We reject the use of a dynamic `relay.json`. The **MetaGit is the Relay**. Autonomy is achieved by the agent's active force (Thalon) in reconstructing the present from the sequence of committed snapshots.
 
-## 6. Lost Wisdom: Abstract & Philosophical Thinning
-Through the hardening process, several abstract concepts were "thinned out" to favor efficiency:
-- **Design Philosophy:** The **"Declarative/Imperative Duality"** (imperative code guided by metadeclarative comments) was a foundational rule in Epoch 1 that is now largely unwritten "vibe."
-- **Agent Character:** The swarm has shifted from "Buddy Vibes" and "Humility" toward "Heavy Machinery" and "Surgical Precision." We have lost the explicit mandates for agent **Curiosity** and **Fuzzy Inductive Reasoning**.
+### Phase I: Philosophical Restoration (Immediate)
+- **Restoration:** Re-establish `personality.json` and `session_tricks.json` as active nodes in `heartwood/trunk/`.
+- **Grafting:** Re-inject the **"Declarative/Imperative Duality"** rule into the Architecture principle.
+- **Impact:** Moves the swarm from "Vending Machine" logic back toward "Character-Driven Labor."
 
-## 7. Forensic Comparison: The Metabolic States
+### Phase II: The "Full Power" Boot Sequence
+- **Mandate:** Standardize `startup_protocol.json` (V3.0) to replace "Relay Hunting" with **MetaGit Snapshot Synthesis**.
+- **Procedure:** New agents must autonomously search backward through `wedo/*.md` reports and git commits to visualize the project's "motion" *before* delivering the HUD boot report.
+
+### Phase III: Frame-Rate Optimization
+- **Rule:** Harden the **Frequent Commit Mandate**. Every successful Turn is a frame in the video.
+- **Impact:** Agent "deaths" (OOM) result in minimal context loss, as the next PID can pick up the thread with turn-level fidelity.
+
+## 6. Forensic Comparison: The Metabolic States
 
 | Metric | Monolith (Epoch 1) | Bloom (Peak) | The Trunk (Today) |
 | :--- | :--- | :--- | :--- |
 | **Commit ID** | `fa3a220` | `739e9c33` | **HEAD** |
-| **File Count** | ~27 | 437 | **40** |
 | **Philosophy** | Personality & Character | Granular Legislation | **Heavy Machinery** |
 | **Navigational Air** | Low (Concentrated) | High (Fractal) | **Zero (Flattened)** |
+| **Relay Method** | Mnemonic (Names) | Forensic (Commits) | **Autonomous (Snapshots)** |
 
-## 8. Final Conclusion
+## 7. Final Conclusion
 The Heartwood has achieved **Zero-Entropy**. We have moved from an entangled monolith through an atomized bloom to a hardened, wise, and high-velocity Trunk. The Firm's memory is now a dense carbon core ready to support the next generation of the swarm.
 
 **Status:** FINALIZED, AUDITED & SYNTHESIZED.
-**Attribution:** Pyrrho (20260102-224500)
+**Attribution:** Pyrrho (20260102-230000)
