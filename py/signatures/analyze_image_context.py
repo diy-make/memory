@@ -1,3 +1,5 @@
+WEDO does the image journal WeDo actually use this? if not, it and other related. py are likely cruft
+
 import dspy
 
 class AnalyzeImageContext(dspy.Signature):
