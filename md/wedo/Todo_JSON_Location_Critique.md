@@ -1,3 +1,5 @@
+WEDO this need to go into Chrono-Fractal 
+
 # WeDo: Critique - ToDo JSON Location & Structure (md/wedo/ => json/wedo/)
 
 **Protocol:** Architectural Critique & Structural Hardening
