@@ -1,3 +1,4 @@
+WEDO see the more recent pull requests I've made. This should go in .hidden/ and the WeDo presumption is record in .hidden/. Only the best WeDo artifacts get to be renamed user-friendly directly in the leaf folder (e.g. md/ or json/) not its "RNA" .hidden/ subset. And Agent lives on brighter in the Heartwood with direct leaf folder contributions. The other files here should go in hidden. Make Heartwood rules that explains this (filesystem x aspirations) goal of yours and Heartwood rules when you should suggest commands/prompts become Heartwood .json.
 # WEDO Report: Ariston Alpha Test Session Report
 
 **Agent:** Ariston
