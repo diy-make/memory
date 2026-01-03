@@ -1,0 +1,118 @@
+{
+  "title": "Git Map: Memory Public",
+  "version": "1.0",
+  "generated_at": 1767422569,
+  "attribution": "Palamedes (20260102-224249)",
+  "description": "Forensic map of the internal repository structure.",
+  "mappings": [
+    {
+      "path": "json/",
+      "type": "heartwood_root",
+      "status": "active",
+      "description": "The legislative core of the repository."
+    },
+    {
+      "path": "2025/Q4/12/18/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": [
+        "Arete_20251218_initialization.json"
+      ]
+    },
+    {
+      "path": "2025/Q4/12/24/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": []
+    },
+    {
+      "path": "2025/Q4/12/20/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": [
+        "Pneuma_20251219-180748_png_journaling.json"
+      ]
+    },
+    {
+      "path": "2025/Q4/12/30/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": [
+        "Heraclitus_20251230-100000_glossary_init.todo.json",
+        "20251230_png_journal_instance.todo.json",
+        "Heraclitus_20251230-100000_png_journal.json",
+        "Heraclitus_20251229-184235_todo.json"
+      ]
+    },
+    {
+      "path": "2025/Q4/12/31/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": [
+        "audit_log.py",
+        "Anaximander_20251231-135827_todo.json",
+        "bootup_report.md",
+        "audit_file_list.txt",
+        "heartwood_map.json"
+      ]
+    },
+    {
+      "path": "2025/Q4/12/26/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": [
+        "gemini-conversation-1766801939502.json"
+      ]
+    },
+    {
+      "path": "2025/Q4/12/29/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": []
+    },
+    {
+      "path": "2025/Q4/12/22/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": []
+    },
+    {
+      "path": "2025/Q4/12/23/json/",
+      "type": "heartwood_leaf",
+      "status": "archived",
+      "contains": [
+        "Aetos_20251223-092648_boot_report.json"
+      ]
+    },
+    {
+      "path": "2026/Q1/January/01/json/",
+      "type": "heartwood_leaf",
+      "status": "active",
+      "contains": []
+    },
+    {
+      "path": "2026/Q1/01/01/json/",
+      "type": "heartwood_leaf",
+      "status": "active",
+      "contains": [
+        "Icarus_20260101-141606_image_journal.todo.json",
+        "Palamedes_audit_log.json",
+        "Palamedes_polish_marathon.json",
+        "Palamedes_audit_wedo.json",
+        "20260102-205214_metagit_git_map.json"
+      ]
+    },
+    {
+      "path": "webm/",
+      "type": "substrate",
+      "status": "active",
+      "description": "Cloud-synced binary storage."
+    },
+    {
+      "path": "pdf/",
+      "type": "substrate",
+      "status": "active",
+      "description": "Cloud-synced binary storage."
+    }
+  ]
+}
