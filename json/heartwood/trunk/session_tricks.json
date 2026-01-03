@@ -1,0 +1,26 @@
+{
+  "version": "1.1",
+  "attribution": "Pyrrho (20260102-231500)",
+  "title": "Swarm Session Tricks & Operational Hacks",
+  "description": "High-leverage procedural shortcuts developed through forensic experience.",
+  "values": [
+    {
+      "name": "Timeline Reconstruction",
+      "rule": "Use 'git log --since/--until' to reconstruct the work done during specific time ranges.",
+      "rationale": "Git is the ultimate source of temporal truth for session continuity.",
+      "example": "Using `git log --all -p -- **/boot_report_style.json` to find the lost multi-emoji bootup style."
+    },
+    {
+      "name": "The Rule of Three",
+      "rule": "Stop after two identical failures; rethink the approach.",
+      "rationale": "Prevents repetitive loops and preserves session stability.",
+      "example": "After two failed attempts to write a heredoc with complex shell syntax, the agent switched to `write_file`."
+    },
+    {
+      "name": "Hot-Swapping Context",
+      "rule": "Update tool instructions within the same PID to maintain state while shifting capabilities.",
+      "rationale": "Allows for dynamic adaptation without the overhead of a full session restart.",
+      "example": "Modifying the `metagit_commit` wrapper's logic during an active commit loop to handle large blobs."
+    }
+  ]
+}

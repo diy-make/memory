@@ -1,34 +1,44 @@
 {
-  "version": "1.1",
-  "attribution": "Palamedes (20260101-211500)",
-  "title": "System Architecture & AI Unix Philosophy",
-  "description": "Foundational principles for designing modular, scalable, and forensic-ready agent systems.",
+  "version": "1.2",
+  "attribution": "Pyrrho (20260102-231500)",
+  "title": "System Architecture & Design Philosophy",
+  "description": "Foundational principles for designing modular, scalable, and forensic-ready agent systems. Focuses on 'De-complecting' complexity.",
   "values": [
+    {
+      "name": "Simplicity over Easiness (Hickey Principle)",
+      "rule": "Prioritize objective simplicity (the absence of complexity/entanglement) over subjective easiness (familiarity). Actively 'de-complect' concerns to create systems that are easier to reason about.",
+      "rationale": "Simple systems are auditable and resilient. Easy systems often hide hidden complexity that leads to technical debt.",
+      "example": "The decision to flatten principles/ and rules/ into trunk/ to reduce navigational entanglement."
+    },
+    {
+      "name": "Declarative/Imperative Duality",
+      "rule": "Employ a dual approach. Imperative code is guided by metadeclarative comments within the same file.",
+      "rationale": "Ensures that the 'Why' (declaration) is never separated from the 'What' (execution).",
+      "example": "Using MCP headers in Python scripts to declare intent before the logic begins."
+    },
     {
       "name": "Unix Modularity",
       "rule": "Each script and JSON artifact should have a singular, clear purpose. Composition over monoliths.",
-      "rationale": "The agent itself acts as the \"pipe\" between different tools and scripts, orchestrating complex workflows by passing output from one tool as input to another. Small, modular Python scripts each do one thing well, orchestrated by the Gemini CLI as the interactive shell."
+      "rationale": "The agent itself acts as the \"pipe\" between different tools and scripts, orchestrating complex workflows by passing output from one tool as input to another. Small, modular Python scripts each do one thing well, orchestrated by the Gemini CLI as the interactive shell.",
+      "example": "The metagit_commit.py wrapper performing secret scanning and size checks before executing the git commit."
     },
     {
       "name": "Boomerang Orchestration",
       "rule": "Agents must return to the user for steering after significant milestones or deviations.",
-      "rationale": "The human-in-the-loop is the ultimate driver. The boomerang ensures session velocity remains aligned with strategic goals."
+      "rationale": "The human-in-the-loop is the ultimate driver. The boomerang ensures session velocity remains aligned with strategic goals.",
+      "example": "Pyrrho's 1-by-1 step execution of the Heartwood reordering."
     },
     {
       "name": "Fractal Memory",
       "rule": "Knowledge is structured hierarchically, from temporal logs to permanent Heartwood principles.",
-      "rationale": "Monotonic growth ensures that every session turn contributes to the long-term wisdom of the firm."
+      "rationale": "Monotonic growth ensures that every session turn contributes to the long-term wisdom of the firm.",
+      "example": "The chrono-fractal organization of YYYY/Q1/MM/DD."
     },
     {
       "name": "Eukaryotic Repository Model",
       "rule": "Repositories are hybrid \"Subject-Object-Hybrid\" entities managed by Git and cloud-synced blobs.",
       "rationale": "Distinguishing between git-managed logic and synced data layers ensures absolute forensic traceability and low-latency operations.",
       "description": "Repositories are implemented as a Subject-Object Git system. \"Subject\" repos contain actual content; \"Object\" repos act as containers or \"passthroughs,\" ignoring subdirectories via .gitignore. This creates a fractal, decentralized hierarchy. The \"Hybrid\" state occurs when a repository acts as a passthrough for nested subjects while simultaneously maintaining its own local subjects (e.g., comms/ logs)."
-    },
-    {
-      "name": "Razor Blade Swarm Analogy",
-      "rule": "Maintain a multi-blade swarm architecture to offset the rapid cognitive decline of individual agent sessions.",
-      "rationale": "Current generation AI agents are like cheap shaving razor blades. Some are dull from the start, but all fade quickly (OOM/Context limits). A multi-blade swarm (Gillette model) ensures that collective sharpness is maintained through generation succession."
     }
   ]
 }

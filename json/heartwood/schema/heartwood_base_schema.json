@@ -1,16 +1,33 @@
 {
-  "version": "1.1",
-  "attribution": "Anaximander (20251231-135827)",
+  "version": "1.2",
+  "attribution": "Pyrrho (20260102-231500)",
   "title": "Heartwood Base Schema Specification",
-  "description": "Universal schema definitions for Metagit JSON artifacts, enforcing array-based collections and unique identification.",
+  "description": "Universal schema definitions for Metagit JSON artifacts, enforcing array-based collections, unique identification, and contextual citations.",
   "definitions": {
     "named_item": {
       "type": "object",
       "properties": {
         "name": { "type": "string" },
         "description": { "type": "string" },
+        "rule": { "type": "string" },
         "rationale": { "type": "string" },
-        "path_to_scripting": { "type": "string" }
+        "path_to_scripting": { "type": "string" },
+        "example": { "type": "string" },
+        "citations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": { "type": "string" },
+              "path": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "context_examples": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
       },
       "required": ["name"]
     },
@@ -19,7 +36,8 @@
       "properties": {
         "id": { "type": "string" },
         "description": { "type": "string" },
-        "commands": { "type": "array", "items": { "type": "string" } }
+        "commands": { "type": "array", "items": { "type": "string" } },
+        "status": { "type": "string" }
       },
       "required": ["id"]
     },
@@ -31,6 +49,10 @@
           "items": { "$ref": "#/definitions/named_item" }
         },
         "rules": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/named_item" }
+        },
+        "values": {
           "type": "array",
           "items": { "$ref": "#/definitions/named_item" }
         },

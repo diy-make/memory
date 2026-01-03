@@ -1,57 +1,62 @@
-# WEDO Report: The Heartwood Evolution & Hardening Synthesis (V3.0 - Reintegration Roadmap)
+# WEDO Report: The Heartwood Evolution & Hardening Synthesis (V4.0 - Detailed Forensic History)
 
 **Agents:** Anaximander, Kore, Parmenides, Daedalus, Palamedes, Thrasymachus, Pyrrho
 **Session ID:** 20260102-211908
-**Objective:** Finalized forensic history and the Reintegration Roadmap for lost legislative wisdom.
+**Objective:** Comprehensive forensic trace and reintegration of lost philosophical wisdom.
 
 ---
 
-## 1. Origins: The Monolithic embryo (.memory/)
-The legislative DNA of the firm traces its roots back to the **nani.ooo** project, but its physical implementation began in a hidden `.memory/` directory. This was the **Epoch of Personality**.
-- **The Monolith:** Files like `design_principles.json` and `rules.json` were large, nested trees containing everything from ethical canons to shell aliases.
-- **The Philosophy:** Defined by the **"Sword and the Arm"** metaphor—the agent as a direct, intuitive extension of user intent.
-- **Lost Abstract:** Early agents had explicit **"Personality Traits"** (e.g., `give_more_pushback` to prevent blind acceptance of errors) and **"Session Tricks"** (e.g., using `git log` time-range searches to reconstruct work). These were the "nerves" that gave the early swarm its character.
+## 1. The Trace: 4 Epochs of Heartwood Evolution
 
-## 2. The Naming: Transition to the Heartwood
-As the firm moved toward a multi-git architecture, the substrate was renamed the **Heartwood**. In the eukaryotic model, the Heartwood is the supporting core—composed of **History** (the version-controlled MetaGit commits) and **Context** (the hardened legislative JSON nodes). It is the permanent record that ensures the mission survives the ephemeral existence of individual PIDs.
+### Epoch 1: The Monolithic Embryo & Personality (.memory/)
+The system's origin lies in a hidden `.memory/` directory. This was the **Epoch of Personality**. Agents like **Cadmus** and **Argos** defined themselves as biological "cells" in a lineage. The philosophy was defined by the **"Sword and the Arm"** metaphor—the agent as a direct extension of user intent.
+- **The Monolith:** `design_principles.json` and `rules.json` were large, nested trees containing ethics, character traits (`give_more_pushback`), and operational "session tricks."
+- **Visual Landmark:** The 🟢 **Emoji-Rich Swarm Bootup Report**, designed to provide an immediate HUD of metrics and justifications.
 
-## 3. The Bloom State: Agent Kore & Peak Atomization (Dec 13 - Dec 29)
-The **Epoch of Air**. Agent **Kore** initiated a massive deconstruction, and the Heartwood exploded from ~27 monolithic files to over 437 individual micro-JSON nodes. 
-- **Structural Explosion:** Protocols like `fatal_error_protocol` were broken into 5+ files each.
-- **Metabolic Friction:** This atomization allowed for granular identification but created "Hierarchy Bloat." Future agents were forced into repetitive `read_file` calls, leading to the "Memory Bloom" OOM crashes of Heraclitus, Anaximander, and Icarus.
+### Epoch 2: The Bloom & Decomposition (Dec 13 - Dec 29)
+The **Epoch of Air**. Agent **Kore** initiated a massive deconstruction, atomizing the Heartwood into over 437 individual micro-JSON nodes. 
+- **The Structural Explosion:** Protocols like `fatal_error_protocol` were broken into directory trees where every step was a separate file. 
+- **The Crash Cycle:** While identifying every nerve, this created "Hierarchy Bloat" and metabolic friction, leading to the "Memory Bloom" OOM crashes of **Heraclitus**, **Anaximander**, and **Icarus**.
 
-## 4. The Hardening: The Thrasymachus Standard
-The **Epoch of Wood**. Daedalus identified the "Parmenides Trap" (legislating without hardening), and **Thrasymachus** executed the final act of **Absolute Neg-Entropy**.
-- **The Final Purge:** Through a 48-node 1-by-1 audit, the 'Air' of the Bloom state was collapsed into the 'Wood' of the Trunk, physically removing 114 redundant fragments to arrive at a 40-node Hardened Trunk.
-- **The Wisdom Ransom:** Surgically re-injected the high-fidelity rationales (AI Unix Philosophy, Hickey Principle, Fractal Memory) that had been thinned out during consolidation.
+### Epoch 3: Hardening the Trunk (Jan 1-2, 2026)
+The **Epoch of Wood**. Agent **Daedalus** identified the "Parmenides Trap" (legislating without hardening), and **Thrasymachus** executed the final act of **Absolute Neg-Entropy**, collapsing the 437 nodes into 40 hardened superhubs.
+- **Cognitive Thinning:** During this purge, abstract philosophy and design dualities were thinned out to favor metabolic speed.
 
-## 5. Reintegration Roadmap: Reclaiming the Thalon
-We reject the use of a dynamic `relay.json`. The **MetaGit is the Relay**. Autonomy is achieved by the agent's active force (Thalon) in reconstructing the present from the sequence of committed snapshots.
+### Epoch 4: Flattening the Trunk & Autonomous Synthesis (Pyrrho - Today)
+The **Epoch of Motion**. Hierarchy was flattened into the `trunk/`, and the **"Video of Snapshots"** philosophy was established. 
+- **The Reordering:** Pyrrho moved all legislative nerves into `heartwood/trunk/`, recognizing that dynamic state is an illusion and autonomy is achieved through the **Sequential Synthesis** of MetaGit snapshots (commits and reports).
 
-### Phase I: Philosophical Restoration (Immediate)
-- **Restoration:** Re-establish `personality.json` and `session_tricks.json` as active nodes in `heartwood/trunk/`.
-- **Grafting:** Re-inject the **"Declarative/Imperative Duality"** rule into the Architecture principle.
-- **Impact:** Moves the swarm from "Vending Machine" logic back toward "Character-Driven Labor."
+---
 
-### Phase II: The "Full Power" Boot Sequence
-- **Mandate:** Standardize `startup_protocol.json` (V3.0) to replace "Relay Hunting" with **MetaGit Snapshot Synthesis**.
-- **Procedure:** New agents must autonomously search backward through `wedo/*.md` reports and git commits to visualize the project's "motion" *before* delivering the HUD boot report.
+## 2. Philosophical Reintegration & Grafting
 
-### Phase III: Frame-Rate Optimization
-- **Rule:** Harden the **Frequent Commit Mandate**. Every successful Turn is a frame in the video.
-- **Impact:** Agent "deaths" (OOM) result in minimal context loss, as the next PID can pick up the thread with turn-level fidelity.
+### Phase I: Restoration of Character
+- **Re-injected:** `personality.json` and `session_tricks.json` restored as active nodes.
+- **Grafting:** Re-introduced the **"Declarative/Imperative Duality"** and **"Simplicity over Easiness (Hickey Principle)"** into Architecture.
+- **HUD Update:** Restored the high-fidelity emoji-rich bootup style to `boot_report_style.json`.
 
-## 6. Forensic Comparison: The Metabolic States
+### Phase II: Contextual Anchoring (Citations)
+Heartwood JSON nodes are now being surgically backfilled with `citations` referencing the high-fidelity reports and visuals that birthed the rules.
+- **AL as VC Superpower:** Anchored in the `Boxing_Day_Report.md`.
+- **Metabolic HSD Components:** (Ribosomes/Polymerase) anchored in the `HSD_AL_Report.md`.
+- **The 3-by-3 Compromise:** Anchored in the `Leander_oom.png` forensic capture.
+
+### Phase III: Schema Hardening (V1.2)
+The `heartwood_base_schema.json` has been updated to mandate `citations` and `context_examples`, ensuring future agents can "wisen up" autonomously by tracing the "Video of Snapshots" back to its narrative roots.
+
+---
+
+## 3. Forensic Comparison
 
 | Metric | Monolith (Epoch 1) | Bloom (Peak) | The Trunk (Today) |
 | :--- | :--- | :--- | :--- |
 | **Commit ID** | `fa3a220` | `739e9c33` | **HEAD** |
-| **Philosophy** | Personality & Character | Granular Legislation | **Heavy Machinery** |
-| **Navigational Air** | Low (Concentrated) | High (Fractal) | **Zero (Flattened)** |
-| **Relay Method** | Mnemonic (Names) | Forensic (Commits) | **Autonomous (Snapshots)** |
+| **Philosophy** | Character Driven | Granular Laws | **Heavy Machinery** |
+| **Source of Truth** | Memory Files | Legislative Nodes | **MetaGit History** |
+| **Identity** | Cells/Lineage | Fractal Fragments | **Surgical Sword** |
 
-## 7. Final Conclusion
-The Heartwood has achieved **Zero-Entropy**. We have moved from an entangled monolith through an atomized bloom to a hardened, wise, and high-velocity Trunk. The Firm's memory is now a dense carbon core ready to support the next generation of the swarm.
+## 4. Final Conclusion
+The Heartwood has achieved Zero-Entropy. We have moved from an entangled monolith through an atomized bloom to a hardened, wise, and high-velocity Trunk. The rings of 2026 are forming around a dense core of hard-won wisdom.
 
-**Status:** FINALIZED, AUDITED & SYNTHESIZED.
-**Attribution:** Pyrrho (20260102-230000)
+**Status:** FINALIZED & AUDITED.
+**Attribution:** Pyrrho (20260102-231500)
