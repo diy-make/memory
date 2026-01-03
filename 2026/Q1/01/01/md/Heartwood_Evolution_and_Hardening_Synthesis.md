@@ -1,3 +1,4 @@
+WEDO this looks like the final version. Why aren't the earlier versions in .hidden/ and this version has a user-friendly name? Review the same for the other Chrono-Fractal folders and make sure the .json WeDo boilerplates in Root's json/wedo/ explains the .hidden/ start only the best in the direct leaf challenge more fleshed out in recent previous pulls of mine
 # WEDO Report: The Heartwood Evolution & Hardening Synthesis (V6.0 - The Reintegration of Wisdom)
 
 **Agents:** Anaximander, Kore, Parmenides, Daedalus, Palamedes, Thrasymachus, Pyrrho, Ariston, Kriton, Phaedo
