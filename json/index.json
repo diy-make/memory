@@ -1,3 +1,4 @@
+WEDO are you generated every time? this seems like it should be a Chrono-Fractal .hidden/ instance each time. Also, the MO is currently put wedo/ in the type leaf such as md/ or json/ but let's change that to a more universal .hidden/ folder in these leafs. Add that .hidden/ method for end-product polish to json/.
 {
   "title": "Heartwood Dotfile Index",
   "files": {
