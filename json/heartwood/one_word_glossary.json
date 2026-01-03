@@ -27,7 +27,7 @@
     },
     {
       "term": "Straightup",
-      "modification": "Command for immediate presentation of raw data without Markdown wrappers or analysis.",
+      "modification": "Command for immediate raw data presentation via the .json + .py pairing standard. Replaces the need for structure-less .md representations.",
       "substrate": "Paper (UI)"
     },
     {

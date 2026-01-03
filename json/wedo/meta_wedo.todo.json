@@ -14,7 +14,7 @@
       "active_investigation": "Verify artifact existence on localhost before inclusion.",
       "dual_referencing": "Reference both localhost paths and remotehost URLs.",
       "audit_trail_linking": "Daily session WeDos MUST link to specific project WeDos to maintain a forensic audit trail.",
-      "output_location": "All initial WeDo narrative outputs (drafts, reports, journals) MUST be placed in the 'md/wedo/' directory of the daily chrono-fractal structure.",
+      "output_location": "All active task instances and WeDo reports MUST reside in the day's temporal json/wedo/ directory.",
       "finalization_protocol": "The goal is to refine 'md/wedo/' artifacts into permanent Heartwood in 'md/'. This transition (and renaming) occurs ONLY upon an explicit 'straightup' request from the user (HAM prompt).",
       "versioning_archival": "When updating Markdown documents, always rename the previous version and move it to the local context/ directory (e.g., <AGENT>_<SESSION>_<NAME>_v<OLD>.md) before establishing the new version in the primary md/ location.",
       "direct_aesthetic": "Present reports 'straightup' without backtick wrappers."

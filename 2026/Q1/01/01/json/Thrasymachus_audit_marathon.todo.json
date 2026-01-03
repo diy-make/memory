@@ -139,6 +139,11 @@
       "status": "[x]",
       "user_response": "keep",
       "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-29",
+      "path": "json/heartwood/rules/media_asset_locality.json",
+      "status": "[ ]"
     }
   ],
   "indexing_protocol": "Article.Section.Clause",
