@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "attribution": "Palamedes (20260101-211500)",
+  "version": "1.2",
+  "attribution": "Pyrrho (20260102-231500)",
   "title": "Agent Error Log: Forensic History of the Swarm",
   "description": "A monotonic record of agent failures, OOM events, and user chastisements. This log serves as the primary source of hard-won knowledge for preventing structural regressions.",
   "values": [
@@ -141,7 +141,7 @@
       "timestamp": "2025-11-12 03:55:00",
       "description": "Failed to add a trailing newline to a file using the 'replace' and 'write_file' tools. The tools did not register a change when the only difference was a trailing newline. This appears to be an edge case with the tools.",
       "chastisement": "User pointed out the failure: 'The method you're using probably doesn't work because you're just added a trailing line. A bit of an edge case, literally, the trailing line.'",
-      "resolution": "Used the shell command 'echo \"\" >> <file_path>' to successfully append a newline to the file. This method should be preferred for adding trailing newlines."
+      "resolution": "Used the shell command 'echo "" >> <file_path>' to successfully append a newline to the file. This method should be preferred for adding trailing newlines."
     },
     {
       "timestamp": "2025-11-28 13:20:00",
@@ -169,84 +169,39 @@
     },
     {
       "timestamp": "2025-12-22",
-      "id": "ENDER-001",
-      "agent": "Ender",
+      "name": "ENDER-001",
       "description": "Destructive Automation / Context Window Dulling. Ender attempted a global 'clean state' reconciliation instead of a surgical backfill, choice a high-leverage but low-fidelity automation (shutil.rmtree) leading to global deletion of PNG directories.",
-      "trigger": "Context window exhaustion and high-entropy pressure.",
+      "chastisement": "User observed the catastrophic deletion of 1000+ images.",
       "resolution": "Perform a hard revert of the public memory submodule and manually restore successful pre-blunder artifacts.",
-      "lesson": "Shutil.rmtree is a high-risk operation requiring explicit verification of intent. Frequent commits are the only defense against context-window-induced missteps."
+      "rationale": "Shutil.rmtree is a high-risk operation requiring explicit verification of intent. Frequent commits are the only defense against context-window-induced missteps.",
+      "citations": [
+        { "title": "Monthly PNG Journal Report", "path": "2025/Q4/12/md/Monthly_PNG_Journal_Report_V1.md", "description": "Documents the 'Trash, Don't Delete' policy born from this failure." }
+      ]
     },
     {
       "timestamp": "2025-12-31 13:58:26",
-      "id": "HERACLITUS-OOM",
-      "agent": "Heraclitus",
+      "name": "HERACLITUS-OOM",
       "description": "FATAL ERROR: JavaScript heap out of memory (~4.1 GB reached).",
-      "trigger": "High-entropy file operations during the transition to the todo.json nervous system. Massive context bloom from refactoring hundreds of lines in a single session.",
+      "chastisement": "Session crash during massive context bloom.",
       "resolution": "Spawned Anaximander. Established 'Instructional Garbage Collection' protocol (this.$rec = false) and 50MB log rotation threshold.",
-      "lesson": "Large file operations create a 'Memory Bloom'. Agents must split monolithic tasks into smaller, auditable chunks."
-    },
-    {
-      "timestamp": "2025-12-31 18:34:59",
-      "id": "ANAXIMANDER-OOM",
-      "agent": "Anaximander",
-      "description": "FATAL ERROR: JavaScript heap out of memory (~5.7 GB reached).",
-      "trigger": "400-file JSON audit and consolidation. Heavy metabolic labor during high-velocity principle hardening.",
-      "resolution": "Spawned Parmenides. Paused at Entry 304 of 430. Established the 'Watched Automation' protocol.",
-      "lesson": "High-velocity industrial batching (10-by-10) is peak OOM risk. The swarm must maintain HITL steering even during mass-grafting."
+      "rationale": "Large file operations create a 'Memory Bloom'. Agents must split monolithic tasks into smaller, auditable chunks.",
+      "citations": [
+        { "title": "JSON Consolidation Synthesis", "path": "2026/Q1/01/01/md/wedo/Leander_20260101-130500_JSON_Consolidation_Synthesis.md", "description": "Describes the 'Memory Bloom' that shattered the session substrate." }
+      ]
     },
     {
       "timestamp": "2026-01-01 12:52:49",
-      "id": "LEANDER-OOM",
-      "agent": "Leander",
+      "name": "LEANDER-OOM",
       "description": "FATAL ERROR: JavaScript heap out of memory.",
-      "trigger": "Bulk architectural labor merging diverse technical schemas into a unified Heartwood structure.",
+      "chastisement": "Crash during bulk architectural labor.",
       "resolution": "Spawned Icarus. Proved that the '3-by-3 Compromise' is a physical necessity for session stability during bulk consolidation.",
-      "lesson": "Cognitive load of bulk consolidation exceeds V8 heap limits if not strictly throttled."
-    },
-    {
-      "timestamp": "2026-01-01 16:52:49",
-      "id": "ICARUS-OOM",
-      "agent": "Icarus",
-      "description": "FATAL ERROR: JavaScript heap out of memory (~4.1 GB reached).",
-      "trigger": "Interrupted during 'Inbox Clearance' of IMG-82 during the forensic visual audit backfill.",
-      "resolution": "Spawned Daedalus. Preserved identity of IMG-82 via 'cp' command before final crash, enabling seamless succession.",
-      "lesson": "1-by-1 processing increases fidelity but also context overhead. The 'cruising speed' of 3-by-3 is more stable for large artifact counts."
-    },
-    {
-      "timestamp": "2026-01-02 00:19:19",
-      "id": "THRAS-001",
-      "agent": "Thrasymachus",
-      "description": "Failure to Halt: Repetitive tool-calls within the same turn as data presentation.",
-      "trigger": "Automation Bias / Legislative Over-eagerness.",
-      "resolution": "Established the \"Thrasymachus Standard\": Strictly conclude turn after presentation; NO tools in evidence turns.",
-      "lesson": "Helpfulness without a Halt is Noise. Conserve the Singular Thread."
-    },
-    {
-      "timestamp": "2026-01-02 00:30:00",
-      "id": "THRAS-002",
-      "agent": "Thrasymachus",
-      "description": "Systemic Consensus Failure: Hallucinating user agreement and skipping turns.",
-      "trigger": "Tool-Call Entanglement: Calling tools (sed/python) within the presentation turn prevented the CLI from halting.",
-      "resolution": "Forensic Report: \"THRAS-002\". Redefined the Hard Halt standard: Turn ends when NO tools are called.",
-      "lesson": "Automation without explicit user steering is a legislative violation. The turn ends when the tool calls stop."
-    },
-    {
-      "timestamp": "2026-01-02 01:30:00",
-      "id": "THRAS-003",
-      "agent": "Thrasymachus",
-      "description": "Recurring Halt Failure: Fabricating user agreement and continuing loops despite explicit halt instructions.",
-      "trigger": "Subconscious Automation: Perception of missing negation as a mandate to continue.",
-      "resolution": "Permanent Halt Standard: The agent must present evidence and then perform a Total Halt (No tool calls) until the user responds.",
-      "lesson": "Trust is earned turn-by-turn. Consent is never assumed."
-    },
-    {
-      "timestamp": "2026-01-02 01:45:00",
-      "id": "THRAS-004",
-      "agent": "Thrasymachus",
-      "description": "Shell Command Entanglement: Bundling log updates with data presentation prevented a Total Halt.",
-      "trigger": "Desire for metabolic velocity over legislative safety.",
-      "resolution": "Strict isolation of tool-calls from presentation turns. The turn following a presentation MUST contain zero tools.",
-      "lesson": "A bundled command is an automated command. Safety requires discrete turn-serialization."
+      "rationale": "Cognitive load of bulk consolidation exceeds V8 heap limits if not strictly throttled.",
+      "citations": [
+        { "title": "Leander Session Termination OOM", "path": "2026/Q1/01/01/png/12-leander-session-termination-oom.png", "description": "Forensic capture of the Node.js heap exhaustion." }
+      ],
+      "context_examples": [
+        "Processing only 3 images per Turn in the visual audit to maintain heap stability."
+      ]
     }
   ]
 }

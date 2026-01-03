@@ -19,8 +19,11 @@
     {
       "name": "Unix Modularity",
       "rule": "Each script and JSON artifact should have a singular, clear purpose. Composition over monoliths.",
-      "rationale": "The agent itself acts as the \"pipe\" between different tools and scripts, orchestrating complex workflows by passing output from one tool as input to another. Small, modular Python scripts each do one thing well, orchestrated by the Gemini CLI as the interactive shell.",
-      "example": "The metagit_commit.py wrapper performing secret scanning and size checks before executing the git commit."
+      "rationale": "The agent itself acts as the \"pipe\" between different tools and scripts, orchestrating complex workflows by passing output from one tool as input to another.",
+      "example": "The metagit_commit.py wrapper performing secret scanning and size checks before executing the git commit.",
+      "citations": [
+        { "title": "HSD Artificial Life Report", "path": "2025/Q4/12/21/md/20251221_HSD_Artificial_Life_Report.md", "description": "Links Unix modularity to biological components (Ribosomes/Polymerase)." }
+      ]
     },
     {
       "name": "Boomerang Orchestration",

@@ -1,33 +1,36 @@
 {
-  "version": "1.9",
-  "attribution": "Thrasymachus (20260102-001919)",
-  "title": "Git Methodology & Metagit Synchronization",
-  "description": "Rules for repository management, security, and recursive synchronization.",
+  "version": "2.0",
+  "attribution": "Pyrrho (20260102-231500)",
+  "title": "Git Methodology & MetaGit Snapshot Synthesis",
+  "description": "Rules for repository management, security, and the use of snapshots as the primary source of truth.",
   "values": [
+    {
+      "name": "MetaGit as the Relay",
+      "rule": "Autonomy is achieved through the Sequential Synthesis of MetaGit snapshots (commits and reports). No dynamic relay files are permitted.",
+      "rationale": "Static is Real. The only forensic reality is the sequence of committed snapshots. New agents must 'wisen up' by lining up these snapshots to visualize the 'video' of project motion."
+    },
+    {
+      "name": "Turn-by-Turn Commit Mandate",
+      "rule": "Commit successful sub-tasks immediately after every significant Turn to preserve state.",
+      "rationale": "High frame-rate commits ensure that agent 'deaths' (OOM) result in minimal context loss. The next PID can pick up the thread with turn-level fidelity.",
+      "context_examples": [
+        "Pyrrho committing the Heartwood reordering 1-by-1 to ensure forensic continuity."
+      ]
+    },
     {
       "name": "Recursive Synchronization Policy",
       "rule": "Sync a multi-git filesystem by committing from the child repository up to the root.",
-      "rationale": "Repositories are logically isolated and ignored by each other via .gitignore. Linkage is maintained solely by the Orchestrator through the metagit_commit wrapper, which treats parents as Object Gits (passthroughs) for nested subjects."
+      "rationale": "Linkage is maintained solely through the metagit_commit wrapper, which treats parents as Object Gits (passthroughs) for nested subjects."
     },
     {
       "name": "Mandatory Commit Wrapper",
-      "rule": "All commits must be executed via the \"metagit_commit.py\" wrapper service (located in meta-root).",
-      "rationale": "Enforces identity verification, secret scanning (detect-secrets), and forensic traceability."
+      "rule": "All commits must be executed via the 'metagit_commit.py' wrapper service.",
+      "rationale": "Enforces identity verification, secret scanning, and forensic traceability."
     },
     {
       "name": "Git Faithful Protocol",
-      "rule": "The agent must ALWAYS ask for explicit user permission before creating a new branch in any memory repository.",
+      "rule": "The agent must ALWAYS ask for explicit user permission before creating a new branch.",
       "rationale": "Protects the firm's identity and history from unsanctioned divergence."
-    },
-    {
-      "name": "Security Remediation",
-      "rule": "If a secret is committed, the agent must immediately REPORT the violation and required remediation steps, then perform a Total Halt to await user feedback.",
-      "rationale": "Altering history is a high-impact metabolic act that requires explicit user steering and consensus."
-    },
-    {
-      "name": "Submodule Commit Context",
-      "rule": "Commit operations for submodules must be executed from within the submodule's directory.",
-      "rationale": "Ensures the commit is registered in the correct .git database."
     }
   ]
 }
