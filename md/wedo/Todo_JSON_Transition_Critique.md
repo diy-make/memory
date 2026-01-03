@@ -1,3 +1,4 @@
+WEDO like the previous pull request this needs to go into Chrono-Fractal but they also should be added to Root's json/ wishlist 
 # WeDo: Critique - Transitioning ToDo to JSON (md/wedo/ => json/wedo/)
 
 **Protocol:** Architectural Critique & Structural Hardening
