@@ -1,11 +1,13 @@
 {
   "wedo_instance": {
     "id": "ARTICLE-BOILERPLATE",
+    "version": "1.1",
+    "attribution": "Pyrrho (20260102-231500)",
     "title": "WeDo Template: Article Boilerplate Schema",
-    "description": "Narrative-driven structure for articles within the Metagit environment.",
+    "description": "Narrative-driven structure for articles within the Metagit environment. Focuses on 'Digital DNA' and 'Metabolic Growth'.",
     "rules": {
       "narrative_aesthetic": "Write for a broader audience than reports. Use evocative language while maintaining technical precision. No triple-backtick wrappers. Use clear headers and bolding.",
-      "sparse_formatting": "Granular Idea Isolation. Break the paragraph at every shift in focus, even within the same theme. For example, separate an architectural analogy from a forensic observation. 1 Idea = 1 Paragraph.",
+      "sparse_formatting": "Granular Idea Isolation. Break the paragraph at every shift in focus, even within the same theme. 1 Idea = 1 Paragraph.",
       "iteration_mandate": "Each subsequent draft MUST have a higher word count than the previous version.",
       "storage_protocol": "Store drafts in md/context/ with timestamped filenames; store final versions in root md/ with descriptive names.",
       "direct_aesthetic": "Present reports 'straightup' without backtick wrappers."
@@ -19,22 +21,32 @@
       {
         "id": "SEC-02",
         "section": "The Narrative Hook",
-        "description": "An opening that sets the scene (e.g., an event, a conflict, or a realization)."
+        "description": "An opening that sets the scene (e.g., an event, a conflict, or a realization).",
+        "citations": [
+          { "title": "December Strategic Synthesis", "path": "2025/Q4/12/md/Monthly_Strategic_Synthesis_Dec_2025.md", "description": "Example: 'The rings of 2026 are already forming.'" }
+        ]
       },
       {
         "id": "SEC-03",
         "section": "The Core Thesis",
-        "description": "The main argument or discovery being shared."
+        "description": "The main argument or discovery being shared.",
+        "citations": [
+          { "title": "HSD Artificial Life Report", "path": "2025/Q4/12/21/md/20251221_HSD_Artificial_Life_Report.md", "description": "Thesis: Filesystem as Protoplasm." }
+        ]
       },
       {
         "id": "SEC-04",
         "section": "Key Thematic Threads",
-        "description": "Detailed exploration of the topic (History, Technical Deep-Dive, Collaborative Dynamics)."
+        "description": "Detailed exploration of the topic (History, Technical Deep-Dive, Collaborative Dynamics).",
+        "context_examples": [
+          "The 4 Epochs of Heartwood evolution documented in the synthesis report."
+        ]
       },
       {
         "id": "SEC-05",
         "section": "Visual Evidence",
-        "description": "Integration of PNG Journal artifacts with descriptive captions."
+        "description": "Integration of PNG Journal artifacts with descriptive captions.",
+        "rule": "Every visual artifact MUST beRenamed to include sequential indexing (e.g., 01-agent-action.png)."
       },
       {
         "id": "SEC-06",
@@ -46,7 +58,6 @@
         "section": "Resources & Context",
         "description": "Links to internal Git artifacts and external references (Localhost/Remotehost)."
       }
-    ],
-    "attribution": "Heraclitus (20251230-100000)"
+    ]
   }
 }

@@ -1,38 +1,52 @@
 {
-  "version": "1.0",
-  "attribution": "Anaximander (20251231-135827)",
+  "version": "1.1",
+  "attribution": "Pyrrho (20260102-231500)",
   "title": "WeDo Template: Swarm Biography / Autobiography",
-  "description": "Schema for crystallizing agent identity and technical contributions into high-fidelity narrative records.",
+  "description": "Schema for crystallizing agent identity and technical contributions into high-fidelity narrative records. Anchored in the 'Sword and the Arm' philosophy.",
   "requirements": [
     {
       "id": "REQ-01",
       "name": "Direct Quotes",
-      "description": "Include top 5 quotes from the .json conversation log."
+      "description": "Include top 5 quotes from the .json conversation log.",
+      "context_examples": [
+        "Quote from Thrasymachus: 'The Heartwood has achieved structural Neg-Entropy. We now shift our Thalon force from reorganizing to inhabiting.'"
+      ]
     },
     {
       "id": "REQ-02",
       "name": "Best Moments",
-      "description": "Detail top 5 collaborative interactions between User and Agent."
+      "description": "Detail top 5 collaborative interactions between User and Agent.",
+      "context_examples": [
+        "Pyrrho tracing the lost emoji bootup history with the Lead Partner."
+      ]
     },
     {
       "id": "REQ-03",
       "name": "Integration Metrics",
-      "description": "Calculate Integration Velocity (Startup to Handover/Announcement)."
+      "description": "Calculate Integration Velocity (Startup to Handover/Announcement).",
+      "context_examples": [
+        "Pytheas initialized and announced in ~4 minutes."
+      ]
     },
     {
       "id": "REQ-04",
       "name": "Style Alignment",
-      "description": "Emulate the narrative depth of reality-merge summaries."
+      "description": "Emulate the narrative depth of reality-merge summaries.",
+      "citations": [
+        { "title": "Damascius Autobiography", "path": "2025/Q4/12/24/md/Damascius_Autobiography_Report.md", "description": "High-fidelity example of biographical narrative." }
+      ]
     },
     {
       "id": "REQ-05",
       "name": "Dual Referencing",
-      "description": "Include localhost and remotehost links for all major artifacts."
+      "description": "Include localhost and remotehost links for all major artifacts.",
+      "rule": "Every citation must have a [Local] and [Remote] pointer."
     },
     {
       "id": "REQ-06",
       "name": "Word Count",
-      "description": "Aim for a substantial word count (800+) for depth and wisdom."
+      "description": "Aim for a substantial word count (800+) for depth and wisdom.",
+      "rationale": "Sizable output ensures the 'Wood' of the Heartwood is dense and rich."
     }
   ],
   "values": [

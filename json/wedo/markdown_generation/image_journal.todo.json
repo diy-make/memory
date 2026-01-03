@@ -1,8 +1,10 @@
 {
   "title": "WeDo Template: Image Journaling Protocol (Rules Pseudolanguage)",
+  "version": "1.1",
+  "attribution": "Pyrrho (20260102-231500)",
   "description": "Distilling raw visual artifacts (.png, .jpg) from the inbox into the temporal Heartwood via iterative metabolic loops.",
   "storage_policy": {
-    "global_template": "repos/diy-make/memory/public/json/wedo/image_journal.todo.json",
+    "global_template": "repos/diy-make/memory/public/json/wedo/markdown_generation/image_journal.todo.json",
     "temporal_instance": "repos/diy-make/memory/public/<YEAR>/Q<N>/<MONTH>/<DAY>/json/<AGENT>_<SESSION>_image_journal.todo.json",
     "mandate": "Always copy the global template to the day's chrono-fractal json/ directory before starting work."
   },
@@ -23,7 +25,10 @@
       {
         "id": "STEP-01",
         "action": "Metabolic Batch Analysis",
-        "description": "Read 3 artifacts from the inbox. Perform vision analysis on the batch. Post a high-fidelity summary of all 3 'straightup' for human-in-the-loop (HITL) oversight."
+        "description": "Read 3 artifacts from the inbox. Perform vision analysis on the batch. Post a high-fidelity summary of all 3 'straightup' for human-in-the-loop (HITL) oversight.",
+        "citations": [
+          { "title": "Leander Session Termination OOM", "path": "2026/Q1/01/01/png/12-leander-session-termination-oom.png", "description": "Visual proof of heap exhaustion during non-batched labor." }
+        ]
       },
       {
         "id": "STEP-02",
@@ -35,7 +40,10 @@
         "id": "STEP-03",
         "action": "Journal Hardening",
         "command": "cat [narrative] >> repos/diy-make/memory/public/[YEAR]/Q[N]/[MONTH]/[DAY]/md/wedo/daily_image_journal.md",
-        "description": "Append the descriptive batch to the daily image journal (.md). Group entries by batch to maintain structural clarity."
+        "description": "Append the descriptive batch to the daily image journal (.md). Group entries by batch to maintain structural clarity.",
+        "context_examples": [
+          "Ariston's detailed description of the 'procedural bypass' encountered during the Alpha Test."
+        ]
       },
       {
         "id": "STEP-04",
@@ -67,6 +75,5 @@
         "markdown_format": "### [IDX]. `[IDX]-[descriptive-name].[ext]`\n![[IDX]-[descriptive-name].[ext]](../[ext]/[IDX]-[descriptive-name].[ext])\n- **Description:** [Detail]\n- **Key Takeaway:** [Strategic realization]\n- **Creation Date:** [YYYY-MM-DD]\n- **Original Filename:** `[Source filename from inbox]`"
       }
     ]
-  },
-  "attribution": "Heraclitus (20251230-100000)"
+  }
 }
