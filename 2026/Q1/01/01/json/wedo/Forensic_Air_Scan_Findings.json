@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "WeDo: Final Forensic Air Scan Findings",
+  "description": "Identification of technical implementation nuances lost during the 437-to-40 node consolidation.",
+  "values": [
+    {
+      "name": "Log Archival Mandate",
+      "rule": "Move processed .txt streams from dynamic/stream/ to a .gitignore\u0027d archive directory upon successful summary commit.",
+      "rationale": "Prevents redundant processing and maintains a clean active workspace. Identified in bloom logic/workflows/."
+    },
+    {
+      "name": "Screenshot Indexing Rule",
+      "rule": "Every batch of PNG artifacts must be accompanied by an updated Screenshots.md index in the daily Heartwood branch.",
+      "rationale": "Enables narrative context to bridge with visual evidence. Identified in bloom configuration/modules/."
+    },
+    {
+      "name": "Wait for Auth Pattern",
+      "rule": "Recognize and filter the \u0027Waiting for auth...\u0027 noise pattern during log ingestion.",
+      "rationale": "Increases LLM efficiency by removing non-technical session artifacts. Identified in bloom configuration/parsing_config/."
+    }
+  ],
+  "tasks": [
+    { "id": "SCAN-01", "description": "Graft Archival Mandate into rules/chat_history.json.", "status": "[ ]" },
+    { "id": "SCAN-02", "description": "Integrate Screenshot Indexing into wedo/markdown_generation/image_journal.todo.json.", "status": "[ ]" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Thrasymachus - Image Journaling Backlog (Jan 1-2)",
+  "description": "Processing 100+ unjournaled artifacts from the inbox into the temporal Heartwood via 3-by-3 metabolic batches.",
+  "meta": {
+    "agent": "Thrasymachus",
+    "session_id": "20260102-001919",
+    "status": "active"
+  },
+  "process": {
+    "batch_size": 3,
+    "protocol": "json/wedo/markdown_generation/image_journal.todo.json"
+  },
+  "tasks": [
+    {
+      "id": "BATCH-01",
+      "description": "Process earliest 3 screenshots from Jan 1st.",
+      "status": "[x]"
+    },
+    {
+      "id": "BATCH-02",
+      "description": "Process next 3 screenshots.",
+      "status": "[x]"
+    },
+    {
+      "id": "BATCH-03",
+      "description": "Process next 3 screenshots from Jan 1st.",
+      "status": "[x]"
+    },
+    {
+      "id": "BATCH-04",
+      "description": "Process next 3 screenshots from Jan 1st.",
+      "status": "[ ]"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "WeDo: Technical Implementation & Training Reference",
+  "description": "Consolidated technical context for Valkey/Redis integration, Agent metabolic heartbeats, and SFT/Behavioral Cloning standards.",
+  "values": [
+    {
+      "name": "JSON Memory Access (Valkey)",
+      "rule": "Use json_get with path arguments to retrieve specific keys from the connection manager.",
+      "rationale": "Enables low-latency retrieval of specific state branches without loading the entire document."
+    },
+    {
+      "name": "Metabolic Heartbeat",
+      "rule": "Agents must maintain an async heartbeat thread (heart_rate: 11) to report concurrency and task indices.",
+      "rationale": "Ensures the swarm orchestrator can monitor agent health and prevents orphan processes."
+    },
+    {
+      "name": "Training Standards (SFT)",
+      "rule": "Use [Title] and [Section] headers for all SFT Guides and Behavioral Cloning documentation.",
+      "rationale": "Legacy structured format required for specific model fine-tuning and training log parsing."
+    },
+    {
+      "name": "Wikipedia/Wayback Search",
+      "rule": "Use dedicated search classes for Internet Archive and Wikipedia.",
+      "rationale": "Enables forensic reconstruction."
+    },
+    {
+      "name": "Schema Conversion",
+      "rule": "Use gemini_to_json_schema and OpenAPI converters.",
+      "rationale": "Ensures format interoperability."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TECH-01",
+      "description": "Graft Valkey connection logic into standards/python_ops.json.",
+      "status": "[ ]"
+    },
+    {
+      "id": "TECH-02",
+      "description": "Harden the [Title]:[Section] format in contextual_artifacts.json.",
+      "status": "[ ]"
+    }
+  ]
+}

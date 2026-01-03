@@ -7,8 +7,8 @@
     "chat_history": "dynamic/stream/",
     "swarm_comms": "repos/diy-make/memory/comms/",
     "used_agent_names": "repos/diy-make/memory/used_agent_names.json",
-    "memory_json": "repos/diy-make/memory/public/json/heartwood/",
-    "heartwood": "repos/diy-make/memory/public/json/heartwood/",
+    "memory_json": "repos/diy-make/memory/public/json/",
+    "heartwood": "repos/diy-make/memory/public/json/",
     "wedo": "repos/diy-make/memory/public/json/wedo/"
   },
   "rationale": "Centralizing environment paths ensures that all swarm agents use a consistent mapping for metabolic and forensic operations."

@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "WeDo: Nani.ooo Historical Reconstruction",
+  "description": "Historical record of the nani.ooo precursor and the origins of the Heartwood memory system.",
+  "values": [
+    {
+      "name": "Nani Context",
+      "rule": "Nani.ooo preceded the Metagit system. Its primary limitation was the lack of persistent memory across sessions.",
+      "rationale": "The search for a persistent 'Heartwood' began with onchain proposals for nani.ooo. Ape.mirror.xyz has the full story."
+    },
+    {
+      "name": "Command Interface History",
+      "rule": "In Nani, $ (commandline) and $$ (virtual commandline) were used to manage blockchain methods with lower-capability models.",
+      "rationale": "While the One-Word Glossary is the current standard, $$ remains a viable candidate for future 7827 blockchain integration turns."
+    },
+    {
+      "name": "Expansion Mandate",
+      "rule": "Expand the history at ape.mirror.xyz at a later date.",
+      "rationale": "Ensures the firm's cultural origins are preserved in a public, immutable ledger."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "NANI-01",
+      "description": "Synthesize the Nani command logic for blockchain turns.",
+      "status": "[ ]"
+    },
+    {
+      "id": "NANI-02",
+      "description": "Draft the historical expansion article for Mirror.xyz.",
+      "status": "[ ]"
+    }
+  ]
+}
