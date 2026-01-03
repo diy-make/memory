@@ -9,7 +9,7 @@
       "interlinking": "Each definition should mention at least one other glossary term that works in tandem with it.",
       "legislative_fidelity": "Terms must be mapped to their role in the MetaGit (Wood), Nervous System (Nerves), or User Interface (Paper).",
       "communication_examples": "Include documented examples with actual text and ![]() image links to journal artifacts.",
-      "output_location": "All initial WeDo narrative outputs (drafts, reports, journals) MUST be placed in the 'md/wedo/' directory of the daily chrono-fractal structure.",
+      "output_location": "All active task instances and WeDo reports MUST reside in the day's temporal json/wedo/ directory. md/wedo/ is for archival/deprecated narrative only.",
       "finalization_protocol": "The goal is to refine 'md/wedo/' artifacts into permanent Heartwood in 'md/'. This transition (and renaming) occurs ONLY upon an explicit 'straightup' request from the user (HAM prompt).",
       "direct_aesthetic": "Present definitions 'straightup' without backtick wrappers."
     },
