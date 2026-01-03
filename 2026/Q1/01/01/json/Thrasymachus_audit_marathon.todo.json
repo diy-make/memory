@@ -129,7 +129,16 @@
     {
       "id": "AUDIT-25",
       "path": "json/heartwood/rules/fatal_error_protocol.json",
-      "status": "[ ]"
+      "status": "[x]",
+      "user_response": "keep. clarify json/wedo/ transition.",
+      "decision": "KEEP"
+    },
+    {
+      "id": "AUDIT-27",
+      "path": "json/heartwood/rules/integrity.json",
+      "status": "[x]",
+      "user_response": "keep",
+      "decision": "KEEP"
     }
   ],
   "indexing_protocol": "Article.Section.Clause",
