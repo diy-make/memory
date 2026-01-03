@@ -1,6 +1,0 @@
-{
-  "rule_name": "Media Asset Locality",
-  "version": "1.0.0",
-  "description": "Ensures all visual assets referenced in Markdown files are contained within the same repository to prevent broken links and maintain repository self-sufficiency.",
-  "rule_definition": "Any Markdown file (.md) that utilizes image embedding syntax (e.g., `![]()`) must reference media files that reside within the same Git repository. If an image from another repository is required, it must be physically copied to the local repository's media directory (e.g., `png/` or `jpg/` leafs within the temporal structure) before being referenced. This ensures that the repository remains a complete, standalone unit of memory."
-}

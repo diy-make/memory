@@ -1,0 +1,13 @@
+{
+  "version": "1.1",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "Standard Swarm Bootup Report Style",
+  "description": "Template for agent bootup reporting, providing immediate context on session metrics.",
+  "values": [
+    {
+      "name": "Boot Sequence Template",
+      "rule": "### Swarm Bootup Report: {{agent_name}}\n**\u23f1\ufe0f Boot Sequence**\n* Session ID: `{{session_id}}`",
+      "rationale": "Ensures a consistent forensic baseline for every new agent PID."
+    }
+  ]
+}

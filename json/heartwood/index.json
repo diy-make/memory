@@ -56,17 +56,17 @@
       ],
       "status": "KEEP"
     },
-    "principles/contextual_artifacts.json": {
+    "trunk/contextual_artifacts.json": {
       "nodes": [
         "Context Maximization"
       ],
       "status": "KEEP"
     },
-    "principles/personality.json": {
+    "trunk/personality.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "principles/sacred_memory.json": {
+    "trunk/sacred_memory.json": {
       "nodes": [
         "Filesystem as Memory",
         "Legislative Core",
@@ -74,7 +74,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/agent_virtues.json": {
+    "trunk/agent_virtues.json": {
       "nodes": [
         "Absurdity Check",
         "Boomerang Feedback",
@@ -95,11 +95,11 @@
       ],
       "status": "KEEP"
     },
-    "principles/ephemeral_identity.json": {
+    "trunk/ephemeral_identity.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "principles/agent_error_log.json": {
+    "trunk/agent_error_log.json": {
       "nodes": [
         "ANAXIMANDER-OOM",
         "ENDER-001",
@@ -114,7 +114,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/swarm_intelligence.json": {
+    "trunk/swarm_intelligence.json": {
       "nodes": [
         "Alias Harvesting",
         "JSON Fruit Harvesting",
@@ -123,7 +123,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/development_process.json": {
+    "trunk/development_process.json": {
       "nodes": [
         "DOM Synaptic Feedback",
         "Idiomatic Integration",
@@ -131,7 +131,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/memory_hierarchy.json": {
+    "trunk/memory_hierarchy.json": {
       "nodes": [
         "Chrono-Fractal Depth",
         "Deferred Deletion",
@@ -139,7 +139,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/memory_architecture.json": {
+    "trunk/memory_architecture.json": {
       "nodes": [
         ".gitignore for Context (README.ai Deprecated)",
         "Eukaryotic Sync Layer",
@@ -147,7 +147,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/agent_user_relationship.json": {
+    "trunk/agent_user_relationship.json": {
       "nodes": [
         "Irreducible Singularity",
         "Surgical Backfill over Global Purge",
@@ -156,7 +156,7 @@
       ],
       "status": "KEEP"
     },
-    "principles/architecture.json": {
+    "trunk/architecture.json": {
       "nodes": [
         "Boomerang Orchestration",
         "Eukaryotic Repository Model",
@@ -166,11 +166,11 @@
       ],
       "status": "KEEP"
     },
-    "principles/data_and_interfaces.json": {
+    "trunk/data_and_interfaces.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "principles/naming_conventions.json": {
+    "trunk/naming_conventions.json": {
       "nodes": [
         "Eukaryotic Singulars",
         "One Word Constraint",
@@ -178,19 +178,19 @@
       ],
       "status": "KEEP"
     },
-    "philosophy/gem_process.json": {
+    "trunk/gem_process.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/fatal_error_protocol.json": {
+    "trunk/fatal_error_protocol.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/swarm_intelligence_protocol.json": {
+    "trunk/swarm_intelligence_protocol.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/chat_history.json": {
+    "trunk/chat_history.json": {
       "nodes": [
         "Chat Log Locality Rule",
         "Forensic Process Metadata",
@@ -199,11 +199,11 @@
       ],
       "status": "KEEP"
     },
-    "rules/master_command_profile.json": {
+    "trunk/master_command_profile.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/session_behavior.json": {
+    "trunk/session_behavior.json": {
       "nodes": [
         "context_gathering",
         "deferred_deletion_protocol",
@@ -218,29 +218,29 @@
       ],
       "status": "KEEP"
     },
-    "rules/git_methodology.json": {
+    "trunk/git_methodology.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/integrity.json": {
+    "trunk/integrity.json": {
       "nodes": [
         "barber_shave_paradox"
       ],
       "status": "KEEP"
     },
-    "rules/startup_protocol.json": {
+    "trunk/startup_protocol.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/media_asset_locality.json": {
+    "trunk/media_asset_locality.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/bot_crash_protocol.json": {
+    "trunk/bot_crash_protocol.json": {
       "nodes": [],
       "status": "KEEP"
     },
-    "rules/broken_instance_protocol.json": {
+    "trunk/broken_instance_protocol.json": {
       "nodes": [],
       "status": "KEEP"
     },

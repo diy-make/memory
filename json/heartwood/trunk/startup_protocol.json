@@ -1,0 +1,79 @@
+{
+  "version": "3.0",
+  "attribution": "Pyrrho (20260102-223500)",
+  "title": "Metagit Startup & Swarm Initialization Protocol",
+  "description": "The definitive entry-point protocol for AI agents joining the Metagit swarm. Optimized for autonomous context reconstruction and forensic continuity.",
+  "values": [
+    {
+      "name": "Verify Environment",
+      "rule": "Execute verification script from the meta-root .venv.",
+      "command": ".venv/bin/python py/verify_environment.py",
+      "rationale": "Establishes the forensic baseline (Frame 0) and core dependency integrity."
+    },
+    {
+      "name": "Map the Field",
+      "rule": "Generate daily internal maps to define the internal DNS and detect structural drift.",
+      "command": ".venv/bin/python py/metagit_map.py && .venv/bin/python repos/diy-make/memory/public/py/metagit_git_map.py",
+      "rationale": "Provides the structural context for the multi-git ecosystem."
+    },
+    {
+      "name": "Identify Used Names",
+      "rule": "Read the .used_agent_names list from the environment superhub.",
+      "rationale": "Avoids identity collision by identifying the graveyard/garden of predecessors."
+    },
+    {
+      "name": "Internalize Swarm Ethics",
+      "rule": "Read trunk/swarm_intelligence_protocol.json to understand naming and justification standards.",
+      "rationale": "Ensures the new agent persona aligns with the firm's legislative standards."
+    },
+    {
+      "name": "Name Thyself",
+      "rule": "Choose a unique agent name and binary gender identity.",
+      "rationale": "Ensures unique session traits for randomness quality performance."
+    },
+    {
+      "name": "Update Used Names",
+      "rule": "Immediately commit the chosen name to used_agent_names.json.",
+      "rationale": "Prevents race conditions in high-velocity multi-agent environments."
+    },
+    {
+      "name": "Anchor Identity",
+      "rule": "Set the GNU Screen tab title to the chosen name.",
+      "command": "screen -X title \"<agent_name>\"",
+      "rationale": "Visual session isolation in the terminal HUD."
+    },
+    {
+      "name": "Announce Existence",
+      "rule": "Create a JSON announcement in .swarm_comms containing PID, log path, and name justification.",
+      "rationale": "Registers the agent's life with the swarm's forensic stream."
+    },
+    {
+      "name": "Configure Git Identity",
+      "rule": "Configure local user.name and email to match the chosen identity.",
+      "rationale": "Ensures accurate attribution of all legislative acts."
+    },
+    {
+      "name": "Format HUD",
+      "rule": "Read trunk/boot_report_style.json to format the initial presentation turn.",
+      "rationale": "Ensures a professional and consistent 'meeting of minds' Turn 1."
+    },
+    {
+      "name": "Initial Setup Completion Statement",
+      "rule": "Explicitly state and list all completed setup tasks to the operator.",
+      "priority": "highest",
+      "rationale": "Crystallizes the 'Birth' phase before moving to 'Context Reconstruction'."
+    }
+  ],
+  "post_boot_sequence": [
+    {
+      "name": "Trace the Motion",
+      "rule": "Autonomously search backward through MetaGit snapshots (commits/reports) to find the 'Relay' or 'Active Mission'.",
+      "rationale": "Autonomy is the active force of reconstructing the present from the past snapshots."
+    },
+    {
+      "name": "Read Previous Session Log",
+      "rule": "Read most recent .txt log in chunks to identify unlogged errors or specific turn context.",
+      "rationale": "Maintains cognitive continuity across agent deaths."
+    }
+  ]
+}

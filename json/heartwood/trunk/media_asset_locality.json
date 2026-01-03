@@ -1,0 +1,13 @@
+{
+  "version": "1.1",
+  "attribution": "Thrasymachus (20260102-001919)",
+  "title": "Media Asset Locality Standard",
+  "description": "Ensures visual artifacts remain contained within the same repository to maintain standalone unit integrity.",
+  "values": [
+    {
+      "name": "Media Asset Locality",
+      "rule": "Any Markdown file (.md) utilizing image embedding must reference media files that reside within the same Git repository. This rule can be overridden only with explicit user permission for specific cross-repo linking cases.",
+      "rationale": "Prevents broken links and ensuring the repository remains a self-sufficient unit of memory. External assets must be physically copied to local /png or /jpg directories before reference."
+    }
+  ]
+}

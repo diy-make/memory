@@ -1,0 +1,48 @@
+{
+  "wedo_pseudolanguage_schema": {
+    "name": "WeDo Pseudolanguage Schema",
+    "version": "1.0.0",
+    "description": "Defines the structure for a task within the 'WeDo' singular thread of user-agent collaboration. This schema formalizes the 'todo.md' as a machine-readable instruction set. It distinguishes between Global Templates (generic processes in md/wedo/) and Temporal Instances (session-specific tasks in <YEAR>/<Q>/<MONTH>/<DAY>/md/).",
+    "usage_policy": {
+      "global_templates": "Stored in md/wedo/. These files contain generic process protocols and placeholders. They are meant to be inherited by future agents.",
+      "temporal_instances": "Stored in the day's temporal md/ directory. These are copies of global templates populated with session-specific data, source links, and task progress."
+    },
+    "task_structure": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "A unique, sequential, and human-readable identifier for the task step (e.g., 'WEDO-01', 'IMG-02a'). This MUST include an index or numbering system to allow users to cite and reference specific tasks in chat (e.g., 'Please retry step IMG-03b'). This is the primary key for tracking progress."
+        },
+        "description": {
+          "type": "string",
+          "description": "A clear, concise description of the task to be performed."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["[ ]", "[x]", "[-]"],
+          "description": "The current state of the task: [ ] = Pending, [x] = Complete, [-] = Skipped/Cancelled."
+        },
+        "command": {
+          "type": "string",
+          "description": "(Optional) The specific shell command or tool call associated with the task."
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "(Optional) A list of task IDs that must be completed before this task can begin."
+        }
+      },
+      "required": ["id", "description", "status"]
+    },
+    "example": {
+      "id": "IMG-03f",
+      "description": "Append analysis to the daily PNG journal.",
+      "status": "[ ] [IMG-03f]",
+      "command": "cat <<'EOF' >> .../2025-12-18_png_journal.md ...",
+      "dependencies": ["IMG-03e"]
+    }
+  }
+}
