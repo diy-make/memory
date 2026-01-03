@@ -1,3 +1,4 @@
+WEDO heading the ToDos (and reports) here moving to Chrono-Fractal of the past 2 pull requests, ensure these WeDos are all converted into .json and removed from Root md/ leaf
 # WeDo Template: Swarm Wish List
 
 ## Process Protocol
